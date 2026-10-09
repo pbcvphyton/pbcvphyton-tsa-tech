@@ -37,7 +37,10 @@ concurrency:
 jobs:
   check:
     # Agendamentos de reserva e push: só seguem se a edição de hoje ainda não
-    # foi publicada. O disparo manual sempre gera (refaz a edição do dia).
+    # foi publicada. O disparo manual sempre gera (refaz a edição do dia). Uma
+    # edição gerada de madrugada (antes das 05:00 em Brasília, por um disparo
+    # manual ou push depois da meia-noite) não conta: a das 06:07 refaz com o
+    # noticiário da manhã.
     runs-on: ubuntu-latest
     timeout-minutes: 5
     outputs:
@@ -56,12 +59,33 @@ jobs:
           EVENT: ${{ github.event_name }}
         run: |
           today=$(TZ=America/Sao_Paulo date +%F)
-          published=$(python3 -c 'import json; print(json.load(open("edicoes/latest.json")).get("date", ""))' 2>/dev/null || true)
-          if [ "$EVENT" != "workflow_dispatch" ] && [ "$published" = "$today" ]; then
-            echo "Edição de $today já publicada; nada a fazer nesta execução ($EVENT)."
+          # Data da última edição e a hora (em Brasília) em que foi gerada (-1 se desconhecida).
+          read -r published hour < <(python3 - <<'PY' 2>/dev/null || echo "- -1"
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          data = json.load(open("edicoes/latest.json"))
+          hour = -1
+          try:
+              generated = datetime.fromisoformat((data.get("generated_at") or "").replace("Z", "+00:00"))
+              hour = generated.astimezone(ZoneInfo("America/Sao_Paulo")).hour
+          except ValueError:
+              pass
+          print(data.get("date") or "-", hour)
+          PY
+          )
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            echo "Disparo manual: gerando a edição de $today."
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$published" = "$today" ] && ! [ "$hour" -ge 0 -a "$hour" -lt 5 ]; then
+            echo "Edição de $today já publicada (gerada às ${hour}h); nada a fazer nesta execução ($EVENT)."
             echo "run=false" >> "$GITHUB_OUTPUT"
+          elif [ "$published" = "$today" ]; then
+            echo "Edição de $today gerada de madrugada (${hour}h); refazendo com o noticiário da manhã."
+            echo "run=true" >> "$GITHUB_OUTPUT"
           else
-            echo "Última edição publicada: ${published:-nenhuma}; gerando a de $today."
+            [ "$published" = "-" ] && published=nenhuma
+            echo "Última edição publicada: $published; gerando a de $today."
             echo "run=true" >> "$GITHUB_OUTPUT"
           fi
 

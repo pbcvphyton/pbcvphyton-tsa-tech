@@ -482,7 +482,9 @@ publicado normalmente.
   agendamentos em horário de pico. Por isso há reservas às **07:37** e às
   **09:07** (Brasília): se a edição do dia ainda não saiu, elas a geram; se já
   saiu, terminam em segundos. Mudar o `daily.yml` na `main` também gera a edição
-  do dia, se ela ainda não saiu.
+  do dia, se ela ainda não saiu. Uma edição gerada de madrugada (antes das 05:00,
+  por um *Run workflow* ou push depois da meia-noite) não conta como a do dia: a
+  das 06:07 a refaz com o noticiário da manhã.
 - **O agendamento parou:** o GitHub desativa agendamentos de repositórios sem
   atividade por 60 dias (o commit diário da edição evita isso). Reative em
   *Actions → Edição diária → Enable workflow*.
