@@ -29,7 +29,7 @@ Nada precisa ser feito à mão: o GitHub gera a edição sozinho às **06:07
         │      Imobiliário, Mundo & Natureza, Esporte/Cultura); em cada bloco a IA
         │      une o que é o mesmo assunto, interpreta o foco de cada veículo e o
         │      lado que ele seguiu, e redige; o fechamento escolhe as matérias.
-        │      Se uma IA estourar o limite, a seguinte assume (Gemini → AIML →
+        │      Se uma IA estourar o limite, a seguinte assume (Gemini → Flash-Lite → AIML →
         │      SenseNova → Mistral → Kimi → Claude). Sem IA: edição automática.
         ▼
   3. Páginas ── capa (index.html), cópia no arquivo (edicoes/), todas as notícias
@@ -93,6 +93,7 @@ Os editores por IA ficam numa **cadeia**, na ordem de `llm.providers` em
 | Ordem | Editor | Segredo | Custo e limite |
 |---|---|---|---|
 | 1 | [Gemini](https://aistudio.google.com/) (`gemini-flash-latest`) | `GEMINI_API_KEY` | grátis (Google AI Studio, modelos Flash); limites por minuto e por dia |
+| 1b | Gemini Flash-Lite (`gemini-flash-lite-latest`) | `GEMINI_API_KEY` (a mesma) | grátis; refaz o bloco quando o Flash está sobrecarregado (503) |
 | 2 | [AIML API](https://aimlapi.com/) (`openai/gpt-5-5`) | `AIMLAPI_KEY` | exige saldo (em 10/2026 a conta sem saldo recebeu "run out of funds") |
 | 3 | [SenseNova](https://platform.sensenova.ai/) (`sensenova-6.8-flash-lite`) | `SENSENOVA_API_KEY` | grátis (beta); 1.500 requisições a cada 5 horas |
 | 4 | [Mistral](https://mistral.ai/) (`mistral-small-latest`) | `MISTRAL_API_KEY` | grátis (*Experiment*); limites no painel da Mistral (*Limits*) |
@@ -111,7 +112,7 @@ Para ativar um editor: crie a chave no site dele e, no GitHub, *Settings →
 Secrets and variables → Actions → New repository secret*, com o nome da tabela
 e a chave como valor. **Nunca** coloque a chave no código ou em arquivos do
 repositório (ele é público). O modelo de cada um pode ser trocado pela variável
-`QIJ_<NOME>_MODEL` (aba *Variables*): `QIJ_GEMINI_MODEL`, `QIJ_AIML_MODEL`,
+`QIJ_<NOME>_MODEL` (aba *Variables*): `QIJ_GEMINI_MODEL`, `QIJ_GEMINI_LITE_MODEL`, `QIJ_AIML_MODEL`,
 `QIJ_SENSENOVA_MODEL`, `QIJ_MISTRAL_MODEL`, `QIJ_KIMI_MODEL` e `QIJ_MODEL` (Claude).
 Os limites de cada um (janela de contexto, saída máxima, teto de requisições,
 chamadas simultâneas) ficam em `llm.apis` no `config/site.yaml`, com os padrões em

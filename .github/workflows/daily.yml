@@ -106,6 +106,7 @@ jobs:
           QIJ_BRAND: ${{ vars.QIJ_BRAND }}
           QIJ_MODEL: ${{ vars.QIJ_MODEL }}
           QIJ_GEMINI_MODEL: ${{ vars.QIJ_GEMINI_MODEL }}
+          QIJ_GEMINI_LITE_MODEL: ${{ vars.QIJ_GEMINI_LITE_MODEL }}
           QIJ_AIML_MODEL: ${{ vars.QIJ_AIML_MODEL }}
           QIJ_SENSENOVA_MODEL: ${{ vars.QIJ_SENSENOVA_MODEL }}
           QIJ_MISTRAL_MODEL: ${{ vars.QIJ_MISTRAL_MODEL }}

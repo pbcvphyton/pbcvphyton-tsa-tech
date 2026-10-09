@@ -155,7 +155,7 @@ llm:
   # Editores por IA, na ordem de tentativa. Cada um só entra se o segredo com a
   # chave dele existir no GitHub (ver apis abaixo; Claude: ANTHROPIC_API_KEY);
   # se faltar ou falhar, tenta o próximo. Sem nenhum: edição automática.
-  providers: [gemini, aiml, sensenova, mistral, kimi, claude]
+  providers: [gemini, gemini_lite, aiml, sensenova, mistral, kimi, claude]
   # ── Modo "blocos": compilação por editoria. TODAS as notícias do dia são
   # divididas pelos blocos abaixo (seções afins lidas numa mesma chamada; seção
   # fora da lista vai para um bloco "Demais editorias"). Em cada bloco, a IA une
@@ -181,6 +181,9 @@ llm:
   apis:
     gemini:      # grátis (Google AI Studio, modelos Flash); chave: GEMINI_API_KEY
       model: "gemini-flash-latest"   # apelido do Flash mais novo; trocável por QIJ_GEMINI_MODEL
+      mode: blocos
+    gemini_lite: # mesma chave; Flash-Lite quando o Flash está sobrecarregado (503)
+      model: "gemini-flash-lite-latest"   # trocável por QIJ_GEMINI_LITE_MODEL
       mode: blocos
     aiml:        # pago por saldo (a conta grátis recusou o gpt-5-5: "run out of funds")
       model: "openai/gpt-5-5"
