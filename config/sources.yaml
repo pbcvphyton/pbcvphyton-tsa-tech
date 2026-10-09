@@ -26,9 +26,11 @@ feeds:
   # seguem o padrão de cada site (pasta de notícias do gov.br, tags do
   # WordPress, que já funcionam para outras tags desses sites). Os que falharem
   # aparecem em "Feeds com erro" no Summary da execução: troque por enabled: false.
+  # Na coleta de 09/10/2026 falharam PGFN e Fazenda (HTTP 404), CARF e a tag da
+  # CNN (XML inválido) e a tag da Exame (HTTP 404): desligados até achar o endereço certo.
   - {id: receitafederal, name: "Receita Federal", url: "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.3, topics: [tributario], niche: true}
-  - {id: pgfn, name: "PGFN", url: "https://www.gov.br/pgfn/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.2, topics: [tributario], niche: true}
-  - {id: carf, name: "CARF", url: "https://www.gov.br/carf/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.2, topics: [tributario], niche: true}
+  - {id: pgfn, name: "PGFN", url: "https://www.gov.br/pgfn/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.2, topics: [tributario], niche: true, enabled: false}
+  - {id: carf, name: "CARF", url: "https://www.gov.br/carf/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.2, topics: [tributario], niche: true, enabled: false}
   - {id: reformatributaria, name: "Portal da Reforma Tributária", url: "https://www.reformatributaria.com/feed/", lang: pt, weight: 1.1, topics: [tributario], niche: true}
   - {id: infomoney, name: "InfoMoney", url: "https://www.infomoney.com.br/tudo-sobre/reforma-tributaria/feed/", lang: pt, weight: 1.0, topics: [tributario], niche: true}
   - {id: infomoney, name: "InfoMoney", url: "https://www.infomoney.com.br/tudo-sobre/imposto-de-renda/feed/", lang: pt, weight: 1.0, topics: [tributario], niche: true}
@@ -36,8 +38,8 @@ feeds:
   - {id: moneytimes, name: "Money Times", url: "https://www.moneytimes.com.br/tag/imposto-de-renda/feed/", lang: pt, weight: 0.9, topics: [tributario], niche: true}
   - {id: poder360, name: "Poder360", url: "https://www.poder360.com.br/tag/reforma-tributaria/feed/", lang: pt, weight: 0.9, topics: [tributario], niche: true}
   - {id: seudinheiro, name: "Seu Dinheiro", url: "https://www.seudinheiro.com/tag/imposto-de-renda/feed/", lang: pt, weight: 0.8, topics: [tributario], niche: true}
-  - {id: exame, name: "Exame", url: "https://exame.com/tag/reforma-tributaria/feed/", lang: pt, weight: 0.9, topics: [tributario], niche: true}
-  - {id: cnnbrasil, name: "CNN Brasil", url: "https://www.cnnbrasil.com.br/tudo-sobre/reforma-tributaria/feed/", lang: pt, weight: 0.8, topics: [tributario], niche: true}
+  - {id: exame, name: "Exame", url: "https://exame.com/tag/reforma-tributaria/feed/", lang: pt, weight: 0.9, topics: [tributario], niche: true, enabled: false}
+  - {id: cnnbrasil, name: "CNN Brasil", url: "https://www.cnnbrasil.com.br/tudo-sobre/reforma-tributaria/feed/", lang: pt, weight: 0.8, topics: [tributario], niche: true, enabled: false}
   # Recuperação judicial e INSS (acrescentados em 09/10/2026, também sem teste)
   - {id: infomoney, name: "InfoMoney", url: "https://www.infomoney.com.br/tudo-sobre/recuperacao-judicial/feed/", lang: pt, weight: 1.0, topics: [recuperacao], niche: true}
   - {id: moneytimes, name: "Money Times", url: "https://www.moneytimes.com.br/tag/recuperacao-judicial/feed/", lang: pt, weight: 0.9, topics: [recuperacao], niche: true}
@@ -45,7 +47,7 @@ feeds:
   - {id: infomoney, name: "InfoMoney", url: "https://www.infomoney.com.br/tudo-sobre/inss/feed/", lang: pt, weight: 1.0, topics: [previdenciario], niche: true}
   - {id: moneytimes, name: "Money Times", url: "https://www.moneytimes.com.br/tag/inss/feed/", lang: pt, weight: 0.9, topics: [previdenciario], niche: true}
   # Também sem teste, mas com conteúdo misto: passam pelo filtro de palavras-chave.
-  - {id: fazenda, name: "Ministério da Fazenda", url: "https://www.gov.br/fazenda/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.2, topics: [tributario]}
+  - {id: fazenda, name: "Ministério da Fazenda", url: "https://www.gov.br/fazenda/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.2, topics: [tributario], enabled: false}
   - {id: camara, name: "Agência Câmara", url: "https://www.camara.leg.br/noticias/rss/dinamico/ECONOMIA", lang: pt, weight: 1.0, topics: []}
   - {id: jornalcontabil, name: "Jornal Contábil", url: "https://www.jornalcontabil.com.br/feed/", lang: pt, weight: 0.9, topics: []}
   - {id: g1, name: "g1", url: "https://g1.globo.com/rss/g1/trabalho-e-carreira/", lang: pt, weight: 0.9, topics: [trabalhista]}
