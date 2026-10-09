@@ -1,202 +1,247 @@
 TSA TECH
-Quinta-feira, 8 de outubro de 2026 · 22:22 BRT
+Quinta-feira, 8 de outubro de 2026 · 23:06 BRT
 
 MERCADOS
 --------
-Dólar R$ 5,02 (+0,02%) · Euro R$ 5,63 (+0,08%) · Yuan R$ 0,75 (+0,10%) ·
+Dólar R$ 5,02 (+0,02%) · Euro R$ 5,63 (+0,14%) · Yuan R$ 0,75 (+0,10%) ·
 Ibovespa 206.220 pts (+0,94%) · IFIX 3.950 pts (-0,14%) · S&P 500 7.765
-pts (-0,47%) · Brent US$ 103,79 (-0,47%) · Ouro US$ 4.178 (+0,50%) ·
-Bitcoin US$ 81.586 (-1,77%) · Selic 13,75% · IPCA 12m 4,22% · IGP-M 12m
+pts (-0,47%) · Brent US$ 103,43 (-0,81%) · Ouro US$ 4.197 (+0,96%) ·
+Bitcoin US$ 82.000 (-1,34%) · Selic 13,75% · IPCA 12m 4,22% · IGP-M 12m
 3,35% · INCC 12m 6,66%
 
 CLIMA
 -----
-São Paulo: 22°C, nublado (mín. 16° / máx. 30°) · amanhã: garoa fraca,
+São Paulo: 21°C, nublado (mín. 16° / máx. 30°) · amanhã: garoa fraca,
 18° a 31°
 Montevidéu: 14°C, nublado (mín. 14° / máx. 16°) · amanhã: garoa fraca,
 14° a 14°
 
+EDITORIAL
+---------
+O primeiro termômetro oficial do segundo turno mostra empate técnico na
+disputa presidencial, enquanto o cenário econômico é sacudido pela
+disparada do petróleo e por leilões expressivos da dívida pública. No
+front internacional, a escalada de tensões geopolíticas no Oriente Médio
+e na Europa pressiona mercados globais. Enquanto isso, o Supremo
+Tribunal Federal e o Tribunal Superior Eleitoral definem rumos cruciais
+para a política institucional brasileira.
+
 EM 1 MINUTO
 -----------
-• Eco Invest: bancos concluem alocação dos investimentos do primeiro
-  leilão
-• Latam Brasil recebe primeiro Embraer E2; grupo espera outros 11 nesse
-  ano
-• Christa Pike acordou ‘nervosa e confusa’, dizem advogados
-• Maduro e esposa são acusados nos EUA de suposta tortura de opositores
-  políticos
-• Governo Trump restringe Microsoft e outras big techs de contratar
-  estrangeiros via green card
+• O Datafolha aponta Flávio Bolsonaro com 49% e Lula com 45% das
+  intenções de voto no início da corrida pelo segundo turno.
+• O contrato futuro do petróleo Brent superou a marca de US$ 104
+  impulsionado por novos conflitos no Estreito de Ormuz.
+• O ministro do STF Dias Toffoli negou recurso de Eduardo Paes e manteve
+  decisão que viabiliza a vitória de Douglas Ruas no Rio.
+• A população global de animais silvestres registrou uma queda drástica
+  de 73% em cinco décadas, aponta relatório da WWF.
+• O governo dos Estados Unidos suspendeu temporariamente empresas de
+  tecnologia de programas de green card para estrangeiros.
+• Com dois gols de pênalti de Neymar em seu retorno, o Santos empatou
+  com o Flamengo em partida eletrizante pelo Campeonato Brasileiro.
 
 COMO FOI COMPILADA
 ------------------
-Edição automática (sem IA): as 1.749 notícias coletadas de 46 veículos
-foram agrupadas por títulos parecidos em 1.276 assuntos; as 24 matérias
-saíram por relevância, frescor e número de veículos. Nenhuma notícia foi
-descartada: todas estão na lista completa do dia.
+A IA leu as 1.729 notícias coletadas de 46 veículos, compiladas em 8
+blocos por editoria; uniu as notícias repetidas em 1.158 assuntos,
+interpretou o foco de cada veículo e comparou para que lado cada um
+seguiu em 95 assuntos e escolheu as 20 matérias desta edição. Nenhuma
+notícia foi descartada: todas estão na lista completa do dia.
 Racional: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#racional
-Todas as 1.749 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08-todas.html
+Todas as 1.729 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08-todas.html
 
 MANCHETE
 --------
-Zanin nega recurso de Paes contra decisão do TSE que anulou votos de
-Garotinho
-O ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), rejeitou
-o recurso apresentado pela coligação do candidato ao governo do Rio
-Eduardo Paes (PSD) contra a decisão do Tribunal Superior Eleitoral (TSE)
-que…
-Fontes: Valor Econômico, Conjur, JOTA, Folha de S.Paulo, InfoMoney,
-Estadão, Agência Senado, g1, Poder360, Agência Brasil, Exame, CNN Brasil
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-zanin-nega-recurso-de-paes-contra-decisao-do-tse
+Datafolha aponta Flávio Bolsonaro com 49% e Lula com 45% no primeiro
+termômetro do segundo turno
+Levantamento mostra empate técnico na margem de erro; petista evita
+comentar os números e foca em articulações com novos apoios.
+Fontes: Valor Econômico, Folha de S.Paulo, InfoMoney, Estadão, g1, Imobi
+Report, Agência Brasil, Seu Dinheiro, Money Times, Exame, CNN Brasil
+Cobertura: Sem divergência entre os 11 veículos. A cobertura convergiu
+na divulgação factual dos números do Datafolha e na consolidação das
+alianças políticas ao redor de Flávio Bolsonaro.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-datafolha-aponta-flavio-bolsonaro-com-49-e-lula
 
 BRASIL · ECONOMIA
 -----------------
-• Daniella Marques fala em acabar com o split payment da reforma
-  tributária
-  Caso eleito, o senador Flávio Bolsonaro (PL) vai acabar com o 'split
-  payment 'da reforma tributária, disse a porta-voz da campanha para
-  temas econômicos, Daniella Marques, em entrevista ao canal do
-  jornalista Claudio…
-  Fontes: Valor Econômico, Estadão, Folha de S.Paulo, g1
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-daniella-marques-fala-em-acabar-com-o-split-paym
+• Galípolo relata à PF reuniões tensas e demora na fiscalização do
+  Master
+  Presidente do Banco Central disse em depoimento que 'esgotou
+  repertório de palavrões' ao pressionar servidores.
+  Fontes: Valor Econômico, Estadão, Folha de S.Paulo
+  Cobertura: Sem divergência entre os 3 veículos. A imprensa convergiu
+  ao reproduzir os detalhes mais marcantes do depoimento prestado à
+  Polícia Federal.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-galipolo-relata-a-pf-reunioes-tensas-e-demora-na
 
 MERCADOS & FINANÇAS
 -------------------
-• FT: Starbucks avaliou compra da Chipotle em operação que seria a maior
-  no setor de restaurantes
-  A Starbucks avaliou a aquisição da Chipotle Mexican Grill na tentativa
-  ambiciosa de unir duas das marcas mais conhecidas dos Estados Unidos,
-  em uma operação que seria a maior transação já realizada no setor de…
-  Fontes: Valor Econômico, Brazil Journal, Folha de S.Paulo, Financial
-  Times, The Guardian, CNBC
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-ft-starbucks-avaliou-compra-da-chipotle-em-opera
+• Juros futuros despencam com maior leilão de prefixados do Tesouro
+  desde 2020
+  Curva de juros recua, puxada pelo leilão do Tesouro Nacional e alívio
+  nos títulos da dívida dos Estados Unidos.
+  Fontes: Valor Econômico, Folha de S.Paulo, Money Times
+  Cobertura: Sem divergência entre os 3 veículos. A cobertura convergiu
+  na análise técnica do leilão e no impacto benéfico sobre os juros
+  futuros.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-juros-futuros-despencam-com-maior-leilao-de-pref
 
-• Ibovespa fecha em alta e juros futuros caem com otimismo eleitoral;
-  dólar destoa e sobe
-  A disparada dos preços do petróleo, com o Brent em alta de 5% e acima
-  de US$ 105 o barril, elevou a aversão ao risco nos mercados globais,
-  diante dos riscos de oferta e das preocupações com a escalada das
-  tensões no…
-  Fontes: Valor Econômico, g1, Suno Notícias, Exame
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-ibovespa-fecha-em-alta-e-juros-futuros-caem-com
+• Preços do petróleo disparam e Brent supera US$ 104 com tensões no
+  Oriente Médio e riscos de oferta
+  A alta das cotações reflete novos ataques a embarcações no Estreito de
+  Ormuz, ameaças de operações militares dos EUA e o impacto de furacões.
+  Fontes: Valor Econômico, Financial Times, The Wall Street Journal,
+  CNBC
+  Cobertura: Sem divergência entre os 4 veículos. A cobertura convergiu
+  integralmente ao relatar o salto nas cotações do petróleo impulsionado
+  por fatores geopolíticos e climáticos, destacando os riscos para a
+  economia global.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-precos-do-petroleo-disparam-e-brent-supera-us-10
+
+• Ações de teles americanas despencam após SpaceX comprar frequências
+  para Starlink
+  Aquisição de portfólio de espectro aproxima a empresa de Elon Musk do
+  lançamento de uma rede móvel nos Estados Unidos.
+  Fontes: Estadão, Financial Times, CNBC, MarketWatch
+  Cobertura: Sem divergência entre os 4 veículos. A cobertura foi
+  uniforme ao registrar o impacto imediato da transação da SpaceX sobre
+  as cotações bursáteis das operadoras de telecomunicação concorrentes.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-acoes-de-teles-americanas-despencam-apos-spacex
+
+• Receita anualizada da OpenAI fica US$ 20 bilhões abaixo das projeções
+  anteriores
+  Documentos financeiros compartilhados com investidores mostram que o
+  faturamento da criadora do ChatGPT atingiu cerca de US$ 50 bi.
+  Fontes: Folha de S.Paulo, Financial Times, CNBC, MarketWatch,
+  TechCrunch
+  Cobertura: Sem divergência entre os 5 veículos. Os veículos
+  convergiram em relatar a disparidade nos números de receita da OpenAI,
+  com alguns destacando o impacto imediato nas ações de semicondutores e
+  IA.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-receita-anualizada-da-openai-fica-us-20-bilhoes
+
+• Crise fiscal na França e disparada dos juros globais elevam estresse
+  na renda fixa da Europa
+  A taxa do título britânico de 30 anos superou 6%, enquanto
+  investidores monitoram os riscos de dívida e contágio no continente.
+  Fontes: Valor Econômico
+  Cobertura: Pende para: Destaca o risco sistêmico e o pânico fiscal · 2
+  de 4 veículos. Predominou o enfoque de alerta sobre a deterioração
+  fiscal na Europa e o salto nos juros de longo prazo, contrabalançado
+  por uma visão mais cautelosa de gestores que enxergam oportunidades no
+  sell-off.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-crise-fiscal-na-franca-e-disparada-dos-juros-glo
 
 JURÍDICO & REGULAÇÃO
 --------------------
-• Fux pede acesso a inquéritos contra Bolsonaro relatados por Moraes
-  O ministro Luiz Fux determinou, na quinta-feira (8), que a área
-  técnica do Supremo Tribunal Federal (STF) libere o acesso de seu
-  gabinete a inquéritos sigilosos que foram relatados por Alexandre de
-  Moraes e que atingem…
-  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, g1, Agência
+• Zanin nega recurso de Eduardo Paes e mantém decisão do TSE que abre
+  caminho para vitória de Ruas no Rio
+  Ministro do STF rejeitou pedido processual da coligação do PSD;
+  exclusão de votos de Garotinho viabiliza eleição de Douglas Ruas no 1º
+  turno.
+  Fontes: Valor Econômico, Conjur, JOTA, Folha de S.Paulo, InfoMoney,
+  Estadão, Agência Senado, g1, Poder360, Agência Brasil, Exame, CNN
   Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-fux-pede-acesso-a-inqueritos-contra-bolsonaro-re
+  Cobertura: Sem divergência entre os 12 veículos. A cobertura convergiu
+  na análise técnica da decisão de Cristiano Zanin e na constatação do
+  fim das chances de segundo turno no Rio de Janeiro.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-zanin-nega-recurso-de-eduardo-paes-e-mantem-deci
+
+• Justiça Federal de São Paulo autoriza site de apostas Stake a operar
+  provisoriamente até 25 de outubro
+  Liminar suspende parcialmente os efeitos de MP assinada pelo governo
+  federal que determinou o encerramento imediato de bets.
+  Fontes: Estadão, Folha de S.Paulo, InfoMoney
+  Cobertura: Sem divergência entre os 3 veículos. A cobertura convergiu
+  na divulgação dos detalhes da liminar, destacando o prazo concedido
+  pela Justiça e as exigências operacionais impostas à empresa.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-justica-federal-de-sao-paulo-autoriza-site-de-ap
 
 POLÍTICA
 --------
-• Após Datafolha, Lula diz que sua obrigação é trabalhar para ter mais
-  votos que Flávio Bolsonaro
-  O presidente Luiz Inácio Lula da Silva (PT) evitou comentar a primeira
-  pesquisa Datafolha para o segundo turno, divulgada nesta quinta-feira
-  (8), mas afirmou que seu objetivo é obter mais votos do que o senador
-  Flávio…
-  Fontes: Valor Econômico, Folha de S.Paulo, Estadão, g1, Imobi Report,
-  Seu Dinheiro, Money Times, Exame, CNN Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-apos-datafolha-lula-diz-que-sua-obrigacao-e-trab
+• Moraes determina cumprimento de pena de Eduardo Bolsonaro e cancela
+  passaportes
+  O candidato Flávio Bolsonaro classificou a medida como 'fatoide
+  eleitoral', enquanto o senador afirmou que a decisão 'vai dar em nada'
+  por estar nos EUA.
+  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, InfoMoney, Estadão,
+  g1, Seu Dinheiro, Agência Brasil, CNN Brasil
+  Cobertura: Pende para: Destaca a legalidade da execução da pena pelo
+  STF · 3 de 9 veículos. A cobertura cobriu amplamente os aspectos
+  jurídicos da decisão de Moraes e a imediata resposta política de
+  aliados e familiares de Eduardo Bolsonaro.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-moraes-determina-cumprimento-de-pena-de-eduardo
 
-• Augusto Cury anuncia apoio a Flávio Bolsonaro no segundo turno
-  O candidato escritor Augusto Cury (Avante), que concorreu à
-  Presidência da República no primeiro turno, declarou apoio ao senador
-  Flávio Bolsonaro (PL).
-  Fontes: Valor Econômico, Folha de S.Paulo, Estadão, InfoMoney, g1,
-  Agência Brasil, Money Times, Exame, CNN Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-augusto-cury-anuncia-apoio-a-flavio-bolsonaro-no
-
-• Ordem do STF para que Eduardo Bolsonaro comece a cumprir pena ‘vai dar
-  em nada’, diz Flávio
-  O candidato à Presidência Flávio Bolsonaro (PL-RJ) afirmou nesta
-  quinta-feira (8) que a determinação para que o ex-deputado federal
-  Eduardo Bolsonaro (PL-SP) comece a cumprir a pena de 4 anos e dois
-  meses em regime…
-  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, g1, Seu
-  Dinheiro, Agência Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-ordem-do-stf-para-que-eduardo-bolsonaro-comece-a
-
-• Senado encerra terceira das cinco sessões de debate sobre o fim da
-  escala 6x1
-  O Senado encerrou hoje a terceira das cinco sessões de debates sobre a
-  Proposta de Emenda à Constituição (PEC) que acaba com a jornada de
-  trabalho 6x1.
+• Senado conclui terceira sessão de debate sobre PEC do fim da escala
+  6x1 e articula votação
+  Governo busca acordo para calendário especial e votação em dois
+  turnos; Lula cobra posicionamento da bancada de Flávio Bolsonaro.
   Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, Agência
   Senado, g1, Agência Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-senado-encerra-terceira-das-cinco-sessoes-de-deb
+  Cobertura: Sem divergência entre os 7 veículos. A cobertura convergiu
+  ao relatar o avanço das discussões no Senado e o embate político em
+  torno da aceleração do calendário de votação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-senado-conclui-terceira-sessao-de-debate-sobre-p
 
 GEOPOLÍTICA & MUNDO
 -------------------
-• Maduro e esposa são acusados nos EUA de suposta tortura de opositores
-  políticos
-  O presidente venezuelano Nicolás Maduro, capturado , é escoltado a
-  caminho do Tribunal Federal Daniel Patrick Moynihan, em Manhattan,
-  para sua primeira audiência perante o tribunal, onde enfrentará
-  acusações federais…
+• Ataque aéreo russo contra ônibus no leste da Ucrânia deixa 33 mortos
+  Bombardeio em Kramatorsk atingiu transporte público e ruas
+  movimentadas; autoridades locais acusam Moscou de mirar civis
+  propositalmente.
   Fontes: Valor Econômico, Folha de S.Paulo, Estadão, g1, The Wall
   Street Journal, The Guardian, BBC News
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-maduro-e-esposa-sao-acusados-nos-eua-de-suposta
+  Cobertura: Sem divergência entre os 7 veículos. Todos os veículos
+  relataram o bombardeio com ênfase na alta letalidade contra civis e
+  nas acusações do governo ucraniano.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-ataque-aereo-russo-contra-onibus-no-leste-da-ucr
 
 TECNOLOGIA & NEGÓCIOS
 ---------------------
-• Governo Trump restringe Microsoft e outras big techs de contratar
-  estrangeiros via green card
-  O governo de Donald Trump suspendeu nesta quinta-feira (8) alguns
-  pedidos de green card feitos pela Microsoft, Adobe e outras big techs
-  e abriu investigações sobre nove universidades de elite, ampliando uma
-  ofensiva…
-  Fontes: Folha de S.Paulo, Estadão, g1, Seu Dinheiro, The Guardian,
-  CNBC, TechCrunch
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-governo-trump-restringe-microsoft-e-outras-big-t
-
-IMOBILIÁRIO
------------
-• FII BTLG11 aprova 17ª emissão e pode captar até R$ 1,2 bilhão para
-  novas aquisições
-  O fundo imobiliário BTLG11 (BTG Pactual Logística) aprovou sua 17ª
-  emissão de cotas, em uma oferta que prevê inicialmente a captação de
-  aproximadamente R$ 800 milhões, mas que poderá alcançar cerca de R$
-  1,2 bilhão caso…
-  Fontes: InfoMoney, Money Times
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-fii-btlg11-aprova-17a-emissao-e-pode-captar-ate
+• Governo Trump suspende Microsoft e outras big techs de programa de
+  green card
+  Administração americana trava pedidos de residência permanente para
+  trabalhadores estrangeiros qualificados e mira universidades de elite.
+  Fontes: Valor Econômico, Folha de S.Paulo, Estadão, g1, Seu Dinheiro,
+  Financial Times, The Guardian, BBC News, CNBC, TechCrunch
+  Cobertura: Sem divergência entre os 10 veículos. A cobertura convergiu
+  inteiramente na divulgação factual da nova medida restritiva de
+  imigração do governo americano contra as big techs, destacando as
+  falas de JD Vance e a lista de empresas afetadas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-governo-trump-suspende-microsoft-e-outras-big-te
 
 ESPORTE
 -------
-• Neymar valoriza empate na Vila e define Santos x Flamengo: "No Brasil,
-  são os dois melhores times"
-  Neymar valoriza empate com a "melhor equipe do Brasil", e diz:
-  "Tomamos conta do jogo"
+• Neymar brilha em retorno, faz dois gols de pênalti e Santos empata com
+  o Flamengo
+  Em jogo eletrizante na Vila Belmiro pela 29ª rodada do Brasileirão,
+  atacante santista marca duas vezes e classifica confronto como duelo
+  entre os dois melhores times do Brasil.
   Fontes: ge, Estadão, Folha de S.Paulo, Gazeta Esportiva, Placar, UOL,
   CNN Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-neymar-valoriza-empate-na-vila-e-define-santos-x
+  Cobertura: Sem divergência entre os 7 veículos. A cobertura convergiu
+  integralmente para o protagonismo de Neymar no empate entre Santos e
+  Flamengo, destacando o peso do resultado e o impacto do retorno do
+  atleta após lesão.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-neymar-brilha-em-retorno-faz-dois-gols-de-penalt
 
 NATUREZA & MEIO AMBIENTE
 ------------------------
-• Áudio: Projeto cria incentivos para 'startups verdes'
-  Está pronto para votação na Comissão de Meio Ambiente do Senado (CMA)
-  um projeto de lei que cria incentivos para as as chamadas "startups
-  verdes" — empresas novas que desenvolvem soluções para reduzir a
-  poluição…
-  Fontes: Agência Senado, Agência Câmara
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-audio-projeto-cria-incentivos-para-startups-verd
-
-CULTURA & VARIEDADES
---------------------
-• Quem sai hoje de 'A Fazenda 18'? Disputa entre Ariela, Renê e Thaíde
-  está acirrada
-  A "Fazenda 18" chegou à terceira roça da edição. Nesta quinta-feira,
-  8, o público escolhe quem vai deixar Itapecerica da Serra e perder a
-  chance de ganhar os R$ 2 milhões.
-  Fontes: Exame, CNN Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-quem-sai-hoje-de-a-fazenda-18-disputa-entre-arie
+• População global de animais silvestres cai 73% em cinco décadas
+  O Relatório Planeta Vivo 2026, da WWF e da Sociedade Zoológica de
+  Londres, aponta redução média de 2,5% ao ano na diversidade de
+  vertebrados desde 1970.
+  Fontes: Agência Brasil
+  Cobertura: Sem divergência entre os 3 veículos. A cobertura convergiu
+  integralmente para a divulgação dos dados alarmantes do Relatório
+  Planeta Vivo 2026 da WWF, sem divergências editoriais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-populacao-global-de-animais-silvestres-cai-73-em
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Código-fonte: https://github.com/pbcvphyton/pbcvphyton-tsa-tech
-Gerado automaticamente em 22:22 (BRT) · Edição automática (sem IA)
+Gerado automaticamente em 23:06 (BRT) · Edição gerada por IA
+(gemini-flash-lite-latest)
