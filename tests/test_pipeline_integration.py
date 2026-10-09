@@ -92,7 +92,12 @@ def test_run_function_with_real_modules(tmp_path: Path, clean_env: None):
 
 def test_module_entry_point(tmp_path: Path):
     """``python -m qijournal`` funciona como processo separado (logs no stderr, código de saída)."""
-    env = {"PATH": "", "PYTHONPATH": str(ROOT), "PYTHONIOENCODING": "utf-8"}
+    env = {
+        "PATH": "",
+        "PYTHONPATH": str(ROOT),
+        "PYTHONIOENCODING": "utf-8",
+        "QIJ_CONFIG_DIR": str(ROOT / "tests" / "fixtures" / "config"),  # jornal geral, como os demais testes
+    }
     proc = subprocess.run(
         [sys.executable, "-m", "qijournal", "render", "--bundle", str(BUNDLE), "--out", str(tmp_path), "--no-llm"],
         cwd=ROOT,

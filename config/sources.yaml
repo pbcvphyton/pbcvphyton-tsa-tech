@@ -1,6 +1,7 @@
-# Fontes de notícia (RSS/Atom). As URLs até a seção Internacional foram testadas
-# a partir de um runner do GitHub Actions em 29/09/2026; as de tribunais, esporte
-# e natureza entraram em 30/09/2026 sem teste. Para testar de novo:
+# Fontes de notícia do TSA Tech (nicho tributário). O jornal só publica notícias
+# sobre tributos (edition.focus_only em config/site.yaml): as dos feeds gerais
+# passam por um filtro de palavras-chave; as dos feeds especializados
+# (niche: true) entram todas. Para testar os endereços:
 #   python -m qijournal check-sources
 #
 # Campos:
@@ -10,125 +11,82 @@
 #   lang      pt | en | es
 #   weight    peso editorial (0.5 a 1.5) usado no ranqueamento heurístico
 #   topics    dicas de seção (ids de config/site.yaml) para o classificador;
-#             feeds gerais (capas) ficam com [] e a dica sai do caminho da URL
-#             (/internacional/ → mundo, /politica/ → politica, /economia/ → brasil...)
+#             [] deixa as palavras-chave decidirem
+#   niche     true: feed só sobre tributos, todas as notícias dele entram
 #   enabled   false para desligar sem apagar
 #   exclude_url_patterns  trechos de URL descartados só nesta fonte
+#
+# As fontes gerais de esporte, cultura, natureza, tecnologia, imobiliário e
+# mundo do jornal geral (PBCV Tech) saíram: não trazem notícia tributária.
 
 feeds:
-  # ── Brasil: economia, mercados, política ────────────────────────────────
+  # ── Especializados em tributos (niche: true) ─────────────────────────────
+  # Acrescentados em 09/10/2026 SEM TESTE a partir do Actions: os endereços
+  # seguem o padrão de cada site (pasta de notícias do gov.br, tags do
+  # WordPress, que já funcionam para outras tags desses sites). Os que falharem
+  # aparecem em "Feeds com erro" no Summary da execução: troque por enabled: false.
+  - {id: receitafederal, name: "Receita Federal", url: "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.3, topics: [federais], niche: true}
+  - {id: pgfn, name: "PGFN", url: "https://www.gov.br/pgfn/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.2, topics: [contencioso], niche: true}
+  - {id: carf, name: "CARF", url: "https://www.gov.br/carf/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.2, topics: [contencioso], niche: true}
+  - {id: reformatributaria, name: "Portal da Reforma Tributária", url: "https://www.reformatributaria.com/feed/", lang: pt, weight: 1.1, topics: [reforma], niche: true}
+  - {id: infomoney, name: "InfoMoney", url: "https://www.infomoney.com.br/tudo-sobre/reforma-tributaria/feed/", lang: pt, weight: 1.0, topics: [reforma], niche: true}
+  - {id: infomoney, name: "InfoMoney", url: "https://www.infomoney.com.br/tudo-sobre/imposto-de-renda/feed/", lang: pt, weight: 1.0, topics: [federais], niche: true}
+  - {id: moneytimes, name: "Money Times", url: "https://www.moneytimes.com.br/tag/reforma-tributaria/feed/", lang: pt, weight: 0.9, topics: [reforma], niche: true}
+  - {id: moneytimes, name: "Money Times", url: "https://www.moneytimes.com.br/tag/imposto-de-renda/feed/", lang: pt, weight: 0.9, topics: [federais], niche: true}
+  - {id: poder360, name: "Poder360", url: "https://www.poder360.com.br/tag/reforma-tributaria/feed/", lang: pt, weight: 0.9, topics: [reforma], niche: true}
+  - {id: seudinheiro, name: "Seu Dinheiro", url: "https://www.seudinheiro.com/tag/imposto-de-renda/feed/", lang: pt, weight: 0.8, topics: [federais], niche: true}
+  - {id: exame, name: "Exame", url: "https://exame.com/tag/reforma-tributaria/feed/", lang: pt, weight: 0.9, topics: [reforma], niche: true}
+  - {id: cnnbrasil, name: "CNN Brasil", url: "https://www.cnnbrasil.com.br/tudo-sobre/reforma-tributaria/feed/", lang: pt, weight: 0.8, topics: [reforma], niche: true}
+  # Também sem teste, mas com conteúdo misto: passam pelo filtro de palavras-chave.
+  - {id: fazenda, name: "Ministério da Fazenda", url: "https://www.gov.br/fazenda/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.2, topics: [fiscal]}
+  - {id: camara, name: "Agência Câmara", url: "https://www.camara.leg.br/noticias/rss/dinamico/ECONOMIA", lang: pt, weight: 1.0, topics: [fiscal]}
+  - {id: jornalcontabil, name: "Jornal Contábil", url: "https://www.jornalcontabil.com.br/feed/", lang: pt, weight: 0.9, topics: [federais]}
+  - {id: fenacon, name: "Fenacon", url: "https://fenacon.org.br/feed/", lang: pt, weight: 0.8, topics: [federais]}
+
+  # ── Jurídico e tribunais (filtrados pelo tema) ───────────────────────────
+  - {id: jota, name: "JOTA", url: "https://www.jota.info/feed", lang: pt, weight: 1.3, topics: [contencioso]}
+  - {id: conjur, name: "Conjur", url: "https://www.conjur.com.br/rss.xml", lang: pt, weight: 1.2, topics: [contencioso]}
+  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/legislacao/", lang: pt, weight: 1.4, topics: [contencioso]}
+  - {id: agenciabrasil, name: "Agência Brasil", url: "https://agenciabrasil.ebc.com.br/rss/justica/feed.xml", lang: pt, weight: 0.8, topics: [contencioso]}
+  # STF, STJ e a Câmara podem barrar robôs ou IPs fora do Brasil: se falharem
+  # sempre, troque para enabled: false. TJSP, TJRJ e TRF1-5 não publicam RSS utilizável.
+  - {id: stf, name: "STF", url: "https://noticias.stf.jus.br/feed/", lang: pt, weight: 1.3, topics: [contencioso]}
+  - {id: stj, name: "STJ", url: "https://res.stj.jus.br/hrestp-c-portalp/RSS.xml", lang: pt, weight: 1.3, topics: [contencioso]}
+  - {id: tst, name: "TST", url: "https://www.tst.jus.br/noticias/-/asset_publisher/89D8/rss", lang: pt, weight: 1.0, topics: [previdencia]}
+  - {id: tjdft, name: "TJDFT", url: "https://www.tjdft.jus.br/rss.xml", lang: pt, weight: 1.0, topics: [contencioso]}
+  - {id: tjmg, name: "TJMG", url: "https://www.tjmg.jus.br/data/rss/noticiasTJMG.xml", lang: pt, weight: 1.0, topics: [contencioso]}
+  - {id: trf6, name: "TRF6", url: "https://portal.trf6.jus.br/noticias/feed/", lang: pt, weight: 1.0, topics: [contencioso]}
+  - {id: camara, name: "Agência Câmara", url: "https://www.camara.leg.br/noticias/rss/dinamico/DIREITO-E-JUSTICA", lang: pt, weight: 1.0, topics: []}
+  - {id: senado, name: "Agência Senado", url: "https://www12.senado.leg.br/noticias/rss", lang: pt, weight: 1.0, topics: []}
+
+  # ── Economia, mercados e política (filtrados pelo tema) ──────────────────
   - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/", lang: pt, weight: 1.3, topics: []}
-  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/financas/", lang: pt, weight: 1.3, topics: [mercados]}
-  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/brasil/", lang: pt, weight: 1.3, topics: [brasil]}
-  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/empresas/", lang: pt, weight: 1.3, topics: [tecnologia]}
-  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/mundo/", lang: pt, weight: 1.3, topics: [mundo]}
-  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/politica/", lang: pt, weight: 1.2, topics: [politica]}
-  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/legislacao/", lang: pt, weight: 1.3, topics: [juridico]}
-  - {id: folha, name: "Folha de S.Paulo", url: "https://feeds.folha.uol.com.br/mercado/rss091.xml", lang: pt, weight: 1.1, topics: [brasil]}
-  - {id: folha, name: "Folha de S.Paulo", url: "https://feeds.folha.uol.com.br/poder/rss091.xml", lang: pt, weight: 1.1, topics: [politica]}
-  - {id: folha, name: "Folha de S.Paulo", url: "https://feeds.folha.uol.com.br/mundo/rss091.xml", lang: pt, weight: 1.1, topics: [mundo]}
-  - {id: folha, name: "Folha de S.Paulo", url: "https://feeds.folha.uol.com.br/tec/rss091.xml", lang: pt, weight: 1.0, topics: [tecnologia]}
-  - {id: estadao, name: "Estadão", url: "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/economia/", lang: pt, weight: 1.1, topics: [brasil]}
-  - {id: estadao, name: "Estadão", url: "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/politica/", lang: pt, weight: 1.0, topics: [politica]}
-  - {id: estadao, name: "Estadão", url: "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/internacional/", lang: pt, weight: 1.0, topics: [mundo]}
-  - {id: g1, name: "g1", url: "https://g1.globo.com/rss/g1/economia/", lang: pt, weight: 1.0, topics: [brasil]}
-  - {id: g1, name: "g1", url: "https://g1.globo.com/rss/g1/politica/", lang: pt, weight: 0.9, topics: [politica]}
-  - {id: g1, name: "g1", url: "https://g1.globo.com/rss/g1/mundo/", lang: pt, weight: 0.9, topics: [mundo]}
-  - {id: g1, name: "g1", url: "https://g1.globo.com/rss/g1/tecnologia/", lang: pt, weight: 0.9, topics: [tecnologia]}
+  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/brasil/", lang: pt, weight: 1.3, topics: []}
+  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/financas/", lang: pt, weight: 1.2, topics: []}
+  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/empresas/", lang: pt, weight: 1.2, topics: []}
+  - {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/politica/", lang: pt, weight: 1.2, topics: []}
+  - {id: folha, name: "Folha de S.Paulo", url: "https://feeds.folha.uol.com.br/mercado/rss091.xml", lang: pt, weight: 1.1, topics: []}
+  - {id: folha, name: "Folha de S.Paulo", url: "https://feeds.folha.uol.com.br/poder/rss091.xml", lang: pt, weight: 1.0, topics: []}
+  - {id: estadao, name: "Estadão", url: "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/economia/", lang: pt, weight: 1.1, topics: []}
+  - {id: estadao, name: "Estadão", url: "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/politica/", lang: pt, weight: 1.0, topics: []}
+  - {id: g1, name: "g1", url: "https://g1.globo.com/rss/g1/economia/", lang: pt, weight: 1.0, topics: []}
+  - {id: g1, name: "g1", url: "https://g1.globo.com/rss/g1/politica/", lang: pt, weight: 0.9, topics: []}
   - {id: infomoney, name: "InfoMoney", url: "https://www.infomoney.com.br/feed/", lang: pt, weight: 1.0, topics: []}
-  - {id: bloomberglinea, name: "Bloomberg Línea", url: "https://www.bloomberglinea.com.br/arc/outboundfeeds/rss/?outputType=xml", lang: pt, weight: 1.0, topics: [mercados]}
-  - {id: neofeed, name: "NeoFeed", url: "https://neofeed.com.br/feed/", lang: pt, weight: 1.0, topics: [mercados]}
-  - {id: braziljournal, name: "Brazil Journal", url: "https://braziljournal.com/feed/", lang: pt, weight: 1.1, topics: [mercados]}
-  - {id: poder360, name: "Poder360", url: "https://www.poder360.com.br/feed/", lang: pt, weight: 0.9, topics: [politica]}
-  - {id: agenciabrasil, name: "Agência Brasil", url: "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml", lang: pt, weight: 0.9, topics: [brasil]}
-  - {id: agenciabrasil, name: "Agência Brasil", url: "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml", lang: pt, weight: 0.8, topics: [politica]}
-  - {id: agenciabrasil, name: "Agência Brasil", url: "https://agenciabrasil.ebc.com.br/rss/internacional/feed.xml", lang: pt, weight: 0.8, topics: [mundo]}
+  - {id: bloomberglinea, name: "Bloomberg Línea", url: "https://www.bloomberglinea.com.br/arc/outboundfeeds/rss/?outputType=xml", lang: pt, weight: 1.0, topics: []}
+  - {id: neofeed, name: "NeoFeed", url: "https://neofeed.com.br/feed/", lang: pt, weight: 1.0, topics: []}
+  - {id: braziljournal, name: "Brazil Journal", url: "https://braziljournal.com/feed/", lang: pt, weight: 1.1, topics: []}
+  - {id: poder360, name: "Poder360", url: "https://www.poder360.com.br/feed/", lang: pt, weight: 0.9, topics: []}
+  - {id: agenciabrasil, name: "Agência Brasil", url: "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml", lang: pt, weight: 0.9, topics: []}
+  - {id: agenciabrasil, name: "Agência Brasil", url: "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml", lang: pt, weight: 0.8, topics: []}
   - {id: exame, name: "Exame", url: "https://exame.com/feed/", lang: pt, weight: 0.8, topics: []}
   - {id: cnnbrasil, name: "CNN Brasil", url: "https://www.cnnbrasil.com.br/feed/", lang: pt, weight: 0.7, topics: []}
-  - {id: moneytimes, name: "Money Times", url: "https://www.moneytimes.com.br/feed/", lang: pt, weight: 0.8, topics: [mercados]}
-  - {id: seudinheiro, name: "Seu Dinheiro", url: "https://www.seudinheiro.com/feed/", lang: pt, weight: 0.8, topics: [mercados]}
-  - {id: suno, name: "Suno Notícias", url: "https://www.suno.com.br/noticias/feed/", lang: pt, weight: 0.8, topics: [mercados]}
+  - {id: moneytimes, name: "Money Times", url: "https://www.moneytimes.com.br/feed/", lang: pt, weight: 0.8, topics: []}
+  - {id: seudinheiro, name: "Seu Dinheiro", url: "https://www.seudinheiro.com/feed/", lang: pt, weight: 0.8, topics: []}
+  - {id: suno, name: "Suno Notícias", url: "https://www.suno.com.br/noticias/feed/", lang: pt, weight: 0.8, topics: []}
 
-  # ── Jurídico ───────────────────────────────────────────────────────────
-  - {id: jota, name: "JOTA", url: "https://www.jota.info/feed", lang: pt, weight: 1.2, topics: [juridico]}
-  - {id: conjur, name: "Conjur", url: "https://www.conjur.com.br/rss.xml", lang: pt, weight: 1.2, topics: [juridico]}
-  - {id: agenciabrasil, name: "Agência Brasil", url: "https://agenciabrasil.ebc.com.br/rss/justica/feed.xml", lang: pt, weight: 0.8, topics: [juridico]}
-  # Tribunais e agências legislativas (acrescentados em 30/09/2026; sem teste a
-  # partir do Actions ainda: o STF, o TJMG e a Câmara podem barrar robôs ou IPs
-  # fora do Brasil — se falharem sempre, troque para enabled: false). TJSP, TJRJ,
-  # TJPR, TJRS e TRF1-5 não publicam RSS utilizável.
-  - {id: stf, name: "STF", url: "https://noticias.stf.jus.br/feed/", lang: pt, weight: 1.2, topics: [juridico]}
-  - {id: stj, name: "STJ", url: "https://res.stj.jus.br/hrestp-c-portalp/RSS.xml", lang: pt, weight: 1.2, topics: [juridico]}
-  - {id: tst, name: "TST", url: "https://www.tst.jus.br/noticias/-/asset_publisher/89D8/rss", lang: pt, weight: 1.2, topics: [juridico]}
-  - {id: tse, name: "TSE", url: "https://www.tse.jus.br/comunicacao/noticias/rss", lang: pt, weight: 1.2, topics: [juridico]}
-  - {id: cnj, name: "CNJ", url: "https://www.cnj.jus.br/feed/", lang: pt, weight: 1.2, topics: [juridico]}
-  - {id: tjdft, name: "TJDFT", url: "https://www.tjdft.jus.br/rss.xml", lang: pt, weight: 1.1, topics: [juridico]}
-  - {id: tjmg, name: "TJMG", url: "https://www.tjmg.jus.br/data/rss/noticiasTJMG.xml", lang: pt, weight: 1.1, topics: [juridico]}
-  - {id: trf6, name: "TRF6", url: "https://portal.trf6.jus.br/noticias/feed/", lang: pt, weight: 1.0, topics: [juridico]}
-  - {id: camara, name: "Agência Câmara", url: "https://www.camara.leg.br/noticias/rss/dinamico/DIREITO-E-JUSTICA", lang: pt, weight: 1.0, topics: [juridico]}
-  - {id: senado, name: "Agência Senado", url: "https://www12.senado.leg.br/noticias/rss", lang: pt, weight: 1.0, topics: [juridico]}
-
-  # ── Imobiliário ────────────────────────────────────────────────────────
-  - {id: infomoney, name: "InfoMoney", url: "https://www.infomoney.com.br/tudo-sobre/fundos-imobiliarios/feed/", lang: pt, weight: 1.0, topics: [imobiliario]}
-  - {id: moneytimes, name: "Money Times", url: "https://www.moneytimes.com.br/tag/fundos-imobiliarios/feed/", lang: pt, weight: 0.9, topics: [imobiliario]}
-  - {id: imobireport, name: "Imobi Report", url: "https://www.imobireport.com.br/feed/", lang: pt, weight: 0.9, topics: [imobiliario]}
-  - {id: secovi, name: "Secovi-SP", url: "https://www.secovi.com.br/feed", lang: pt, weight: 0.7, topics: [imobiliario]}
-  - {id: cnbc, name: "CNBC", url: "https://www.cnbc.com/id/10000115/device/rss/rss.html", lang: en, weight: 0.7, topics: [imobiliario]}
-  - {id: scmp, name: "South China Morning Post", url: "https://www.scmp.com/rss/96/feed", lang: en, weight: 0.7, topics: [imobiliario]}
-
-  # ── Internacional ──────────────────────────────────────────────────────
-  - {id: ft, name: "Financial Times", url: "https://www.ft.com/rss/home", lang: en, weight: 1.2, topics: [mundo]}
-  - {id: ft, name: "Financial Times", url: "https://www.ft.com/markets?format=rss", lang: en, weight: 1.2, topics: [mercados]}
-  - {id: ft, name: "Financial Times", url: "https://www.ft.com/companies?format=rss", lang: en, weight: 1.1, topics: [tecnologia]}
-  - {id: wsj, name: "The Wall Street Journal", url: "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", lang: en, weight: 1.1, topics: [mercados]}
-  - {id: wsj, name: "The Wall Street Journal", url: "https://feeds.content.dowjones.io/public/rss/RSSWorldNews", lang: en, weight: 1.1, topics: [mundo]}
-  - {id: marketwatch, name: "MarketWatch", url: "https://feeds.content.dowjones.io/public/rss/mw_topstories", lang: en, weight: 0.8, topics: [mercados]}
-  - {id: nyt, name: "The New York Times", url: "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", lang: en, weight: 1.1, topics: [mercados]}
-  - {id: nyt, name: "The New York Times", url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", lang: en, weight: 1.1, topics: [mundo]}
-  - {id: nyt, name: "The New York Times", url: "https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml", lang: en, weight: 1.0, topics: [mercados]}
-  - {id: nyt, name: "The New York Times", url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", lang: en, weight: 1.0, topics: [tecnologia]}
-  - {id: guardian, name: "The Guardian", url: "https://www.theguardian.com/world/rss", lang: en, weight: 1.0, topics: [mundo]}
-  - {id: guardian, name: "The Guardian", url: "https://www.theguardian.com/business/rss", lang: en, weight: 1.0, topics: [mercados]}
-  - {id: guardian, name: "The Guardian", url: "https://www.theguardian.com/technology/rss", lang: en, weight: 0.9, topics: [tecnologia]}
-  - {id: cnbc, name: "CNBC", url: "https://www.cnbc.com/id/100003114/device/rss/rss.html", lang: en, weight: 0.9, topics: [mercados]}
-  - {id: cnbc, name: "CNBC", url: "https://www.cnbc.com/id/100727362/device/rss/rss.html", lang: en, weight: 0.9, topics: [mundo]}
-  - {id: cnbc, name: "CNBC", url: "https://www.cnbc.com/id/19854910/device/rss/rss.html", lang: en, weight: 0.8, topics: [tecnologia]}
-  - {id: bbc, name: "BBC News", url: "https://feeds.bbci.co.uk/news/world/rss.xml", lang: en, weight: 0.9, topics: [mundo]}
-  - {id: bbc, name: "BBC News", url: "https://feeds.bbci.co.uk/news/business/rss.xml", lang: en, weight: 0.9, topics: [mercados]}
-  - {id: scmp, name: "South China Morning Post", url: "https://www.scmp.com/rss/4/feed", lang: en, weight: 0.9, topics: [mundo]}
-  - {id: scmp, name: "South China Morning Post", url: "https://www.scmp.com/rss/92/feed", lang: en, weight: 0.9, topics: [mercados]}
-  - {id: scmp, name: "South China Morning Post", url: "https://www.scmp.com/rss/36/feed", lang: en, weight: 0.8, topics: [tecnologia]}
-  - {id: aljazeera, name: "Al Jazeera", url: "https://www.aljazeera.com/xml/rss/all.xml", lang: en, weight: 0.8, topics: []}
-  - {id: techcrunch, name: "TechCrunch", url: "https://techcrunch.com/feed/", lang: en, weight: 0.7, topics: [tecnologia]}
-  - {id: elpais, name: "El País", url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada", lang: es, weight: 0.7, topics: [mundo]}
-
-  # ── Esporte (acrescentado em 30/09/2026) ───────────────────────────────
-  - {id: ge, name: "ge", url: "https://ge.globo.com/rss/ge/", lang: pt, weight: 1.2, topics: [esporte]}
-  - {id: folha, name: "Folha de S.Paulo", url: "https://feeds.folha.uol.com.br/esporte/rss091.xml", lang: pt, weight: 1.1, topics: [esporte]}
-  - {id: estadao, name: "Estadão", url: "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/esportes/", lang: pt, weight: 1.1, topics: [esporte]}
-  - {id: uol, name: "UOL", url: "https://rss.uol.com.br/feed/esporte.xml", lang: pt, weight: 1.0, topics: [esporte]}
-  - {id: gazetaesportiva, name: "Gazeta Esportiva", url: "https://www.gazetaesportiva.com/feed/", lang: pt, weight: 1.0, topics: [esporte]}
-  - {id: placar, name: "Placar", url: "https://placar.com.br/feed/", lang: pt, weight: 1.0, topics: [esporte]}
-  - {id: agenciabrasil, name: "Agência Brasil", url: "https://agenciabrasil.ebc.com.br/rss/esportes/feed.xml", lang: pt, weight: 0.8, topics: [esporte]}
-  - {id: cnnbrasil, name: "CNN Brasil", url: "https://www.cnnbrasil.com.br/esportes/feed/", lang: pt, weight: 1.0, topics: [esporte]}
-  - {id: trivela, name: "Trivela", url: "https://trivela.com.br/feed/", lang: pt, weight: 0.9, topics: [esporte]}
-  - {id: espnbrasil, name: "ESPN Brasil", url: "https://www.espn.com.br/espn/rss/news", lang: pt, weight: 1.1, topics: [esporte]}
-  - {id: maquinadoesporte, name: "Máquina do Esporte", url: "https://maquinadoesporte.com.br/feed/", lang: pt, weight: 0.8, topics: [esporte]}
-  - {id: bbcsport, name: "BBC Sport", url: "https://feeds.bbci.co.uk/sport/football/rss.xml", lang: en, weight: 0.9, topics: [esporte]}
-  - {id: espn, name: "ESPN", url: "https://www.espn.com/espn/rss/soccer/news", lang: en, weight: 0.9, topics: [esporte]}
-
-  # ── Natureza & meio ambiente (acrescentado em 30/09/2026) ──────────────
-  - {id: g1, name: "g1", url: "https://g1.globo.com/rss/g1/natureza/", lang: pt, weight: 1.1, topics: [natureza]}
-  - {id: folha, name: "Folha de S.Paulo", url: "https://feeds.folha.uol.com.br/ambiente/rss091.xml", lang: pt, weight: 1.1, topics: [natureza]}
-  - {id: estadao, name: "Estadão", url: "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/sustentabilidade/", lang: pt, weight: 1.1, topics: [natureza]}
-  - {id: umsoplaneta, name: "Um Só Planeta", url: "https://umsoplaneta.globo.com/rss/umsoplaneta/", lang: pt, weight: 1.0, topics: [natureza]}
-  - {id: oeco, name: "((o))eco", url: "https://oeco.org.br/feed/", lang: pt, weight: 1.0, topics: [natureza]}
-  - {id: mongabaybr, name: "Mongabay Brasil", url: "https://brasil.mongabay.com/feed/", lang: pt, weight: 1.0, topics: [natureza]}
-  - {id: agenciabrasil, name: "Agência Brasil", url: "https://agenciabrasil.ebc.com.br/rss/meio-ambiente/feed.xml", lang: pt, weight: 0.8, topics: [natureza]}
-  - {id: observatorioclima, name: "Observatório do Clima", url: "https://www.oc.eco.br/feed/", lang: pt, weight: 1.0, topics: [natureza]}
-  - {id: climainfo, name: "ClimaInfo", url: "https://climainfo.org.br/feed/", lang: pt, weight: 1.0, topics: [natureza]}
-  - {id: fapesp, name: "Agência FAPESP", url: "https://agencia.fapesp.br/rss/", lang: pt, weight: 0.8, topics: [natureza]}
-  - {id: camara, name: "Agência Câmara", url: "https://www.camara.leg.br/noticias/rss/dinamico/MEIO-AMBIENTE", lang: pt, weight: 0.8, topics: [natureza]}
-  - {id: guardian, name: "The Guardian", url: "https://www.theguardian.com/environment/rss", lang: en, weight: 0.9, topics: [natureza]}
-  - {id: bbc, name: "BBC News", url: "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml", lang: en, weight: 0.9, topics: [natureza]}
-  - {id: mongabay, name: "Mongabay", url: "https://news.mongabay.com/feed/", lang: en, weight: 0.8, topics: [natureza]}
+  # ── Internacional (filtrados: só tributação internacional) ───────────────
+  - {id: ft, name: "Financial Times", url: "https://www.ft.com/rss/home", lang: en, weight: 1.0, topics: [internacional]}
+  - {id: ft, name: "Financial Times", url: "https://www.ft.com/companies?format=rss", lang: en, weight: 1.0, topics: [internacional]}
+  - {id: nyt, name: "The New York Times", url: "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", lang: en, weight: 0.9, topics: [internacional]}
+  - {id: guardian, name: "The Guardian", url: "https://www.theguardian.com/business/rss", lang: en, weight: 0.9, topics: [internacional]}
+  - {id: bbc, name: "BBC News", url: "https://feeds.bbci.co.uk/news/business/rss.xml", lang: en, weight: 0.8, topics: [internacional]}

@@ -123,6 +123,15 @@ class LLMUnavailable(Exception):
 # Prompts
 # ═══════════════════════════════════════════════════════════════════════════
 
+def with_brief(system: str, config: Config) -> str:
+    """Instruções da IA com a orientação editorial do jornal (``llm.editorial_brief``)
+    no fim, onde ela prevalece sobre os critérios gerais."""
+    brief = (config.llm.editorial_brief or "").strip()
+    if not brief:
+        return system
+    return f"{system.rstrip()}\n\nFoco deste jornal (prevalece sobre os critérios acima)\n{brief}\n"
+
+
 SELECT_SYSTEM = """\
 Você é o editor-chefe de um jornal financeiro diário em português do Brasil, lido logo cedo por \
 executivos, advogados, investidores e gestores brasileiros que precisam entender o dia em poucos \
@@ -1053,7 +1062,7 @@ def _write(
     if not size or len(picks) <= size:
         writing = backend.call(
             label="redação",
-            system=WRITE_SYSTEM,
+            system=with_brief(WRITE_SYSTEM, config),
             user_text=writing_prompt(picks, keys, page_info, quotes, config, now=now),
             schema=write_schema(keys),
             max_tokens=backend.max_tokens_write,
@@ -1071,7 +1080,7 @@ def _write(
         try:
             data = backend.call(
                 label=label,
-                system=WRITE_SYSTEM,
+                system=with_brief(WRITE_SYSTEM, config),
                 user_text=writing_prompt(
                     chunk_picks,
                     chunk_keys,
@@ -1145,7 +1154,7 @@ def build_llm_edition(
 
     selection = backend.call(
         label="pauta",
-        system=SELECT_SYSTEM,
+        system=with_brief(SELECT_SYSTEM, config),
         user_text=selection_prompt(candidates, config, now=now),
         schema=select_schema(config.section_ids),
         max_tokens=backend.max_tokens_select,

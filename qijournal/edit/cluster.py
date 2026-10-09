@@ -108,7 +108,18 @@ SECTION_WEIGHT = {
     "mundo": 0.85,
     "esporte": 0.8,
     "variedades": 0.7,
+    # Nicho tributário (TSA Tech)
+    "reforma": 1.5,
+    "federais": 1.4,
+    "contencioso": 1.3,
+    "estaduais": 1.3,
+    "previdencia": 1.2,
+    "fiscal": 1.1,
+    "internacional": 0.9,
 }
+# Modo nicho (edition.focus_only): sem palavra-chave no título, o resumo precisa
+# citar o tema ao menos tantas vezes (uma menção de passagem não basta).
+FOCUS_SUMMARY_HITS = 2
 
 
 @dataclass
@@ -568,6 +579,26 @@ def _keyword_hits(keywords: list[str], normalized_text: str) -> int:
     """Número de ocorrências (sem sobreposição) das palavras-chave no texto."""
     pattern = _section_pattern(tuple(keywords))
     return len(pattern.findall(normalized_text)) if pattern else 0
+
+
+def in_focus(article: Article, sections: list[SectionConfig]) -> bool:
+    """O artigo trata do tema do jornal? Palavra-chave de alguma seção no título,
+    ou ao menos :data:`FOCUS_SUMMARY_HITS` ocorrências no resumo."""
+    keywords = tuple(k for section in sections for k in section.keywords)
+    if _keyword_hits(list(keywords), text.normalize(article.title)):
+        return True
+    return _keyword_hits(list(keywords), text.normalize(article.summary or "")) >= FOCUS_SUMMARY_HITS
+
+
+def focus_filter(articles: list[Article], config: Config) -> list[Article]:
+    """Modo nicho (``edition.focus_only``): mantém só as notícias do tema do jornal
+    (:func:`in_focus`) e todas as de feeds especializados (``niche: true``; vale
+    por feed, não por veículo: a tag "reforma tributária" de um site entra
+    inteira, a capa do mesmo site passa pelo filtro)."""
+    if not config.edition.focus_only:
+        return articles
+    niche = {source.url for source in config.sources if source.niche}
+    return [a for a in articles if (a.feed_url and a.feed_url in niche) or in_focus(a, config.sections)]
 
 
 def classify(

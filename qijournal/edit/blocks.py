@@ -64,6 +64,7 @@ from qijournal.edit.llm import (
     _one_line,
     _story_from_writing,
     _strict_object,
+    with_brief,
     market_panel,
     source_text,
 )
@@ -835,7 +836,7 @@ def build_block_edition(
                 raise LLMUnavailable("sem tempo no prazo da edição")
             data = backend.call(
                 label=label,
-                system=BLOCK_SYSTEM,
+                system=with_brief(BLOCK_SYSTEM, config),
                 user_text=_block_prompt(part, number, len(parts), texts, clusters, bundle, config, now=now),
                 schema=block_schema(config.section_ids),
                 max_tokens=backend.max_tokens_write,
@@ -875,7 +876,7 @@ def build_block_edition(
         try:
             data = backend.call(
                 label="fechamento",
-                system=CLOSING_SYSTEM,
+                system=with_brief(CLOSING_SYSTEM, config),
                 user_text=closing_prompt(candidates, compared, bundle, config, now=now),
                 schema=closing_schema(),
                 max_tokens=backend.max_tokens_select,

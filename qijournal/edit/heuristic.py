@@ -38,7 +38,7 @@ MAX_PER_SECTION = 6
 MIN_PER_SECTION = 2  # reservadas por seção (quando houver candidatas), antes de completar por score
 # O dia econômico brasileiro sempre aparece (Focus, juros, câmbio, Ibovespa);
 # esporte, natureza e variedades têm uma vaga garantida (o jornal é econômico).
-MIN_BY_SECTION = {"brasil": 4, "mercados": 3, "esporte": 1, "natureza": 1, "variedades": 1}
+MIN_BY_SECTION = {"brasil": 4, "mercados": 3, "esporte": 1, "natureza": 1, "variedades": 1, "reforma": 3, "federais": 3}
 HEADLINE_MAX = 140
 DEK_MAX = 220
 PARAGRAPH_MAX = 600
@@ -57,7 +57,19 @@ INTERTITLE_MAX = 40  # linha curta sem pontuação no meio do texto = intertítu
 EN_DUPLICATE_RARE_DF = 3  # radical "raro" entre os clusters (nomes, lugares)
 EN_DUPLICATE_SHARED = 2  # cluster só em inglês que repete um fato já escolhido em português
 WIRE_SIZE = 15  # itens do Radar (notícias além das matérias da edição)
-WIRE_SECTIONS = ("brasil", "mercados", "juridico", "imobiliario")
+WIRE_SECTIONS = (
+    "brasil",
+    "mercados",
+    "juridico",
+    "imobiliario",
+    # nicho tributário (TSA Tech)
+    "reforma",
+    "federais",
+    "estaduais",
+    "contencioso",
+    "previdencia",
+    "fiscal",
+)
 WIRE_POOL_FACTOR = 3  # o Radar escolhe os mais recentes entre os 3×N mais relevantes
 
 # Miniaturas de feed (WordPress "-300x200.jpg", "?w=150", "?fit=300%2C200", BBC "/standard/240/").

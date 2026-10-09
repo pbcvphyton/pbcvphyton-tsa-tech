@@ -43,6 +43,7 @@ from qijournal.config import Config
 from qijournal.deliver.smtp import EmailDeliveryError, SMTPSettings, smtp_settings_from_env
 from qijournal.deliver.smtp import send_email as deliver_email
 from qijournal.edit import make_edition
+from qijournal.edit.cluster import focus_filter
 from qijournal.models import Article, Bundle, Edition
 from qijournal.net import Fetcher
 from qijournal.render.email import render_email
@@ -775,6 +776,11 @@ def run(
         recorder = _RecordingEnricher(enrich_fn or _page_enricher(config, fetch))
         enrich_fn = recorder
         pages_path = out_dir / BUILD_DIR / f"pages-{day.isoformat()}.json"
+
+    if config.edition.focus_only:
+        total = len(bundle.articles)
+        bundle.articles = focus_filter(bundle.articles, config)
+        log.info("Foco do jornal: %d de %d artigos tratam do tema", len(bundle.articles), total)
 
     try:
         check_minimums(bundle, config)

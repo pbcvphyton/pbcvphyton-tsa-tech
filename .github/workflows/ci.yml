@@ -42,6 +42,10 @@ jobs:
         run: pytest
 
       - name: Edição de exemplo (offline)
+        env:
+          # Coleta de exemplo de jornal geral: usa a configuração fixa dos testes
+          # (o nicho em config/ filtraria quase tudo). O nicho tem o passo abaixo.
+          QIJ_CONFIG_DIR: tests/fixtures/config
         run: |
           out="$RUNNER_TEMP/out"
           python -m qijournal render --bundle tests/fixtures/bundle.json --out "$out" --no-llm
@@ -56,3 +60,15 @@ jobs:
           size=$(wc -c < "$out/edicoes/email.html")
           echo "email.html do exemplo: $size bytes"
           [ "$size" -le 36000 ] || { echo "::error::email.html do exemplo com $size bytes (limite 36000)"; exit 1; }
+
+      - name: Edição de exemplo do nicho tributário (configuração real, coleta real)
+        run: |
+          # Coleta real de 29/09/2026 (993 notícias): o foco tributário de config/
+          # precisa deixar notícias suficientes para publicar a edição.
+          out="$RUNNER_TEMP/nicho"
+          gunzip -c tests/fixtures/real/bundle-2026-09-29.json.gz > "$RUNNER_TEMP/real.json"
+          python -m qijournal render --bundle "$RUNNER_TEMP/real.json" --out "$out" --no-llm
+          for file in index.html edicoes/2026-09-29.html edicoes/email.html; do
+            test -s "$out/$file" || { echo "::error::$file não foi gerado"; exit 1; }
+          done
+          grep -q "Seu boletim tributário diário" "$out/index.html" || { echo "::error::capa sem o slogan do nicho"; exit 1; }

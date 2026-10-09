@@ -13,6 +13,9 @@ import yaml
 log = logging.getLogger(__name__)
 
 ROOT = Path(__file__).resolve().parent.parent
+# Pasta dos YAMLs para load_config() sem root; None = ROOT / "config". Os testes
+# apontam para tests/fixtures/config (jornal geral), independente do nicho em uso.
+CONFIG_DIR: Path | None = None
 
 # Títulos de conteúdo de serviço, sem valor jornalístico para a edição (regex
 # sobre o título normalizado: minúsculas, sem acento e sem pontuação). Evita
@@ -39,6 +42,9 @@ class SourceConfig:
     topics: list[str] = field(default_factory=list)
     enabled: bool = True
     exclude_url_patterns: list[str] = field(default_factory=list)
+    # Feed especializado no tema do jornal: com edition.focus_only, todas as
+    # notícias dele entram (as dos demais feeds passam pelo filtro de palavras-chave).
+    niche: bool = False
 
 
 @dataclass
@@ -90,6 +96,10 @@ class EditionConfig:
     min_sources_ratio: float = 0.0
     min_pt_sources_ok: int = 0
     enrich_limit: int = 40
+    # Jornal de nicho: só entram as notícias que citam o tema (palavras-chave de
+    # alguma seção no título, ou repetidas no resumo) e as de fontes niche: true.
+    # Os mínimos acima (min_articles, min_pt_sources_ok) valem depois do filtro.
+    focus_only: bool = False
     exclude_url_patterns: list[str] = field(default_factory=list)
     exclude_title_patterns: list[str] = field(default_factory=lambda: list(DEFAULT_EXCLUDE_TITLE_PATTERNS))
 
@@ -239,6 +249,9 @@ def _api_configs(raw: Mapping[str, Any] | None) -> dict[str, ApiConfig]:
 @dataclass
 class LLMConfig:
     enabled: bool = True
+    # Orientação editorial acrescentada às instruções da IA (foco do jornal,
+    # leitor, o que priorizar). Vazia: jornal geral.
+    editorial_brief: str = ""
     # Editores por IA, na ordem de tentativa. Cada um só entra com a sua chave
     # (ver apis e ANTHROPIC_API_KEY); se falhar, tenta o próximo e, por fim, a
     # edição automática.
@@ -334,12 +347,21 @@ def _read_svg(root: Path, rel: str | None) -> str | None:
 
 
 def load_config(root: Path | None = None, env: Mapping[str, str] | None = None) -> Config:
-    """Lê os YAMLs de ``<root>/config`` e aplica sobrescritas do ambiente."""
-    root = Path(root) if root else ROOT
-    env = os.environ if env is None else env
+    """Lê os YAMLs de ``<root>/config`` e aplica sobrescritas do ambiente.
 
-    site_raw = yaml.safe_load((root / "config" / "site.yaml").read_text(encoding="utf-8"))
-    sources_raw = yaml.safe_load((root / "config" / "sources.yaml").read_text(encoding="utf-8"))
+    Sem ``root``, lê de :data:`CONFIG_DIR` ou da variável ``QIJ_CONFIG_DIR``
+    quando definidos (os testes apontam para uma configuração fixa) e, senão, de
+    ``config/`` do repositório.
+    """
+    env = os.environ if env is None else env
+    if root:
+        config_dir = Path(root) / "config"
+    else:
+        config_dir = CONFIG_DIR or (Path(env["QIJ_CONFIG_DIR"]) if env.get("QIJ_CONFIG_DIR") else ROOT / "config")
+    root = Path(root) if root else ROOT
+
+    site_raw = yaml.safe_load((config_dir / "site.yaml").read_text(encoding="utf-8"))
+    sources_raw = yaml.safe_load((config_dir / "sources.yaml").read_text(encoding="utf-8"))
 
     site = SiteConfig(**site_raw["site"])
     if env.get("QIJ_BASE_URL"):

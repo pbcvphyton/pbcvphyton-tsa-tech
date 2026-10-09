@@ -1,10 +1,15 @@
-# TSA Tech — jornal diário
+# TSA Tech — boletim tributário diário
 
-Jornal diário em português, montado e publicado automaticamente todo dia de
-manhã: mercados, economia, direito e regulação (STF, STJ, TJs…), política,
-geopolítica, tecnologia, mercado imobiliário, esporte, natureza e meio ambiente
-e cultura — com cotações, clima, um resumo "Em 1 minuto", a análise de como cada
-veículo cobriu cada assunto e a lista completa de todas as notícias do dia.
+Jornal diário **de notícias tributárias**, montado e publicado automaticamente
+todo dia de manhã: reforma tributária (IBS, CBS, Imposto Seletivo), tributos
+federais (IR, PIS/Cofins, IPI, IOF…), ICMS, ISS e tributos locais, contencioso e
+jurisprudência (STF, STJ, CARF, PGFN), contribuições previdenciárias e sobre a
+folha, arrecadação e benefícios fiscais e tributação internacional — com
+cotações, clima, um resumo "Em 1 minuto", a análise de como cada veículo cobriu
+cada assunto e a lista completa das notícias tributárias do dia.
+
+O jornal é de **nicho**: de tudo o que as fontes publicam, só entram as notícias
+que tratam de tributos (ver [Foco tributário](#foco-tributário)).
 
 - **Edição do dia:** <https://pbcvphyton.github.io/pbcvphyton-tsa-tech/>
 - **Edições anteriores:** <https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/>
@@ -20,13 +25,13 @@ Nada precisa ser feito à mão: o GitHub gera a edição sozinho às **06:07
   GitHub Actions — todo dia às 06:07 (Brasília; reservas às 07:37 e 09:07)
         │
         ▼
-  1. Coleta ── ~100 feeds (Valor, Folha, Estadão, FT, WSJ, NYT, JOTA, STF, STJ, ge,
-        │      g1 Natureza…), cotações (Yahoo Finance, CoinGecko, Banco Central) e
-        │      clima (Open-Meteo). Nenhuma editoria é descartada.
+  1. Coleta ── ~60 feeds (Receita Federal, PGFN, CARF, JOTA, Conjur, Valor, STF, STJ,
+        │      tags de reforma tributária e IR…), cotações (Yahoo Finance, Banco
+        │      Central) e clima (Open-Meteo). Foco: só ficam as notícias tributárias.
         ▼
   2. Edição ── com IA, compilação por editoria: TODAS as notícias em blocos
-        │      (Economia & Mercados, Política & Justiça, Empresas/Tecnologia/
-        │      Imobiliário, Mundo & Natureza, Esporte/Cultura); em cada bloco a IA
+        │      (Reforma Tributária, Tributos Federais & Previdência, ICMS/ISS &
+        │      Contencioso, Fiscal & Internacional); em cada bloco a IA
         │      une o que é o mesmo assunto, interpreta o foco de cada veículo e o
         │      lado que ele seguiu, e redige; o fechamento escolhe as matérias.
         │      Se uma IA estourar o limite, a seguinte assume (Gemini → Flash-Lite → AIML →
@@ -147,11 +152,12 @@ saiu "IA". Se não, o log da etapa *Gerar a edição* diz o que a IA respondeu.
 
 ### Compilação por editoria (modo "blocos")
 
-Todas as notícias do dia (1.000 a 1.500) são divididas em **blocos por
-editoria** (`llm.block_groups`), e cada bloco vai numa chamada:
+Todas as notícias tributárias do dia (de 1.000 a 1.700 coletadas, das quais
+passam pelo foco de 20 a 300) são divididas em **blocos por editoria**
+(`llm.block_groups`), e cada bloco vai numa chamada:
 
-1. Economia & Mercados · 2. Política & Justiça · 3. Empresas, Tecnologia &
-   Imobiliário · 4. Mundo & Natureza · 5. Esporte, Cultura & Variedades
+1. Reforma Tributária · 2. Tributos Federais & Previdência · 3. ICMS, ISS &
+   Contencioso · 4. Fiscal & Internacional
 
 Em cada bloco, a IA lê todas as notícias dele, **une as que tratam do mesmo
 assunto**, faz a **análise da cobertura** (abaixo) e **redige as matérias mais
@@ -323,12 +329,41 @@ publicada) ou argumentos inválidos.
 
 ---
 
+## Foco tributário
+
+Com `edition.focus_only: true` (em `config/site.yaml`), a coleta passa por um
+filtro antes da edição:
+
+- entra a notícia cujo **título** cita alguma palavra-chave das seções (ICMS, IBS,
+  Receita Federal, PGFN, desoneração da folha…) ou cujo **resumo** as cita ao
+  menos duas vezes (uma menção de passagem não basta);
+- entram **todas** as notícias dos feeds marcados `niche: true` em
+  `config/sources.yaml` (Receita Federal, PGFN, CARF, Portal da Reforma
+  Tributária, tags "reforma tributária" e "imposto de renda" dos sites);
+- o resto (política geral, mercado, esporte…) fica de fora, inclusive da lista
+  "Todas as notícias".
+
+As palavras-chave ficam em cada seção de `config/site.yaml`. Para incluir um
+assunto, acrescente o termo na seção certa; para tirar um falso positivo, troque
+o termo genérico por uma expressão (ex.: "restituicao do ir" em vez de
+"restituicao"). Termos que já trouxeram notícia errada e por isso ficaram de
+fora: "leao" (Papa Leão), "dividendos" (anúncio de pagamento), "tarifa", "tax".
+
+A IA recebe a linha editorial em `llm.editorial_brief`: só redige matérias com
+conteúdo tributário e, em cada uma, diz o que muda, para quem, desde quando e com
+base em quê (lei, IN, tema de repercussão geral), sem inventar números.
+
+Os mínimos da edição (`min_articles`, `min_pt_sources_ok`) contam só as notícias
+que passaram pelo foco. O teste `tests/test_config_nicho.py` aplica o filtro a
+uma coleta real (29/09/2026: 993 notícias, 20 tributárias) e confere que a
+edição sai e que os falsos positivos conhecidos ficam de fora.
+
 ## Fontes de notícia
 
 As fontes ficam em [`config/sources.yaml`](config/sources.yaml), uma por linha:
 
 ```yaml
-- {id: valor, name: "Valor Econômico", url: "https://valor.globo.com/rss/valor/brasil/", lang: pt, weight: 1.3, topics: [brasil]}
+- {id: receitafederal, name: "Receita Federal", url: "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.3, topics: [federais], niche: true}
 ```
 
 | Campo | Significado |
@@ -338,7 +373,8 @@ As fontes ficam em [`config/sources.yaml`](config/sources.yaml), uma por linha:
 | `url` | endereço do feed RSS/Atom |
 | `lang` | `pt`, `en` ou `es` |
 | `weight` | importância editorial (0,5 a 1,5) — pesa na escolha das matérias |
-| `topics` | seções prováveis (`brasil`, `mercados`, `juridico`, `politica`, `mundo`, `tecnologia`, `imobiliario`, `esporte`, `natureza`, `variedades`); em feeds gerais (capas), use `[]` e a dica sai do endereço da matéria (`/internacional/` → `mundo`, `/esporte/` → `esporte`…) |
+| `topics` | seções prováveis (`reforma`, `federais`, `estaduais`, `contencioso`, `previdencia`, `fiscal`, `internacional`); em feeds gerais (capas), use `[]` e as palavras-chave decidem |
+| `niche` | `true`: feed só sobre tributos, todas as notícias dele entram; sem ele, passam pelo foco tributário |
 | `enabled` | `false` desliga a fonte sem apagá-la |
 | `exclude_url_patterns` | trechos de endereço a ignorar nessa fonte |
 
@@ -473,5 +509,9 @@ python -m pytest
 ```
 
 Os testes não acessam a internet (usam arquivos de exemplo em `tests/fixtures/`).
-A cada envio de código, o GitHub roda os testes e gera uma edição de exemplo
-(workflow *CI*).
+O motor é testado com uma configuração fixa de jornal geral
+(`tests/fixtures/config/`), para que mudar a linha editorial não quebre os testes;
+a configuração tributária real tem os testes de `tests/test_config_nicho.py`. Para
+rodar o programa com a configuração dos testes: `QIJ_CONFIG_DIR=tests/fixtures/config`.
+A cada envio de código, o GitHub roda os testes e gera duas edições de exemplo
+(workflow *CI*): a do motor e a do nicho tributário, a partir de uma coleta real.
