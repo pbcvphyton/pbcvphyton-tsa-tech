@@ -1,18 +1,18 @@
 TSA TECH
-Quinta-feira, 8 de outubro de 2026 · 21:54 BRT
+Quinta-feira, 8 de outubro de 2026 · 22:22 BRT
 
 MERCADOS
 --------
-Dólar R$ 5,02 (+0,02%) · Euro R$ 5,63 (+0,01%) · Yuan R$ 0,75 (+0,02%) ·
+Dólar R$ 5,02 (+0,02%) · Euro R$ 5,63 (+0,08%) · Yuan R$ 0,75 (+0,10%) ·
 Ibovespa 206.220 pts (+0,94%) · IFIX 3.950 pts (-0,14%) · S&P 500 7.765
-pts (-0,47%) · Brent US$ 103,61 (-0,64%) · Ouro US$ 4.172 (+0,37%) ·
-Bitcoin US$ 81.817 (-1,80%) · Selic 13,75% · IPCA 12m 4,22% · IGP-M 12m
+pts (-0,47%) · Brent US$ 103,79 (-0,47%) · Ouro US$ 4.178 (+0,50%) ·
+Bitcoin US$ 81.586 (-1,77%) · Selic 13,75% · IPCA 12m 4,22% · IGP-M 12m
 3,35% · INCC 12m 6,66%
 
 CLIMA
 -----
-São Paulo: 22°C, parcialmente nublado (mín. 16° / máx. 30°) · amanhã:
-garoa fraca, 18° a 31°
+São Paulo: 22°C, nublado (mín. 16° / máx. 30°) · amanhã: garoa fraca,
+18° a 31°
 Montevidéu: 14°C, nublado (mín. 14° / máx. 16°) · amanhã: garoa fraca,
 14° a 14°
 
@@ -20,23 +20,22 @@ EM 1 MINUTO
 -----------
 • Eco Invest: bancos concluem alocação dos investimentos do primeiro
   leilão
-• Juros futuros têm forte queda após leilão do Tesouro e alívio nos
-  Treasuries
-• EUA vão transmitir execução de ex-major por fuzilamento aprovada por
-  Trump
+• Latam Brasil recebe primeiro Embraer E2; grupo espera outros 11 nesse
+  ano
+• Christa Pike acordou ‘nervosa e confusa’, dizem advogados
+• Maduro e esposa são acusados nos EUA de suposta tortura de opositores
+  políticos
 • Governo Trump restringe Microsoft e outras big techs de contratar
   estrangeiros via green card
-• FII BTLG11 aprova 17ª emissão e pode captar até R$ 1,2 bilhão para
-  novas aquisições
 
 COMO FOI COMPILADA
 ------------------
-Edição automática (sem IA): as 1.759 notícias coletadas de 46 veículos
-foram agrupadas por títulos parecidos em 1.292 assuntos; as 24 matérias
+Edição automática (sem IA): as 1.749 notícias coletadas de 46 veículos
+foram agrupadas por títulos parecidos em 1.276 assuntos; as 24 matérias
 saíram por relevância, frescor e número de veículos. Nenhuma notícia foi
 descartada: todas estão na lista completa do dia.
 Racional: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#racional
-Todas as 1.759 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08-todas.html
+Todas as 1.749 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08-todas.html
 
 MANCHETE
 --------
@@ -46,7 +45,7 @@ O ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), rejeitou
 o recurso apresentado pela coligação do candidato ao governo do Rio
 Eduardo Paes (PSD) contra a decisão do Tribunal Superior Eleitoral (TSE)
 que…
-Fontes: Valor Econômico, JOTA, Conjur, Folha de S.Paulo, InfoMoney,
+Fontes: Valor Econômico, Conjur, JOTA, Folha de S.Paulo, InfoMoney,
 Estadão, Agência Senado, g1, Poder360, Agência Brasil, Exame, CNN Brasil
 Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-zanin-nega-recurso-de-paes-contra-decisao-do-tse
 
@@ -72,6 +71,15 @@ MERCADOS & FINANÇAS
   Times, The Guardian, CNBC
   https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-ft-starbucks-avaliou-compra-da-chipotle-em-opera
 
+• Ibovespa fecha em alta e juros futuros caem com otimismo eleitoral;
+  dólar destoa e sobe
+  A disparada dos preços do petróleo, com o Brent em alta de 5% e acima
+  de US$ 105 o barril, elevou a aversão ao risco nos mercados globais,
+  diante dos riscos de oferta e das preocupações com a escalada das
+  tensões no…
+  Fontes: Valor Econômico, g1, Suno Notícias, Exame
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-ibovespa-fecha-em-alta-e-juros-futuros-caem-com
+
 JURÍDICO & REGULAÇÃO
 --------------------
 • Fux pede acesso a inquéritos contra Bolsonaro relatados por Moraes
@@ -79,17 +87,9 @@ JURÍDICO & REGULAÇÃO
   técnica do Supremo Tribunal Federal (STF) libere o acesso de seu
   gabinete a inquéritos sigilosos que foram relatados por Alexandre de
   Moraes e que atingem…
-  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, g1,
-  Poder360, Agência Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-fux-pede-acesso-a-inqueritos-contra-bolsonaro-re
-
-• TSE adia julgamento sobre validade da candidatura de Deltan Dallagnol
-  ao Senado
-  O Tribunal Superior Eleitoral (TSE) adiou o julgamento que decidiria
-  se a candidatura de Deltan Dallagnol (Novo-PR) ao Senado é válida.
-  Fontes: Valor Econômico, Folha de S.Paulo, g1, Agência Brasil, CNN
+  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, g1, Agência
   Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-tse-adia-julgamento-sobre-validade-da-candidatur
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-fux-pede-acesso-a-inqueritos-contra-bolsonaro-re
 
 POLÍTICA
 --------
@@ -132,15 +132,15 @@ POLÍTICA
 
 GEOPOLÍTICA & MUNDO
 -------------------
-• EUA vão transmitir execução de ex-major por fuzilamento aprovada por
-  Trump
-  Os Estados Unidos transmitirão ao vivo a execução por fuzilamento, a
-  ser realizada pelo Exército em 3 de dezembro, de Nidal Hasan, que
-  matou 13 pessoas em Fort Hood, no Texas, em 2009, durante um ataque a
-  tiros.
-  Fontes: Folha de S.Paulo, Estadão, g1, CNN Brasil, Financial Times,
-  The Guardian, BBC News, Al Jazeera
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-eua-vao-transmitir-execucao-de-ex-major-por-fuzi
+• Maduro e esposa são acusados nos EUA de suposta tortura de opositores
+  políticos
+  O presidente venezuelano Nicolás Maduro, capturado , é escoltado a
+  caminho do Tribunal Federal Daniel Patrick Moynihan, em Manhattan,
+  para sua primeira audiência perante o tribunal, onde enfrentará
+  acusações federais…
+  Fontes: Valor Econômico, Folha de S.Paulo, Estadão, g1, The Wall
+  Street Journal, The Guardian, BBC News
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-maduro-e-esposa-sao-acusados-nos-eua-de-suposta
 
 TECNOLOGIA & NEGÓCIOS
 ---------------------
@@ -167,22 +167,23 @@ IMOBILIÁRIO
 
 ESPORTE
 -------
-• Santos bate recorde de público no ano na Vila Belmiro no empate com o
-  Flamengo
-  Santos 2 x 2 Flamengo | melhores momentos | 29ª rodada | Brasileirão
-  2026
-  Fontes: ge, Estadão, Folha de S.Paulo, Gazeta Esportiva, Placar, UOL
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-santos-bate-recorde-de-publico-no-ano-na-vila-be
+• Neymar valoriza empate na Vila e define Santos x Flamengo: "No Brasil,
+  são os dois melhores times"
+  Neymar valoriza empate com a "melhor equipe do Brasil", e diz:
+  "Tomamos conta do jogo"
+  Fontes: ge, Estadão, Folha de S.Paulo, Gazeta Esportiva, Placar, UOL,
+  CNN Brasil
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-neymar-valoriza-empate-na-vila-e-define-santos-x
 
 NATUREZA & MEIO AMBIENTE
 ------------------------
-• Cerrado perdeu quase 14 milhões de hectares de vegetação nas margens
-  de rios desde 1985
-  Perda concentrou-se nas bacias do Alto Tocantins e Araguaia e
-  representam mais de um quarto de toda vegetação nativa perdida no
-  bioma, aponta levantamento do MapBiomas
-  Fontes: ((o))eco, Agência Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-cerrado-perdeu-quase-14-milhoes-de-hectares-de-v
+• Áudio: Projeto cria incentivos para 'startups verdes'
+  Está pronto para votação na Comissão de Meio Ambiente do Senado (CMA)
+  um projeto de lei que cria incentivos para as as chamadas "startups
+  verdes" — empresas novas que desenvolvem soluções para reduzir a
+  poluição…
+  Fontes: Agência Senado, Agência Câmara
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-audio-projeto-cria-incentivos-para-startups-verd
 
 CULTURA & VARIEDADES
 --------------------
@@ -198,4 +199,4 @@ CULTURA & VARIEDADES
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Código-fonte: https://github.com/pbcvphyton/pbcvphyton-tsa-tech
-Gerado automaticamente em 21:54 (BRT) · Edição automática (sem IA)
+Gerado automaticamente em 22:22 (BRT) · Edição automática (sem IA)
