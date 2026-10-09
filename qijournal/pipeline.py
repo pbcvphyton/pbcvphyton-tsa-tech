@@ -611,7 +611,7 @@ def _quality_warnings(
             )
     if use_llm and config.llm.enabled and edition.mode != "ai":
         warnings.append(
-            "Edição gerada sem IA (modo automático): verifique os segredos AIMLAPI_KEY / SENSENOVA_API_KEY / "
+            "Edição gerada sem IA (modo automático): verifique os segredos GEMINI_API_KEY / AIMLAPI_KEY / SENSENOVA_API_KEY / "
             "MISTRAL_API_KEY / MOONSHOT_API_KEY / ANTHROPIC_API_KEY "
             "e o log da etapa"
         )

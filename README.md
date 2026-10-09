@@ -29,8 +29,8 @@ Nada precisa ser feito à mão: o GitHub gera a edição sozinho às **06:07
         │      Imobiliário, Mundo & Natureza, Esporte/Cultura); em cada bloco a IA
         │      une o que é o mesmo assunto, interpreta o foco de cada veículo e o
         │      lado que ele seguiu, e redige; o fechamento escolhe as matérias.
-        │      Se uma IA estourar o limite, a seguinte assume (AIML → SenseNova →
-        │      Mistral → Kimi → Claude). Sem IA: edição automática.
+        │      Se uma IA estourar o limite, a seguinte assume (Gemini → AIML →
+        │      SenseNova → Mistral → Kimi → Claude). Sem IA: edição automática.
         ▼
   3. Páginas ── capa (index.html), cópia no arquivo (edicoes/), todas as notícias
         │      do dia (edicoes/AAAA-MM-DD-todas.html), e-mail em HTML e texto
@@ -92,11 +92,12 @@ Os editores por IA ficam numa **cadeia**, na ordem de `llm.providers` em
 
 | Ordem | Editor | Segredo | Custo e limite |
 |---|---|---|---|
-| 1 | [AIML API](https://aimlapi.com/) (`openai/gpt-5-5`) | `AIMLAPI_KEY` | grátis; 10 requisições por hora |
-| 2 | [SenseNova](https://platform.sensenova.ai/) (`sensenova-6.8-flash-lite`) | `SENSENOVA_API_KEY` | grátis (beta); 1.500 requisições a cada 5 horas |
-| 3 | [Mistral](https://mistral.ai/) (`mistral-small-latest`) | `MISTRAL_API_KEY` | grátis (*Experiment*); poucas requisições por minuto |
-| 4 | [Kimi](https://platform.kimi.ai/) (`kimi-k3`) | `MOONSHOT_API_KEY` | pago (recarga mínima de US$ 1) |
-| 5 | [Claude](https://www.anthropic.com/) (`claude-opus-5-5`) | `ANTHROPIC_API_KEY` | pago |
+| 1 | [Gemini](https://aistudio.google.com/) (`gemini-flash-latest`) | `GEMINI_API_KEY` | grátis (Google AI Studio, modelos Flash); limites por minuto e por dia |
+| 2 | [AIML API](https://aimlapi.com/) (`openai/gpt-5-5`) | `AIMLAPI_KEY` | exige saldo (em 10/2026 a conta sem saldo recebeu "run out of funds") |
+| 3 | [SenseNova](https://platform.sensenova.ai/) (`sensenova-6.8-flash-lite`) | `SENSENOVA_API_KEY` | grátis (beta); 1.500 requisições a cada 5 horas |
+| 4 | [Mistral](https://mistral.ai/) (`mistral-small-latest`) | `MISTRAL_API_KEY` | grátis (*Experiment*); limites no painel da Mistral (*Limits*) |
+| 5 | [Kimi](https://platform.kimi.ai/) (`kimi-k3`) | `MOONSHOT_API_KEY` | pago (recarga mínima de US$ 1) |
+| 6 | [Claude](https://www.anthropic.com/) (`claude-opus-5-5`) | `ANTHROPIC_API_KEY` | pago |
 
 **Quando uma IA estoura o limite, a seguinte assume**, chamada a chamada, até
 toda a demanda ser compilada: se o editor da vez esgotar o teto de requisições
@@ -110,11 +111,38 @@ Para ativar um editor: crie a chave no site dele e, no GitHub, *Settings →
 Secrets and variables → Actions → New repository secret*, com o nome da tabela
 e a chave como valor. **Nunca** coloque a chave no código ou em arquivos do
 repositório (ele é público). O modelo de cada um pode ser trocado pela variável
-`QIJ_<NOME>_MODEL` (aba *Variables*): `QIJ_AIML_MODEL`, `QIJ_SENSENOVA_MODEL`,
-`QIJ_MISTRAL_MODEL`, `QIJ_KIMI_MODEL` e `QIJ_MODEL` (Claude). Os limites de cada
-um (janela de contexto, saída máxima, teto de requisições, chamadas simultâneas)
-ficam em `llm.apis` no `config/site.yaml`, com os padrões em
+`QIJ_<NOME>_MODEL` (aba *Variables*): `QIJ_GEMINI_MODEL`, `QIJ_AIML_MODEL`,
+`QIJ_SENSENOVA_MODEL`, `QIJ_MISTRAL_MODEL`, `QIJ_KIMI_MODEL` e `QIJ_MODEL` (Claude).
+Os limites de cada um (janela de contexto, saída máxima, teto de requisições,
+chamadas simultâneas) ficam em `llm.apis` no `config/site.yaml`, com os padrões em
 `qijournal/config.py` (`DEFAULT_APIS`).
+
+### Adicionar outra IA
+
+Serve qualquer IA com API no formato da OpenAI (`POST …/chat/completions`). São
+três mudanças no repositório e uma no GitHub:
+
+1. **`config/site.yaml` → `llm.apis`**: um bloco novo com o nome da IA, o segredo,
+   o endereço e o modelo (e, se precisar, os limites do plano):
+   ```yaml
+   nova:
+     key_env: NOVA_API_KEY                 # nome do segredo no GitHub
+     base_url: "https://api.exemplo.com/v1"  # sem o /chat/completions
+     model: "nome-do-modelo"
+     max_tokens: 32000                     # saída máxima do modelo
+     context_tokens: 128000                # janela de contexto
+     min_interval_seconds: 15              # espaço entre chamadas (planos grátis)
+   ```
+2. **`config/site.yaml` → `llm.providers`**: o nome na posição da cadeia em que ela
+   deve entrar (a primeira da lista é tentada primeiro).
+3. **`.github/workflows/daily.yml`**, etapa *Gerar a edição* → `env`: a linha
+   `NOVA_API_KEY: ${{ secrets.NOVA_API_KEY }}` (sem ela, o segredo não chega ao robô)
+   e, se quiser trocar o modelo pelo GitHub, `QIJ_NOVA_MODEL: ${{ vars.QIJ_NOVA_MODEL }}`.
+4. **No GitHub**: *Settings → Secrets and variables → Actions → New repository
+   secret*, com o nome de `key_env` e a chave como valor.
+
+Depois, *Actions → Edição diária → Run workflow* e, no *Summary*, confira se o modo
+saiu "IA". Se não, o log da etapa *Gerar a edição* diz o que a IA respondeu.
 
 ### Compilação por editoria (modo "blocos")
 
@@ -364,16 +392,17 @@ Outra marca pode usar cabeçalho claro (sem `colors.masthead`) ou em bloco de co
 
 | Nome | Tipo | Para quê |
 |---|---|---|
-| `AIMLAPI_KEY` | segredo | editor 1 da cadeia (AIML, grátis) |
-| `SENSENOVA_API_KEY` | segredo | editor 2 (SenseNova, grátis) |
-| `MISTRAL_API_KEY` | segredo | editor 3 (Mistral, grátis) |
-| `MOONSHOT_API_KEY` | segredo | editor 4 (Kimi, pago) |
-| `ANTHROPIC_API_KEY` | segredo | editor 5 (Claude, pago) |
+| `GEMINI_API_KEY` | segredo | editor 1 da cadeia (Gemini, grátis) |
+| `AIMLAPI_KEY` | segredo | editor 2 (AIML, exige saldo) |
+| `SENSENOVA_API_KEY` | segredo | editor 3 (SenseNova, grátis) |
+| `MISTRAL_API_KEY` | segredo | editor 4 (Mistral, grátis) |
+| `MOONSHOT_API_KEY` | segredo | editor 5 (Kimi, pago) |
+| `ANTHROPIC_API_KEY` | segredo | editor 6 (Claude, pago) |
 | `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_TO` | segredos | envio do e-mail por SMTP |
 | `EMAIL_FROM`, `SMTP_HOST`, `SMTP_PORT` | segredos (opcionais) | ajustes do SMTP |
 | `QIJ_BRAND` | variável | marca (`tech` ou `tsa`) |
 | `QIJ_MODEL` | variável | modelo do Claude |
-| `QIJ_AIML_MODEL`, `QIJ_SENSENOVA_MODEL`, `QIJ_MISTRAL_MODEL`, `QIJ_KIMI_MODEL` | variáveis | modelo de cada editor (padrões na tabela de editores acima) |
+| `QIJ_GEMINI_MODEL`, `QIJ_AIML_MODEL`, `QIJ_SENSENOVA_MODEL`, `QIJ_MISTRAL_MODEL`, `QIJ_KIMI_MODEL` | variáveis | modelo de cada editor (padrões na tabela de editores acima) |
 
 Todos são opcionais: sem nenhum deles, o jornal é gerado no modo automático e
 publicado normalmente.
