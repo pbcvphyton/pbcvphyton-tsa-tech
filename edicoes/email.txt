@@ -1,42 +1,42 @@
 TSA TECH
-Quinta-feira, 8 de outubro de 2026 · 21:13 BRT
+Quinta-feira, 8 de outubro de 2026 · 21:34 BRT
 
 MERCADOS
 --------
 Dólar R$ 5,02 (+0,02%) · Euro R$ 5,63 (+0,01%) · Yuan R$ 0,75 (+0,02%) ·
 Ibovespa 206.220 pts (+0,94%) · IFIX 3.950 pts (-0,14%) · S&P 500 7.765
-pts (-0,47%) · Brent US$ 104,09 (-0,18%) · Ouro US$ 4.173 (+0,40%) ·
-Bitcoin US$ 81.763 (-1,87%) · Selic 13,75% · IPCA 12m 4,22% · IGP-M 12m
+pts (-0,47%) · Brent US$ 103,87 (-0,39%) · Ouro US$ 4.168 (+0,26%) ·
+Bitcoin US$ 81.783 (-1,84%) · Selic 13,75% · IPCA 12m 4,22% · IGP-M 12m
 3,35% · INCC 12m 6,66%
 
 CLIMA
 -----
-São Paulo: 23°C, céu limpo (mín. 16° / máx. 29°) · amanhã: pancadas de
-chuva moderadas, 19° a 32°
-Montevidéu: 15°C, nublado (mín. 15° / máx. 16°) · amanhã: garoa fraca,
+São Paulo: 22°C, predominantemente limpo (mín. 16° / máx. 30°) · amanhã:
+garoa fraca, 18° a 31°
+Montevidéu: 14°C, nublado (mín. 14° / máx. 16°) · amanhã: garoa fraca,
 14° a 14°
 
 EM 1 MINUTO
 -----------
-• Galípolo relata à PF reuniões tensas e 'com palavrões' com servidores
-  do BC suspeitos de favorecer o Master
-• Ibovespa fecha em alta e juros futuros caem com otimismo eleitoral;
-  dólar destoa e sobe
+• Eco Invest: bancos concluem alocação dos investimentos do primeiro
+  leilão
 • EUA vão transmitir execução de ex-major por fuzilamento aprovada por
   Trump
 • Governo Trump restringe Microsoft e outras big techs de contratar
   estrangeiros via green card
 • FII BTLG11 aprova 17ª emissão e pode captar até R$ 1,2 bilhão para
   novas aquisições
+• Jefté, do Palmeiras, testa positivo para substância proibida e é
+  suspenso provisoriamente
 
 COMO FOI COMPILADA
 ------------------
-Edição automática (sem IA): as 1.782 notícias coletadas de 46 veículos
-foram agrupadas por títulos parecidos em 1.316 assuntos; as 24 matérias
+Edição automática (sem IA): as 1.766 notícias coletadas de 46 veículos
+foram agrupadas por títulos parecidos em 1.301 assuntos; as 24 matérias
 saíram por relevância, frescor e número de veículos. Nenhuma notícia foi
 descartada: todas estão na lista completa do dia.
 Racional: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#racional
-Todas as 1.782 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08-todas.html
+Todas as 1.766 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08-todas.html
 
 MANCHETE
 --------
@@ -46,7 +46,7 @@ O ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), rejeitou
 o recurso apresentado pela coligação do candidato ao governo do Rio
 Eduardo Paes (PSD) contra a decisão do Tribunal Superior Eleitoral (TSE)
 que…
-Fontes: Valor Econômico, Conjur, JOTA, Folha de S.Paulo, Estadão,
+Fontes: Valor Econômico, JOTA, Conjur, Folha de S.Paulo, Estadão,
 Agência Senado, g1, Poder360, Agência Brasil, Exame, CNN Brasil
 Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-zanin-nega-recurso-de-paes-contra-decisao-do-tse
 
@@ -61,16 +61,6 @@ BRASIL · ECONOMIA
   Fontes: Valor Econômico, Estadão, Folha de S.Paulo, g1, Poder360
   https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-daniella-marques-fala-em-acabar-com-o-split-paym
 
-• Durigan: Compromisso do governo é enviar MP do Imposto Seletivo depois
-  das eleições
-  O ministro da Fazenda, Dario Durigan, afirmou que o governo concluiu o
-  acordo com os setores impactados pelo Imposto Seletivo e deverá
-  encaminhar a medida provisória (MP) com a proposta das alíquotas
-  depois do segundo…
-  Fontes: Valor Econômico, Folha de S.Paulo, g1, Agência Brasil, CNN
-  Brasil
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-durigan-compromisso-do-governo-e-enviar-mp-do-im
-
 MERCADOS & FINANÇAS
 -------------------
 • FT: Starbucks avaliou compra da Chipotle em operação que seria a maior
@@ -84,6 +74,15 @@ MERCADOS & FINANÇAS
 
 JURÍDICO & REGULAÇÃO
 --------------------
+• Fux pede acesso a inquéritos contra Bolsonaro relatados por Moraes
+  O ministro Luiz Fux determinou, na quinta-feira (8), que a área
+  técnica do Supremo Tribunal Federal (STF) libere o acesso de seu
+  gabinete a inquéritos sigilosos que foram relatados por Alexandre de
+  Moraes e que atingem…
+  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, g1,
+  Poder360, Agência Brasil
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-fux-pede-acesso-a-inqueritos-contra-bolsonaro-re
+
 • Christa Pike acordou ‘nervosa e confusa’, dizem advogados
   Christa Pike, a detenta de 50 anos condenada à morte por um
   assassinato cometido em 1995, acordou “nervosa e confusa” nesta semana
@@ -104,13 +103,21 @@ POLÍTICA
   Imobi Report, Poder360, Seu Dinheiro, Money Times, Exame, CNN Brasil
   https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-apos-datafolha-lula-diz-que-sua-obrigacao-e-trab
 
+• Augusto Cury anuncia apoio a Flávio Bolsonaro no segundo turno
+  O candidato escritor Augusto Cury (Avante), que concorreu à
+  Presidência da República no primeiro turno, declarou apoio ao senador
+  Flávio Bolsonaro (PL).
+  Fontes: Valor Econômico, Folha de S.Paulo, Estadão, InfoMoney, g1,
+  Agência Brasil, Money Times, Exame, CNN Brasil
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-augusto-cury-anuncia-apoio-a-flavio-bolsonaro-no
+
 • Ordem do STF para que Eduardo Bolsonaro comece a cumprir pena ‘vai dar
   em nada’, diz Flávio
   O candidato à Presidência Flávio Bolsonaro (PL-RJ) afirmou nesta
   quinta-feira (8) que a determinação para que o ex-deputado federal
   Eduardo Bolsonaro (PL-SP) comece a cumprir a pena de 4 anos e dois
   meses em regime…
-  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, InfoMoney, Estadão,
+  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, InfoMoney,
   g1, Seu Dinheiro, Agência Brasil
   https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-ordem-do-stf-para-que-eduardo-bolsonaro-comece-a
 
@@ -120,17 +127,8 @@ POLÍTICA
   Proposta de Emenda à Constituição (PEC) que acaba com a jornada de
   trabalho 6x1.
   Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, Agência
-  Senado, g1, Agência Brasil, CNN Brasil
+  Senado, g1, Agência Brasil
   https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-senado-encerra-terceira-das-cinco-sessoes-de-deb
-
-• Fux pede acesso a inquéritos contra Bolsonaro relatados por Alexandre
-  de Moraes
-  O ministro Luiz Fux determinou, na quinta-feira (8), que a área
-  técnica do Supremo Tribunal Federal (STF) libere o acesso de seu
-  gabinete a inquéritos sigilosos que foram relatados por Alexandre de
-  Moraes e que atingem…
-  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, g1, Poder360
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-fux-pede-acesso-a-inqueritos-contra-bolsonaro-re
 
 GEOPOLÍTICA & MUNDO
 -------------------
@@ -140,8 +138,8 @@ GEOPOLÍTICA & MUNDO
   ser realizada pelo Exército em 3 de dezembro, de Nidal Hasan, que
   matou 13 pessoas em Fort Hood, no Texas, em 2009, durante um ataque a
   tiros.
-  Fontes: Folha de S.Paulo, Estadão, g1, Financial Times, The Guardian,
-  BBC News, Al Jazeera
+  Fontes: Folha de S.Paulo, Estadão, g1, CNN Brasil, Financial Times,
+  The Guardian, BBC News, Al Jazeera
   https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-eua-vao-transmitir-execucao-de-ex-major-por-fuzi
 
 TECNOLOGIA & NEGÓCIOS
@@ -203,4 +201,4 @@ CULTURA & VARIEDADES
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Código-fonte: https://github.com/pbcvphyton/pbcvphyton-tsa-tech
-Gerado automaticamente em 21:13 (BRT) · Edição automática (sem IA)
+Gerado automaticamente em 21:34 (BRT) · Edição automática (sem IA)
