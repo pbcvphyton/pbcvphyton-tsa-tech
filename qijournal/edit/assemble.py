@@ -13,7 +13,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 from qijournal import text
-from qijournal.config import Config
+from qijournal.config import Config, background_sections
 from qijournal.edit.cluster import as_utc, parse_iso
 from qijournal.models import Bundle, Edition, EditionStats, Section, Story
 
@@ -116,13 +116,16 @@ def _validate_stories(stories: list[Story], config: Config) -> None:
 # ── escolha de manchete, secundárias e destaques ───────────────────────────
 
 
-def _pick_lead(stories: list[Story], order: dict[str, int], lead_id: str | None) -> Story:
+def _pick_lead(
+    stories: list[Story], order: dict[str, int], lead_id: str | None, background: set[str] | None = None
+) -> Story:
     if lead_id is not None:
         for story in stories:
             if story.id == lead_id:
                 return story
         log.warning("Manchete indicada (%s) não existe entre as matérias; escolhendo automaticamente", lead_id)
-    return min(stories, key=lambda s: (-s.importance, s.image is None, order[s.id]))
+    background = background or set()
+    return min(stories, key=lambda s: (s.section in background, -s.importance, s.image is None, order[s.id]))
 
 
 def _pick_secondary(ranked: list[Story], lead: Story, count: int) -> list[Story]:
@@ -182,8 +185,10 @@ def assemble_edition(
     local = now_utc.astimezone(ZoneInfo(config.site.timezone))
 
     order = {s.id: i for i, s in enumerate(stories)}
-    ranked = sorted(stories, key=lambda s: (-s.importance, order[s.id]))
-    lead = _pick_lead(stories, order, lead_id)
+    # seções de segundo plano (com teto) vêm depois das demais nas chamadas e destaques
+    background = background_sections(config.sections)
+    ranked = sorted(stories, key=lambda s: (s.section in background, -s.importance, order[s.id]))
+    lead = _pick_lead(stories, order, lead_id, background)
     secondary = _pick_secondary(ranked, lead, config.edition.secondary_count)
     used = {lead.id, *(s.id for s in secondary)}
     highlights = [s for s in ranked if s.id not in used][: config.edition.highlights_count]

@@ -54,6 +54,11 @@ class SectionConfig:
     description: str
     keywords: list[str]
     color: str = "#1C49A5"  # atribuída a partir de brand.section_palette
+    # Teto de matérias da seção na edição (ex.: política num jornal de nicho);
+    # None = o teto padrão da edição automática. A IA recebe o teto na linha editorial.
+    # Seção com teto é de segundo plano: não dá a manchete nem as chamadas e os
+    # destaques enquanto houver matéria das demais.
+    max_stories: int | None = None
 
 
 @dataclass
@@ -305,8 +310,16 @@ class CityConfig:
 @dataclass
 class EmailConfig:
     subject_template: str = "{brand} · {date}: {lead}"
+    # "jornal": e-mail completo (cotações, clima, cobertura comparada);
+    # "newsletter": minimalista (logo, "Em 1 minuto" e matérias por seção).
+    style: str = "jornal"
     max_stories: int = 14
     to: list[str] = field(default_factory=list)  # só via ambiente (EMAIL_TO)
+
+
+def background_sections(sections: list[SectionConfig]) -> set[str]:
+    """Ids das seções de segundo plano (com ``max_stories``)."""
+    return {s.id for s in sections if s.max_stories is not None}
 
 
 @dataclass
@@ -402,6 +415,7 @@ def load_config(root: Path | None = None, env: Mapping[str, str] | None = None) 
                 description=s.get("description", ""),
                 keywords=list(s.get("keywords", [])),
                 color=brand.section_palette[i % len(brand.section_palette)],
+                max_stories=int(s["max_stories"]) if s.get("max_stories") is not None else None,
             )
         )
 

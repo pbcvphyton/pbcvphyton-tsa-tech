@@ -30,6 +30,7 @@ TEXT_WIDTH = 72
 # e-mail precisa ser enxuto. Acima disso, matérias saem do e-mail (a edição
 # completa tem todas) até caber.
 MAX_EMAIL_BYTES = 40 * 1024
+EMAIL_STYLES = ("jornal", "newsletter")  # email.style no site.yaml
 _BETWEEN_TAGS = re.compile(r">\s*\n\s*<")  # só quebras de linha do template (nunca o espaço entre palavras)
 
 
@@ -141,14 +142,15 @@ def _coverage_lines(story: StoryView, indent: str = "") -> list[str]:
     return _wrap(f"Cobertura: {story.coverage.lean_label}.{conclusion}", indent)
 
 
-def _story_lines(story: StoryView, base_url: str, bullet: str) -> list[str]:
+def _story_lines(story: StoryView, base_url: str, bullet: str, *, minimal: bool = False) -> list[str]:
     indent = " " * len(bullet)
     lines = _wrap(story.headline, indent, first=bullet)
     if story.dek:
         lines += _wrap(story.dek, indent)
-    if story.sources:
+    if story.sources and not minimal:
         lines += _wrap(f"Fontes: {', '.join(s.name for s in story.sources)}", indent)
-    lines += _coverage_lines(story, indent)
+    if not minimal:
+        lines += _coverage_lines(story, indent)
     lines.append(f"{indent}{story_url(base_url, story.id)}")
     return lines
 
@@ -172,22 +174,26 @@ def _weather_text(view: EditionView) -> list[str]:
     return lines
 
 
-def _render_text(view: EditionView, sections: list[EmailSection], footer: dict[str, str]) -> str:
+def _render_text(
+    view: EditionView, sections: list[EmailSection], footer: dict[str, str], *, minimal: bool = False
+) -> str:
+    """Versão em texto puro. ``minimal`` (newsletter): sem cotações, clima,
+    editorial, racional, fontes e cobertura, como o HTML da newsletter."""
     base = view.base_url
     page = view.edition_url  # links das matérias: cópia arquivada (estável)
     dateline = view.date_label + (f" · {view.time_label} {view.tz_label}" if view.time_label else "")
     lines = [view.brand.name.upper(), dateline]
-    if view.quotes:
+    if view.quotes and not minimal:
         lines += _heading("Mercados") + _wrap(_quote_text(view))
-    if view.weather:
+    if view.weather and not minimal:
         lines += _heading("Clima") + _weather_text(view)
-    if view.editorial:
+    if view.editorial and not minimal:
         lines += _heading("Editorial") + _wrap(filters.plain(view.editorial))
-    if view.briefing:
+    if view.briefing and (not minimal or view.mode == "ai"):
         lines += _heading("Em 1 minuto")
         for item in view.briefing:
             lines += _wrap(filters.plain(item), "  ", first="• ")
-    if view.rationale:
+    if view.rationale and not minimal:
         lines += _heading("Como foi compilada") + _wrap(view.rationale.summary)
         lines.append(f"Racional: {page}#racional")
         if view.index_url:
@@ -197,22 +203,27 @@ def _render_text(view: EditionView, sections: list[EmailSection], footer: dict[s
         lines += _heading("Manchete") + _wrap(lead.headline)
         if lead.dek:
             lines += _wrap(lead.dek)
-        if lead.sources:
+        if lead.sources and not minimal:
             lines += _wrap(f"Fontes: {', '.join(s.name for s in lead.sources)}")
-        lines += _coverage_lines(lead)
+        if minimal and lead.why:
+            lines += _wrap(f"Por que importa: {lead.why}")
+        if not minimal:
+            lines += _coverage_lines(lead)
         lines.append(f"Ler na edição: {story_url(page, lead.id)}")
     for section in sections:
         lines += _heading(section.title)
         for story in section.stories:
-            lines += _story_lines(story, page, "• ") + [""]
+            lines += _story_lines(story, page, "• ", minimal=minimal) + [""]
         lines.pop()
     lines += [
         "",
         "=" * TEXT_WIDTH,
         f"Abrir edição completa: {base}",
-        f"Edições anteriores: {footer['archive_url']}",
     ]
-    if view.repo_url:
+    if minimal and view.index_url:
+        lines.append(f"Todas as {filters.num(view.index_total)} notícias do dia: {view.index_url}")
+    lines.append(f"Edições anteriores: {footer['archive_url']}")
+    if view.repo_url and not minimal:
         lines.append(f"Código-fonte: {view.repo_url}")
     lines += _wrap(footer["generated"])
     return "\n".join(lines).strip() + "\n"
@@ -239,7 +250,10 @@ def render_email(edition: Edition, config: Config) -> tuple[str, str, str]:
         "archive_url": f"{view.base_url}edicoes/",
         "generated": f"Gerado automaticamente{time_part} · {view.mode_label}",
     }
-    template = filters.environment().get_template("email.html.j2")
+    newsletter = config.email.style == "newsletter"
+    if config.email.style not in EMAIL_STYLES:
+        log.warning("email.style %r desconhecido; usando 'jornal'", config.email.style)
+    template = filters.environment().get_template("email_newsletter.html.j2" if newsletter else "email.html.j2")
     limit = max(config.email.max_stories, 0)
     while True:
         sections = _select_sections(view, limit)
@@ -267,7 +281,7 @@ def render_email(edition: Edition, config: Config) -> tuple[str, str, str]:
         )
     elif limit < config.email.max_stories:
         log.info("E-mail reduzido a %d matérias para caber em %d KB", shown, MAX_EMAIL_BYTES // 1024)
-    plain_text = _render_text(view, sections, footer)
+    plain_text = _render_text(view, sections, footer, minimal=newsletter)
     log.info(
         "E-mail renderizado: %d matérias em %d seções, %.0f KB",
         shown + (1 if view.lead else 0),

@@ -1,15 +1,15 @@
-# TSA Tech — boletim tributário diário
+# TSA Tech — boletim jurídico diário
 
-Jornal diário **de notícias tributárias**, montado e publicado automaticamente
-todo dia de manhã: reforma tributária (IBS, CBS, Imposto Seletivo), tributos
-federais (IR, PIS/Cofins, IPI, IOF…), ICMS, ISS e tributos locais, contencioso e
-jurisprudência (STF, STJ, CARF, PGFN), contribuições previdenciárias e sobre a
-folha, arrecadação e benefícios fiscais e tributação internacional — com
-cotações, clima, um resumo "Em 1 minuto", a análise de como cada veículo cobriu
-cada assunto e a lista completa das notícias tributárias do dia.
+Jornal diário do **TSA Advogados**, montado e publicado automaticamente todo dia
+de manhã com as notícias das áreas de atuação do escritório — **Tributário** (o
+carro-chefe), **Previdenciário**, **Trabalhista**, **Recuperação de Empresas**,
+**Cível** e **Imobiliário** — e, em segundo plano, **Política** (até 4 matérias)
+e **Geopolítica** (até 3). Traz um resumo "Em 1 minuto", a análise de como cada
+veículo cobriu cada assunto, a lista completa das notícias do dia e um e-mail
+diário no formato newsletter.
 
 O jornal é de **nicho**: de tudo o que as fontes publicam, só entram as notícias
-que tratam de tributos (ver [Foco tributário](#foco-tributário)).
+dessas seções (ver [Foco do jornal](#foco-do-jornal)).
 
 - **Edição do dia:** <https://pbcvphyton.github.io/pbcvphyton-tsa-tech/>
 - **Edições anteriores:** <https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/>
@@ -25,13 +25,13 @@ Nada precisa ser feito à mão: o GitHub gera a edição sozinho às **06:07
   GitHub Actions — todo dia às 06:07 (Brasília; reservas às 07:37 e 09:07)
         │
         ▼
-  1. Coleta ── ~60 feeds (Receita Federal, PGFN, CARF, JOTA, Conjur, Valor, STF, STJ,
-        │      tags de reforma tributária e IR…), cotações (Yahoo Finance, Banco
-        │      Central) e clima (Open-Meteo). Foco: só ficam as notícias tributárias.
+  1. Coleta ── ~70 feeds (Receita Federal, PGFN, CARF, JOTA, Conjur, Valor, STF, STJ,
+        │      tags de reforma tributária, IR, INSS e recuperação judicial, política e
+        │      mundo…), cotações e clima. Foco: só ficam as notícias das seções.
         ▼
   2. Edição ── com IA, compilação por editoria: TODAS as notícias em blocos
-        │      (Reforma Tributária, Tributos Federais & Previdência, ICMS/ISS &
-        │      Contencioso, Fiscal & Internacional); em cada bloco a IA
+        │      (Tributário; Previdenciário & Trabalhista; Recuperação, Cível &
+        │      Imobiliário; Política & Geopolítica); em cada bloco a IA
         │      une o que é o mesmo assunto, interpreta o foco de cada veículo e o
         │      lado que ele seguiu, e redige; o fechamento escolhe as matérias.
         │      Se uma IA estourar o limite, a seguinte assume (Gemini → Flash-Lite → AIML →
@@ -152,12 +152,12 @@ saiu "IA". Se não, o log da etapa *Gerar a edição* diz o que a IA respondeu.
 
 ### Compilação por editoria (modo "blocos")
 
-Todas as notícias tributárias do dia (de 1.000 a 1.700 coletadas, das quais
-passam pelo foco de 20 a 300) são divididas em **blocos por editoria**
-(`llm.block_groups`), e cada bloco vai numa chamada:
+Todas as notícias do foco (de 1.000 a 1.700 coletadas, das quais passam de 300 a
+700, a maioria de política e geopolítica) são divididas em **blocos por
+editoria** (`llm.block_groups`), e cada bloco vai numa chamada:
 
-1. Reforma Tributária · 2. Tributos Federais & Previdência · 3. ICMS, ISS &
-   Contencioso · 4. Fiscal & Internacional
+1. Tributário · 2. Previdenciário & Trabalhista · 3. Recuperação, Cível &
+   Imobiliário · 4. Política & Geopolítica
 
 Em cada bloco, a IA lê todas as notícias dele, **une as que tratam do mesmo
 assunto**, faz a **análise da cobertura** (abaixo) e **redige as matérias mais
@@ -215,9 +215,12 @@ publicaram; quando o trecho não permite dizer, o veículo fica como neutro.
 
 ## Receber por e-mail
 
-O e-mail traz a manchete com imagem, o resumo do dia, cotações, clima, o
-racional da compilação e as principais matérias por seção, com links para a
-edição completa e para todas as notícias do dia. Há dois
+O e-mail sai no formato **newsletter** (`email.style: newsletter` em
+`config/site.yaml`): a faixa da marca com o logo e a data, o "Em 1 minuto" (na
+edição por IA), a manchete com "por que importa" e as matérias por seção, cada uma
+com título, uma linha fina curta e link, sem cotações, clima, imagens nem barras
+de cobertura (a edição completa tem tudo), num HTML de ~20 KB. Com
+`email.style: jornal`, volta o e-mail completo do jornal geral. Há dois
 caminhos, que podem ser usados juntos ou separados.
 
 ### Opção 1 — Rotina diária do Claude (Gmail) — a configurar
@@ -329,41 +332,55 @@ publicada) ou argumentos inválidos.
 
 ---
 
-## Foco tributário
+## Foco do jornal
 
 Com `edition.focus_only: true` (em `config/site.yaml`), a coleta passa por um
 filtro antes da edição:
 
-- entra a notícia cujo **título** cita alguma palavra-chave das seções (ICMS, IBS,
-  Receita Federal, PGFN, desoneração da folha…) ou cujo **resumo** as cita ao
-  menos duas vezes (uma menção de passagem não basta);
+- entra a notícia cujo **título** cita alguma palavra-chave das seções (ICMS,
+  INSS, TST, recuperação judicial, incorporadora, Lula, China…) ou cujo **resumo**
+  cita ao menos duas vezes palavras de uma mesma seção (uma menção de passagem,
+  ou menções soltas a assuntos diferentes, não bastam);
 - entram **todas** as notícias dos feeds marcados `niche: true` em
   `config/sources.yaml` (Receita Federal, PGFN, CARF, Portal da Reforma
-  Tributária, tags "reforma tributária" e "imposto de renda" dos sites);
-- o resto (política geral, mercado, esporte…) fica de fora, inclusive da lista
-  "Todas as notícias".
+  Tributária, tags de reforma tributária, imposto de renda, INSS e recuperação
+  judicial dos sites);
+- saem já na coleta as notícias de fundos imobiliários (FIIs, IFIX, cotas), que
+  são mercado e não o Imobiliário do escritório (`exclude_title_patterns`);
+- o resto (mercado financeiro, esporte, cultura, tecnologia…) fica de fora,
+  inclusive da lista "Todas as notícias".
+
+**Áreas do escritório na frente.** Política e Geopolítica têm teto de matérias
+(`max_stories` na seção: 4 e 3) e são de **segundo plano**: não dão a manchete,
+as chamadas ao lado dela nem os destaques enquanto houver matéria das áreas do
+escritório (nos dois modos, com e sem IA). As áreas têm peso maior na escolha da
+edição automática (Tributário à frente).
 
 As palavras-chave ficam em cada seção de `config/site.yaml`. Para incluir um
 assunto, acrescente o termo na seção certa; para tirar um falso positivo, troque
 o termo genérico por uma expressão (ex.: "restituicao do ir" em vez de
 "restituicao"). Termos que já trouxeram notícia errada e por isso ficaram de
-fora: "leao" (Papa Leão), "dividendos" (anúncio de pagamento), "tarifa", "tax".
+fora: "leao" (Papa Leão), "dividendos" (anúncio de pagamento), "consumidor"
+(inflação), "contrato" (contrato de empresa), "arbitragem" (futebol), "mediacao"
+(diplomacia), "fii" (fundos).
 
-A IA recebe a linha editorial em `llm.editorial_brief`: só redige matérias com
-conteúdo tributário e, em cada uma, diz o que muda, para quem, desde quando e com
+A IA recebe a linha editorial em `llm.editorial_brief`: as áreas do escritório
+primeiro, política e geopolítica só depois e com teto, a manchete sempre de uma
+área do escritório e, em cada matéria, o que muda, para quem, desde quando e com
 base em quê (lei, IN, tema de repercussão geral), sem inventar números.
 
 Os mínimos da edição (`min_articles`, `min_pt_sources_ok`) contam só as notícias
-que passaram pelo foco. O teste `tests/test_config_nicho.py` aplica o filtro a
-uma coleta real (29/09/2026: 993 notícias, 20 tributárias) e confere que a
-edição sai e que os falsos positivos conhecidos ficam de fora.
+que passaram pelo foco. O teste `tests/test_config_nicho.py` gera a edição da
+coleta real de 29/09/2026 (993 notícias) com a configuração real e confere que a
+manchete e as chamadas são das áreas do escritório, que os tetos valem, que os
+falsos positivos conhecidos ficam de fora e que a newsletter fica enxuta.
 
 ## Fontes de notícia
 
 As fontes ficam em [`config/sources.yaml`](config/sources.yaml), uma por linha:
 
 ```yaml
-- {id: receitafederal, name: "Receita Federal", url: "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.3, topics: [federais], niche: true}
+- {id: receitafederal, name: "Receita Federal", url: "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/RSS", lang: pt, weight: 1.3, topics: [tributario], niche: true}
 ```
 
 | Campo | Significado |
@@ -373,8 +390,8 @@ As fontes ficam em [`config/sources.yaml`](config/sources.yaml), uma por linha:
 | `url` | endereço do feed RSS/Atom |
 | `lang` | `pt`, `en` ou `es` |
 | `weight` | importância editorial (0,5 a 1,5) — pesa na escolha das matérias |
-| `topics` | seções prováveis (`reforma`, `federais`, `estaduais`, `contencioso`, `previdencia`, `fiscal`, `internacional`); em feeds gerais (capas), use `[]` e as palavras-chave decidem |
-| `niche` | `true`: feed só sobre tributos, todas as notícias dele entram; sem ele, passam pelo foco tributário |
+| `topics` | seções prováveis (`tributario`, `previdenciario`, `trabalhista`, `recuperacao`, `civel`, `imobiliario`, `politica`, `mundo`); em feeds gerais (capas), use `[]` e as palavras-chave decidem |
+| `niche` | `true`: feed só sobre uma seção do jornal, todas as notícias dele entram; sem ele, passam pelo foco |
 | `enabled` | `false` desliga a fonte sem apagá-la |
 | `exclude_url_patterns` | trechos de endereço a ignorar nessa fonte |
 
@@ -514,4 +531,4 @@ O motor é testado com uma configuração fixa de jornal geral
 a configuração tributária real tem os testes de `tests/test_config_nicho.py`. Para
 rodar o programa com a configuração dos testes: `QIJ_CONFIG_DIR=tests/fixtures/config`.
 A cada envio de código, o GitHub roda os testes e gera duas edições de exemplo
-(workflow *CI*): a do motor e a do nicho tributário, a partir de uma coleta real.
+(workflow *CI*): a do motor e a do nicho (com a newsletter), a partir de uma coleta real.

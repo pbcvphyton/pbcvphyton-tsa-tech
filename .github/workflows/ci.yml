@@ -61,14 +61,18 @@ jobs:
           echo "email.html do exemplo: $size bytes"
           [ "$size" -le 36000 ] || { echo "::error::email.html do exemplo com $size bytes (limite 36000)"; exit 1; }
 
-      - name: Edição de exemplo do nicho tributário (configuração real, coleta real)
+      - name: Edição de exemplo do nicho (configuração real, coleta real)
         run: |
-          # Coleta real de 29/09/2026 (993 notícias): o foco tributário de config/
-          # precisa deixar notícias suficientes para publicar a edição.
+          # Coleta real de 29/09/2026 (993 notícias): o foco de config/ (áreas do
+          # TSA, política e geopolítica) precisa deixar notícias para publicar a edição.
           out="$RUNNER_TEMP/nicho"
           gunzip -c tests/fixtures/real/bundle-2026-09-29.json.gz > "$RUNNER_TEMP/real.json"
           python -m qijournal render --bundle "$RUNNER_TEMP/real.json" --out "$out" --no-llm
           for file in index.html edicoes/2026-09-29.html edicoes/email.html; do
             test -s "$out/$file" || { echo "::error::$file não foi gerado"; exit 1; }
           done
-          grep -q "Seu boletim tributário diário" "$out/index.html" || { echo "::error::capa sem o slogan do nicho"; exit 1; }
+          grep -q "Seu boletim jurídico diário" "$out/index.html" || { echo "::error::capa sem o slogan do nicho"; exit 1; }
+          # newsletter enxuta: com folga abaixo do limite de 40 KB da rotina do Gmail
+          size=$(wc -c < "$out/edicoes/email.html")
+          echo "newsletter do nicho: $size bytes"
+          [ "$size" -le 36000 ] || { echo "::error::email.html do nicho com $size bytes (limite 36000)"; exit 1; }

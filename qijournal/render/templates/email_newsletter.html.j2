@@ -1,0 +1,119 @@
+{#- E-mail no formato newsletter (email.style: newsletter): coluna única de 600px,
+    muito branco, títulos em serifa e só o essencial — "Em 1 minuto", a manchete e
+    as matérias por seção (título, linha fina e link). Sem cotações, clima,
+    imagens de matéria ou cobertura comparada (a edição completa tem tudo).
+    Tabelas + CSS inline; o <style> só melhora celular e modo escuro.
+    Variáveis: v (EditionView), brand, subject, preheader, sections, story_url, footer. -#}
+{% set c = brand.colors %}
+{% set serif = "Georgia,'Times New Roman',serif" %}
+{% set sans = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" %}
+{% set band = brand.masthead or c.navy %}
+{% set DEK_MAX = 180 %}{# linha fina das demais matérias: ~2 linhas e meia no celular #}
+{% macro lang(s) -%}{% if s.lang %} lang="{{ s.lang }}"{% endif %}{%- endmacro %}
+{% macro label(text, color, cls="") -%}
+<p class="sc {{ cls }}" style="margin:0 0 8px;font-family:{{ sans }};font-size:11px;line-height:16px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:{{ color }};">{{ text }}</p>
+{%- endmacro %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="format-detection" content="telephone=no,date=no,address=no,email=no">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<title>{{ subject }}</title>
+<style>
+  body{margin:0;padding:0;}
+  a{text-decoration:none;}
+  @media (max-width:640px){
+    .wrap{width:100%!important;}
+    .px{padding-left:22px!important;padding-right:22px!important;}
+    .hl{font-size:24px!important;line-height:31px!important;}
+  }
+  @media (prefers-color-scheme:dark){
+    .bg{background:#0b0f17!important;}
+    .card{background:#111827!important;}
+    .ink{color:#e8edf7!important;}
+    .muted{color:#a9b4c6!important;}
+    .rule{border-color:#2d3748!important;}
+    .lnk{color:#91C3F5!important;}
+    .sc{color:#91C3F5!important;}
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;background:#f4f6f8;" class="bg">
+<div style="display:none;max-height:0;max-width:0;overflow:hidden;opacity:0;mso-hide:all;font-size:1px;line-height:1px;color:#f4f6f8;">{{ preheader }}{% for _ in range(12) %}&#847;&zwnj;&nbsp;{% endfor %}</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f4f6f8;" class="bg">
+<tr><td align="center" style="padding:28px 12px;">
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" class="wrap card" style="width:600px;max-width:600px;background:#ffffff;">
+
+{# Cabeçalho: faixa na cor da marca com o logo, o slogan e a data #}
+<tr><td align="center" bgcolor="{{ band }}" class="px" style="padding:26px 32px 20px;background:{{ band }};">
+  {% if brand.email_logo %}
+  <img src="{{ brand.email_logo.src }}" width="{{ (brand.email_logo.width * 0.75)|round|int }}" height="{{ (brand.email_logo.height * 0.75)|round|int }}" alt="{{ brand.name }}" style="display:block;margin:0 auto;border:0;height:auto;font-family:{{ sans }};font-size:24px;line-height:30px;font-weight:bold;color:#ffffff;">
+  {% else %}
+  <p style="margin:0;font:bold 26px/32px {{ serif }};color:#ffffff;">{{ brand.name }}</p>
+  {% endif %}
+  <p style="margin:12px 0 0;font-family:{{ sans }};font-size:11px;line-height:16px;letter-spacing:1.5px;text-transform:uppercase;color:{{ '#ffffff'|blend(band, 0.75) }};">{{ v.date_label }}</p>
+</td></tr>
+
+{# Em 1 minuto (só na edição por IA: no modo automático repetiria os títulos) #}
+{% if v.briefing and v.mode == "ai" %}
+<tr><td class="px" style="padding:30px 40px 6px;">
+  {{ label("Em 1 minuto", c.primary) }}
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+  {% for item in v.briefing %}
+  <tr>
+    <td width="18" valign="top" style="padding:4px 0;font:15px/23px {{ sans }};color:{{ c.accent }};">&bull;</td>
+    <td valign="top" class="ink" style="padding:4px 0;font:15px/23px {{ sans }};color:#1f2937;">{{ item|md_lite }}</td>
+  </tr>
+  {% endfor %}
+  </table>
+</td></tr>
+{% endif %}
+
+{# Manchete #}
+{% if v.lead %}
+{% set s = v.lead %}
+<tr><td class="px" style="padding:30px 40px 6px;">
+  {{ label(s.section_title, s.color) }}
+  <h1 class="hl" style="margin:0 0 10px;font:bold 26px/33px {{ serif }};color:#111827;"{{ lang(s) }}><a href="{{ story_url(s) }}" class="ink" style="color:#111827;text-decoration:none;">{{ s.headline }}</a></h1>
+  {% if s.dek %}
+  <p class="muted" style="margin:0 0 10px;font:16px/25px {{ sans }};color:#4b5563;"{{ lang(s) }}>{{ s.dek }}</p>
+  {% endif %}
+  {% if s.why %}
+  <p class="muted" style="margin:0 0 10px;font:15px/24px {{ sans }};color:#4b5563;"><b class="ink" style="color:#111827;">Por que importa:</b> {{ s.why }}</p>
+  {% endif %}
+  <p style="margin:0;font:bold 14px/20px {{ sans }};"><a href="{{ story_url(s) }}" class="lnk" style="color:{{ c.primary }};">Ler a matéria &rarr;</a></p>
+</td></tr>
+{% endif %}
+
+{# Demais matérias, por seção: título, linha fina e link #}
+{% for section in sections %}
+<tr><td class="px" style="padding:30px 40px 0;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="rule" style="border-top:1px solid #e5e7eb;padding-top:22px;">
+  {{ label(section.title, section.color) }}
+  {% for s in section.stories %}
+  <h2 style="margin:{% if loop.first %}0{% else %}18px{% endif %} 0 4px;font:bold 18px/25px {{ serif }};color:#111827;"{{ lang(s) }}><a href="{{ story_url(s) }}" class="ink" style="color:#111827;text-decoration:none;">{{ s.headline }}</a></h2>
+  {% if s.dek %}
+  <p class="muted" style="margin:0;font:15px/23px {{ sans }};color:#4b5563;"{{ lang(s) }}>{{ s.dek|truncate(DEK_MAX, False, "…", 0) }}</p>
+  {% endif %}
+  {% endfor %}
+  </td></tr></table>
+</td></tr>
+{% endfor %}
+
+{# Rodapé: links para a edição completa e o arquivo #}
+<tr><td class="px" style="padding:36px 40px 34px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="rule" style="border-top:1px solid #e5e7eb;padding-top:22px;font:14px/22px {{ sans }};">
+    <a href="{{ v.base_url }}" class="lnk" style="color:{{ c.primary }};font-weight:bold;">Edição completa</a>{% if v.index_url %} &nbsp;·&nbsp; <a href="{{ v.index_url }}" class="lnk" style="color:{{ c.primary }};">Todas as {{ v.index_total|num }} notícias</a>{% endif %} &nbsp;·&nbsp; <a href="{{ footer.archive_url }}" class="lnk" style="color:{{ c.primary }};">Edições anteriores</a>
+    <p class="muted" style="margin:14px 0 0;font:12px/19px {{ sans }};color:#6b7280;">{{ brand.name }}{% if brand.tagline %} · {{ brand.tagline }}{% endif %}<br>{{ footer.generated }}</p>
+  </td></tr></table>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>

@@ -108,17 +108,16 @@ SECTION_WEIGHT = {
     "mundo": 0.85,
     "esporte": 0.8,
     "variedades": 0.7,
-    # Nicho tributário (TSA Tech)
-    "reforma": 1.5,
-    "federais": 1.4,
-    "contencioso": 1.3,
-    "estaduais": 1.3,
-    "previdencia": 1.2,
-    "fiscal": 1.1,
-    "internacional": 0.9,
+    # Áreas do TSA Advogados (TSA Tech); política e mundo usam os pesos acima
+    "tributario": 1.6,
+    "previdenciario": 1.4,
+    "trabalhista": 1.4,
+    "recuperacao": 1.4,
+    "civel": 1.3,
 }
 # Modo nicho (edition.focus_only): sem palavra-chave no título, o resumo precisa
-# citar o tema ao menos tantas vezes (uma menção de passagem não basta).
+# citar o tema de uma mesma seção ao menos tantas vezes (uma menção de passagem,
+# ou menções soltas a assuntos diferentes, não bastam).
 FOCUS_SUMMARY_HITS = 2
 
 
@@ -583,11 +582,13 @@ def _keyword_hits(keywords: list[str], normalized_text: str) -> int:
 
 def in_focus(article: Article, sections: list[SectionConfig]) -> bool:
     """O artigo trata do tema do jornal? Palavra-chave de alguma seção no título,
-    ou ao menos :data:`FOCUS_SUMMARY_HITS` ocorrências no resumo."""
-    keywords = tuple(k for section in sections for k in section.keywords)
-    if _keyword_hits(list(keywords), text.normalize(article.title)):
+    ou ao menos :data:`FOCUS_SUMMARY_HITS` ocorrências das palavras de uma mesma
+    seção no resumo."""
+    title = text.normalize(article.title)
+    if any(_keyword_hits(section.keywords, title) for section in sections):
         return True
-    return _keyword_hits(list(keywords), text.normalize(article.summary or "")) >= FOCUS_SUMMARY_HITS
+    summary = text.normalize(article.summary or "")
+    return any(_keyword_hits(section.keywords, summary) >= FOCUS_SUMMARY_HITS for section in sections)
 
 
 def focus_filter(articles: list[Article], config: Config) -> list[Article]:

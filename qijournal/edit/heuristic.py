@@ -17,7 +17,7 @@ from datetime import datetime
 from typing import TYPE_CHECKING
 
 from qijournal import text
-from qijournal.config import Config
+from qijournal.config import Config, background_sections
 from qijournal.edit.assemble import assemble_edition, edition_stats, plain_text, unique_story_id
 from qijournal.edit.cluster import (
     Cluster,
@@ -38,7 +38,7 @@ MAX_PER_SECTION = 6
 MIN_PER_SECTION = 2  # reservadas por seção (quando houver candidatas), antes de completar por score
 # O dia econômico brasileiro sempre aparece (Focus, juros, câmbio, Ibovespa);
 # esporte, natureza e variedades têm uma vaga garantida (o jornal é econômico).
-MIN_BY_SECTION = {"brasil": 4, "mercados": 3, "esporte": 1, "natureza": 1, "variedades": 1, "reforma": 3, "federais": 3}
+MIN_BY_SECTION = {"brasil": 4, "mercados": 3, "esporte": 1, "natureza": 1, "variedades": 1, "tributario": 4}
 HEADLINE_MAX = 140
 DEK_MAX = 220
 PARAGRAPH_MAX = 600
@@ -62,13 +62,12 @@ WIRE_SECTIONS = (
     "mercados",
     "juridico",
     "imobiliario",
-    # nicho tributário (TSA Tech)
-    "reforma",
-    "federais",
-    "estaduais",
-    "contencioso",
-    "previdencia",
-    "fiscal",
+    # áreas do TSA Advogados (TSA Tech)
+    "tributario",
+    "previdenciario",
+    "trabalhista",
+    "recuperacao",
+    "civel",
 )
 WIRE_POOL_FACTOR = 3  # o Radar escolhe os mais recentes entre os 3×N mais relevantes
 
@@ -397,6 +396,8 @@ def select_clusters(clusters: list[Cluster], config: Config) -> list[Cluster]:
     em ordem de score editorial decrescente.
     """
     target = max(1, config.edition.target_stories)
+    # teto da seção na configuração (max_stories) vale sempre; o padrão, só na 1ª passada
+    hard_cap = {s.id: s.max_stories for s in config.sections if s.max_stories is not None}
     scores = {c.key: editorial_score(c) for c in clusters}
     clusters = sorted(clusters, key=lambda c: (-scores[c.key], c.key))
     rare = dict(zip((c.key for c in clusters), _rare_stems(clusters), strict=True))
@@ -431,6 +432,8 @@ def select_clusters(clusters: list[Cluster], config: Config) -> list[Cluster]:
         for cluster in sorted(tier, key=lambda c: (-scores[c.key], c.key)):
             if len(chosen) >= target:
                 break
+            if per_section[cluster.section] >= hard_cap.get(cluster.section, target):
+                continue
             if not repeats_chosen(cluster):
                 add(cluster)
 
@@ -441,6 +444,8 @@ def select_clusters(clusters: list[Cluster], config: Config) -> list[Cluster]:
             if cluster.key in chosen_keys or repeats_chosen(cluster):
                 continue
             if respect_cap and per_section[cluster.section] >= MAX_PER_SECTION:
+                continue
+            if per_section[cluster.section] >= hard_cap.get(cluster.section, target):
                 continue
             add(cluster)
 
@@ -472,10 +477,14 @@ def _lead_ok(story: Story) -> bool:
     return not is_service_title(story.headline) and max(body, len(story.dek)) >= LEAD_MIN_BODY
 
 
-def _choose_lead(stories: list[Story], clusters: list[Cluster]) -> Story:
+def _choose_lead(stories: list[Story], clusters: list[Cluster], background: set[str] | None = None) -> Story:
     """Manchete entre as mais bem pontuadas (score editorial): pt com imagem →
-    pt → a primeira, sempre pulando conteúdo de serviço e matérias sem texto."""
-    window = list(zip(stories, clusters, strict=True))[:LEAD_WINDOW]
+    pt → a primeira, sempre pulando conteúdo de serviço e matérias sem texto.
+    Seções de segundo plano (``background``: com teto) só dão a manchete se não
+    houver matéria das demais."""
+    pairs = list(zip(stories, clusters, strict=True))
+    main = [pair for pair in pairs if pair[1].section not in (background or set())]
+    window = (main or pairs)[:LEAD_WINDOW]
     rules = (
         lambda story, cluster: cluster.primary.lang == "pt" and bool(story.image) and _lead_ok(story),
         lambda story, cluster: cluster.primary.lang == "pt" and _lead_ok(story),
@@ -567,7 +576,7 @@ def build_heuristic_edition(
         )
         for rank, cluster in enumerate(clusters)
     ]
-    lead = _choose_lead(stories, clusters)
+    lead = _choose_lead(stories, clusters, background_sections(config.sections))
     lead.importance = 5
 
     edition = assemble_edition(
