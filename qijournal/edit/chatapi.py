@@ -36,6 +36,7 @@ from typing import Any
 from qijournal import text
 from qijournal.config import ApiConfig, Config
 from qijournal.edit.llm import LLMUnavailable, _Usage
+from qijournal.net import USER_AGENT
 
 log = logging.getLogger(__name__)
 
@@ -210,7 +211,10 @@ class ChatBackend:
         return json.dumps(payload, ensure_ascii=False).encode("utf-8")
 
     def _headers(self) -> dict[str, str]:
+        # Sem User-Agent o urllib se apresenta como "Python-urllib/3.x", que o Cloudflare
+        # da AIML recusa com 403 ("blocked access based on your browser's signature").
         return {
+            "User-Agent": USER_AGENT,
             "Authorization": f"Bearer {self._key}",
             "Content-Type": "application/json",
             "Accept": "application/json",

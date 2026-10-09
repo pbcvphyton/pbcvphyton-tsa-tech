@@ -94,7 +94,7 @@ Os editores por IA ficam numa **cadeia**, na ordem de `llm.providers` em
 |---|---|---|---|
 | 1 | [AIML API](https://aimlapi.com/) (`openai/gpt-5-5`) | `AIMLAPI_KEY` | grátis; 10 requisições por hora |
 | 2 | [SenseNova](https://platform.sensenova.ai/) (`sensenova-6.8-flash-lite`) | `SENSENOVA_API_KEY` | grátis (beta); 1.500 requisições a cada 5 horas |
-| 3 | [Mistral](https://mistral.ai/) (`mistral-large-latest`) | `MISTRAL_API_KEY` | grátis (*Experiment*); poucas requisições por minuto |
+| 3 | [Mistral](https://mistral.ai/) (`mistral-small-latest`) | `MISTRAL_API_KEY` | grátis (*Experiment*); poucas requisições por minuto |
 | 4 | [Kimi](https://platform.kimi.ai/) (`kimi-k3`) | `MOONSHOT_API_KEY` | pago (recarga mínima de US$ 1) |
 | 5 | [Claude](https://www.anthropic.com/) (`claude-opus-5-5`) | `ANTHROPIC_API_KEY` | pago |
 

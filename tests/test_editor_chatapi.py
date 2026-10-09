@@ -16,6 +16,7 @@ from qijournal.edit import chatapi, make_edition, topics
 from qijournal.edit.cluster import rank_clusters
 from qijournal.edit.llm import LLMUnavailable
 from qijournal.edit.chatapi import ChatBackend
+from qijournal.net import USER_AGENT
 from qijournal.models import Coverage, CoverageOutlet, Edition, Story
 from tests.fixtures.editor.factory import NOW, make_article, sample_bundle
 from tests.fixtures.editor.chat_fakes import KEY, FakeMistral, error, ok
@@ -65,9 +66,11 @@ def test_request_follows_the_chat_completions_contract(config):
     assert call(b, label="redação 2") == {"x": 1}
     assert fake.urls == ["https://api.mistral.ai/v1/chat/completions"]
     assert fake.headers[0]["Authorization"] == f"Bearer {KEY}"
+    # nunca o "Python-urllib/x" padrão: o Cloudflare da AIML o recusa com 403 (browser signature)
+    assert fake.headers[0]["User-Agent"] == USER_AGENT and "urllib" not in USER_AGENT
     body = fake.requests[0]
     assert set(body) == {"model", "messages", "max_tokens", "temperature", "response_format"}
-    assert body["model"] == "mistral-large-latest" and body["max_tokens"] == 100
+    assert body["model"] == "mistral-small-latest" and body["max_tokens"] == 100
     assert body["messages"] == [{"role": "system", "content": "sys"}, {"role": "user", "content": "texto"}]
     assert body["response_format"] == {
         "type": "json_schema",

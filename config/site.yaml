@@ -189,7 +189,10 @@ llm:
       mode: blocos
       parallel: 2
     mistral:     # grátis (Experiment): poucas requisições por minuto
-      model: "mistral-large-latest"
+      # A chave gratuita recusou o mistral-large-latest ("not available in your
+      # subscription tier"); o small cabe na janela de 128k e é o do plano grátis.
+      # Para trocar sem mexer no código: variável QIJ_MISTRAL_MODEL no GitHub.
+      model: "mistral-small-latest"
       mode: blocos
       min_interval_seconds: 30
     kimi:        # pago: exige recarga mínima de US$ 1
