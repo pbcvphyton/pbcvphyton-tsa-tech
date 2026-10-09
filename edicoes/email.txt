@@ -1,247 +1,120 @@
 TSA TECH
-Quinta-feira, 8 de outubro de 2026 · 23:06 BRT
-
-MERCADOS
---------
-Dólar R$ 5,02 (+0,02%) · Euro R$ 5,63 (+0,14%) · Yuan R$ 0,75 (+0,10%) ·
-Ibovespa 206.220 pts (+0,94%) · IFIX 3.950 pts (-0,14%) · S&P 500 7.765
-pts (-0,47%) · Brent US$ 103,43 (-0,81%) · Ouro US$ 4.197 (+0,96%) ·
-Bitcoin US$ 82.000 (-1,34%) · Selic 13,75% · IPCA 12m 4,22% · IGP-M 12m
-3,35% · INCC 12m 6,66%
-
-CLIMA
------
-São Paulo: 21°C, nublado (mín. 16° / máx. 30°) · amanhã: garoa fraca,
-18° a 31°
-Montevidéu: 14°C, nublado (mín. 14° / máx. 16°) · amanhã: garoa fraca,
-14° a 14°
-
-EDITORIAL
----------
-O primeiro termômetro oficial do segundo turno mostra empate técnico na
-disputa presidencial, enquanto o cenário econômico é sacudido pela
-disparada do petróleo e por leilões expressivos da dívida pública. No
-front internacional, a escalada de tensões geopolíticas no Oriente Médio
-e na Europa pressiona mercados globais. Enquanto isso, o Supremo
-Tribunal Federal e o Tribunal Superior Eleitoral definem rumos cruciais
-para a política institucional brasileira.
+Sexta-feira, 9 de outubro de 2026 · 00:01 BRT
 
 EM 1 MINUTO
 -----------
-• O Datafolha aponta Flávio Bolsonaro com 49% e Lula com 45% das
-  intenções de voto no início da corrida pelo segundo turno.
-• O contrato futuro do petróleo Brent superou a marca de US$ 104
-  impulsionado por novos conflitos no Estreito de Ormuz.
-• O ministro do STF Dias Toffoli negou recurso de Eduardo Paes e manteve
-  decisão que viabiliza a vitória de Douglas Ruas no Rio.
-• A população global de animais silvestres registrou uma queda drástica
-  de 73% em cinco décadas, aponta relatório da WWF.
-• O governo dos Estados Unidos suspendeu temporariamente empresas de
-  tecnologia de programas de green card para estrangeiros.
-• Com dois gols de pênalti de Neymar em seu retorno, o Santos empatou
-  com o Flamengo em partida eletrizante pelo Campeonato Brasileiro.
-
-COMO FOI COMPILADA
-------------------
-A IA leu as 1.729 notícias coletadas de 46 veículos, compiladas em 8
-blocos por editoria; uniu as notícias repetidas em 1.158 assuntos,
-interpretou o foco de cada veículo e comparou para que lado cada um
-seguiu em 95 assuntos e escolheu as 20 matérias desta edição. Nenhuma
-notícia foi descartada: todas estão na lista completa do dia.
-Racional: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#racional
-Todas as 1.729 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08-todas.html
+• Por 7 votos a 4, o STF excluiu créditos presumidos de ICMS da base de
+  cálculo do PIS e da Cofins, definindo que incentivos estaduais não
+  compõem a receita própria.
+• O Ministério da Fazenda adiou para após as eleições o envio da MP do
+  Imposto Seletivo, mantendo alíquotas sob suspense até o fim de
+  outubro.
+• A Primeira Seção do STJ marcou audiência pública no Tema 1.418 para
+  definir a validade da negociação e cessão de precatórios
+  previdenciários.
+• O Órgão Especial do TST anulou cláusula de acordo coletivo que previa
+  folga após o sétimo dia consecutivo de trabalho em transporte público.
+• A 3ª Turma do STJ definiu que os créditos trabalhistas gerados durante
+  a recuperação judicial possuem natureza extraconcursal.
+• A Justiça dos Estados Unidos adicionou nova acusação de tortura contra
+  o ex-ditador venezuelano Nicolás Maduro e sua esposa, Cilia Flores.
 
 MANCHETE
 --------
-Datafolha aponta Flávio Bolsonaro com 49% e Lula com 45% no primeiro
-termômetro do segundo turno
-Levantamento mostra empate técnico na margem de erro; petista evita
-comentar os números e foca em articulações com novos apoios.
-Fontes: Valor Econômico, Folha de S.Paulo, InfoMoney, Estadão, g1, Imobi
-Report, Agência Brasil, Seu Dinheiro, Money Times, Exame, CNN Brasil
-Cobertura: Sem divergência entre os 11 veículos. A cobertura convergiu
-na divulgação factual dos números do Datafolha e na consolidação das
-alianças políticas ao redor de Flávio Bolsonaro.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-datafolha-aponta-flavio-bolsonaro-com-49-e-lula
+STF exclui créditos presumidos de ICMS da base de cálculo do PIS e da
+Cofins
+Por 7 votos a 4, o plenário do Supremo Tribunal Federal definiu que
+incentivos estaduais não compõem a receita própria das empresas.
+Por que importa: A decisão reduz a carga tributária federal sobre
+empresas beneficiadas por incentivos estaduais de ICMS e abre
+oportunidade para a recuperação judicial ou administrativa de valores
+pagos a maior.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stf-exclui-creditos-presumidos-de-icms-da-base-d
 
-BRASIL · ECONOMIA
------------------
-• Galípolo relata à PF reuniões tensas e demora na fiscalização do
-  Master
-  Presidente do Banco Central disse em depoimento que 'esgotou
-  repertório de palavrões' ao pressionar servidores.
-  Fontes: Valor Econômico, Estadão, Folha de S.Paulo
-  Cobertura: Sem divergência entre os 3 veículos. A imprensa convergiu
-  ao reproduzir os detalhes mais marcantes do depoimento prestado à
-  Polícia Federal.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-galipolo-relata-a-pf-reunioes-tensas-e-demora-na
+TRIBUTÁRIO
+----------
+• Governo adia para após as eleições envio da MP do Imposto Seletivo
+  Ministério da Fazenda afirma que acordo com setores impactados foi
+  concluído, mas texto com alíquotas sai só no fim do mês.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-governo-adia-para-apos-as-eleicoes-envio-da-mp-d
 
-MERCADOS & FINANÇAS
--------------------
-• Juros futuros despencam com maior leilão de prefixados do Tesouro
-  desde 2020
-  Curva de juros recua, puxada pelo leilão do Tesouro Nacional e alívio
-  nos títulos da dívida dos Estados Unidos.
-  Fontes: Valor Econômico, Folha de S.Paulo, Money Times
-  Cobertura: Sem divergência entre os 3 veículos. A cobertura convergiu
-  na análise técnica do leilão e no impacto benéfico sobre os juros
-  futuros.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-juros-futuros-despencam-com-maior-leilao-de-pref
+• Governo retém R$ 731,9 milhões da CVM em reserva e desafia decisão de
+  Dino
+  Ministério do Planejamento restringe uso de recursos da autarquia com
+  base em interpretação sobre limite de despesas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-governo-retem-r-731-9-milhoes-da-cvm-em-reserva
 
-• Preços do petróleo disparam e Brent supera US$ 104 com tensões no
-  Oriente Médio e riscos de oferta
-  A alta das cotações reflete novos ataques a embarcações no Estreito de
-  Ormuz, ameaças de operações militares dos EUA e o impacto de furacões.
-  Fontes: Valor Econômico, Financial Times, The Wall Street Journal,
-  CNBC
-  Cobertura: Sem divergência entre os 4 veículos. A cobertura convergiu
-  integralmente ao relatar o salto nas cotações do petróleo impulsionado
-  por fatores geopolíticos e climáticos, destacando os riscos para a
-  economia global.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-precos-do-petroleo-disparam-e-brent-supera-us-10
+• Proposta de fim do split payment gera embate entre campanha e Fazenda
+  Declarações de representantes da campanha de Flávio Bolsonaro contra o
+  mecanismo tecnológico dividem tributaristas e o governo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-proposta-de-fim-do-split-payment-gera-embate-ent
 
-• Ações de teles americanas despencam após SpaceX comprar frequências
-  para Starlink
-  Aquisição de portfólio de espectro aproxima a empresa de Elon Musk do
-  lançamento de uma rede móvel nos Estados Unidos.
-  Fontes: Estadão, Financial Times, CNBC, MarketWatch
-  Cobertura: Sem divergência entre os 4 veículos. A cobertura foi
-  uniforme ao registrar o impacto imediato da transação da SpaceX sobre
-  as cotações bursáteis das operadoras de telecomunicação concorrentes.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-acoes-de-teles-americanas-despencam-apos-spacex
+• Governo aponta impacto de R$ 255 bilhões e pede suspensão de
+  precatórios de usinas
+  Executivo solicita ao STF a paralisação de ações indenizatórias do
+  setor sucroalcooleiro até julgamento de mérito.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-governo-aponta-impacto-de-r-255-bilhoes-e-pede-s
 
-• Receita anualizada da OpenAI fica US$ 20 bilhões abaixo das projeções
-  anteriores
-  Documentos financeiros compartilhados com investidores mostram que o
-  faturamento da criadora do ChatGPT atingiu cerca de US$ 50 bi.
-  Fontes: Folha de S.Paulo, Financial Times, CNBC, MarketWatch,
-  TechCrunch
-  Cobertura: Sem divergência entre os 5 veículos. Os veículos
-  convergiram em relatar a disparidade nos números de receita da OpenAI,
-  com alguns destacando o impacto imediato nas ações de semicondutores e
-  IA.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-receita-anualizada-da-openai-fica-us-20-bilhoes
+PREVIDENCIÁRIO
+--------------
+• STJ marca audiência pública sobre cessão de precatório previdenciário
+  no Tema 1.418
+  Primeira Seção definirá no Tema 1.418 a validade da negociação de
+  créditos inscritos, em meio a exigências formais de escritura por
+  unidades da federação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stj-marca-audiencia-publica-sobre-cessao-de-prec
 
-• Crise fiscal na França e disparada dos juros globais elevam estresse
-  na renda fixa da Europa
-  A taxa do título britânico de 30 anos superou 6%, enquanto
-  investidores monitoram os riscos de dívida e contágio no continente.
-  Fontes: Valor Econômico
-  Cobertura: Pende para: Destaca o risco sistêmico e o pânico fiscal · 2
-  de 4 veículos. Predominou o enfoque de alerta sobre a deterioração
-  fiscal na Europa e o salto nos juros de longo prazo, contrabalançado
-  por uma visão mais cautelosa de gestores que enxergam oportunidades no
-  sell-off.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-crise-fiscal-na-franca-e-disparada-dos-juros-glo
+TRABALHISTA
+-----------
+• TST anula cláusula coletiva que previa folga após o sétimo dia
+  consecutivo de trabalho
+  Órgão Especial considerou nula a regra de acordo de transporte público
+  de Passo Fundo que adiava o descanso semanal remunerado.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-tst-anula-clausula-coletiva-que-previa-folga-apo
 
-JURÍDICO & REGULAÇÃO
---------------------
-• Zanin nega recurso de Eduardo Paes e mantém decisão do TSE que abre
-  caminho para vitória de Ruas no Rio
-  Ministro do STF rejeitou pedido processual da coligação do PSD;
-  exclusão de votos de Garotinho viabiliza eleição de Douglas Ruas no 1º
-  turno.
-  Fontes: Valor Econômico, Conjur, JOTA, Folha de S.Paulo, InfoMoney,
-  Estadão, Agência Senado, g1, Poder360, Agência Brasil, Exame, CNN
-  Brasil
-  Cobertura: Sem divergência entre os 12 veículos. A cobertura convergiu
-  na análise técnica da decisão de Cristiano Zanin e na constatação do
-  fim das chances de segundo turno no Rio de Janeiro.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-zanin-nega-recurso-de-eduardo-paes-e-mantem-deci
+RECUPERAÇÃO DE EMPRESAS
+-----------------------
+• STJ define que crédito trabalhista gerado na recuperação judicial é
+  extraconcursal
+  A 3ª Turma do STJ decidiu que créditos de trabalhadores que
+  continuaram prestando serviços durante a recuperação judicial possuem
+  natureza extraconcursal.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stj-define-que-credito-trabalhista-gerado-na-rec
 
-• Justiça Federal de São Paulo autoriza site de apostas Stake a operar
-  provisoriamente até 25 de outubro
-  Liminar suspende parcialmente os efeitos de MP assinada pelo governo
-  federal que determinou o encerramento imediato de bets.
-  Fontes: Estadão, Folha de S.Paulo, InfoMoney
-  Cobertura: Sem divergência entre os 3 veículos. A cobertura convergiu
-  na divulgação dos detalhes da liminar, destacando o prazo concedido
-  pela Justiça e as exigências operacionais impostas à empresa.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-justica-federal-de-sao-paulo-autoriza-site-de-ap
+CÍVEL
+-----
+• STF valida gratuidade ampliada para PcD em estacionamentos privados
+  Por unanimidade, Corte mantém lei do Paraná que garante dobro de tempo
+  gratuito, mas afasta aplicação em locais públicos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stf-valida-gratuidade-ampliada-para-pcd-em-estac
 
-POLÍTICA
---------
-• Moraes determina cumprimento de pena de Eduardo Bolsonaro e cancela
-  passaportes
-  O candidato Flávio Bolsonaro classificou a medida como 'fatoide
-  eleitoral', enquanto o senador afirmou que a decisão 'vai dar em nada'
-  por estar nos EUA.
-  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, InfoMoney, Estadão,
-  g1, Seu Dinheiro, Agência Brasil, CNN Brasil
-  Cobertura: Pende para: Destaca a legalidade da execução da pena pelo
-  STF · 3 de 9 veículos. A cobertura cobriu amplamente os aspectos
-  jurídicos da decisão de Moraes e a imediata resposta política de
-  aliados e familiares de Eduardo Bolsonaro.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-moraes-determina-cumprimento-de-pena-de-eduardo
+IMOBILIÁRIO
+-----------
+• Liquidante do Banco Master pede apreensão de mansões de Vorcaro nos
+  EUA
+  A massa falida do Banco Master acionou a Justiça dos EUA para bloquear
+  imóveis de luxo avaliados em R$ 840 milhões adquiridos por Daniel
+  Vorcaro.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-liquidante-do-banco-master-pede-apreensao-de-man
 
-• Senado conclui terceira sessão de debate sobre PEC do fim da escala
-  6x1 e articula votação
-  Governo busca acordo para calendário especial e votação em dois
-  turnos; Lula cobra posicionamento da bancada de Flávio Bolsonaro.
-  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, Agência
-  Senado, g1, Agência Brasil
-  Cobertura: Sem divergência entre os 7 veículos. A cobertura convergiu
-  ao relatar o avanço das discussões no Senado e o embate político em
-  torno da aceleração do calendário de votação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-senado-conclui-terceira-sessao-de-debate-sobre-p
+GEOPOLÍTICA
+-----------
+• Justiça dos Estados Unidos adiciona acusação de tortura contra Nicolás
+  Maduro
+  O ex-ditador venezuelano e sua esposa, Cilia Flores, passam a
+  responder por conspiração para torturar opositores políticos e
+  cidadãos americanos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-justica-dos-estados-unidos-adiciona-acusacao-de
 
-GEOPOLÍTICA & MUNDO
--------------------
-• Ataque aéreo russo contra ônibus no leste da Ucrânia deixa 33 mortos
-  Bombardeio em Kramatorsk atingiu transporte público e ruas
-  movimentadas; autoridades locais acusam Moscou de mirar civis
-  propositalmente.
-  Fontes: Valor Econômico, Folha de S.Paulo, Estadão, g1, The Wall
-  Street Journal, The Guardian, BBC News
-  Cobertura: Sem divergência entre os 7 veículos. Todos os veículos
-  relataram o bombardeio com ênfase na alta letalidade contra civis e
-  nas acusações do governo ucraniano.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-ataque-aereo-russo-contra-onibus-no-leste-da-ucr
-
-TECNOLOGIA & NEGÓCIOS
----------------------
-• Governo Trump suspende Microsoft e outras big techs de programa de
-  green card
-  Administração americana trava pedidos de residência permanente para
-  trabalhadores estrangeiros qualificados e mira universidades de elite.
-  Fontes: Valor Econômico, Folha de S.Paulo, Estadão, g1, Seu Dinheiro,
-  Financial Times, The Guardian, BBC News, CNBC, TechCrunch
-  Cobertura: Sem divergência entre os 10 veículos. A cobertura convergiu
-  inteiramente na divulgação factual da nova medida restritiva de
-  imigração do governo americano contra as big techs, destacando as
-  falas de JD Vance e a lista de empresas afetadas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-governo-trump-suspende-microsoft-e-outras-big-te
-
-ESPORTE
--------
-• Neymar brilha em retorno, faz dois gols de pênalti e Santos empata com
-  o Flamengo
-  Em jogo eletrizante na Vila Belmiro pela 29ª rodada do Brasileirão,
-  atacante santista marca duas vezes e classifica confronto como duelo
-  entre os dois melhores times do Brasil.
-  Fontes: ge, Estadão, Folha de S.Paulo, Gazeta Esportiva, Placar, UOL,
-  CNN Brasil
-  Cobertura: Sem divergência entre os 7 veículos. A cobertura convergiu
-  integralmente para o protagonismo de Neymar no empate entre Santos e
-  Flamengo, destacando o peso do resultado e o impacto do retorno do
-  atleta após lesão.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-neymar-brilha-em-retorno-faz-dois-gols-de-penalt
-
-NATUREZA & MEIO AMBIENTE
-------------------------
-• População global de animais silvestres cai 73% em cinco décadas
-  O Relatório Planeta Vivo 2026, da WWF e da Sociedade Zoológica de
-  Londres, aponta redução média de 2,5% ao ano na diversidade de
-  vertebrados desde 1970.
-  Fontes: Agência Brasil
-  Cobertura: Sem divergência entre os 3 veículos. A cobertura convergiu
-  integralmente para a divulgação dos dados alarmantes do Relatório
-  Planeta Vivo 2026 da WWF, sem divergências editoriais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-populacao-global-de-animais-silvestres-cai-73-em
+• Reino Unido e Israel firmam acordo para manter missão diplomática
+  reduzida em Jerusalém
+  Impasse sobre sanções a assentamentos é evitado após compromisso que
+  reduz equipe diplomática britânica a sete funcionários.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-reino-unido-e-israel-firmam-acordo-para-manter-m
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
+Todas as 714 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Código-fonte: https://github.com/pbcvphyton/pbcvphyton-tsa-tech
-Gerado automaticamente em 23:06 (BRT) · Edição gerada por IA
-(gemini-flash-lite-latest)
+Gerado automaticamente em 00:01 (BRT) · Edição gerada por IA
+(gemini-flash-latest + gemini-flash-lite-latest)
