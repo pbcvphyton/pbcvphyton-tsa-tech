@@ -14,15 +14,18 @@ dessas seções (ver [Foco do jornal](#foco-do-jornal)).
 - **Edição do dia:** <https://pbcvphyton.github.io/pbcvphyton-tsa-tech/>
 - **Edições anteriores:** <https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/>
 
-Nada precisa ser feito à mão: o GitHub gera a edição sozinho às **06:07
-(horário de Brasília)**, publica o site e dispara o e-mail.
+Nada precisa ser feito à mão: todo dia às **05:53 (horário de Brasília)** uma
+rotina do Claude dispara a edição, o GitHub a gera e publica o site em poucos
+minutos, e às **07:23** a newsletter chega por e-mail (ver
+[Pontualidade](#pontualidade-o-gatilho-diário)).
 
 ---
 
 ## Como funciona
 
 ```
-  GitHub Actions — todo dia às 06:07 (Brasília; reservas às 07:37 e 09:07)
+  Rotina do Claude às 05:53 (Brasília) → push em .github/disparo → GitHub Actions
+  (reservas: nova tentativa da rotina às 08:53; cron do GitHub às 06:07, 07:37 e 09:07)
         │
         ▼
   1. Coleta ── ~70 feeds (Receita Federal, PGFN, CARF, JOTA, Conjur, Valor, STF, STJ,
@@ -222,6 +225,27 @@ com título, uma linha fina curta e link, sem cotações, clima, imagens nem bar
 de cobertura (a edição completa tem tudo), num HTML de ~20 KB. Com
 `email.style: jornal`, volta o e-mail completo do jornal geral. Há dois
 caminhos, que podem ser usados juntos ou separados.
+
+### Pontualidade: o gatilho diário
+
+O agendamento (cron) do GitHub Actions é "melhor esforço": em contas gratuitas ele
+chega a atrasar várias horas ou a não rodar (em 09/10/2026 nenhum dos três
+horários da manhã disparou; no PBCV Tech, o das 05h rodou às 12h32 no dia 08).
+Por isso a edição não depende dele:
+
+1. **05:53 (Brasília)** — a rotina do Claude "TSA Tech — disparo da edição diária"
+   confere `edicoes/latest.json`; se a edição de hoje ainda não saiu (ou só saiu
+   uma de madrugada) e nenhuma execução está em andamento, ela reescreve a última
+   linha de [`.github/disparo`](.github/disparo) e faz push na `main`. O push
+   dispara o workflow *Edição diária*, que leva de 5 a 30 minutos.
+2. **08:53** — mesma checagem; dispara de novo só se a edição ainda não saiu
+   (por exemplo, se a execução das 05:53 falhou).
+3. **06:07, 07:37 e 09:07** — o cron do GitHub continua como reserva; quando
+   chega atrasado e a edição do dia já saiu, termina em segundos.
+4. **07:23 e 10:23** — a rotina de e-mail (abaixo) envia a newsletter.
+
+As duas rotinas ficam na lista de *Routines* do Claude Code em
+<https://claude.ai/code>; ali dá para pausar ou mudar os horários.
 
 ### Opção 1 — Rotina diária do Claude (Gmail) — configurada
 
@@ -478,13 +502,13 @@ publicado normalmente.
   `python -m qijournal render --bundle bundle-AAAA-MM-DD.json --out /tmp/x --no-llm`.
   A edição por IA não é reproduzível (o modelo pode escolher e escrever
   diferente a cada chamada).
-- **O agendamento atrasou ou não rodou:** o GitHub pode atrasar ou descartar
-  agendamentos em horário de pico. Por isso há reservas às **07:37** e às
-  **09:07** (Brasília): se a edição do dia ainda não saiu, elas a geram; se já
-  saiu, terminam em segundos. Mudar o `daily.yml` na `main` também gera a edição
-  do dia, se ela ainda não saiu. Uma edição gerada de madrugada (antes das 05:00,
-  por um *Run workflow* ou push depois da meia-noite) não conta como a do dia: a
-  das 06:07 a refaz com o noticiário da manhã.
+- **O agendamento atrasou ou não rodou:** ver
+  [Pontualidade](#pontualidade-o-gatilho-diário). O gatilho principal é a rotina
+  do Claude (05:53, nova tentativa às 08:53); os horários do cron do GitHub
+  (06:07, 07:37 e 09:07) ficam só de reserva. Mudar o `daily.yml` na `main`
+  também gera a edição do dia, se ela ainda não saiu. Uma edição gerada de
+  madrugada (antes das 05:00, por um *Run workflow* ou push depois da meia-noite)
+  não conta como a do dia: o disparo da manhã a refaz com o noticiário do dia.
 - **O agendamento parou:** o GitHub desativa agendamentos de repositórios sem
   atividade por 60 dias (o commit diário da edição evita isso). Reative em
   *Actions → Edição diária → Enable workflow*.

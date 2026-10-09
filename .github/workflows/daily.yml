@@ -5,15 +5,18 @@ name: Edição diária
 
 on:
   schedule:
+    # Reserva do gatilho da rotina (push abaixo): o GitHub pode atrasar estes
+    # horários em várias horas ou descartá-los. Se a edição do dia já saiu, estas
+    # execuções terminam em segundos.
     - cron: "7 9 * * *" # 06:07 em Brasília (UTC-3, sem horário de verão); 1 h depois do PBCV Tech, que usa as mesmas chaves de IA
-    # Reservas: o GitHub pode atrasar ou descartar um agendamento em horário de
-    # pico. Se a edição do dia já saiu, estas execuções terminam em segundos.
     - cron: "37 10 * * *" # 07:37 em Brasília
     - cron: "7 12 * * *" # 09:07 em Brasília
   push:
-    # Mudou este workflow na main: gera a edição do dia se ela ainda não saiu.
+    # Gatilho principal: a rotina diária do Claude reescreve .github/disparo às
+    # 05:53 (Brasília), porque o cron do GitHub chega a atrasar horas ou não rodar.
+    # Mudar este workflow na main também gera a edição do dia se ela ainda não saiu.
     branches: [main]
-    paths: [".github/workflows/daily.yml"]
+    paths: [".github/disparo", ".github/workflows/daily.yml"]
   workflow_dispatch:
     inputs:
       no_llm:

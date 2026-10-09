@@ -1,0 +1,7 @@
+# Gatilho da edição diária, independente do relógio do GitHub.
+# A rotina do Claude "TSA Tech — disparo da edição diária" reescreve a última linha
+# deste arquivo todo dia às 05:53 (Brasília), com nova tentativa às 08:53 se a
+# edição não tiver saído. O push na main dispara o workflow "Edição diária"
+# (.github/workflows/daily.yml), que só gera a edição se a de hoje ainda não saiu.
+# Existe porque o agendamento (cron) do GitHub chega a atrasar horas ou a não rodar.
+ultimo-disparo: nenhum
