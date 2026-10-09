@@ -1,0 +1,206 @@
+TSA TECH
+Quinta-feira, 8 de outubro de 2026 · 21:13 BRT
+
+MERCADOS
+--------
+Dólar R$ 5,02 (+0,02%) · Euro R$ 5,63 (+0,01%) · Yuan R$ 0,75 (+0,02%) ·
+Ibovespa 206.220 pts (+0,94%) · IFIX 3.950 pts (-0,14%) · S&P 500 7.765
+pts (-0,47%) · Brent US$ 104,09 (-0,18%) · Ouro US$ 4.173 (+0,40%) ·
+Bitcoin US$ 81.763 (-1,87%) · Selic 13,75% · IPCA 12m 4,22% · IGP-M 12m
+3,35% · INCC 12m 6,66%
+
+CLIMA
+-----
+São Paulo: 23°C, céu limpo (mín. 16° / máx. 29°) · amanhã: pancadas de
+chuva moderadas, 19° a 32°
+Montevidéu: 15°C, nublado (mín. 15° / máx. 16°) · amanhã: garoa fraca,
+14° a 14°
+
+EM 1 MINUTO
+-----------
+• Galípolo relata à PF reuniões tensas e 'com palavrões' com servidores
+  do BC suspeitos de favorecer o Master
+• Ibovespa fecha em alta e juros futuros caem com otimismo eleitoral;
+  dólar destoa e sobe
+• EUA vão transmitir execução de ex-major por fuzilamento aprovada por
+  Trump
+• Governo Trump restringe Microsoft e outras big techs de contratar
+  estrangeiros via green card
+• FII BTLG11 aprova 17ª emissão e pode captar até R$ 1,2 bilhão para
+  novas aquisições
+
+COMO FOI COMPILADA
+------------------
+Edição automática (sem IA): as 1.782 notícias coletadas de 46 veículos
+foram agrupadas por títulos parecidos em 1.316 assuntos; as 24 matérias
+saíram por relevância, frescor e número de veículos. Nenhuma notícia foi
+descartada: todas estão na lista completa do dia.
+Racional: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#racional
+Todas as 1.782 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08-todas.html
+
+MANCHETE
+--------
+Zanin nega recurso de Paes contra decisão do TSE que anulou votos de
+Garotinho
+O ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), rejeitou
+o recurso apresentado pela coligação do candidato ao governo do Rio
+Eduardo Paes (PSD) contra a decisão do Tribunal Superior Eleitoral (TSE)
+que…
+Fontes: Valor Econômico, Conjur, JOTA, Folha de S.Paulo, Estadão,
+Agência Senado, g1, Poder360, Agência Brasil, Exame, CNN Brasil
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-zanin-nega-recurso-de-paes-contra-decisao-do-tse
+
+BRASIL · ECONOMIA
+-----------------
+• Daniella Marques fala em acabar com o split payment da reforma
+  tributária
+  Caso eleito, o senador Flávio Bolsonaro (PL) vai acabar com o 'split
+  payment 'da reforma tributária, disse a porta-voz da campanha para
+  temas econômicos, Daniella Marques, em entrevista ao canal do
+  jornalista Claudio…
+  Fontes: Valor Econômico, Estadão, Folha de S.Paulo, g1, Poder360
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-daniella-marques-fala-em-acabar-com-o-split-paym
+
+• Durigan: Compromisso do governo é enviar MP do Imposto Seletivo depois
+  das eleições
+  O ministro da Fazenda, Dario Durigan, afirmou que o governo concluiu o
+  acordo com os setores impactados pelo Imposto Seletivo e deverá
+  encaminhar a medida provisória (MP) com a proposta das alíquotas
+  depois do segundo…
+  Fontes: Valor Econômico, Folha de S.Paulo, g1, Agência Brasil, CNN
+  Brasil
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-durigan-compromisso-do-governo-e-enviar-mp-do-im
+
+MERCADOS & FINANÇAS
+-------------------
+• FT: Starbucks avaliou compra da Chipotle em operação que seria a maior
+  no setor de restaurantes
+  A Starbucks avaliou a aquisição da Chipotle Mexican Grill na tentativa
+  ambiciosa de unir duas das marcas mais conhecidas dos Estados Unidos,
+  em uma operação que seria a maior transação já realizada no setor de…
+  Fontes: Valor Econômico, Brazil Journal, Folha de S.Paulo, Financial
+  Times, The Guardian, CNBC
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-ft-starbucks-avaliou-compra-da-chipotle-em-opera
+
+JURÍDICO & REGULAÇÃO
+--------------------
+• Christa Pike acordou ‘nervosa e confusa’, dizem advogados
+  Christa Pike, a detenta de 50 anos condenada à morte por um
+  assassinato cometido em 1995, acordou “nervosa e confusa” nesta semana
+  no hospital em Nashville para o qual foi removida após ter sobrevivido
+  a duas injeções…
+  Fontes: Valor Econômico, Folha de S.Paulo, Estadão, g1, BBC News
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-christa-pike-acordou-nervosa-e-confusa-dizem-adv
+
+POLÍTICA
+--------
+• Após Datafolha, Lula diz que sua obrigação é trabalhar para ter mais
+  votos que Flávio Bolsonaro
+  O presidente Luiz Inácio Lula da Silva (PT) evitou comentar a primeira
+  pesquisa Datafolha para o segundo turno, divulgada nesta quinta-feira
+  (8), mas afirmou que seu objetivo é obter mais votos do que o senador
+  Flávio…
+  Fontes: Valor Econômico, Folha de S.Paulo, InfoMoney, Estadão, g1,
+  Imobi Report, Poder360, Seu Dinheiro, Money Times, Exame, CNN Brasil
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-apos-datafolha-lula-diz-que-sua-obrigacao-e-trab
+
+• Ordem do STF para que Eduardo Bolsonaro comece a cumprir pena ‘vai dar
+  em nada’, diz Flávio
+  O candidato à Presidência Flávio Bolsonaro (PL-RJ) afirmou nesta
+  quinta-feira (8) que a determinação para que o ex-deputado federal
+  Eduardo Bolsonaro (PL-SP) comece a cumprir a pena de 4 anos e dois
+  meses em regime…
+  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, InfoMoney, Estadão,
+  g1, Seu Dinheiro, Agência Brasil
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-ordem-do-stf-para-que-eduardo-bolsonaro-comece-a
+
+• Senado encerra terceira das cinco sessões de debate sobre o fim da
+  escala 6x1
+  O Senado encerrou hoje a terceira das cinco sessões de debates sobre a
+  Proposta de Emenda à Constituição (PEC) que acaba com a jornada de
+  trabalho 6x1.
+  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, Agência
+  Senado, g1, Agência Brasil, CNN Brasil
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-senado-encerra-terceira-das-cinco-sessoes-de-deb
+
+• Fux pede acesso a inquéritos contra Bolsonaro relatados por Alexandre
+  de Moraes
+  O ministro Luiz Fux determinou, na quinta-feira (8), que a área
+  técnica do Supremo Tribunal Federal (STF) libere o acesso de seu
+  gabinete a inquéritos sigilosos que foram relatados por Alexandre de
+  Moraes e que atingem…
+  Fontes: Valor Econômico, JOTA, Folha de S.Paulo, Estadão, g1, Poder360
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-fux-pede-acesso-a-inqueritos-contra-bolsonaro-re
+
+GEOPOLÍTICA & MUNDO
+-------------------
+• EUA vão transmitir execução de ex-major por fuzilamento aprovada por
+  Trump
+  Os Estados Unidos transmitirão ao vivo a execução por fuzilamento, a
+  ser realizada pelo Exército em 3 de dezembro, de Nidal Hasan, que
+  matou 13 pessoas em Fort Hood, no Texas, em 2009, durante um ataque a
+  tiros.
+  Fontes: Folha de S.Paulo, Estadão, g1, Financial Times, The Guardian,
+  BBC News, Al Jazeera
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-eua-vao-transmitir-execucao-de-ex-major-por-fuzi
+
+TECNOLOGIA & NEGÓCIOS
+---------------------
+• Governo Trump restringe Microsoft e outras big techs de contratar
+  estrangeiros via green card
+  O governo de Donald Trump suspendeu nesta quinta-feira (8) alguns
+  pedidos de green card feitos pela Microsoft, Adobe e outras big techs
+  e abriu investigações sobre nove universidades de elite, ampliando uma
+  ofensiva…
+  Fontes: Folha de S.Paulo, Estadão, g1, Seu Dinheiro, The Guardian,
+  CNBC, TechCrunch
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-governo-trump-restringe-microsoft-e-outras-big-t
+
+IMOBILIÁRIO
+-----------
+• FII BTLG11 aprova 17ª emissão e pode captar até R$ 1,2 bilhão para
+  novas aquisições
+  O fundo imobiliário BTLG11 (BTG Pactual Logística) aprovou sua 17ª
+  emissão de cotas, em uma oferta que prevê inicialmente a captação de
+  aproximadamente R$ 800 milhões, mas que poderá alcançar cerca de R$
+  1,2 bilhão caso…
+  Fontes: InfoMoney, Money Times
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-fii-btlg11-aprova-17a-emissao-e-pode-captar-ate
+
+ESPORTE
+-------
+• Jefté, do Palmeiras, testa positivo para substância proibida e é
+  suspenso provisoriamente
+  O lateral-esquerdo Jefté, do Palmeiras, testou positivo para uma
+  substância diurética proibida e está suspenso provisioriamente. O
+  exame de controle de dopagem foi realizado em agosto, em um período
+  fora de competições.
+  Fontes: ge, Estadão, Gazeta Esportiva, UOL
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-jefte-do-palmeiras-testa-positivo-para-substanci
+
+NATUREZA & MEIO AMBIENTE
+------------------------
+• Pré-COP31: novo fundo pretende ajudar pequenos países insulares em
+  adaptação climática
+  A Pré-COP, que termina nesta 5ª feira (8/10) em Fiji, serviu de palco
+  para os pequenos países insulares em desenvolvimento do Pacífico
+  reafirmarem sua reivindicação histórica de mais apoio financeiro dos
+  países…
+  Fontes: ClimaInfo
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-pre-cop31-novo-fundo-pretende-ajudar-pequenos-pa
+
+CULTURA & VARIEDADES
+--------------------
+• Quem sai hoje de 'A Fazenda 18'? Disputa entre Ariela, Renê e Thaíde
+  está acirrada
+  A "Fazenda 18" chegou à terceira roça da edição. Nesta quinta-feira,
+  8, o público escolhe quem vai deixar Itapecerica da Serra e perder a
+  chance de ganhar os R$ 2 milhões.
+  Fontes: Exame, CNN Brasil
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-08.html#s-quem-sai-hoje-de-a-fazenda-18-disputa-entre-arie
+
+========================================================================
+Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
+Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
+Código-fonte: https://github.com/pbcvphyton/pbcvphyton-tsa-tech
+Gerado automaticamente em 21:13 (BRT) · Edição automática (sem IA)
