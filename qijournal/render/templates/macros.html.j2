@@ -1,0 +1,134 @@
+{#- Blocos reutilizados na página da edição. "s" é sempre uma StoryView (textos já limpos). -#}
+
+{% macro figure(s, cls) -%}
+<figure class="{{ cls }}" data-img><img src="{{ s.image }}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
+{%- endmacro %}
+
+{% macro lang(s) -%}{% if s.lang %} lang="{{ s.lang }}"{% endif %}{%- endmacro %}
+
+{% macro meta(s) -%}
+{% if s.source_names or s.age %}
+<p class="meta">{% if s.source_names %}<span>{{ s.source_names }}</span>{% endif %}{% if s.age %}<time datetime="{{ s.published }}" data-age>{{ s.age }}</time>{% endif %}</p>
+{% endif %}
+{%- endmacro %}
+
+{#- Medidor da cobertura comparada (c: CoverageView). Cada veículo é um trecho da
+    barra: lado A à esquerda, neutros no meio, lado B à direita — a barra cresce
+    para o lado com mais veículos. -#}
+{% macro bar(c) -%}
+<div class="cov-bar" role="img" aria-label="{{ c.aria }}">
+  {%- if c.pct_a %}<span class="cov-a" style="width:{{ c.pct_a }}%"></span>{% endif -%}
+  {%- if c.pct_n %}<span class="cov-n" style="width:{{ c.pct_n }}%"></span>{% endif -%}
+  {%- if c.pct_b %}<span class="cov-b" style="width:{{ c.pct_b }}%"></span>{% endif -%}
+</div>
+{%- endmacro %}
+
+{#- Selo do card: barra fina e o lado para onde a cobertura pendeu. -#}
+{% macro badge(c) -%}
+<div class="cov mini lean-{{ c.lean }}" lang="pt-BR">
+  {{ bar(c) }}
+  <p class="cov-lean">{{ c.lean_label }}</p>
+</div>
+{%- endmacro %}
+
+{% macro outlet_list(title, cls, outlets) -%}
+<div class="cov-col {{ cls }}">
+  <h4>{{ title }} <span>({{ outlets|length }})</span></h4>
+  <ul>
+    {% for o in outlets %}
+    <li>{% if o.url %}<a href="{{ o.url }}" target="_blank" rel="noopener noreferrer">{{ o.name }}<span class="sr-only"> (abre em nova aba)</span></a>{% else %}<b>{{ o.name }}</b>{% endif %}{% if o.framing %}<p class="cov-f">{{ o.framing }}</p>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</div>
+{%- endmacro %}
+
+{#- Bloco completo: lados, medidor, conclusão e veículos por lado. -#}
+{% macro coverage(c, open=False) -%}
+<div class="cov full lean-{{ c.lean }}" lang="pt-BR">
+  {% if c.side_a %}
+  <div class="cov-scale"><span class="cov-sa">{{ c.side_a }} <b>{{ c.a|length }}</b></span><span class="cov-sb"><b>{{ c.b|length }}</b> {{ c.side_b }}</span></div>
+  {% endif %}
+  {{ bar(c) }}
+  <p class="cov-lean">{{ c.lean_label }}</p>
+  {% if c.conclusion %}
+  <p class="cov-c">{{ c.conclusion }}</p>
+  {% endif %}
+  <details class="cov-who"{% if open %} open{% endif %}>
+    <summary>Análise por veículo: o foco de cada um e o lado que seguiu ({{ c.total }})</summary>
+    <div class="cov-cols">
+      {% if c.a %}{{ outlet_list(c.side_a, "ca", c.a) }}{% endif %}
+      {% if c.b %}{{ outlet_list(c.side_b, "cb", c.b) }}{% endif %}
+      {% if c.neutral %}{{ outlet_list("Neutros" if c.side_a else "Veículos", "cn", c.neutral) }}{% endif %}
+    </div>
+  </details>
+</div>
+{%- endmacro %}
+
+{% macro card(s) -%}
+<article class="cl" style="--sc:{{ s.color }}">
+  <p class="cat">{{ s.section_title }}</p>
+  {% if s.image %}
+  {{ figure(s, "ci") }}
+  {% endif %}
+  <h3{{ lang(s) }}><a class="hit" href="#{{ s.anchor }}">{{ s.headline }}</a></h3>
+  {% if s.dek %}
+  <p class="dk"{{ lang(s) }}>{{ s.dek }}</p>
+  {% endif %}
+  {{ meta(s) }}
+  {% if s.coverage %}
+  {{ badge(s.coverage) }}
+  {% endif %}
+</article>
+{%- endmacro %}
+
+{% macro modal(s, tz_label) -%}
+<div class="mo" id="{{ s.anchor }}" role="dialog" aria-modal="true" aria-labelledby="t-{{ s.id }}" style="--sc:{{ s.color }}">
+  <article class="ml" tabindex="-1"{{ lang(s) }}>
+    <button class="mc" type="button" aria-label="Fechar matéria">&times;</button>
+    <header class="mhd">
+      <p class="mcat">{{ s.section_title }}</p>
+      <h2 id="t-{{ s.id }}">{{ s.headline }}</h2>
+      {% if s.dek and not s.dek_in_body %}
+      <p class="mdek">{{ s.dek }}</p>
+      {% endif %}
+    </header>
+    {% if s.image %}
+    {{ figure(s, "mi") }}
+    {% endif %}
+    {% if s.body %}
+    <div class="bt">
+      {% for paragraph in s.body %}
+      <p>{{ paragraph|md_lite }}</p>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if s.why %}
+    <aside class="why">
+      <h3>Por que importa</h3>
+      <p>{{ s.why }}</p>
+    </aside>
+    {% endif %}
+    {% if s.coverage %}
+    <section class="mcov" aria-label="Análise da cobertura">
+      <h3>Análise da cobertura</h3>
+      {{ coverage(s.coverage, open=True) }}
+    </section>
+    {% endif %}
+    {% if s.sources %}
+    <div class="bb">
+      <h3>Fontes</h3>
+      {% if s.compiled %}<p class="mcomp">{{ s.compiled }}</p>{% endif %}
+      <ul>
+        {% for src in s.sources %}
+        <li>{% if src.url %}<a href="{{ src.url }}" target="_blank" rel="noopener noreferrer">{{ src.name }} <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a>{% else %}<span>{{ src.name }}</span>{% endif %}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    {% if s.time %}
+    <p class="mtime" lang="pt-BR">Publicado: <time datetime="{{ s.published }}">{{ s.time }}</time> {{ tz_label }}{% if s.age %} · <time datetime="{{ s.published }}" data-age>{{ s.age }}</time>{% endif %}</p>
+    {% endif %}
+    <p class="mback" lang="pt-BR"><button class="mc2" type="button">&larr; Voltar à edição</button></p>
+  </article>
+</div>
+{%- endmacro %}
