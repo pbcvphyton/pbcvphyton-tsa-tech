@@ -223,14 +223,14 @@ de cobertura (a edição completa tem tudo), num HTML de ~20 KB. Com
 `email.style: jornal`, volta o e-mail completo do jornal geral. Há dois
 caminhos, que podem ser usados juntos ou separados.
 
-### Opção 1 — Rotina diária do Claude (Gmail) — a configurar
+### Opção 1 — Rotina diária do Claude (Gmail) — configurada
 
-Uma rotina agendada do Claude, com o Gmail conectado, roda todo dia às
-**07:54 (Brasília)** e envia o e-mail do dia para o endereço cadastrado nela (o
-endereço fica só na rotina, não no repositório, que é público). Se a edição do
-dia ainda não tiver saído (agendamento do GitHub atrasado), ela não envia nada e
-tenta de novo às **10:04**; só então, se a edição não saiu, manda um aviso
-curto. Nunca envia duas vezes no mesmo dia. Para pausar, mudar o horário ou
+Uma rotina agendada do Claude ("TSA Tech — newsletter diária por e-mail"), com o
+Gmail conectado, roda todo dia às **07:23 (Brasília)** e envia a newsletter do
+dia para o endereço cadastrado nela (o endereço fica só na rotina, não no
+repositório, que é público). Se a edição do dia ainda não tiver saído
+(agendamento do GitHub atrasado), ela não envia nada e tenta de novo às
+**10:23**; só então, se a edição não saiu, manda um aviso curto. Nunca envia duas vezes no mesmo dia. Para pausar, mudar o horário ou
 apagar: lista de *Routines* do Claude Code em <https://claude.ai/code>.
 
 Ela usa os arquivos que o próprio jornal gera:
