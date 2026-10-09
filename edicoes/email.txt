@@ -1,120 +1,113 @@
 TSA TECH
-Sexta-feira, 9 de outubro de 2026 · 00:01 BRT
+Sexta-feira, 9 de outubro de 2026 · 07:43 BRT
 
 EM 1 MINUTO
 -----------
-• Por 7 votos a 4, o STF excluiu créditos presumidos de ICMS da base de
-  cálculo do PIS e da Cofins, definindo que incentivos estaduais não
-  compõem a receita própria.
-• O Ministério da Fazenda adiou para após as eleições o envio da MP do
-  Imposto Seletivo, mantendo alíquotas sob suspense até o fim de
-  outubro.
-• A Primeira Seção do STJ marcou audiência pública no Tema 1.418 para
-  definir a validade da negociação e cessão de precatórios
-  previdenciários.
-• O Órgão Especial do TST anulou cláusula de acordo coletivo que previa
-  folga após o sétimo dia consecutivo de trabalho em transporte público.
-• A 3ª Turma do STJ definiu que os créditos trabalhistas gerados durante
-  a recuperação judicial possuem natureza extraconcursal.
-• A Justiça dos Estados Unidos adicionou nova acusação de tortura contra
-  o ex-ditador venezuelano Nicolás Maduro e sua esposa, Cilia Flores.
+• STF exclui créditos presumidos de ICMS da base de cálculo de PIS e
+  Cofins por 7 votos a 4.
+• Governo federal adia envio de medida provisória do Imposto Seletivo
+  para após o segundo turno das eleições.
+• STJ marca audiência pública no Tema Repetitivo 1.418 para debater a
+  cessão de precatórios previdenciários.
+• TST anula norma coletiva de empresa de transporte que adiava o
+  descanso semanal remunerado.
+• STJ afeta recursos para definir limites de retenção em distrato
+  imobiliário por repetitivos.
 
 MANCHETE
 --------
-STF exclui créditos presumidos de ICMS da base de cálculo do PIS e da
-Cofins
-Por 7 votos a 4, o plenário do Supremo Tribunal Federal definiu que
-incentivos estaduais não compõem a receita própria das empresas.
-Por que importa: A decisão reduz a carga tributária federal sobre
-empresas beneficiadas por incentivos estaduais de ICMS e abre
-oportunidade para a recuperação judicial ou administrativa de valores
-pagos a maior.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stf-exclui-creditos-presumidos-de-icms-da-base-d
+Campanha de Flávio Bolsonaro propõe fim do split payment e gera debate
+sobre impactos
+Proposta de extinguir mecanismo da reforma tributária divide opiniões
+entre o governo e tributaristas, enquanto empresas enfrentam corrida
+para adequação.
+Por que importa: A indefinição sobre o split payment e o cumprimento dos
+prazos da reforma tributária geram riscos operacionais diretos para o
+fluxo de caixa e a emissão de notas fiscais das empresas.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-campanha-de-flavio-bolsonaro-propoe-fim-do-split
 
 TRIBUTÁRIO
 ----------
-• Governo adia para após as eleições envio da MP do Imposto Seletivo
-  Ministério da Fazenda afirma que acordo com setores impactados foi
-  concluído, mas texto com alíquotas sai só no fim do mês.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-governo-adia-para-apos-as-eleicoes-envio-da-mp-d
+• Governo adia envio de MP do Imposto Seletivo para depois do segundo
+  turno
+  O ministro da Fazenda, Dario Durigan, afirmou que a proposta com as
+  alíquotas do 'imposto do pecado' será enviada ao Congresso após o
+  término das eleições.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-governo-adia-envio-de-mp-do-imposto-seletivo-par
 
-• Governo retém R$ 731,9 milhões da CVM em reserva e desafia decisão de
-  Dino
-  Ministério do Planejamento restringe uso de recursos da autarquia com
-  base em interpretação sobre limite de despesas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-governo-retem-r-731-9-milhoes-da-cvm-em-reserva
+• STF tem quatro votos contrários a expurgos em depósitos judiciais
+  O Plenário da Corte retomou o julgamento sobre a inclusão de expurgos
+  inflacionários de planos econômicos na correção de depósitos
+  judiciais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stf-tem-quatro-votos-contrarios-a-expurgos-em-de
 
-• Proposta de fim do split payment gera embate entre campanha e Fazenda
-  Declarações de representantes da campanha de Flávio Bolsonaro contra o
-  mecanismo tecnológico dividem tributaristas e o governo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-proposta-de-fim-do-split-payment-gera-embate-ent
-
-• Governo aponta impacto de R$ 255 bilhões e pede suspensão de
-  precatórios de usinas
-  Executivo solicita ao STF a paralisação de ações indenizatórias do
-  setor sucroalcooleiro até julgamento de mérito.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-governo-aponta-impacto-de-r-255-bilhoes-e-pede-s
+• STF exclui créditos presumidos de ICMS da base de cálculo de PIS e
+  Cofins
+  Decisão tomada por 7 votos a 4 impõe limite ao Fisco federal e abre
+  caminho para que empresas recuperem valores pagos indevidamente.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stf-exclui-creditos-presumidos-de-icms-da-base-d
 
 PREVIDENCIÁRIO
 --------------
 • STJ marca audiência pública sobre cessão de precatório previdenciário
-  no Tema 1.418
-  Primeira Seção definirá no Tema 1.418 a validade da negociação de
-  créditos inscritos, em meio a exigências formais de escritura por
-  unidades da federação.
+  Primeira Seção definirá no Tema Repetitivo 1.418 a validade da cessão
+  de créditos previdenciários; debate ocorre em meio a exigências
+  estaduais por escritura.
   https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stj-marca-audiencia-publica-sobre-cessao-de-prec
 
 TRABALHISTA
 -----------
-• TST anula cláusula coletiva que previa folga após o sétimo dia
-  consecutivo de trabalho
-  Órgão Especial considerou nula a regra de acordo de transporte público
-  de Passo Fundo que adiava o descanso semanal remunerado.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-tst-anula-clausula-coletiva-que-previa-folga-apo
-
-RECUPERAÇÃO DE EMPRESAS
------------------------
-• STJ define que crédito trabalhista gerado na recuperação judicial é
-  extraconcursal
-  A 3ª Turma do STJ decidiu que créditos de trabalhadores que
-  continuaram prestando serviços durante a recuperação judicial possuem
-  natureza extraconcursal.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stj-define-que-credito-trabalhista-gerado-na-rec
+• TST anula cláusula que autorizava descanso após o sétimo dia
+  trabalhado
+  Órgão Especial considerou ilegal norma coletiva que adiava o repouso
+  semanal remunerado em empresa de transporte público.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-tst-anula-clausula-que-autorizava-descanso-apos
 
 CÍVEL
 -----
-• STF valida gratuidade ampliada para PcD em estacionamentos privados
-  Por unanimidade, Corte mantém lei do Paraná que garante dobro de tempo
-  gratuito, mas afasta aplicação em locais públicos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stf-valida-gratuidade-ampliada-para-pcd-em-estac
+• Justiça Federal concede liminar para plataforma de apostas operar até
+  25 de outubro
+  Decisão suspende temporariamente efeitos de medida provisória que
+  encerrava setor, impondo regras de proteção ao consumidor e vedações a
+  bônus e publicidade.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-justica-federal-concede-liminar-para-plataforma
+
+• STF valida lei do Paraná que amplia gratuidade para PCDs em
+  estacionamentos
+  Corte considerou constitucional regra que garante o dobro de tempo
+  gratuito em estabelecimentos privados, mas afastou o efeito sobre
+  locais públicos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stf-valida-lei-do-parana-que-amplia-gratuidade-p
 
 IMOBILIÁRIO
 -----------
-• Liquidante do Banco Master pede apreensão de mansões de Vorcaro nos
-  EUA
-  A massa falida do Banco Master acionou a Justiça dos EUA para bloquear
-  imóveis de luxo avaliados em R$ 840 milhões adquiridos por Daniel
-  Vorcaro.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-liquidante-do-banco-master-pede-apreensao-de-man
+• STJ definirá limites de retenção em distrato imobiliário por
+  repetitivos
+  A Segunda Seção do Superior Tribunal de Justiça afetou recursos
+  especiais para definir regras sobre a retenção de valores em rescisões
+  antes e depois da Lei do Distrato.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stj-definira-limites-de-retencao-em-distrato-imo
+
+• STJ suspende processos sobre locação de curta temporada em condomínios
+  A Segunda Seção determinou a suspensão nacional de ações que discutem
+  se a destinação residencial em convenção proíbe o Airbnb.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stj-suspende-processos-sobre-locacao-de-curta-te
 
 GEOPOLÍTICA
 -----------
-• Justiça dos Estados Unidos adiciona acusação de tortura contra Nicolás
-  Maduro
-  O ex-ditador venezuelano e sua esposa, Cilia Flores, passam a
-  responder por conspiração para torturar opositores políticos e
-  cidadãos americanos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-justica-dos-estados-unidos-adiciona-acusacao-de
+• Navi Pillay vence o Prêmio Nobel da Paz de 2026
+  A jurista sul-africana foi laureada por seus esforços em prol da paz e
+  do direito internacional.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-navi-pillay-vence-o-premio-nobel-da-paz-de-2026
 
-• Reino Unido e Israel firmam acordo para manter missão diplomática
-  reduzida em Jerusalém
-  Impasse sobre sanções a assentamentos é evitado após compromisso que
-  reduz equipe diplomática britânica a sete funcionários.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-reino-unido-e-israel-firmam-acordo-para-manter-m
+• Ataque aéreo russo contra ônibus deixa 33 mortos na Ucrânia
+  Bombardeio atingiu veículos com civis em Kramatorsk, no leste do país,
+  segundo autoridades locais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-ataque-aereo-russo-contra-onibus-deixa-33-mortos
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 714 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09-todas.html
+Todas as 718 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 00:01 (BRT) · Edição gerada por IA
+Gerado automaticamente em 07:43 (BRT) · Edição gerada por IA
 (gemini-flash-latest + gemini-flash-lite-latest)
