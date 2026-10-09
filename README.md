@@ -338,7 +338,7 @@ Uma `QIJ_BRAND` com marca inexistente cai na marca padrão.
 A identidade da marca TSA Tech vem do site do escritório (tsalaw.com.br): o letreiro
 manuscrito "TSA" e a espiral, em letras brancas sobre um bloco de cabeçalho em
 ardósia (`#2F363C`, como o topo do site), com a espiral em azul-céu (`#91C3F5`) e a
-legenda **TECH** no lugar de "ADVOGADOS". O slogan adapta o do site ("Ao lado de nossos
+legenda **TECH** no lugar de "ADVOGADOS" (maior que a do site, para ler bem no celular). O slogan adapta o do site ("Ao lado de nossos
 clientes em todas as etapas do processo") ao jornal diário. A paleta: ardósia escura
 `#232A30` (ticker, rodapé, títulos), azul `#2F6DB5` (links e réguas; um tom mais escuro
 que o azul dos títulos do site, `#5893D4`, que fica de destaque porque não tem contraste
@@ -348,7 +348,7 @@ fundo `#EDF2F5` do site.
 
 - `assets/tsa-tech-logo.svg` — logo do cabeçalho (vetorizado a partir do site). O
   letreiro usa `currentColor`, então a cor vem de `colors.on_masthead`; por isso um
-  só arquivo serve aos modos claro e escuro. `logo_height: 80` (celular: 56);
+  só arquivo serve aos modos claro e escuro. `logo_height: 96` (celular: 84);
 - `assets/tsa-tech-favicon.svg` — a espiral em azul-céu sobre quadrado ardósia;
 - `assets/tsa-tech-logo-email.png` — logo do e-mail (clientes de e-mail não exibem
   SVG), branco sobre a ardósia, em 3x, servido pelo GitHub Pages (`email_logo`);

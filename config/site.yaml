@@ -23,15 +23,15 @@ brands:
     # processo"), adaptado ao jornal diário.
     tagline: "Ao seu lado em todas as etapas do dia"
     # Logo do TSA (letreiro manuscrito + espiral) com a legenda "TECH" no lugar de
-    # "ADVOGADOS", como no cabeçalho do site: letras brancas sobre ardósia, espiral em
+    # "ADVOGADOS" (maior que a do site, para continuar legível no celular): letras brancas sobre ardósia, espiral em
     # azul-céu. O SVG usa currentColor no letreiro (a cor vem de on_masthead).
     logo_svg: "assets/tsa-tech-logo.svg"
-    logo_height: 80
-    logo_height_mobile: 56
+    logo_height: 96
+    logo_height_mobile: 84
     favicon_svg: "assets/tsa-tech-favicon.svg"
     # Logo do e-mail (PNG 3x, branco sobre a cor do cabeçalho), servido pelo GitHub
     # Pages em base_url + src. O cabeçalho é escuro nos dois modos: sem versão escura.
-    email_logo: {src: "assets/tsa-tech-logo-email.png", width: 143, height: 72}
+    email_logo: {src: "assets/tsa-tech-logo-email.png", width: 160, height: 87}
     # Paleta do site do TSA: ardósia do cabeçalho (#32393F), azul-céu dos títulos
     # (#5893D4 / #91C3F5), cinza-azulado de fundo (#EDF2F5) e o cobre da madeira das
     # fotos. O azul dos títulos é claro demais para texto no branco: links e réguas

@@ -386,9 +386,9 @@ def test_default_brand_logo_palette_and_favicon(edition):
     assert "crispEdges" not in html  # não é pixel art
     # a altura da marca vale também para o logo monocromático (vem depois da regra padrão de 64 px)
     assert html.index(".mast h1.logo.mono svg{height:64px") < html.index(
-        ".mast h1.logo svg,.mast h1.logo.mono svg{height:80px;max-width:100%}"
+        ".mast h1.logo svg,.mast h1.logo.mono svg{height:96px;max-width:100%}"
     )
-    assert ".mast h1.logo svg,.mast h1.logo.mono svg{height:56px}" in html
+    assert ".mast h1.logo svg,.mast h1.logo.mono svg{height:84px}" in html
     assert "--ink:#1a2332;--paper:#fff;--bg:#f0f2f5;" in html  # neutros frios do layout original
     favicon = re.search(r'<link rel="icon" type="image/svg\+xml" href="([^"]+)"', html).group(1)
     assert favicon.startswith("data:image/svg+xml,%3Csvg") and "91C3F5" in favicon and "2F363C" in favicon

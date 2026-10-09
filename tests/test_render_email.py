@@ -117,7 +117,7 @@ def test_header_ticker_weather_editorial_and_briefing(rendered):
     assert '<td align="center" bgcolor="#2F363C" class="px" style="padding:30px 20px 20px;background:#2F363C;' in html
     assert (
         '<img src="https://pbcvphyton.github.io/pbcvphyton-tsa-tech/assets/tsa-tech-logo-email.png"'
-        ' width="143" height="72" alt="TSA Tech"' in html
+        ' width="160" height="87" alt="TSA Tech"' in html
     )
     assert "tsa-tech-logo-email-dark.png" not in html and 'class="lg-d"' not in html
     assert 'text-transform:uppercase;color:#D5D7D8;">Ao seu lado em todas as etapas do dia</p>' in html  # 80% sobre a ardósia
