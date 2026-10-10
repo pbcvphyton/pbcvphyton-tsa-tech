@@ -1,113 +1,131 @@
 TSA TECH
-Sexta-feira, 9 de outubro de 2026 · 07:43 BRT
+Sábado, 10 de outubro de 2026 · 05:54 BRT
 
 EM 1 MINUTO
 -----------
-• STF exclui créditos presumidos de ICMS da base de cálculo de PIS e
-  Cofins por 7 votos a 4.
-• Governo federal adia envio de medida provisória do Imposto Seletivo
-  para após o segundo turno das eleições.
-• STJ marca audiência pública no Tema Repetitivo 1.418 para debater a
-  cessão de precatórios previdenciários.
-• TST anula norma coletiva de empresa de transporte que adiava o
-  descanso semanal remunerado.
-• STJ afeta recursos para definir limites de retenção em distrato
-  imobiliário por repetitivos.
+• STF forma maioria para afastar cobrança de ITBI em integralização de
+  capital de empresa imobiliária no Tema 1.348.
+• Governo zera tributos federais sobre gasolina e eleva subsídios ao
+  diesel e ao etanol em pacote de R$ 5,2 bilhões.
+• Ministro da Fazenda anuncia envio da MP do Imposto Seletivo ao
+  Congresso após as negociações com setores econômicos.
+• STJ afeta recursos repetitivos para definir percentual de retenção em
+  distrato imobiliário e regras para Airbnb.
+• Ações contra o INSS chegam a 4,5 milhões, motivando acordo entre
+  Ministério da Previdência e Judiciário para conter litígios.
+• TRT-3 define que enquadramento sindical no home office deve seguir a
+  base territorial da lotação da empresa.
 
 MANCHETE
 --------
-Campanha de Flávio Bolsonaro propõe fim do split payment e gera debate
-sobre impactos
-Proposta de extinguir mecanismo da reforma tributária divide opiniões
-entre o governo e tributaristas, enquanto empresas enfrentam corrida
-para adequação.
-Por que importa: A indefinição sobre o split payment e o cumprimento dos
-prazos da reforma tributária geram riscos operacionais diretos para o
-fluxo de caixa e a emissão de notas fiscais das empresas.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-campanha-de-flavio-bolsonaro-propoe-fim-do-split
+STF forma maioria para afastar cobrança de ITBI em integralização de
+capital de empresa imobiliária
+Julgamento no Plenário Virtual discute o Tema 1.348 de repercussão geral
+sobre a imunidade tributária mesmo quando a atividade preponderante é do
+setor imobiliário.
+Por que importa: A decisão traz alívio financeiro relevante e
+estabilidade jurídica a incorporadoras e holdings patrimoniais
+familiares ao afastar tributação municipal sobre os imóveis conferidos
+ao capital social.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-stf-forma-maioria-para-afastar-cobranca-de-itbi
 
 TRIBUTÁRIO
 ----------
-• Governo adia envio de MP do Imposto Seletivo para depois do segundo
-  turno
-  O ministro da Fazenda, Dario Durigan, afirmou que a proposta com as
-  alíquotas do 'imposto do pecado' será enviada ao Congresso após o
-  término das eleições.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-governo-adia-envio-de-mp-do-imposto-seletivo-par
+• Governo zera tributos federais sobre gasolina e eleva subsídios ao
+  diesel e ao etanol
+  Medidas têm custo de R$ 5,2 bilhões em 30 dias e ampliam a desoneração
+  de PIS/Cofins e Cide para conter a alta dos combustíveis decorrente do
+  conflito internacional.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-governo-zera-tributos-federais-sobre-gasolina-e
 
-• STF tem quatro votos contrários a expurgos em depósitos judiciais
-  O Plenário da Corte retomou o julgamento sobre a inclusão de expurgos
-  inflacionários de planos econômicos na correção de depósitos
-  judiciais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stf-tem-quatro-votos-contrarios-a-expurgos-em-de
+• Flávio Bolsonaro defende retirada do split payment da reforma
+  tributária
+  Candidato argumenta que o mecanismo de recolhimento automático de
+  tributos inviabiliza o capital de giro e o fluxo de caixa das
+  empresas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-flavio-bolsonaro-defende-retirada-do-split-payme
 
-• STF exclui créditos presumidos de ICMS da base de cálculo de PIS e
-  Cofins
-  Decisão tomada por 7 votos a 4 impõe limite ao Fisco federal e abre
-  caminho para que empresas recuperem valores pagos indevidamente.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stf-exclui-creditos-presumidos-de-icms-da-base-d
+• Governo decide enviar MP do Imposto Seletivo ao Congresso após as
+  eleições
+  Ministro da Fazenda, Dario Durigan, afirma que texto com alíquotas do
+  tributo sobre produtos nocivos à saúde e ao meio ambiente foi pactuado
+  com setores econômicos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-governo-decide-enviar-mp-do-imposto-seletivo-ao
 
 PREVIDENCIÁRIO
 --------------
-• STJ marca audiência pública sobre cessão de precatório previdenciário
-  Primeira Seção definirá no Tema Repetitivo 1.418 a validade da cessão
-  de créditos previdenciários; debate ocorre em meio a exigências
-  estaduais por escritura.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stj-marca-audiencia-publica-sobre-cessao-de-prec
+• Ações contra o INSS chegam a 4,5 milhões, e Previdência firma acordo
+  para conter litígios
+  Acordo entre o Ministério da Previdência Social, a autarquia e o
+  Judiciário busca frear novos processos após redução da fila de espera
+  a 1,2 milhão de pedidos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-acoes-contra-o-inss-chegam-a-4-5-milhoes-e-previ
 
 TRABALHISTA
 -----------
-• TST anula cláusula que autorizava descanso após o sétimo dia
-  trabalhado
-  Órgão Especial considerou ilegal norma coletiva que adiava o repouso
-  semanal remunerado em empresa de transporte público.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-tst-anula-clausula-que-autorizava-descanso-apos
+• TRT-3 define que enquadramento sindical no home office segue local de
+  lotação da empresa
+  Segunda Turma estabelece que a representação coletiva de empregados em
+  teletrabalho deve observar a base territorial do estabelecimento ao
+  qual estão vinculados.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-trt-3-define-que-enquadramento-sindical-no-home
 
 CÍVEL
 -----
-• Justiça Federal concede liminar para plataforma de apostas operar até
-  25 de outubro
-  Decisão suspende temporariamente efeitos de medida provisória que
-  encerrava setor, impondo regras de proteção ao consumidor e vedações a
-  bônus e publicidade.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-justica-federal-concede-liminar-para-plataforma
-
-• STF valida lei do Paraná que amplia gratuidade para PCDs em
-  estacionamentos
-  Corte considerou constitucional regra que garante o dobro de tempo
-  gratuito em estabelecimentos privados, mas afastou o efeito sobre
-  locais públicos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stf-valida-lei-do-parana-que-amplia-gratuidade-p
+• STJ autua primeiro recurso sob filtro da relevância e inicia transição
+  com TJs e advocacia
+  Novo marco processual exige demonstração de repercussão federal com
+  base na Lei 15.484/2026 e na Emenda Regimental 55/2026.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-stj-autua-primeiro-recurso-sob-filtro-da-relevan
 
 IMOBILIÁRIO
 -----------
-• STJ definirá limites de retenção em distrato imobiliário por
-  repetitivos
-  A Segunda Seção do Superior Tribunal de Justiça afetou recursos
-  especiais para definir regras sobre a retenção de valores em rescisões
-  antes e depois da Lei do Distrato.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stj-definira-limites-de-retencao-em-distrato-imo
+• STJ vai fixar em repetitivo percentual de retenção em distrato
+  imobiliário antes e pós-lei de 2018
+  Segunda Seção afetou quatro recursos especiais relatados pelo ministro
+  Ricardo Villas Bôas Cueva para uniformizar controvérsia sobre
+  rescisões contratuais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-stj-vai-fixar-em-repetitivo-percentual-de-retenc
 
-• STJ suspende processos sobre locação de curta temporada em condomínios
-  A Segunda Seção determinou a suspensão nacional de ações que discutem
-  se a destinação residencial em convenção proíbe o Airbnb.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-stj-suspende-processos-sobre-locacao-de-curta-te
+• STJ afeta repetitivo e suspende ações no país sobre locação via Airbnb
+  em condomínio residencial
+  Segunda Seção vai decidir se previsão de destinação residencial em
+  convenção é suficiente para proibir aluguéis de curta temporada por
+  plataformas digitais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-stj-afeta-repetitivo-e-suspende-acoes-no-pais-so
+
+POLÍTICA
+--------
+• Cotado para a Fazenda de Flávio vê corte de R$ 200 bilhões em um ano
+  como inviável
+  Marcelo Kayath defende ajuste fiscal gradual, enquanto analistas
+  apontam dúvidas com promessas de expansão de gastos na saúde.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-cotado-para-a-fazenda-de-flavio-ve-corte-de-r-20
+
+• STJ regulamenta sessões virtuais para agravos da Presidência em
+  direito privado
+  A Instrução Normativa 47/2026 estabelece as regras para julgamento de
+  agravos internos contra decisões do presidente da Corte.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-stj-regulamenta-sessoes-virtuais-para-agravos-da
 
 GEOPOLÍTICA
 -----------
-• Navi Pillay vence o Prêmio Nobel da Paz de 2026
-  A jurista sul-africana foi laureada por seus esforços em prol da paz e
-  do direito internacional.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-navi-pillay-vence-o-premio-nobel-da-paz-de-2026
+• Governo Trump impõe sanções ao TPI e gera condenação da ONU e apoio de
+  Israel
+  Medida contra a corte internacional ocorre após premiação da ex-juíza
+  Navi Pillay com o Nobel da Paz e aprofunda tensões multilaterais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-governo-trump-impoe-sancoes-ao-tpi-e-gera-conden
 
-• Ataque aéreo russo contra ônibus deixa 33 mortos na Ucrânia
-  Bombardeio atingiu veículos com civis em Kramatorsk, no leste do país,
-  segundo autoridades locais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09.html#s-ataque-aereo-russo-contra-onibus-deixa-33-mortos
+• União Europeia e China fecham acordo para reduzir exportações de
+  carros híbridos
+  Entendimento prevê cortar em mais da metade os embarques de híbridos
+  chineses ao bloco europeu em quatro anos e abre caminho para
+  reavaliação de tarifas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-uniao-europeia-e-china-fecham-acordo-para-reduzi
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 718 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-09-todas.html
+Todas as 602 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 07:43 (BRT) · Edição gerada por IA
+Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
 (gemini-flash-latest + gemini-flash-lite-latest)
