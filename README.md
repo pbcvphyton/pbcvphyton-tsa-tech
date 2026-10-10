@@ -237,12 +237,16 @@ Por isso a edição não depende dele:
    confere `edicoes/latest.json`; se a edição de hoje ainda não saiu (ou só saiu
    uma de madrugada) e nenhuma execução está em andamento, ela reescreve a última
    linha de [`.github/disparo`](.github/disparo) e faz push na `main`. O push
-   dispara o workflow *Edição diária*, que leva de 5 a 30 minutos.
+   dispara o workflow *Edição diária*, que leva de 5 a 30 minutos. A rotina
+   acompanha a execução e, quando a edição sai, ela mesma envia a newsletter
+   (mesmas regras da rotina de e-mail abaixo: nunca duas vezes o mesmo assunto).
 2. **08:53** — mesma checagem; dispara de novo só se a edição ainda não saiu
-   (por exemplo, se a execução das 05:53 falhou).
+   (por exemplo, se a execução das 05:53 falhou) e, se mesmo assim não sair,
+   manda um aviso curto de atraso.
 3. **06:07, 07:37 e 09:07** — o cron do GitHub continua como reserva; quando
    chega atrasado e a edição do dia já saiu, termina em segundos.
-4. **07:23 e 10:23** — a rotina de e-mail (abaixo) envia a newsletter.
+4. **07:23 e 10:23** — a rotina de e-mail (abaixo) fica de reserva: envia a
+   newsletter se o disparo não tiver enviado.
 
 As duas rotinas ficam na lista de *Routines* do Claude Code em
 <https://claude.ai/code>; ali dá para pausar ou mudar os horários.
