@@ -6,15 +6,15 @@
     tira todas), a faixa continua com o slogan e a data. Logo abaixo, uma caixa
     retangular com todas as notícias do dia ("Hoje em N notícias"): a manchete
     com a foto dela, que divide a caixa, e embaixo as demais (email.max_stories)
-    num mosaico de blocos lado a lado (linhas de 2 e 3), na ordem do índice de
-    relevância no Brasil e no exterior, com a largura do bloco e o título
-    proporcionais ao índice e a repercussão de cada uma ("7 veículos"). No
-    celular, os blocos viram uma coluna sozinhos (inline-block), mesmo sem o
-    <style>. O botão principal fecha a caixa. Tipografia de jornal (Georgia,
-    preto e cinzas), sempre no tema claro.
+    num mosaico de blocos lado a lado (linhas de 2 e 3, larguras em % que sempre
+    cabem na linha), na ordem do índice de relevância no Brasil e no exterior, com
+    a largura do bloco e o título proporcionais ao índice e a repercussão de cada
+    uma ("7 veículos"). Até 480 px de tela (celular), os blocos viram uma coluna.
+    O botão principal fecha a caixa. Tipografia de jornal (Georgia, preto e
+    cinzas), sempre no tema claro.
     Tabelas + CSS inline (o <style> só melhora o celular); sem JS, SVG ou web fonts.
     Variáveis: v (EditionView), brand, subject, preheader, logo, top, mosaic
-    (linhas de Tile: story, rank, width, font, relevance), mosaic_width,
+    (linhas de Tile: story, rank, width, pct, font, relevance), mosaic_width,
     story_url, photo, teaser, footer. -#}
 {% set c = brand.colors %}
 {% set serif = "Georgia,Times New Roman,serif" %}
@@ -52,9 +52,11 @@
   @media (max-width:620px){
     .px{padding-left:18px!important;padding-right:18px!important;}
     .r1{font-size:24px!important;line-height:30px!important;}
-    .col{display:block!important;max-width:100%!important;}
-    .tp{padding-right:0!important;}
     .ph{height:170px!important;}
+  }
+  @media (max-width:480px){
+    .col{display:block!important;width:100%!important;}
+    .tp{padding-right:0!important;}
   }
 </style>
 <!--[if mso]><style>.ph{height:auto!important;}</style><![endif]-->
@@ -119,7 +121,7 @@
   {% for t in row %}
   {% set s = t.story %}
   <!--[if mso]><td width="{{ t.width }}" valign="top"><![endif]-->
-  <div class="col" style="display:inline-block;width:100%;max-width:{{ t.width }}px;vertical-align:top;"><div class="tp" style="padding:16px {{ '0' if loop.last else '14px' }} 16px 0;">
+  <div class="col" style="display:inline-block;width:{{ t.pct }}%;vertical-align:top;"><div class="tp" style="padding:16px {{ '0' if loop.last else '14px' }} 16px 0;">
     {{ kicker(s, t.rank, "0 0 6px") }}
     <h2 style="margin:0;font:bold {{ t.font }}px/{{ (t.font * 1.28)|round|int }}px {{ serif }};color:{{ ink }};"{{ lang(s) }}><a href="{{ story_url(s) }}" style="color:{{ ink }};text-decoration:none;">{{ s.headline }}</a></h2>
     {% if first_row and loop.first and s.dek and t.width >= 280 %}

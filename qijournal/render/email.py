@@ -135,7 +135,8 @@ class Relevance:
 class Tile:
     story: StoryView
     rank: int  # posição no dia (a manchete é a 1)
-    width: int  # largura do bloco no desktop (px)
+    width: int  # largura do bloco no desktop (px; colunas do Outlook)
+    pct: float  # a mesma largura em % da linha (os blocos sempre cabem lado a lado)
     font: int  # tamanho do título (px)
     relevance: Relevance
 
@@ -168,7 +169,8 @@ def _mosaic(stories: list[StoryView], rel: dict[str, Relevance], first_rank: int
     """Linhas do mosaico (2 e 3 blocos, alternando), já na ordem de relevância.
 
     Na linha, a largura de cada bloco é proporcional ao índice (com um mínimo para
-    o título caber) e soma :data:`MOSAIC_WIDTH`; o título vai de
+    o título caber) e soma :data:`MOSAIC_WIDTH` (em %, 99,9: a linha nunca quebra
+    por arredondamento, em qualquer largura de tela); o título vai de
     :data:`TILE_FONT_MIN` a :data:`TILE_FONT_MAX` px conforme o índice.
     """
     rows: list[list[Tile]] = []
@@ -181,12 +183,13 @@ def _mosaic(stories: list[StoryView], rel: dict[str, Relevance], first_rank: int
         shares = [x / sum(shares) for x in shares]
         widths = [int(MOSAIC_WIDTH * x) for x in shares]
         widths[0] += MOSAIC_WIDTH - sum(widths)
+        pcts = [math.floor(999 * x) / 10 for x in shares]  # soma ≤ 99,9 %
         row = []
-        for story, width in zip(chunk, widths):
+        for story, width, pct in zip(chunk, widths, pcts):
             score = rel[story.id].score
             font = TILE_FONT_MIN + round((TILE_FONT_MAX - TILE_FONT_MIN) * max(0, score - 40) / 60)
             font = min(TILE_FONT_MAX, font) - (1 if len(chunk) >= 3 else 0)
-            row.append(Tile(story, rank, width, font, rel[story.id]))
+            row.append(Tile(story, rank, width, pct, font, rel[story.id]))
             rank += 1
         rows.append(row)
         i += len(chunk)

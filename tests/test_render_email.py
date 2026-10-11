@@ -458,18 +458,20 @@ def test_newsletter_mosaic_follows_relevance(newsletter, edition):
     limit = newsletter_config().email.max_stories
     # as mesmas principais do editor, mas no mosaico na ordem da relevância
     assert top_ids(html) == by_relevance(edition, expected_top(edition, limit))
-    # cada linha do mosaico (2 e 3 blocos, alternando) ocupa a largura útil da caixa
+    # cada linha do mosaico (2 e 3 blocos, alternando) ocupa a linha inteira, em %: os
+    # blocos cabem lado a lado em qualquer largura (arredondado para baixo, sem quebrar)
     rows = re.findall(r'<td style="padding:0;border-top:1px solid #E2E2E2;font-size:0;line-height:0;">(.*?)</td></tr>', html)
-    widths = [[int(w) for w in re.findall(r'class="col" style="display:inline-block;width:100%;max-width:(\d+)px;', row)] for row in rows]
-    assert [len(w) for w in widths][:3] == [2, 3, 2] and all(sum(w) == 542 for w in widths)
+    widths = [[float(w) for w in re.findall(r'class="col" style="display:inline-block;width:([\d.]+)%;', row)] for row in rows]
+    assert [len(w) for w in widths][:3] == [2, 3, 2] and all(99.0 <= sum(w) <= 99.9 + 1e-9 for w in widths)
+    assert "max-width:542px;vertical-align" not in html  # nada de largura fixa nos blocos
     # título cada vez menor (ou igual) na ordem da relevância; posição e repercussão em cada bloco
     fonts = [int(px) for px in re.findall(r"<h2 style=\"margin:0;font:bold (\d+)px/", html)]
     assert all(15 - 1 <= f <= 22 for f in fonts)
     assert '<span style="color:#121212;">2</span>&nbsp;·&nbsp;' in html
     assert html.count('font:11px/15px Helvetica Neue,Helvetica,Arial,sans-serif;color:#6B6B6B;">') == limit
     assert re.search(r'color:#6B6B6B;">\d+ veículos?( · \d+ no exterior)?</p>', html)
-    # no celular os blocos viram uma coluna (e já quebram sozinhos, sem o <style>)
-    assert ".col{display:block!important;max-width:100%!important;}" in html
+    # só no celular (até 480 px) os blocos viram uma coluna
+    assert "@media (max-width:480px){" in html and ".col{display:block!important;width:100%!important;}" in html
     # texto puro na mesma ordem
     positions = [text.index(f"#s-{i}") for i in top_ids(html)]
     assert positions == sorted(positions)
@@ -487,6 +489,7 @@ def test_relevance_index_and_mosaic_widths():
     assert [[t.story.id for t in row] for row in rows] == [["s0", "s1"], ["s2", "s3", "s4"]]
     assert [t.rank for row in rows for t in row] == [2, 3, 4, 5, 6]
     assert all(sum(t.width for t in row) == 542 for row in rows)
+    assert all(99.0 <= sum(t.pct for t in row) <= 99.9 + 1e-9 for row in rows)
     first, second = rows[0]
     assert first.width > second.width and first.font > second.font  # o mais relevante é maior
     assert all(isinstance(t, Tile) and t.width >= int(542 * 0.8 / len(row)) for row in rows for t in row)
