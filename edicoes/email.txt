@@ -1,142 +1,51 @@
 TSA TECH
-Domingo, 11 de outubro de 2026 · 05:54 BRT
-
-EM 1 MINUTO
------------
-• Tributário: STJ decide no Tema 1.372 que o ICMS-Difal não compõe a
-  base de cálculo de PIS e Cofins, modulando os efeitos para
-  contribuintes.
-• Reforma Tributária: Mecanismo de split payment projetado para 2027
-  amplia alertas do comércio sobre perda de capital de giro e pressão de
-  caixa.
-• Previdenciário: Segunda Seção do STJ afeta Tema 1.471 para definir o
-  termo inicial da prescrição em planos de previdência privada fechada.
-• Recuperação: Oncoclínicas busca adesão de debenturistas para
-  viabilizar plano extrajudicial de R$ 5 bilhões antes do prazo de 14 de
-  outubro.
-• Execução Cível: STJ fixa no Tema 1.230 que penhora de salários para
-  dívidas não alimentares é excepcional, mas autorizada sem piso de
-  renda fixo.
-• Trabalhista: TRT-10 nega vínculo empregatício entre corretores em
-  regime de franquia e seguradora, validando modelo comercial.
+Domingo, 11 de outubro de 2026 · 14:26 BRT
 
 MANCHETE
 --------
-STJ decide em repetitivo que ICMS-Difal não integra base de cálculo do
-PIS e da Cofins
-Primeira Seção fixou a tese vinculante no Tema 1.372 e determinou a
-modulação dos efeitos da decisão para os contribuintes.
-Por que importa: A tese vinculante impede a incidência de PIS e Cofins
-sobre o ICMS-Difal, delimitando a recuperação de valores recolhidos
-conforme a modulação de efeitos fixada pelo tribunal.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-decide-em-repetitivo-que-icms-difal-nao-inte
+Split payment na reforma tributária gera alerta sobre capital de giro e
+fluxo de caixa das empresas
+Mecanismo prevê recolhimento imediato de tributos em transações a partir
+de 2027 e provoca divergência entre governo e oposição.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-split-payment-na-reforma-tributaria-gera-alerta
 
-TRIBUTÁRIO
-----------
-• STJ fixa marco de honorários em rescisórias sobre modulação do Tema 69
-  Primeira Seção define em repetitivo que ações contestadas até 11 de
-  setembro de 2024 e procedentes aplicam tese.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-fixa-marco-de-honorarios-em-rescisorias-sobr
+PRINCIPAIS NOTÍCIAS
+-------------------
+• STF pauta retomada do julgamento do Funrural com impacto fiscal de R$
+  17,2 bilhões
+  Plenário presencial da Corte deve analisar no dia 14 de outubro a ADI
+  4.395, que contesta dispositivos da Lei 8.212/91 sobre a contribuição
+  do produtor rural.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stf-pauta-retomada-do-julgamento-do-funrural-com
 
-• Split payment da reforma tributária gera alerta sobre perda de capital
-  de giro no comércio
-  Mecanismo de recolhimento automático de tributos previsto para 2027
-  preocupa empresários pela antecipação do repasse ao Fisco e potencial
-  pressão sobre o caixa das empresas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-split-payment-da-reforma-tributaria-gera-alerta
+• STJ fixa honorários de sucumbência em ações rescisórias da modulação
+  do Tema 69
+  Primeira Seção definiu em repetitivo marco para arbitramento de
+  sucumbência em rescisórias julgadas procedentes com base no precedente
+  do STF.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-fixa-honorarios-de-sucumbencia-em-acoes-resc
 
-PREVIDENCIÁRIO
---------------
-• STJ afeta repetitivo sobre termo inicial da prescrição em previdência
-  privada fechada
-  Segunda Seção definirá a controvérsia sob o Tema 1.471 nos REsps
-  1.980.730 e 1.980.997, relatados pelo ministro Raul Araújo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-afeta-repetitivo-sobre-termo-inicial-da-pres
+• STJ afeta repetitivo sobre marco prescricional em revisão de
+  previdência fechada
+  Segunda Seção cadastra controvérsia como Tema 1.471 nos Recursos
+  Especiais 1.980.730 e 1.980.997 para padronizar contagem de prazo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-afeta-repetitivo-sobre-marco-prescricional-e
 
-TRABALHISTA
------------
-• Centrais sindicais intensificam pressão no Senado por aprovação do fim
-  da escala 6x1
-  Proposta de Emenda à Constituição que altera jornada de trabalho pode
-  ser votada em primeiro turno nesta semana pelos senadores.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-centrais-sindicais-intensificam-pressao-no-senad
+• Oncoclínicas avança apenas com CRIs e busca apoio de mais credores
+  para plano extrajudicial
+  A poucos dias do prazo judicial, companhia tenta ampliar adesão para
+  conseguir homologar reestruturação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-oncoclinicas-avanca-apenas-com-cris-e-busca-apoi
 
-• TRT-10 afasta vínculo de emprego entre corretores franqueados e
-  seguradora
-  Colegiado entendeu que a inserção na estrutura ou na atividade-fim da
-  empresa não configura relação de trabalho em modelo de franquia.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-trt-10-afasta-vinculo-de-emprego-entre-corretore
-
-RECUPERAÇÃO DE EMPRESAS
------------------------
-• Oncoclínicas negocia plano extrajudicial de R$ 5 bilhões e busca
-  adesão de debenturistas
-  A poucos dias do prazo judicial de 14 de outubro, grupo atrai
-  detentores de R$ 1,5 bi em CRIs, mas precisa de apoio de credores de
-  R$ 2,74 bi em debêntures.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-oncoclinicas-negocia-plano-extrajudicial-de-r-5
-
-CÍVEL
------
-• STJ recebe primeiro recurso especial sob novos critérios da relevância
-  federal
-  Regulamentado pela Lei 15.484/2026, novo filtro recursal exige
-  demonstração de impacto transcendente para admissão de casos na corte.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-recebe-primeiro-recurso-especial-sob-novos-c
-
-• STJ fixa critérios para penhora de salário em dívidas não alimentares
-  no Tema 1.230
-  Corte Especial do tribunal estabelece sob o rito dos recursos
-  repetitivos que a constrição remuneratória é excepcional, mas
-  autorizada independentemente da renda.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-fixa-criterios-para-penhora-de-salario-em-di
-
-• STJ afeta repetitivo sobre dever de plano custear musicoterapia para
-  TEA
-  Segunda Seção vai uniformizar a controvérsia no Tema 1.463 por meio
-  dos Recursos Especiais 2.242.804 e 2.129.469.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-afeta-repetitivo-sobre-dever-de-plano-custea
-
-• STJ regulamenta sessões virtuais para julgar agravos em direito
-  privado
-  Instrução Normativa 47/2026 disciplina a pauta eletrônica de recursos
-  contra decisões da Presidência em processos cíveis.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-regulamenta-sessoes-virtuais-para-julgar-agr
-
-• STJ mantém ordem para provedor desindexar buscas com dados
-  desabonadores
-  Terceira Turma confirma decisão da Justiça do Espírito Santo que
-  determinou a retirada de vínculos ao nome de mulher.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-mantem-ordem-para-provedor-desindexar-buscas
-
-IMOBILIÁRIO
------------
-• STJ decide que intimação eletrônica não substitui intimação pessoal de
-  devedor em leilão extrajudicial
-  Terceira Turma define que credor deve comprovar ciência inequívoca do
-  fiduciante sobre o leilão, mantendo a anulação do procedimento.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-decide-que-intimacao-eletronica-nao-substitu
-
-POLÍTICA
---------
-• TRE-RJ confirma eleição de Douglas Ruas para o governo do Rio em
-  primeiro turno
-  Recontagem ocorreu após decisão do TSE que anulou votos de Anthony
-  Garotinho, elevando o candidato do PL a 50,88% dos votos válidos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-tre-rj-confirma-eleicao-de-douglas-ruas-para-o-g
-
-GEOPOLÍTICA
------------
-• Trump fecha acordo para diesel russo e exige que Ucrânia cesse ataques
-  a refinarias
-  Presidente americano cobra novo líder em Kiev e ameaça inteligência
-  militar, enquanto União Europeia alerta que alívio financeiro subsidia
-  guerra do Kremlin.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-trump-fecha-acordo-para-diesel-russo-e-exige-que
+• STJ fixa critérios para autorizar penhora de salário por dívidas não
+  alimentares
+  Julgamento sob o rito dos recursos repetitivos estabelece que
+  constrição é medida excepcional em execuções.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-fixa-criterios-para-autorizar-penhora-de-sal
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 352 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11-todas.html
+Todas as 381 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-latest)
+Gerado automaticamente em 14:26 (BRT) · Edição gerada por IA
+(gemini-flash-latest + gemini-flash-lite-latest)
