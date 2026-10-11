@@ -1,131 +1,142 @@
 TSA TECH
-Sábado, 10 de outubro de 2026 · 05:54 BRT
+Domingo, 11 de outubro de 2026 · 05:54 BRT
 
 EM 1 MINUTO
 -----------
-• STF forma maioria para afastar cobrança de ITBI em integralização de
-  capital de empresa imobiliária no Tema 1.348.
-• Governo zera tributos federais sobre gasolina e eleva subsídios ao
-  diesel e ao etanol em pacote de R$ 5,2 bilhões.
-• Ministro da Fazenda anuncia envio da MP do Imposto Seletivo ao
-  Congresso após as negociações com setores econômicos.
-• STJ afeta recursos repetitivos para definir percentual de retenção em
-  distrato imobiliário e regras para Airbnb.
-• Ações contra o INSS chegam a 4,5 milhões, motivando acordo entre
-  Ministério da Previdência e Judiciário para conter litígios.
-• TRT-3 define que enquadramento sindical no home office deve seguir a
-  base territorial da lotação da empresa.
+• Tributário: STJ decide no Tema 1.372 que o ICMS-Difal não compõe a
+  base de cálculo de PIS e Cofins, modulando os efeitos para
+  contribuintes.
+• Reforma Tributária: Mecanismo de split payment projetado para 2027
+  amplia alertas do comércio sobre perda de capital de giro e pressão de
+  caixa.
+• Previdenciário: Segunda Seção do STJ afeta Tema 1.471 para definir o
+  termo inicial da prescrição em planos de previdência privada fechada.
+• Recuperação: Oncoclínicas busca adesão de debenturistas para
+  viabilizar plano extrajudicial de R$ 5 bilhões antes do prazo de 14 de
+  outubro.
+• Execução Cível: STJ fixa no Tema 1.230 que penhora de salários para
+  dívidas não alimentares é excepcional, mas autorizada sem piso de
+  renda fixo.
+• Trabalhista: TRT-10 nega vínculo empregatício entre corretores em
+  regime de franquia e seguradora, validando modelo comercial.
 
 MANCHETE
 --------
-STF forma maioria para afastar cobrança de ITBI em integralização de
-capital de empresa imobiliária
-Julgamento no Plenário Virtual discute o Tema 1.348 de repercussão geral
-sobre a imunidade tributária mesmo quando a atividade preponderante é do
-setor imobiliário.
-Por que importa: A decisão traz alívio financeiro relevante e
-estabilidade jurídica a incorporadoras e holdings patrimoniais
-familiares ao afastar tributação municipal sobre os imóveis conferidos
-ao capital social.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-stf-forma-maioria-para-afastar-cobranca-de-itbi
+STJ decide em repetitivo que ICMS-Difal não integra base de cálculo do
+PIS e da Cofins
+Primeira Seção fixou a tese vinculante no Tema 1.372 e determinou a
+modulação dos efeitos da decisão para os contribuintes.
+Por que importa: A tese vinculante impede a incidência de PIS e Cofins
+sobre o ICMS-Difal, delimitando a recuperação de valores recolhidos
+conforme a modulação de efeitos fixada pelo tribunal.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-decide-em-repetitivo-que-icms-difal-nao-inte
 
 TRIBUTÁRIO
 ----------
-• Governo zera tributos federais sobre gasolina e eleva subsídios ao
-  diesel e ao etanol
-  Medidas têm custo de R$ 5,2 bilhões em 30 dias e ampliam a desoneração
-  de PIS/Cofins e Cide para conter a alta dos combustíveis decorrente do
-  conflito internacional.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-governo-zera-tributos-federais-sobre-gasolina-e
+• STJ fixa marco de honorários em rescisórias sobre modulação do Tema 69
+  Primeira Seção define em repetitivo que ações contestadas até 11 de
+  setembro de 2024 e procedentes aplicam tese.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-fixa-marco-de-honorarios-em-rescisorias-sobr
 
-• Flávio Bolsonaro defende retirada do split payment da reforma
-  tributária
-  Candidato argumenta que o mecanismo de recolhimento automático de
-  tributos inviabiliza o capital de giro e o fluxo de caixa das
-  empresas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-flavio-bolsonaro-defende-retirada-do-split-payme
-
-• Governo decide enviar MP do Imposto Seletivo ao Congresso após as
-  eleições
-  Ministro da Fazenda, Dario Durigan, afirma que texto com alíquotas do
-  tributo sobre produtos nocivos à saúde e ao meio ambiente foi pactuado
-  com setores econômicos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-governo-decide-enviar-mp-do-imposto-seletivo-ao
+• Split payment da reforma tributária gera alerta sobre perda de capital
+  de giro no comércio
+  Mecanismo de recolhimento automático de tributos previsto para 2027
+  preocupa empresários pela antecipação do repasse ao Fisco e potencial
+  pressão sobre o caixa das empresas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-split-payment-da-reforma-tributaria-gera-alerta
 
 PREVIDENCIÁRIO
 --------------
-• Ações contra o INSS chegam a 4,5 milhões, e Previdência firma acordo
-  para conter litígios
-  Acordo entre o Ministério da Previdência Social, a autarquia e o
-  Judiciário busca frear novos processos após redução da fila de espera
-  a 1,2 milhão de pedidos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-acoes-contra-o-inss-chegam-a-4-5-milhoes-e-previ
+• STJ afeta repetitivo sobre termo inicial da prescrição em previdência
+  privada fechada
+  Segunda Seção definirá a controvérsia sob o Tema 1.471 nos REsps
+  1.980.730 e 1.980.997, relatados pelo ministro Raul Araújo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-afeta-repetitivo-sobre-termo-inicial-da-pres
 
 TRABALHISTA
 -----------
-• TRT-3 define que enquadramento sindical no home office segue local de
-  lotação da empresa
-  Segunda Turma estabelece que a representação coletiva de empregados em
-  teletrabalho deve observar a base territorial do estabelecimento ao
-  qual estão vinculados.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-trt-3-define-que-enquadramento-sindical-no-home
+• Centrais sindicais intensificam pressão no Senado por aprovação do fim
+  da escala 6x1
+  Proposta de Emenda à Constituição que altera jornada de trabalho pode
+  ser votada em primeiro turno nesta semana pelos senadores.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-centrais-sindicais-intensificam-pressao-no-senad
+
+• TRT-10 afasta vínculo de emprego entre corretores franqueados e
+  seguradora
+  Colegiado entendeu que a inserção na estrutura ou na atividade-fim da
+  empresa não configura relação de trabalho em modelo de franquia.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-trt-10-afasta-vinculo-de-emprego-entre-corretore
+
+RECUPERAÇÃO DE EMPRESAS
+-----------------------
+• Oncoclínicas negocia plano extrajudicial de R$ 5 bilhões e busca
+  adesão de debenturistas
+  A poucos dias do prazo judicial de 14 de outubro, grupo atrai
+  detentores de R$ 1,5 bi em CRIs, mas precisa de apoio de credores de
+  R$ 2,74 bi em debêntures.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-oncoclinicas-negocia-plano-extrajudicial-de-r-5
 
 CÍVEL
 -----
-• STJ autua primeiro recurso sob filtro da relevância e inicia transição
-  com TJs e advocacia
-  Novo marco processual exige demonstração de repercussão federal com
-  base na Lei 15.484/2026 e na Emenda Regimental 55/2026.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-stj-autua-primeiro-recurso-sob-filtro-da-relevan
+• STJ recebe primeiro recurso especial sob novos critérios da relevância
+  federal
+  Regulamentado pela Lei 15.484/2026, novo filtro recursal exige
+  demonstração de impacto transcendente para admissão de casos na corte.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-recebe-primeiro-recurso-especial-sob-novos-c
+
+• STJ fixa critérios para penhora de salário em dívidas não alimentares
+  no Tema 1.230
+  Corte Especial do tribunal estabelece sob o rito dos recursos
+  repetitivos que a constrição remuneratória é excepcional, mas
+  autorizada independentemente da renda.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-fixa-criterios-para-penhora-de-salario-em-di
+
+• STJ afeta repetitivo sobre dever de plano custear musicoterapia para
+  TEA
+  Segunda Seção vai uniformizar a controvérsia no Tema 1.463 por meio
+  dos Recursos Especiais 2.242.804 e 2.129.469.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-afeta-repetitivo-sobre-dever-de-plano-custea
+
+• STJ regulamenta sessões virtuais para julgar agravos em direito
+  privado
+  Instrução Normativa 47/2026 disciplina a pauta eletrônica de recursos
+  contra decisões da Presidência em processos cíveis.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-regulamenta-sessoes-virtuais-para-julgar-agr
+
+• STJ mantém ordem para provedor desindexar buscas com dados
+  desabonadores
+  Terceira Turma confirma decisão da Justiça do Espírito Santo que
+  determinou a retirada de vínculos ao nome de mulher.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-mantem-ordem-para-provedor-desindexar-buscas
 
 IMOBILIÁRIO
 -----------
-• STJ vai fixar em repetitivo percentual de retenção em distrato
-  imobiliário antes e pós-lei de 2018
-  Segunda Seção afetou quatro recursos especiais relatados pelo ministro
-  Ricardo Villas Bôas Cueva para uniformizar controvérsia sobre
-  rescisões contratuais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-stj-vai-fixar-em-repetitivo-percentual-de-retenc
-
-• STJ afeta repetitivo e suspende ações no país sobre locação via Airbnb
-  em condomínio residencial
-  Segunda Seção vai decidir se previsão de destinação residencial em
-  convenção é suficiente para proibir aluguéis de curta temporada por
-  plataformas digitais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-stj-afeta-repetitivo-e-suspende-acoes-no-pais-so
+• STJ decide que intimação eletrônica não substitui intimação pessoal de
+  devedor em leilão extrajudicial
+  Terceira Turma define que credor deve comprovar ciência inequívoca do
+  fiduciante sobre o leilão, mantendo a anulação do procedimento.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-decide-que-intimacao-eletronica-nao-substitu
 
 POLÍTICA
 --------
-• Cotado para a Fazenda de Flávio vê corte de R$ 200 bilhões em um ano
-  como inviável
-  Marcelo Kayath defende ajuste fiscal gradual, enquanto analistas
-  apontam dúvidas com promessas de expansão de gastos na saúde.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-cotado-para-a-fazenda-de-flavio-ve-corte-de-r-20
-
-• STJ regulamenta sessões virtuais para agravos da Presidência em
-  direito privado
-  A Instrução Normativa 47/2026 estabelece as regras para julgamento de
-  agravos internos contra decisões do presidente da Corte.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-stj-regulamenta-sessoes-virtuais-para-agravos-da
+• TRE-RJ confirma eleição de Douglas Ruas para o governo do Rio em
+  primeiro turno
+  Recontagem ocorreu após decisão do TSE que anulou votos de Anthony
+  Garotinho, elevando o candidato do PL a 50,88% dos votos válidos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-tre-rj-confirma-eleicao-de-douglas-ruas-para-o-g
 
 GEOPOLÍTICA
 -----------
-• Governo Trump impõe sanções ao TPI e gera condenação da ONU e apoio de
-  Israel
-  Medida contra a corte internacional ocorre após premiação da ex-juíza
-  Navi Pillay com o Nobel da Paz e aprofunda tensões multilaterais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-governo-trump-impoe-sancoes-ao-tpi-e-gera-conden
-
-• União Europeia e China fecham acordo para reduzir exportações de
-  carros híbridos
-  Entendimento prevê cortar em mais da metade os embarques de híbridos
-  chineses ao bloco europeu em quatro anos e abre caminho para
-  reavaliação de tarifas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10.html#s-uniao-europeia-e-china-fecham-acordo-para-reduzi
+• Trump fecha acordo para diesel russo e exige que Ucrânia cesse ataques
+  a refinarias
+  Presidente americano cobra novo líder em Kiev e ameaça inteligência
+  militar, enquanto União Europeia alerta que alívio financeiro subsidia
+  guerra do Kremlin.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-trump-fecha-acordo-para-diesel-russo-e-exige-que
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 602 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-10-todas.html
+Todas as 352 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-latest + gemini-flash-lite-latest)
+(gemini-flash-latest)
