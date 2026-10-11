@@ -264,12 +264,22 @@ weather:
   - {name: "Montevidéu", lat: -34.90, lon: -56.16, timezone: "America/Montevideo"}
 
 email:
-  # newsletter: e-mail minimalista (logo, "Em 1 minuto", matérias por seção com
-  # título, linha fina e link); jornal: o e-mail completo do jornal geral
-  # (cotações, clima, cobertura comparada).
+  # newsletter: no alto, o cabeçalho do site (o logo sobre o fundo de pontos e
+  # linhas, em imagem estática, e o slogan e a data em texto); embaixo, uma caixa
+  # com todas as notícias do dia, numeradas pela prioridade e com o título cada vez
+  # menor, a foto da manchete dividindo a caixa; jornal: o e-mail completo do
+  # jornal geral (cotações, clima, cobertura comparada).
   style: newsletter
   # Destinatários NÃO ficam aqui (o repositório é público): use o segredo
   # EMAIL_TO no GitHub Actions ou a rotina de e-mail do Claude.
   # Campos: {brand}, {date} (29/09/2026), {date_label} e {lead} (manchete, até 70 caracteres).
   subject_template: "{brand} · {date}: {lead}"
-  max_stories: 14
+  # Principais matérias além da manchete (chamadas e destaques da edição).
+  max_stories: 5
+  # Cabeçalho da newsletter: o logo oficial (com a legenda TECH) sobre o fundo de
+  # pontos e linhas do site, capturado do próprio site num quadro parado, sobre a
+  # ardósia lisa e com a rede sumindo na borda de baixo, em JPEG 2x (1200 × 264)
+  # exibido a 600 × 132. O slogan e a data vêm em texto logo abaixo, na mesma
+  # faixa. Com 560 px ou mais de largura, a imagem ocupa a faixa inteira; menor,
+  # fica centralizada.
+  logo: {src: "assets/tsa-tech-cabecalho-email.jpg", width: 600, height: 132}

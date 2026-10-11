@@ -313,6 +313,9 @@ class EmailConfig:
     # "jornal": e-mail completo (cotações, clima, cobertura comparada);
     # "newsletter": minimalista (logo, "Em 1 minuto" e matérias por seção).
     style: str = "jornal"
+    # newsletter: logo do topo ({src, width, height}; src relativo = base_url + src).
+    # Sem ele, vale o email_logo da marca.
+    logo: dict[str, Any] | None = None
     max_stories: int = 14
     to: list[str] = field(default_factory=list)  # só via ambiente (EMAIL_TO)
 

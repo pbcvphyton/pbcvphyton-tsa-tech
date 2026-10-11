@@ -219,12 +219,29 @@ publicaram; quando o trecho não permite dizer, o veículo fica como neutro.
 ## Receber por e-mail
 
 O e-mail sai no formato **newsletter** (`email.style: newsletter` em
-`config/site.yaml`): a faixa da marca com o logo e a data, o "Em 1 minuto" (na
-edição por IA), a manchete com "por que importa" e as matérias por seção, cada uma
-com título, uma linha fina curta e link, sem cotações, clima, imagens nem barras
-de cobertura (a edição completa tem tudo), num HTML de ~20 KB. Com
-`email.style: jornal`, volta o e-mail completo do jornal geral. Há dois
-caminhos, que podem ser usados juntos ou separados.
+`config/site.yaml`). No alto, o cabeçalho do site: o logo oficial com a legenda
+TECH sobre o fundo de pontos e linhas, numa imagem estática de alta qualidade
+capturada do próprio site (`email.logo`: `assets/tsa-tech-cabecalho-email.jpg`,
+JPEG 2x de 1200 × 264 exibido a 600 × 132), e, como no site, o slogan e a data
+em texto logo abaixo, na mesma faixa ardósia (sem a imagem, a faixa continua com
+os dois). Logo abaixo, uma caixa retangular com todas as notícias do dia ("Hoje
+em 6 notícias"), em tipografia de jornal (Georgia, preto e cinzas): a manchete
+com linha fina, crédito e a foto dela, que divide a caixa; embaixo, as demais
+(`email.max_stories`: 5) num mosaico de blocos lado a lado (linhas de 2 e 3; uma
+coluna no celular), na ordem de um **índice de relevância** de 0 a 100 — metade a
+importância dada pelo editor (1 a 5), metade a repercussão: quantos veículos deram
+a notícia, com os estrangeiros (BBC, FT, Guardian, NYT) valendo 3, em escala
+logarítmica. A largura do bloco e o tamanho do título são proporcionais ao
+índice, e cada bloco mostra a repercussão ("7 veículos · 1 no exterior").
+O botão "Ler a edição completa" fecha a caixa. Sem cotações, clima, editorial
+ou "Em 1 minuto"; HTML de ~10 KB. Com `email.style: jornal`, volta o
+e-mail completo do jornal geral.
+
+**Imagens só aparecem no envio por SMTP (Opção 2).** O conector do Gmail usado
+pela rotina do Claude (parâmetro `htmlBody`) remove todas as imagens do HTML
+(cabeçalho e foto da manchete), o bloco `<style>` e as classes; pela rotina, a
+newsletter chega só com o texto. Há dois caminhos, que podem ser usados juntos
+ou separados.
 
 ### Pontualidade: o gatilho diário
 

@@ -1,17 +1,39 @@
-{#- E-mail no formato newsletter (email.style: newsletter): coluna única de 600px,
-    muito branco, títulos em serifa e só o essencial — "Em 1 minuto", a manchete e
-    as matérias por seção (título, linha fina e link). Sem cotações, clima,
-    imagens de matéria ou cobertura comparada (a edição completa tem tudo).
-    Tabelas + CSS inline; o <style> só melhora celular e modo escuro.
-    Variáveis: v (EditionView), brand, subject, preheader, sections, story_url, footer. -#}
+{#- E-mail no formato newsletter (email.style: newsletter). No alto, o cabeçalho
+    do site: a faixa ardósia com o logo oficial sobre o fundo de pontos e linhas
+    numa imagem estática em 2x (email.logo com 560 px ou mais de largura ocupa a
+    faixa inteira; menor, fica centralizado) e, como no site, o slogan e a data em
+    texto embaixo: se o cliente de e-mail tirar a imagem (o conector do Gmail
+    tira todas), a faixa continua com o slogan e a data. Logo abaixo, uma caixa
+    retangular com todas as notícias do dia ("Hoje em N notícias"): a manchete
+    com a foto dela, que divide a caixa, e embaixo as demais (email.max_stories)
+    num mosaico de blocos lado a lado (linhas de 2 e 3), na ordem do índice de
+    relevância no Brasil e no exterior, com a largura do bloco e o título
+    proporcionais ao índice e a repercussão de cada uma ("7 veículos"). No
+    celular, os blocos viram uma coluna sozinhos (inline-block), mesmo sem o
+    <style>. O botão principal fecha a caixa. Tipografia de jornal (Georgia,
+    preto e cinzas), sempre no tema claro.
+    Tabelas + CSS inline (o <style> só melhora o celular); sem JS, SVG ou web fonts.
+    Variáveis: v (EditionView), brand, subject, preheader, logo, top, mosaic
+    (linhas de Tile: story, rank, width, font, relevance), mosaic_width,
+    story_url, photo, teaser, footer. -#}
 {% set c = brand.colors %}
-{% set serif = "Georgia,'Times New Roman',serif" %}
-{% set sans = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" %}
+{% set serif = "Georgia,Times New Roman,serif" %}
+{% set sans = "Helvetica Neue,Helvetica,Arial,sans-serif" %}
 {% set band = brand.masthead or c.navy %}
-{% set DEK_MAX = 180 %}{# linha fina das demais matérias: ~2 linhas e meia no celular #}
+{% set on = brand.on_masthead %}
+{% set ink = "#121212" %}
+{% set body = "#363636" %}
+{% set gray = "#6B6B6B" %}
+{% set rule = "#E2E2E2" %}
+{% set page = "#EDF2F5" %}
 {% macro lang(s) -%}{% if s.lang %} lang="{{ s.lang }}"{% endif %}{%- endmacro %}
-{% macro label(text, color, cls="") -%}
-<p class="sc {{ cls }}" style="margin:0 0 8px;font-family:{{ sans }};font-size:11px;line-height:16px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:{{ color }};">{{ text }}</p>
+{#- Chapéu: a posição na prioridade do dia e a seção, em sans cinza. -#}
+{% macro kicker(s, rank, margin="0 0 6px") -%}
+<p style="margin:{{ margin }};font:bold 11px/14px {{ sans }};letter-spacing:.6px;text-transform:uppercase;color:{{ gray }};"><span style="color:{{ ink }};">{{ rank }}</span>&nbsp;·&nbsp;{{ s.section_title }}</p>
+{%- endmacro %}
+{#- Crédito: até 2 veículos, em sans cinza. -#}
+{% macro credit(s, margin="10px 0 0") -%}
+{% if s.sources %}<p style="margin:{{ margin }};font:12px/16px {{ sans }};color:{{ gray }};">{{ s.sources[:2]|map(attribute="name")|join(" · ") }}{% if s.sources|length > 2 %} e mais {{ s.sources|length - 2 }}{% endif %}</p>{% endif %}
 {%- endmacro %}
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -20,99 +42,114 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="x-apple-disable-message-reformatting">
 <meta name="format-detection" content="telephone=no,date=no,address=no,email=no">
-<meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light only">
 <title>{{ subject }}</title>
 <style>
-  body{margin:0;padding:0;}
+  :root{color-scheme:light only;supported-color-schemes:light only;}
+  body{margin:0;padding:0;-webkit-text-size-adjust:100%;}
   a{text-decoration:none;}
-  @media (max-width:640px){
-    .wrap{width:100%!important;}
-    .px{padding-left:22px!important;padding-right:22px!important;}
-    .hl{font-size:24px!important;line-height:31px!important;}
-  }
-  @media (prefers-color-scheme:dark){
-    .bg{background:#0b0f17!important;}
-    .card{background:#111827!important;}
-    .ink{color:#e8edf7!important;}
-    .muted{color:#a9b4c6!important;}
-    .rule{border-color:#2d3748!important;}
-    .lnk{color:#91C3F5!important;}
-    .sc{color:#91C3F5!important;}
+  @media (max-width:620px){
+    .px{padding-left:18px!important;padding-right:18px!important;}
+    .r1{font-size:24px!important;line-height:30px!important;}
+    .col{display:block!important;max-width:100%!important;}
+    .tp{padding-right:0!important;}
+    .ph{height:170px!important;}
   }
 </style>
+<!--[if mso]><style>.ph{height:auto!important;}</style><![endif]-->
 </head>
-<body style="margin:0;padding:0;background:#f4f6f8;" class="bg">
-<div style="display:none;max-height:0;max-width:0;overflow:hidden;opacity:0;mso-hide:all;font-size:1px;line-height:1px;color:#f4f6f8;">{{ preheader }}{% for _ in range(12) %}&#847;&zwnj;&nbsp;{% endfor %}</div>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f4f6f8;" class="bg">
-<tr><td align="center" style="padding:28px 12px;">
-<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" class="wrap card" style="width:600px;max-width:600px;background:#ffffff;">
+<body style="margin:0;padding:0;background:{{ page }};">
+<div style="display:none;max-height:0;max-width:0;overflow:hidden;opacity:0;mso-hide:all;font-size:1px;line-height:1px;color:{{ page }};">{{ preheader }}{% for _ in range(12) %}&#847;&zwnj;&nbsp;{% endfor %}</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{{ page }}" style="background:{{ page }};">
+<tr><td align="center" style="padding:12px 8px 28px;">
+<!--[if mso]><table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;margin:0 auto;">
 
-{# Cabeçalho: faixa na cor da marca com o logo, o slogan e a data #}
-<tr><td align="center" bgcolor="{{ band }}" class="px" style="padding:26px 32px 20px;background:{{ band }};">
-  {% if brand.email_logo %}
-  <img src="{{ brand.email_logo.src }}" width="{{ (brand.email_logo.width * 0.75)|round|int }}" height="{{ (brand.email_logo.height * 0.75)|round|int }}" alt="{{ brand.name }}" style="display:block;margin:0 auto;border:0;height:auto;font-family:{{ sans }};font-size:24px;line-height:30px;font-weight:bold;color:#ffffff;">
-  {% else %}
-  <p style="margin:0;font:bold 26px/32px {{ serif }};color:#ffffff;">{{ brand.name }}</p>
-  {% endif %}
-  <p style="margin:12px 0 0;font-family:{{ sans }};font-size:11px;line-height:16px;letter-spacing:1.5px;text-transform:uppercase;color:{{ '#ffffff'|blend(band, 0.75) }};">{{ v.date_label }}</p>
+<tr><td align="right" style="padding:0 2px 8px;font:11px/16px {{ sans }};color:{{ gray }};">
+  <a href="{{ v.edition_url }}" style="color:{{ gray }};text-decoration:underline;">Abrir no navegador</a>
 </td></tr>
 
-{# Em 1 minuto (só na edição por IA: no modo automático repetiria os títulos) #}
-{% if v.briefing and v.mode == "ai" %}
-<tr><td class="px" style="padding:30px 40px 6px;">
-  {{ label("Em 1 minuto", c.primary) }}
+{# Cabeçalho do site: o logo sobre o fundo de pontos e linhas (imagem estática) e,
+   em texto, o slogan e a data #}
+{% set banner = logo and logo.width >= 560 %}
+<tr><td align="center" bgcolor="{{ band }}" style="padding:{{ '0 0 20px' if banner else '28px 0 20px' }};background:{{ band }};border-bottom:3px solid {{ c.navy }};">
+  {% if banner %}
+  <a href="{{ v.base_url }}" style="text-decoration:none;"><img src="{{ logo.src }}" width="{{ logo.width }}" height="{{ logo.height }}" alt="{{ brand.name }}" style="display:block;width:100%;max-width:{{ logo.width }}px;height:auto;border:0;font:bold 30px/40px {{ serif }};color:{{ on }};text-align:center;"></a>
+  {% elif logo %}
+  <a href="{{ v.base_url }}" style="text-decoration:none;"><img src="{{ logo.src }}" width="{{ logo.width }}" height="{{ logo.height }}" alt="{{ brand.name }}" style="display:block;margin:0 auto;width:{{ logo.width }}px;max-width:100%;height:auto;border:0;font:bold 30px/36px {{ serif }};color:{{ on }};"></a>
+  {% else %}
+  <p style="margin:0;font:bold 34px/40px {{ serif }};color:{{ on }};">{{ brand.name }}</p>
+  {% endif %}
+  {% if brand.tagline %}
+  <p style="margin:14px 20px 0;font:bold 10px/14px {{ sans }};letter-spacing:3px;text-transform:uppercase;color:{{ on|blend(band, 0.8) }};">{{ brand.tagline }}</p>
+  {% endif %}
+  <p style="margin:8px 20px 0;font:10px/14px Menlo,Consolas,monospace;letter-spacing:1px;color:{{ on|blend(band, 0.72) }};">{{ v.date_label }}</p>
+</td></tr>
+
+{# A caixa das notícias: a manchete com a foto dela, que divide a caixa, e o mosaico
+   das demais pela relevância #}
+{% if v.lead or top %}
+{% set total = (1 if v.lead else 0) + top|length %}
+<tr><td style="height:14px;line-height:14px;font-size:1px;">&nbsp;</td></tr>
+<tr><td bgcolor="#ffffff" class="px" style="padding:20px 28px 22px;background:#ffffff;border:1px solid #D2D7DE;border-top:3px solid {{ band }};">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-  {% for item in v.briefing %}
-  <tr>
-    <td width="18" valign="top" style="padding:4px 0;font:15px/23px {{ sans }};color:{{ c.accent }};">&bull;</td>
-    <td valign="top" class="ink" style="padding:4px 0;font:15px/23px {{ sans }};color:#1f2937;">{{ item|md_lite }}</td>
-  </tr>
+  <tr><td style="padding:0 0 10px;border-bottom:1px solid {{ ink }};font:bold 11px/14px {{ sans }};letter-spacing:1.2px;text-transform:uppercase;color:{{ ink }};">Hoje em {{ total }} notícias</td></tr>
+  {% if v.lead %}
+  {% set s = v.lead %}
+  <tr><td style="padding:18px 0 {{ '0' if photo(s) else '18px' }};">
+    {{ kicker(s, 1, "0 0 8px") }}
+    <h1 class="r1" style="margin:0 0 10px;font:bold 28px/34px {{ serif }};color:{{ ink }};"{{ lang(s) }}><a href="{{ story_url(s) }}" style="color:{{ ink }};text-decoration:none;">{{ s.headline }}</a></h1>
+    {% if s.dek %}
+    <p style="margin:0;font:16px/25px {{ serif }};color:{{ body }};"{{ lang(s) }}>{{ s.dek }}</p>
+    {% endif %}
+    {{ credit(s, "8px 0 0") }}
+    {% if photo(s) %}
+    <a href="{{ story_url(s) }}" style="text-decoration:none;"><img class="ph" src="{{ photo(s) }}" width="{{ mosaic_width }}" alt="{{ s.headline }}" style="display:block;width:100%;max-width:{{ mosaic_width }}px;height:220px;object-fit:cover;border:0;margin:16px 0 0;background:#F3F3F3;font:12px/16px {{ sans }};color:{{ gray }};"></a>
+    {% endif %}
+  </td></tr>
+  {% endif %}
+  {#- O mosaico: blocos lado a lado, largura e título proporcionais à relevância. Cada
+      linha abre com um fio (sob a foto da manchete ele some; sem a foto, separa a
+      manchete). font-size:0 na célula tira o espaço entre os blocos inline-block. #}
+  {% for row in mosaic %}
+  {% set first_row = loop.first %}
+  <tr><td style="padding:0;border-top:1px solid {{ rule }};font-size:0;line-height:0;">
+  <!--[if mso]><table role="presentation" width="{{ mosaic_width }}" cellpadding="0" cellspacing="0" border="0"><tr><![endif]-->
+  {% for t in row %}
+  {% set s = t.story %}
+  <!--[if mso]><td width="{{ t.width }}" valign="top"><![endif]-->
+  <div class="col" style="display:inline-block;width:100%;max-width:{{ t.width }}px;vertical-align:top;"><div class="tp" style="padding:16px {{ '0' if loop.last else '14px' }} 16px 0;">
+    {{ kicker(s, t.rank, "0 0 6px") }}
+    <h2 style="margin:0;font:bold {{ t.font }}px/{{ (t.font * 1.28)|round|int }}px {{ serif }};color:{{ ink }};"{{ lang(s) }}><a href="{{ story_url(s) }}" style="color:{{ ink }};text-decoration:none;">{{ s.headline }}</a></h2>
+    {% if first_row and loop.first and s.dek and t.width >= 280 %}
+    <p style="margin:6px 0 0;font:14px/21px {{ serif }};color:{{ body }};"{{ lang(s) }}>{{ teaser(s.dek, 120) }}</p>
+    {% endif %}
+    <p style="margin:8px 0 0;font:11px/15px {{ sans }};color:{{ gray }};">{{ t.relevance.label }}</p>
+  </div></div>
+  <!--[if mso]></td><![endif]-->
   {% endfor %}
+  <!--[if mso]></tr></table><![endif]-->
+  </td></tr>
+  {% endfor %}
+  {# O botão principal fecha a caixa #}
+  <tr><td style="padding:14px 0 0;border-top:1px solid {{ ink }};">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td align="left" style="font:bold 13px/18px {{ sans }};"><a href="{{ v.base_url }}" style="color:{{ ink }};text-decoration:underline;">Ler a edição completa &rarr;</a></td>
+    {% if v.index_url %}<td align="right" style="font:12px/18px {{ sans }};"><a href="{{ v.index_url }}" style="color:{{ gray }};text-decoration:underline;">{{ v.index_total|num }} notícias hoje</a></td>{% endif %}
+    </tr></table>
+  </td></tr>
   </table>
 </td></tr>
 {% endif %}
 
-{# Manchete #}
-{% if v.lead %}
-{% set s = v.lead %}
-<tr><td class="px" style="padding:30px 40px 6px;">
-  {{ label(s.section_title, s.color) }}
-  <h1 class="hl" style="margin:0 0 10px;font:bold 26px/33px {{ serif }};color:#111827;"{{ lang(s) }}><a href="{{ story_url(s) }}" class="ink" style="color:#111827;text-decoration:none;">{{ s.headline }}</a></h1>
-  {% if s.dek %}
-  <p class="muted" style="margin:0 0 10px;font:16px/25px {{ sans }};color:#4b5563;"{{ lang(s) }}>{{ s.dek }}</p>
-  {% endif %}
-  {% if s.why %}
-  <p class="muted" style="margin:0 0 10px;font:15px/24px {{ sans }};color:#4b5563;"><b class="ink" style="color:#111827;">Por que importa:</b> {{ s.why }}</p>
-  {% endif %}
-  <p style="margin:0;font:bold 14px/20px {{ sans }};"><a href="{{ story_url(s) }}" class="lnk" style="color:{{ c.primary }};">Ler a matéria &rarr;</a></p>
-</td></tr>
-{% endif %}
-
-{# Demais matérias, por seção: título, linha fina e link #}
-{% for section in sections %}
-<tr><td class="px" style="padding:30px 40px 0;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="rule" style="border-top:1px solid #e5e7eb;padding-top:22px;">
-  {{ label(section.title, section.color) }}
-  {% for s in section.stories %}
-  <h2 style="margin:{% if loop.first %}0{% else %}18px{% endif %} 0 4px;font:bold 18px/25px {{ serif }};color:#111827;"{{ lang(s) }}><a href="{{ story_url(s) }}" class="ink" style="color:#111827;text-decoration:none;">{{ s.headline }}</a></h2>
-  {% if s.dek %}
-  <p class="muted" style="margin:0;font:15px/23px {{ sans }};color:#4b5563;"{{ lang(s) }}>{{ s.dek|truncate(DEK_MAX, False, "…", 0) }}</p>
-  {% endif %}
-  {% endfor %}
-  </td></tr></table>
-</td></tr>
-{% endfor %}
-
-{# Rodapé: links para a edição completa e o arquivo #}
-<tr><td class="px" style="padding:36px 40px 34px;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="rule" style="border-top:1px solid #e5e7eb;padding-top:22px;font:14px/22px {{ sans }};">
-    <a href="{{ v.base_url }}" class="lnk" style="color:{{ c.primary }};font-weight:bold;">Edição completa</a>{% if v.index_url %} &nbsp;·&nbsp; <a href="{{ v.index_url }}" class="lnk" style="color:{{ c.primary }};">Todas as {{ v.index_total|num }} notícias</a>{% endif %} &nbsp;·&nbsp; <a href="{{ footer.archive_url }}" class="lnk" style="color:{{ c.primary }};">Edições anteriores</a>
-    <p class="muted" style="margin:14px 0 0;font:12px/19px {{ sans }};color:#6b7280;">{{ brand.name }}{% if brand.tagline %} · {{ brand.tagline }}{% endif %}<br>{{ footer.generated }}</p>
-  </td></tr></table>
+{# Rodapé, fora da caixa #}
+<tr><td align="center" class="px" style="padding:18px 40px 0;">
+  <p style="margin:0;font:11px/17px {{ sans }};color:{{ gray }};">{{ brand.name }}{% if brand.tagline %} · {{ brand.tagline }}{% endif %} · {{ v.sources_total }} fontes · <a href="{{ footer.archive_url }}" style="color:{{ gray }};text-decoration:underline;">Edições anteriores</a></p>
 </td></tr>
 
 </table>
+<!--[if mso]></td></tr></table><![endif]-->
 </td></tr>
 </table>
 </body>

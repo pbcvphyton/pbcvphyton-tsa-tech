@@ -347,3 +347,234 @@ def test_dark_mode_keeps_each_section_color(rendered):
     assert '<p class="sc sc-1" style=' in html
     assert ".cv-a{background:#8DAFD6!important;}" in html  # primária clareada para o fundo escuro
 
+
+
+
+# ── newsletter (email.style: newsletter) ─────────────────────────────────────
+
+LOGO = {"src": "assets/tsa-tech-cabecalho-email.jpg", "width": 600, "height": 132}
+
+
+def newsletter_config(**email):
+    cfg = default_config()
+    cfg.email.style = "newsletter"
+    cfg.email.logo = dict(LOGO)
+    for key, value in email.items():
+        setattr(cfg.email, key, value)
+    return cfg
+
+
+@pytest.fixture(scope="module")
+def newsletter(edition):
+    return render_email(edition, newsletter_config())
+
+
+def top_ids(html: str) -> list[str]:
+    """Ids das principais matérias da newsletter (títulos em <h2>)."""
+    return re.findall(r'<h2[^>]*><a href="' + re.escape(PAGE) + r'#s-([^"]+)"', html)
+
+
+def expected_top(edition, limit: int) -> list[str]:
+    """Chamadas, destaques e demais, sem repetir nem a manchete: as ``limit`` primeiras."""
+    order = list(dict.fromkeys([*edition.secondary, *edition.highlights, *(s.id for s in edition.stories)]))
+    return [i for i in order if i != LEAD_ID][:limit]
+
+
+def test_newsletter_is_light_slim_and_email_safe(newsletter):
+    _, html, _ = newsletter
+    assert len(html.encode("utf-8")) <= 30 * 1024  # 15 matérias no exemplo; o limite da rotina é 40 KB
+    lowered = html.lower()
+    assert "<script" not in lowered and "<svg" not in lowered and "fonts.googleapis" not in lowered
+    assert '<meta name="color-scheme" content="light only">' in html and "prefers-color-scheme" not in html
+    assert '<body style="margin:0;padding:0;background:#EDF2F5;">' in html and "max-width:600px" in html
+    assert "**" not in html and "&#39;" not in html
+    structure = parse(html)
+    assert structure.errors == [] and structure.stack == []
+
+
+def test_newsletter_masthead_is_the_static_site_header(newsletter):
+    _, html, _ = newsletter
+    # o cabeçalho do site: o logo sobre o fundo de pontos e linhas numa imagem estática
+    # que ocupa a faixa inteira (nada de GIF animado), sobre a ardósia com o fio marinho
+    assert '<td align="center" bgcolor="#2F363C" style="padding:0 0 20px;background:#2F363C;border-bottom:3px solid #232A30;">' in html
+    assert (
+        f'<a href="{BASE}" style="text-decoration:none;"><img src="{BASE}assets/tsa-tech-cabecalho-email.jpg"'
+        ' width="600" height="132" alt="TSA Tech"'
+        ' style="display:block;width:100%;max-width:600px;height:auto;' in html
+    )
+    assert ".gif" not in html
+    # como no site, o slogan e a data em texto na mesma faixa: se o cliente de e-mail
+    # tirar a imagem (o conector do Gmail tira), a faixa continua com os dois
+    head = html.split("<img src=", 2)[1].split("</td></tr>", 1)[0]
+    assert 'text-transform:uppercase;color:#D5D7D8;">Ao seu lado em todas as etapas do dia</p>' in head
+    assert "monospace;letter-spacing:1px;color:#C5C7C8;\">Terça-feira, 29 de setembro de 2026</p>" in head
+    # foco nas notícias: sem cotações, clima, editorial nem "Em 1 minuto" (o editorial
+    # fica só no preheader, o resumo que a caixa de entrada mostra ao lado do assunto)
+    for absent in ("Dólar", "São Paulo", "Em 1 minuto", "italic", "<strong>prêmio eleitoral</strong>"):
+        assert absent not in html, absent
+
+
+def test_newsletter_survives_image_stripping(newsletter):
+    """O conector do Gmail tira todas as imagens: sem elas, a faixa mantém o slogan e a
+    data e um fio fino continua separando a manchete das demais."""
+    _, html, _ = newsletter
+    import re as _re
+
+    bare = _re.sub(r"<a [^>]*><img [^>]*></a>", "", html)
+    assert "<img" not in bare
+    assert "Ao seu lado em todas as etapas do dia</p>" in bare and "Terça-feira, 29 de setembro de 2026</p>" in bare
+    second = bare.split("<h1", 1)[1].split("<h2", 1)[0]
+    assert "border-top:1px solid #E2E2E2;" in second
+
+
+BOX = "border:1px solid #D2D7DE;border-top:3px solid #2F363C;"
+
+
+def test_newsletter_stories_are_grouped_in_a_single_box(newsletter):
+    _, html, _ = newsletter
+    assert html.count(BOX) == 1
+    inside = html.split(BOX, 1)[1].split("</table></td></tr>", 1)[0]
+    # todas as notícias do dia na mesma caixa, que anuncia quantas são
+    total = 1 + newsletter_config().email.max_stories
+    assert f">Hoje em {total} notícias</td>" in inside
+    assert inside.count("<h1") == 1 and inside.count("<h2") == html.count("<h2") == total - 1
+
+
+def by_relevance(edition, ids: list[str]) -> list[str]:
+    """Os ids na ordem do índice de relevância (no empate, a ordem do editor)."""
+    from qijournal.render.email import _relevance
+    from qijournal.render.web import build_view
+
+    cfg = newsletter_config()
+    view = build_view(edition, cfg)
+    stories = [s for s in view.stories if s.id in ids]
+    stories.sort(key=lambda s: ids.index(s.id))
+    rel = _relevance(edition, stories, cfg)
+    return [s.id for s in sorted(stories, key=lambda s: -rel[s.id].score)]
+
+
+def test_newsletter_mosaic_follows_relevance(newsletter, edition):
+    _, html, text = newsletter
+    limit = newsletter_config().email.max_stories
+    # as mesmas principais do editor, mas no mosaico na ordem da relevância
+    assert top_ids(html) == by_relevance(edition, expected_top(edition, limit))
+    # cada linha do mosaico (2 e 3 blocos, alternando) ocupa a largura útil da caixa
+    rows = re.findall(r'<td style="padding:0;border-top:1px solid #E2E2E2;font-size:0;line-height:0;">(.*?)</td></tr>', html)
+    widths = [[int(w) for w in re.findall(r'class="col" style="display:inline-block;width:100%;max-width:(\d+)px;', row)] for row in rows]
+    assert [len(w) for w in widths][:3] == [2, 3, 2] and all(sum(w) == 542 for w in widths)
+    # título cada vez menor (ou igual) na ordem da relevância; posição e repercussão em cada bloco
+    fonts = [int(px) for px in re.findall(r"<h2 style=\"margin:0;font:bold (\d+)px/", html)]
+    assert all(15 - 1 <= f <= 22 for f in fonts)
+    assert '<span style="color:#121212;">2</span>&nbsp;·&nbsp;' in html
+    assert html.count('font:11px/15px Helvetica Neue,Helvetica,Arial,sans-serif;color:#6B6B6B;">') == limit
+    assert re.search(r'color:#6B6B6B;">\d+ veículos?( · \d+ no exterior)?</p>', html)
+    # no celular os blocos viram uma coluna (e já quebram sozinhos, sem o <style>)
+    assert ".col{display:block!important;max-width:100%!important;}" in html
+    # texto puro na mesma ordem
+    positions = [text.index(f"#s-{i}") for i in top_ids(html)]
+    assert positions == sorted(positions)
+
+
+def test_relevance_index_and_mosaic_widths():
+    from qijournal.render.email import Relevance, Tile, _mosaic
+
+    assert Relevance(score=70, outlets=5, international=2).label == "7 veículos · 2 no exterior"
+    assert Relevance(score=40, outlets=1, international=0).label == "1 veículo"
+    stories = [type("S", (), {"id": f"s{i}"})() for i in range(5)]
+    scores = {"s0": 90, "s1": 60, "s2": 55, "s3": 50, "s4": 45}
+    rel = {k: Relevance(score=v, outlets=1, international=0) for k, v in scores.items()}
+    rows = _mosaic(stories, rel, first_rank=2)
+    assert [[t.story.id for t in row] for row in rows] == [["s0", "s1"], ["s2", "s3", "s4"]]
+    assert [t.rank for row in rows for t in row] == [2, 3, 4, 5, 6]
+    assert all(sum(t.width for t in row) == 542 for row in rows)
+    first, second = rows[0]
+    assert first.width > second.width and first.font > second.font  # o mais relevante é maior
+    assert all(isinstance(t, Tile) and t.width >= int(542 * 0.8 / len(row)) for row in rows for t in row)
+
+
+def test_relevance_counts_international_outlets(edition):
+    from qijournal.models import SourceRef
+    from qijournal.render.email import _relevance
+    from qijournal.render.web import build_view
+
+    cfg = newsletter_config()
+    ed = copy.deepcopy(edition)
+    story = ed.story(LEAD_ID)
+    story.importance = 4
+    story.sources = [SourceRef(name="Valor Econômico", url="https://valor.globo.com/a")]
+    local = _relevance(ed, [build_view(ed, cfg).lead], cfg)[LEAD_ID]
+    story.sources = [*story.sources, SourceRef(name="Financial Times", url="https://www.ft.com/a")]
+    abroad = _relevance(ed, [build_view(ed, cfg).lead], cfg)[LEAD_ID]
+    assert (local.outlets, local.international) == (1, 0)
+    assert (abroad.outlets, abroad.international) == (1, 1) and abroad.score > local.score
+
+
+def test_newsletter_cta_closes_the_box(newsletter):
+    _, html, _ = newsletter
+    inside = html.split(BOX, 1)[1]
+    assert inside.index("Ler a edição completa &rarr;") < inside.index("</table></td></tr>")
+    assert f'<a href="{BASE}" style="color:#121212;text-decoration:underline;">Ler a edição completa &rarr;</a>' in html
+
+
+def test_newsletter_logo_falls_back_to_the_brand_email_logo(edition):
+    # sem email.logo, o logo da marca (pequeno) fica centralizado na faixa, com o slogan em texto
+    _, html, _ = render_email(edition, newsletter_config(logo=None))
+    assert f'<img src="{BASE}assets/tsa-tech-logo-email.png" width="160" height="87" alt="TSA Tech"' in html
+    assert 'style="padding:28px 0 20px;background:#2F363C;' in html
+    assert 'text-transform:uppercase;color:#D5D7D8;">Ao seu lado em todas as etapas do dia</p>' in html
+    _, html, _ = render_email(edition, newsletter_config(logo={"src": "javascript:alert(1)", "width": 160, "height": 87}))
+    assert "javascript:" not in html and "tsa-tech-logo-email.png" in html
+
+
+def test_newsletter_lead_has_photo_kicker_and_credit(newsletter, edition):
+    _, html, _ = newsletter
+    lead = edition.story(LEAD_ID)
+    # a foto da manchete vem logo depois do texto dela e divide a caixa
+    photo = f'<img class="ph" src="{lead.image}" width="542" alt="{lead.headline}"'
+    assert photo in html and "height:220px;object-fit:cover;" in html
+    assert re.search(r'<h1 class="r1"[^>]*><a href="' + re.escape(f"{PAGE}#s-{LEAD_ID}") + '"', html)
+    assert html.index("<h1") < html.index(photo) < html.index("<h2")
+    names = [src.name for src in lead.sources[:2]]
+    assert " · ".join(names) in html
+    # só a manchete tem foto, a dela mesma (além do logo)
+    assert html.count("<img") == 2
+
+
+def test_newsletter_top_stories_follow_importance(newsletter, edition):
+    _, html, text = newsletter
+    limit = newsletter_config().email.max_stories
+    assert sorted(top_ids(html)) == sorted(expected_top(edition, limit))  # as principais do editor
+    assert "<h3" not in html  # sem seções
+    # texto puro: as mesmas matérias, sem os blocos que o HTML não tem
+    assert text.startswith("TSA TECH" + chr(10))
+    for heading in ("MANCHETE", "PRINCIPAIS NOTÍCIAS"):
+        assert f"\n{heading}\n" in text
+    for heading in ("MERCADOS", "CLIMA", "EDITORIAL", "EM 1 MINUTO"):
+        assert f"\n{heading}\n" not in text
+    assert all(f"{PAGE}#s-{i}" in text for i in [LEAD_ID, *top_ids(html)])
+
+
+def test_newsletter_max_stories(edition):
+    _, html, text = render_email(edition, newsletter_config(max_stories=3))
+    assert top_ids(html) == by_relevance(edition, expected_top(edition, 3))
+    assert text.count("#s-") == 4
+
+
+def test_newsletter_budget_drops_stories_until_it_fits(edition, monkeypatch):
+    from qijournal.render import email as email_module
+
+    full = render_email(edition, newsletter_config())[1]
+    monkeypatch.setattr(email_module, "MAX_EMAIL_BYTES", len(full.encode("utf-8")) - 1500)
+    _, html, text = render_email(edition, newsletter_config())
+    assert len(html.encode("utf-8")) <= email_module.MAX_EMAIL_BYTES
+    shown = top_ids(html)
+    assert 1 <= len(shown) < newsletter_config().email.max_stories
+    assert shown == by_relevance(edition, expected_top(edition, len(shown)))
+    assert text.count("#s-") == len(shown) + 1  # texto puro com as mesmas matérias (e a manchete)
+
+
+def test_newsletter_footer(newsletter):
+    _, html, _ = newsletter
+    assert f'<a href="{BASE}edicoes/"' in html and "Edições anteriores</a></p>" in html
+    assert "TSA Tech · Ao seu lado em todas as etapas do dia · 64 fontes · <a " in html
+    assert "github.com" not in html

@@ -190,11 +190,22 @@ def test_real_day_edition_puts_the_firm_areas_first(config, real_edition):
 
 
 def test_newsletter_email_is_minimal(config, real_edition):
+    """Newsletter: o cabeçalho do site em imagem estática e um único box com a
+    manchete e só as principais matérias, em ordem de importância."""
     subject, html, plain = render_email(real_edition, config)
-    assert len(html.encode("utf-8")) <= MAX_EMAIL_BYTES
-    assert "<h1" in html and "Ler a matéria &rarr;" in html
-    assert "Edição completa" in html and "Edições anteriores" in html
-    assert "Dólar" not in html and "cv-a" not in html  # sem ticker nem barra de cobertura
-    assert "assets/tsa-tech-logo-email.png" in html
-    assert "MERCADOS" not in plain and "CLIMA" not in plain and "Cobertura:" not in plain
+    assert len(html.encode("utf-8")) <= 20 * 1024  # bem abaixo dos 40 KB da rotina do Gmail
+    assert '<meta name="color-scheme" content="light only">' in html and "prefers-color-scheme" not in html
+    assert config.email.logo == {"src": "assets/tsa-tech-cabecalho-email.jpg", "width": 600, "height": 132}
+    assert (ROOT / "assets" / "tsa-tech-cabecalho-email.jpg").read_bytes()[:3] == b"\xff\xd8\xff"  # JPEG
+    assert 'pbcvphyton-tsa-tech/assets/tsa-tech-cabecalho-email.jpg" width="600" height="132"' in html
+    assert "Seu boletim jurídico diário</p>" in html  # slogan em texto na faixa
+    assert ".gif" not in html
+    assert 'bgcolor="#2F363C"' in html and html.count("border:1px solid #D2D7DE;border-top:3px solid #2F363C;") == 1
+    assert ">Hoje em 6 notícias</td>" in html
+    assert "<h1" in html and "Ler a edição completa" in html and "Edições anteriores" in html
+    # só as principais (email.max_stories), sem cotações, clima, editorial nem "Em 1 minuto"
+    assert config.email.max_stories == 5 and html.count("<h2") == 5
+    assert "Dólar" not in html and "Em 1 minuto" not in html and "Cobertura:" not in plain
+    assert "\nCLIMA\n" not in plain and "\nEDITORIAL\n" not in plain
+    assert html.count("<img") <= 2  # o logo e, se houver, a foto da manchete
     assert plain.startswith("TSA TECH\n")

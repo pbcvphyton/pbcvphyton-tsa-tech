@@ -2,12 +2,17 @@
 
 O HTML segue as restrições de clientes de e-mail (Gmail, Outlook, Apple Mail):
 sem JavaScript, sem SVG, sem web fonts obrigatórias, largura de 640px e
-tamanho total bem abaixo do corte de ~102 KB do Gmail.
+tamanho total bem abaixo do corte de ~102 KB do Gmail. A newsletter
+(``email.style: newsletter``) traz a manchete com foto e, abaixo, as principais
+matérias num mosaico: lado a lado, na ordem do índice de relevância (metade a
+importância dada pelo editor, metade a repercussão no Brasil e no exterior), com
+a largura do bloco e o tamanho do título proporcionais ao índice.
 """
 
 from __future__ import annotations
 
 import logging
+import math
 import re
 import textwrap
 from dataclasses import dataclass
@@ -18,7 +23,7 @@ from .. import text
 from ..config import Config
 from ..models import Edition
 from . import filters
-from .web import EditionView, StoryView, build_view
+from .web import EditionView, EmailLogo, StoryView, _email_logo, build_view
 
 log = logging.getLogger(__name__)
 
@@ -32,6 +37,20 @@ TEXT_WIDTH = 72
 MAX_EMAIL_BYTES = 40 * 1024
 EMAIL_STYLES = ("jornal", "newsletter")  # email.style no site.yaml
 _BETWEEN_TAGS = re.compile(r">\s*\n\s*<")  # só quebras de linha do template (nunca o espaço entre palavras)
+# Índice de relevância (0-100) do mosaico da newsletter: metade a importância dada
+# pelo editor (1-5), metade a repercussão (veículos que deram a notícia; um
+# veículo estrangeiro vale INTERNATIONAL_WEIGHT, por mostrar alcance fora do
+# Brasil), em escala logarítmica até REPERCUSSION_CAP pontos.
+INTERNATIONAL_WEIGHT = 3
+REPERCUSSION_CAP = 12
+# Mosaico: largura útil da caixa (600 - bordas - margens internas), blocos por
+# linha (alternando) e tamanho do título pelo índice.
+MOSAIC_WIDTH = 542
+MOSAIC_ROWS = (2, 3)
+TILE_FONT_MIN, TILE_FONT_MAX = 15, 22  # linhas de 3 blocos (colunas estreitas): 1 px a menos
+# Imagens de compartilhamento padrão (a mesma em toda matéria do veículo, como o
+# logo do g1 e do Valor): no e-mail, a matéria aparece sem foto.
+_GENERIC_PHOTO = re.compile(r"preview-share|fb_marca", re.I)
 
 
 @dataclass
@@ -74,6 +93,110 @@ def _subject(edition: Edition, config: Config) -> str:
         subject = DEFAULT_SUBJECT.format(**values)
     # Assunto é cabeçalho de e-mail: nunca pode conter quebras de linha.
     return " ".join(subject.split())
+
+
+def photo(story: StoryView) -> str | None:
+    """Foto da matéria para o e-mail (``None`` sem foto ou com imagem genérica do veículo)."""
+    return story.image if story.image and not _GENERIC_PHOTO.search(story.image) else None
+
+
+def _top_stories(view: EditionView, limit: int) -> list[StoryView]:
+    """Newsletter: as ``limit`` matérias mais importantes além da manchete, na
+    ordem de sempre (chamadas, destaques, demais), sem agrupar por seção."""
+    lead_id = view.lead.id if view.lead else None
+    seen: set[str] = set()
+    top: list[StoryView] = []
+    for story in [*view.secondary, *view.highlights, *view.stories]:
+        if len(top) >= max(limit, 0):
+            break
+        if story.id != lead_id and story.id not in seen:
+            seen.add(story.id)
+            top.append(story)
+    return top
+
+
+@dataclass
+class Relevance:
+    """Relevância de uma matéria no cenário brasileiro e internacional."""
+
+    score: int  # 0-100
+    outlets: int  # veículos brasileiros que deram a notícia
+    international: int  # veículos estrangeiros
+
+    @property
+    def label(self) -> str:
+        """"7 veículos · 2 no exterior" (o que sustenta o tamanho do bloco)."""
+        total = self.outlets + self.international
+        text = f"{total} veículo{'s' if total != 1 else ''}"
+        return text + (f" · {self.international} no exterior" if self.international else "")
+
+
+@dataclass
+class Tile:
+    story: StoryView
+    rank: int  # posição no dia (a manchete é a 1)
+    width: int  # largura do bloco no desktop (px)
+    font: int  # tamanho do título (px)
+    relevance: Relevance
+
+
+def _relevance(edition: Edition, stories: list[StoryView], config: Config) -> dict[str, Relevance]:
+    """Índice de relevância de cada matéria: importância do editor + repercussão."""
+    lang = {source.name: source.lang for source in config.sources}
+    result = {}
+    for story in stories:
+        try:
+            importance = edition.story(story.id).importance or 3
+        except KeyError:
+            importance = 3
+        names = {source.name for source in story.sources}
+        international = sum(1 for name in names if lang.get(name, "pt") != "pt")
+        outlets = len(names) - international
+        points = outlets + INTERNATIONAL_WEIGHT * international
+        repercussion = min(1.0, math.log2(1 + points) / math.log2(1 + REPERCUSSION_CAP))
+        score = 100 * (0.5 * max(1, min(5, importance)) / 5 + 0.5 * repercussion)
+        result[story.id] = Relevance(score=round(score), outlets=outlets, international=international)
+    return result
+
+
+def _by_relevance(stories: list[StoryView], rel: dict[str, Relevance]) -> list[StoryView]:
+    """Mais relevantes primeiro; no empate, a ordem do editor."""
+    return sorted(stories, key=lambda s: -rel[s.id].score)
+
+
+def _mosaic(stories: list[StoryView], rel: dict[str, Relevance], first_rank: int) -> list[list[Tile]]:
+    """Linhas do mosaico (2 e 3 blocos, alternando), já na ordem de relevância.
+
+    Na linha, a largura de cada bloco é proporcional ao índice (com um mínimo para
+    o título caber) e soma :data:`MOSAIC_WIDTH`; o título vai de
+    :data:`TILE_FONT_MIN` a :data:`TILE_FONT_MAX` px conforme o índice.
+    """
+    rows: list[list[Tile]] = []
+    rank, i, k = first_rank, 0, 0
+    while i < len(stories):
+        chunk = stories[i : i + MOSAIC_ROWS[k % len(MOSAIC_ROWS)]]
+        weights = [max(rel[s.id].score, 1) for s in chunk]
+        floor = 0.8 / len(chunk)  # nenhum bloco abaixo de 80% da parte igual
+        shares = [max(floor, w / sum(weights)) for w in weights]
+        shares = [x / sum(shares) for x in shares]
+        widths = [int(MOSAIC_WIDTH * x) for x in shares]
+        widths[0] += MOSAIC_WIDTH - sum(widths)
+        row = []
+        for story, width in zip(chunk, widths):
+            score = rel[story.id].score
+            font = TILE_FONT_MIN + round((TILE_FONT_MAX - TILE_FONT_MIN) * max(0, score - 40) / 60)
+            font = min(TILE_FONT_MAX, font) - (1 if len(chunk) >= 3 else 0)
+            row.append(Tile(story, rank, width, font, rel[story.id]))
+            rank += 1
+        rows.append(row)
+        i += len(chunk)
+        k += 1
+    return rows
+
+
+def _newsletter_logo(view: EditionView, config: Config) -> EmailLogo | None:
+    """Logo do topo da newsletter: ``email.logo`` ou, sem ele, o ``email_logo`` da marca."""
+    return _email_logo(config.email.logo, view.base_url) or view.brand.email_logo
 
 
 def _select_sections(view: EditionView, limit: int) -> list[EmailSection]:
@@ -175,10 +298,16 @@ def _weather_text(view: EditionView) -> list[str]:
 
 
 def _render_text(
-    view: EditionView, sections: list[EmailSection], footer: dict[str, str], *, minimal: bool = False
+    view: EditionView,
+    top: list[StoryView],
+    sections: list[EmailSection],
+    footer: dict[str, str],
+    *,
+    minimal: bool = False,
 ) -> str:
-    """Versão em texto puro. ``minimal`` (newsletter): sem cotações, clima,
-    editorial, racional, fontes e cobertura, como o HTML da newsletter."""
+    """Versão em texto puro. ``minimal`` (newsletter): só a manchete e as
+    principais matérias (``top``), sem cotações, clima, editorial, "Em 1
+    minuto", racional, fontes e cobertura, como o HTML da newsletter."""
     base = view.base_url
     page = view.edition_url  # links das matérias: cópia arquivada (estável)
     dateline = view.date_label + (f" · {view.time_label} {view.tz_label}" if view.time_label else "")
@@ -189,7 +318,7 @@ def _render_text(
         lines += _heading("Clima") + _weather_text(view)
     if view.editorial and not minimal:
         lines += _heading("Editorial") + _wrap(filters.plain(view.editorial))
-    if view.briefing and (not minimal or view.mode == "ai"):
+    if view.briefing and not minimal:
         lines += _heading("Em 1 minuto")
         for item in view.briefing:
             lines += _wrap(filters.plain(item), "  ", first="• ")
@@ -205,11 +334,14 @@ def _render_text(
             lines += _wrap(lead.dek)
         if lead.sources and not minimal:
             lines += _wrap(f"Fontes: {', '.join(s.name for s in lead.sources)}")
-        if minimal and lead.why:
-            lines += _wrap(f"Por que importa: {lead.why}")
         if not minimal:
             lines += _coverage_lines(lead)
         lines.append(f"Ler na edição: {story_url(page, lead.id)}")
+    if top:
+        lines += _heading("Principais notícias")
+        for story in top:
+            lines += _story_lines(story, page, "• ", minimal=minimal) + [""]
+        lines.pop()
     for section in sections:
         lines += _heading(section.title)
         for story in section.stories:
@@ -256,20 +388,31 @@ def render_email(edition: Edition, config: Config) -> tuple[str, str, str]:
     template = filters.environment().get_template("email_newsletter.html.j2" if newsletter else "email.html.j2")
     limit = max(config.email.max_stories, 0)
     while True:
-        sections = _select_sections(view, limit)
+        # Newsletter: as principais, em mosaico pela relevância; jornal: por seção.
+        top = _top_stories(view, limit) if newsletter else []
+        rel = _relevance(edition, top, config)
+        top = _by_relevance(top, rel)
+        mosaic = _mosaic(top, rel, first_rank=2 if view.lead else 1)
+        sections = [] if newsletter else _select_sections(view, limit)
         html = _minify(
             template.render(
                 v=view,
                 brand=view.brand,
                 subject=subject,
                 preheader=_preheader(view),
+                logo=_newsletter_logo(view, config),
+                top=top,
+                mosaic=mosaic,
+                mosaic_width=MOSAIC_WIDTH,
                 sections=sections,
                 story_url=lambda story: story_url(view.edition_url, story.id),
+                photo=photo,
+                teaser=text.truncate,
                 footer=footer,
             )
         )
         size = len(html.encode("utf-8"))
-        shown = sum(len(s.stories) for s in sections)
+        shown = len(top) + sum(len(s.stories) for s in sections)
         if size <= MAX_EMAIL_BYTES or shown == 0:
             break
         limit = shown - 1
@@ -281,7 +424,7 @@ def render_email(edition: Edition, config: Config) -> tuple[str, str, str]:
         )
     elif limit < config.email.max_stories:
         log.info("E-mail reduzido a %d matérias para caber em %d KB", shown, MAX_EMAIL_BYTES // 1024)
-    plain_text = _render_text(view, sections, footer, minimal=newsletter)
+    plain_text = _render_text(view, top, sections, footer, minimal=newsletter)
     log.info(
         "E-mail renderizado: %d matérias em %d seções, %.0f KB",
         shown + (1 if view.lead else 0),
