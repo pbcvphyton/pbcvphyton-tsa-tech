@@ -1,51 +1,50 @@
 TSA TECH
-Domingo, 11 de outubro de 2026 · 14:26 BRT
+Segunda-feira, 12 de outubro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Split payment na reforma tributária gera alerta sobre capital de giro e
-fluxo de caixa das empresas
-Mecanismo prevê recolhimento imediato de tributos em transações a partir
-de 2027 e provoca divergência entre governo e oposição.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-split-payment-na-reforma-tributaria-gera-alerta
+STJ define em repetitivo que morte antes da citação impede
+redirecionamento de execução fiscal
+Primeira Seção estabelece no Tema 1.393 que cobrança contra espólio ou
+sucessores exige citação do devedor em vida.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-stj-define-em-repetitivo-que-morte-antes-da-cita
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• STF pauta retomada do julgamento do Funrural com impacto fiscal de R$
-  17,2 bilhões
-  Plenário presencial da Corte deve analisar no dia 14 de outubro a ADI
-  4.395, que contesta dispositivos da Lei 8.212/91 sobre a contribuição
-  do produtor rural.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stf-pauta-retomada-do-julgamento-do-funrural-com
+• STF pauta julgamento sobre o Funrural com impacto fiscal de R$ 17,2
+  bilhões
+  Plenário da Corte vai analisar a ADI 4.395, que contesta dispositivos
+  da Lei 8.212/1991 sobre a contribuição previdenciária devida pelo
+  produtor rural.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-stf-pauta-julgamento-sobre-o-funrural-com-impact
 
-• STJ fixa honorários de sucumbência em ações rescisórias da modulação
-  do Tema 69
-  Primeira Seção definiu em repetitivo marco para arbitramento de
-  sucumbência em rescisórias julgadas procedentes com base no precedente
-  do STF.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-fixa-honorarios-de-sucumbencia-em-acoes-resc
+• Senado agenda votação da PEC que reduz jornada para 40 horas e
+  extingue escala 6x1
+  Proposta será apreciada em primeiro turno na quarta-feira com
+  articulação governista e resistência da oposição.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-senado-agenda-votacao-da-pec-que-reduz-jornada-p
 
-• STJ afeta repetitivo sobre marco prescricional em revisão de
-  previdência fechada
-  Segunda Seção cadastra controvérsia como Tema 1.471 nos Recursos
-  Especiais 1.980.730 e 1.980.997 para padronizar contagem de prazo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-afeta-repetitivo-sobre-marco-prescricional-e
+• STJ define critérios excepcionais para penhora de salário em dívidas
+  não alimentares
+  Sob o rito dos recursos repetitivos (Tema 1.230), a Corte Especial do
+  STJ fixou as balizas para a constrição de verbas remuneratórias.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-stj-define-criterios-excepcionais-para-penhora-d
 
-• Oncoclínicas avança apenas com CRIs e busca apoio de mais credores
-  para plano extrajudicial
-  A poucos dias do prazo judicial, companhia tenta ampliar adesão para
-  conseguir homologar reestruturação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-oncoclinicas-avanca-apenas-com-cris-e-busca-apoi
+• STJ suspende processos sobre locação de curta temporada pelo Airbnb em
+  condomínios
+  A Segunda Seção determinou o travamento de ações no país para definir
+  se convenção residencial pode barrar a prática.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-stj-suspende-processos-sobre-locacao-de-curta-te
 
-• STJ fixa critérios para autorizar penhora de salário por dívidas não
-  alimentares
-  Julgamento sob o rito dos recursos repetitivos estabelece que
-  constrição é medida excepcional em execuções.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11.html#s-stj-fixa-criterios-para-autorizar-penhora-de-sal
+• STJ confirma exclusão do ICMS-Difal da base de cálculo do PIS e da
+  Cofins com modulação
+  Primeira Seção decide o Tema 1.372 e modula efeitos da decisão que
+  afasta o Diferencial de Alíquotas das contribuições.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-stj-confirma-exclusao-do-icms-difal-da-base-de-c
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 381 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-11-todas.html
+Todas as 323 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 14:26 (BRT) · Edição gerada por IA
+Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
 (gemini-flash-latest + gemini-flash-lite-latest)
