@@ -1,50 +1,50 @@
 TSA TECH
-Segunda-feira, 12 de outubro de 2026 · 05:54 BRT
+Terça-feira, 13 de outubro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-STJ define em repetitivo que morte antes da citação impede
-redirecionamento de execução fiscal
-Primeira Seção estabelece no Tema 1.393 que cobrança contra espólio ou
-sucessores exige citação do devedor em vida.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-stj-define-em-repetitivo-que-morte-antes-da-cita
+Morte de devedor antes de citação impede redirecionamento ao espólio
+Primeira Seção do STJ fixa tese no Tema 1.393 sobre limites para
+execução fiscal em caso de falecimento do contribuinte.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-13.html#s-morte-de-devedor-antes-de-citacao-impede-redirec
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• STF pauta julgamento sobre o Funrural com impacto fiscal de R$ 17,2
-  bilhões
-  Plenário da Corte vai analisar a ADI 4.395, que contesta dispositivos
-  da Lei 8.212/1991 sobre a contribuição previdenciária devida pelo
-  produtor rural.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-stf-pauta-julgamento-sobre-o-funrural-com-impact
+• Senado pauta votação em primeiro turno da PEC que extingue escala 6x1
+  e reduz jornada
+  Proposta prevê redução da jornada para 40 horas semanais e dois dias
+  de descanso remunerado sem perda salarial; votação exigirá 49 votos
+  favoráveis.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-13.html#s-senado-pauta-votacao-em-primeiro-turno-da-pec-qu
 
-• Senado agenda votação da PEC que reduz jornada para 40 horas e
-  extingue escala 6x1
-  Proposta será apreciada em primeiro turno na quarta-feira com
-  articulação governista e resistência da oposição.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-senado-agenda-votacao-da-pec-que-reduz-jornada-p
+• STJ define audiência pública em novembro para debater cessão de
+  precatório previdenciário
+  A Primeira Seção do STJ marcou para 25 de novembro debate sobre a
+  venda de créditos de ações previdenciárias sob o rito dos recursos
+  repetitivos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-13.html#s-stj-define-audiencia-publica-em-novembro-para-de
 
-• STJ define critérios excepcionais para penhora de salário em dívidas
-  não alimentares
-  Sob o rito dos recursos repetitivos (Tema 1.230), a Corte Especial do
-  STJ fixou as balizas para a constrição de verbas remuneratórias.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-stj-define-criterios-excepcionais-para-penhora-d
+• ICMS-Difal não integra base de cálculo de PIS e Cofins, decide STJ
+  Primeira Seção confirma tese no Tema 1.372 e modula efeitos da decisão
+  sobre o Diferencial de Alíquotas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-13.html#s-icms-difal-nao-integra-base-de-calculo-de-pis-e
 
-• STJ suspende processos sobre locação de curta temporada pelo Airbnb em
-  condomínios
-  A Segunda Seção determinou o travamento de ações no país para definir
-  se convenção residencial pode barrar a prática.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-stj-suspende-processos-sobre-locacao-de-curta-te
+• STJ recebe primeiro recurso especial sob novos critérios da relevância
+  previstos na Lei 15.484
+  Corte inicia implantação do filtro da relevância da questão federal
+  com apresentações a tribunais e à advocacia.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-13.html#s-stj-recebe-primeiro-recurso-especial-sob-novos-c
 
-• STJ confirma exclusão do ICMS-Difal da base de cálculo do PIS e da
-  Cofins com modulação
-  Primeira Seção decide o Tema 1.372 e modula efeitos da decisão que
-  afasta o Diferencial de Alíquotas das contribuições.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12.html#s-stj-confirma-exclusao-do-icms-difal-da-base-de-c
+• Corte Especial do STJ fixa critérios para penhora de salário por
+  dívidas não alimentares
+  Sob o rito dos recursos repetitivos no Tema 1.230, tribunal estabelece
+  que constrição de remuneração é medida excepcional válida para débitos
+  comuns.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-13.html#s-corte-especial-do-stj-fixa-criterios-para-penhor
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 323 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-12-todas.html
+Todas as 424 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-13-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
 (gemini-flash-latest + gemini-flash-lite-latest)
