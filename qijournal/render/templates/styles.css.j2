@@ -163,7 +163,8 @@ figure.img-fail{display:none}
 .hero-l .rd{font-family:var(--ss);font-size:10px;color:var(--link);font-weight:700;letter-spacing:.5px;margin-top:12px}
 .hero-r{display:flex;flex-direction:column}
 .hero-r .ss{flex:1;padding:18px 22px;border-bottom:1px solid var(--rule);cursor:pointer;transition:background .3s;display:flex;flex-direction:column;justify-content:center}
-.hero-r .ss:last-child{border-bottom:none}
+.hero-r .ss:last-of-type{border-bottom:none}
+.hero-dst{display:none}
 .hero-r .ss:hover{background:var(--hover)}
 .hero-r .ss h3{font-size:16px;font-weight:700;line-height:1.24;margin-bottom:6px;color:var(--ink)}
 .hero-r .ss>p:not(.cat):not(.meta){font-family:var(--ss);font-size:12px;color:var(--muted);line-height:1.5}
@@ -409,6 +410,30 @@ body.modal-open .btt{visibility:hidden}
 .badge{flex-shrink:0;padding:1px 6px;border:1px solid var(--rule);border-radius:10px;font-family:var(--mn);font-size:8.5px;letter-spacing:1px;color:var(--faint)}
 .arch-empty{padding:30px 0;font-family:var(--ss);color:var(--muted)}
 
+/* Computador, com a foto da manchete na tela: a coluna direita junta as chamadas no
+   alto, uma logo abaixo da outra, e logo em seguida os destaques (que saem da faixa
+   abaixo da manchete). As duas colunas terminam alinhadas, sem vão em branco: a foto
+   cresce até a altura da coluna direita; se a manchete for a mais alta, os destaques se
+   distribuem pela altura dela. Sem foto (ou se ela não carregar), a manchete fica como
+   antes. No celular e no tablet nada muda. */
+@media (min-width:1024px){
+  .hero:has(.hi:not(.img-fail)) .hero-l{display:flex;flex-direction:column}
+  .hero-l .hi{flex:1 0 auto;height:clamp(220px,14vw,300px)}
+  .hero:has(.hi:not(.img-fail)) .hero-r .ss{flex:none;justify-content:flex-start}
+  .hero:has(.hi:not(.img-fail)) .hero-r .ss:last-of-type{border-bottom:1px solid var(--rule)}
+  .hero:has(.hi:not(.img-fail)) .hero-dst{flex:1 0 auto;display:flex;flex-direction:column;padding:16px 22px 18px}
+  .hero:has(.hi:not(.img-fail)):has(.hero-dst)+.dst{display:none}
+  .hero-dst .kicker{margin-bottom:4px}
+  .hero-dst ol{flex:1 0 auto;display:flex;flex-direction:column;justify-content:space-between;list-style:none;counter-reset:t}
+  .hero-dst li{counter-increment:t;position:relative;display:flex;gap:10px;padding:8px 6px 8px 0;border-bottom:1px solid var(--rl);font-family:var(--ss);font-size:13px;line-height:1.4;color:var(--ink);cursor:pointer;transition:background .2s}
+  .hero-dst li:last-child{border-bottom:none}
+  .hero-dst li:hover{background:var(--hl)}
+  .hero-dst li:has(.hit:focus-visible){outline:2px solid var(--link);outline-offset:-3px}
+  .hero-dst li::before{content:counter(t);min-width:20px;font-family:var(--sf);font-size:19px;font-weight:900;line-height:1;color:var(--link)}
+  .hero-dst li>div{min-width:0}
+  .hero-dst .dst-cat{margin-left:8px;font-family:var(--mn);font-size:8.5px;text-transform:uppercase;letter-spacing:1px;white-space:nowrap;color:var(--faint)}
+}
+
 /* Telas largas: a página ocupa o monitor inteiro. Por faixa de largura crescem as
    margens (--gut), as colunas (Em 1 minuto, destaques, cards, cobertura) e um pouco as
    letras; os blocos de texto corrido mantêm uma largura confortável de leitura.
@@ -417,9 +442,9 @@ body.modal-open .btt{visibility:hidden}
 @media (min-width:1280px){
   :root{--gut:clamp(30px,2.8vw,80px)}
   .op-bar p{max-width:1040px}
-  .hero-l .hi{height:clamp(260px,21vw,480px)}
   .hero-l .dek,.hero-l .sub,.hero-l h2{max-width:1100px}
   .hero-r .ss{padding:20px var(--gut) 20px 28px}
+  .hero:has(.hi:not(.img-fail)) .hero-dst{padding:18px var(--gut) 18px 28px}
   .dst ol{grid-template-columns:repeat(4,minmax(0,1fr))}
   .dst li,.dst li:nth-child(odd),.dst li:nth-child(even){padding:10px 14px;border-right:1px solid var(--rl);grid-column:auto}
   .dst li:nth-child(4n+1){padding-left:0}

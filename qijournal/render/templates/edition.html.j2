@@ -112,6 +112,19 @@
       {% endif %}
     </article>
     {% endfor %}
+    {% if v.highlights %}
+    {#- No computador os destaques sobem para baixo das chamadas, preenchendo a coluna
+        ao lado da manchete; a faixa .dst abaixo some (styles.css.j2). No celular e no
+        tablet esta lista fica oculta e a faixa continua como sempre. -#}
+    <div class="hero-dst">
+      <h2 class="kicker" id="hdst-h">Destaques</h2>
+      <ol aria-labelledby="hdst-h">
+        {% for s in v.highlights %}
+        <li><div><a class="hit" href="#{{ s.anchor }}"{{ m.lang(s) }}>{{ s.headline }}</a><span class="dst-cat">{{ s.section_title }}</span></div></li>
+        {% endfor %}
+      </ol>
+    </div>
+    {% endif %}
   </div>
   {% endif %}
 </section>

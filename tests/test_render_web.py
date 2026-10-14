@@ -169,6 +169,21 @@ def test_hero_lead_secondary_and_highlights(page, edition):
         assert f'href="#s-{story_id}"' in highlights
 
 
+def test_desktop_highlights_fill_the_hero_column(page, edition):
+    # No computador os destaques sobem para a coluna das chamadas (abaixo delas); a
+    # faixa .dst continua no HTML para o celular e o tablet, e para a manchete sem foto.
+    hero = re.search(r'<section class="hero".*?</section>', page, re.S).group(0)
+    column = re.search(r'<div class="hero-dst">.*?</ol>', hero, re.S).group(0)
+    assert hero.index('<div class="hero-r">') < hero.index('<div class="hero-dst">')
+    assert column.count("<li>") == len(edition.highlights) == 8
+    for story_id in edition.highlights:
+        assert f'href="#s-{story_id}"' in column
+    assert page.count('id="hdst-h"') == 1 and page.count('id="dst-h"') == 1
+    assert ".hero-dst{display:none}" in page  # celular e tablet: a lista da coluna fica oculta
+    assert ".hero:has(.hi:not(.img-fail)):has(.hero-dst)+.dst{display:none}" in page
+    assert ".hero-r .ss:last-of-type{border-bottom:none}" in page
+
+
 def test_tabs_one_per_section_plus_all(page, edition):
     tabs = re.findall(r'<button class="tab-btn"[^>]*data-tab="([^"]+)"[^>]*>([^<]+)<', page)
     assert [t[0] for t in tabs] == [s.id for s in edition.sections] + ["all"]
