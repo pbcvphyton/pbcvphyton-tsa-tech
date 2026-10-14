@@ -9,7 +9,7 @@ import re
 import pytest
 
 from qijournal.models import Section, SourceRef, Story
-from qijournal.render.web import build_view, render_archive_index, render_edition_page
+from qijournal.render.web import FRONT_MORE_SIZE, build_view, render_archive_index, render_edition_page
 from tests.fixtures.render.helpers import (
     LEAD_ID,
     MALICIOUS_ID,
@@ -167,6 +167,25 @@ def test_hero_lead_secondary_and_highlights(page, edition):
     assert highlights.count("<li>") == len(edition.highlights) == 8
     for story_id in edition.highlights:
         assert f'href="#s-{story_id}"' in highlights
+
+
+def test_desktop_front_page_places_each_story_once(page, edition, config):
+    """Primeira página do computador: manchete, chamada relacionada (destaque da mesma
+    editoria), trilho com as secundárias e "Mais para ler" com os demais destaques e,
+    até 8 itens, as matérias fora da capa, sem repetir matéria."""
+    view = build_view(edition, config)
+    assert view.related is not None and view.related.section_title == view.lead.section_title
+    assert view.related.id in edition.highlights
+    front = [view.lead.id, view.related.id, *(s.id for s in view.secondary), *(s.id for s in view.more)]
+    assert len(front) == len(set(front))  # nenhuma repetida
+    assert len(view.more) == min(FRONT_MORE_SIZE, len(view.stories) - 2 - len(view.secondary))
+    assert [s.id for s in view.more[: len(edition.highlights) - 1]] == [i for i in edition.highlights if i != view.related.id]
+    fp = re.search(r'<div class="fp">.*?</aside>\s*</div>', page, re.S).group(0)
+    # ordem no HTML: manchete, relacionada, "Mais para ler" e, no trilho, as secundárias
+    in_order = [view.lead.id, view.related.id, *(s.id for s in view.more), *(s.id for s in view.secondary)]
+    assert re.findall(r'<a class="hit" href="#s-([^"]+)"', fp) == in_order
+    nav = re.search(r'<nav class="sec-nav".*?</nav>', page, re.S).group(0)
+    assert re.findall(r'data-tab="([^"]+)"', nav) == [s.id for s in edition.sections] + ["all"]
 
 
 def test_tabs_one_per_section_plus_all(page, edition):
@@ -513,6 +532,14 @@ def test_lead_extra_paragraphs_only_for_missing_image(edition):
     page_html = render(ed)
     assert '<p class="sub more">Segundo <strong>parágrafo</strong>.</p>' in page_html
     assert ".hero-l .more{display:none}" in page_html  # só aparecem sem imagem (CSS :has)
+    # Primeira página do computador: os mesmos parágrafos na coluna de texto da manchete,
+    # ocultos por padrão (aparecem sem foto ou quando page.js os escolhe: x1, x2)
+    front = re.search(r'<article class="fp-lead.*?</article>', page_html, re.S).group(0)
+    assert re.findall(r'<p class="fp-sub fp-sub-x fp-sub-x(\d)">(.*?)</p>', front) == [
+        ("1", "Segundo <strong>parágrafo</strong>."),
+        ("2", "Terceiro parágrafo."),
+    ]
+    assert ".fp-sub-x{display:none}" in page_html
 
 
 # ── regressões da edição real de 29/09/2026 ─────────────────────────────────
@@ -635,7 +662,11 @@ def test_coverage_on_cards_modal_and_compared_section(edition, config):
     card_story.coverage = _coverage(["b", "b", "a"])
     ed.compared = [_coverage(["a", "neutro"], section="mercados", url="javascript:alert(1)", published=ed.generated_at)]
     page = render(ed, config)
-    assert page.count('<div class="cov mini lean-a"') == 2  # manchete + card dela na aba da seção
+    # manchete (bloco do celular e primeira página do computador) + card dela na aba da seção
+    assert page.count('<div class="cov mini lean-a"') == 3
+    hero = re.search(r'<section class="hero".*?</section>', page, re.S).group(0)
+    front = re.search(r'<article class="fp-lead.*?</article>', page, re.S).group(0)
+    assert hero.count('<div class="cov mini lean-a"') == 1 and front.count('<div class="cov mini lean-a"') == 1
     assert page.count('<div class="cov mini lean-b"') == 1  # card
     modal = re.search(rf'<div class="mo" id="s-{LEAD_ID}".*?</article>\s*</div>', page, re.S).group(0)
     assert '<section class="mcov" aria-label="Análise da cobertura">' in modal
