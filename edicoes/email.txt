@@ -1,49 +1,52 @@
 TSA TECH
-Quinta-feira, 15 de outubro de 2026 · 05:54 BRT
+Sexta-feira, 16 de outubro de 2026 · 08:17 BRT
 
 MANCHETE
 --------
-Senado aprova PEC do fim da escala 6x1 e redução da jornada máxima para
-40 horas semanais
-Proposta de Emenda à Constituição 221/2019 recebeu 75 votos a favor e
-apenas um contra nos dois turnos; texto vai direto para promulgação.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-15.html#s-senado-aprova-pec-do-fim-da-escala-6x1-e-reducao
+Congresso promulga fim da escala 6x1 e redução da jornada máxima de
+trabalho para 40 horas
+Texto da Emenda Constitucional estipula transição em duas etapas para
+empresas e cria regras específicas de dispensa de controle de ponto para
+cargos bem remunerados.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-congresso-promulga-fim-da-escala-6x1-e-reducao-d
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Senado aprova escala 5x2 e setores produtivos alertam para salto de
-  custos e restrição operacional
-  Supermercados, construção, saúde, shoppings e bares apontam pressão
-  financeira e risco de escassez de pessoal com o fim da jornada 6x1,
-  enquanto governo defende novo padrão.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-15.html#s-senado-aprova-escala-5x2-e-setores-produtivos-al
+• Senado aprova elevação do teto do MEI para R$ 140 mil e perdão de
+  dívidas inscritas
+  Projeto de Lei Complementar 186/2026 segue para sanção de Lula e prevê
+  transição gradual até 2028, além de autorizar a contratação de até
+  dois empregados.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-senado-aprova-elevacao-do-teto-do-mei-para-r-140
 
-• STJ decide que contribuinte não tem crédito de PIS/Cofins sobre ICMS
-  em compras
-  A Primeira Seção do Superior Tribunal de Justiça firmou o entendimento
-  sob o rito de recursos repetitivos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-15.html#s-stj-decide-que-contribuinte-nao-tem-credito-de-p
+• Justiça homologa acordo da Casas Bahia para indenizar 4,3 mil
+  trabalhadores demitidos
+  Conforme o acerto validado pelo TRT10, empregados receberão R$ 7,5 mil
+  cada e verbas rescisórias fora do concurso de credores da recuperação
+  judicial.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-justica-homologa-acordo-da-casas-bahia-para-inde
 
-• Comissão da Câmara aprova ampliação para 60 dias de prazo para credor
-  propor plano de recuperação
-  Proposta em tramitação na Casa dobra o período conferido à assembleia
-  de credores para formular plano de renegociação alternativo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-15.html#s-comissao-da-camara-aprova-ampliacao-para-60-dias
+• Governo prepara PEC para prorrogar IPI até 2027 e cobrir atraso no
+  Imposto Seletivo
+  Proposta avaliada pelo Ministério da Fazenda visa manter a incidência
+  sobre produtos como fumo e compensar o calendário do novo tributo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-governo-prepara-pec-para-prorrogar-ipi-ate-2027
 
-• Corte Especial do STJ fixa critérios para penhora de salário por
-  dívidas não alimentares
-  Sob o rito dos recursos repetitivos no Tema 1.230, tribunal estabelece
-  que constrição é excepcional e deve respeitar a dignidade do devedor.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-15.html#s-corte-especial-do-stj-fixa-criterios-para-penhor
+• STF decide que cobrança de Funrural de produtor pessoa física até 2018
+  é inconstitucional
+  Supremo altera entendimento anterior por placar de 6 a 5, com voto
+  decisivo de Dias Toffoli, e afasta exigência anterior à norma de 2018.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-stf-decide-que-cobranca-de-funrural-de-produtor
 
-• ICMS-Difal não integra base de cálculo de PIS e Cofins, decide STJ
-  Primeira Seção fixou a tese em recursos repetitivos (Tema 1.372) e
-  modulou os efeitos da decisão.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-15.html#s-icms-difal-nao-integra-base-de-calculo-de-pis-e
+• Direito a pensão por morte de servidor público não prescreve, decide
+  STJ
+  Primeira Seção do Superior Tribunal de Justiça firmou entendimento de
+  que apenas as parcelas vencidas há mais de cinco anos prescrevem.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-direito-a-pensao-por-morte-de-servidor-publico-n
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 698 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-15-todas.html
+Todas as 506 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
+Gerado automaticamente em 08:17 (BRT) · Edição gerada por IA
 (gemini-flash-latest + gemini-flash-lite-latest)
