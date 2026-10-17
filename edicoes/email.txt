@@ -1,52 +1,51 @@
 TSA TECH
-Sexta-feira, 16 de outubro de 2026 · 08:17 BRT
+Sábado, 17 de outubro de 2026 · 09:29 BRT
 
 MANCHETE
 --------
-Congresso promulga fim da escala 6x1 e redução da jornada máxima de
-trabalho para 40 horas
-Texto da Emenda Constitucional estipula transição em duas etapas para
-empresas e cria regras específicas de dispensa de controle de ponto para
-cargos bem remunerados.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-congresso-promulga-fim-da-escala-6x1-e-reducao-d
+Congresso promulga EC 141 que extingue escala 6x1 e reduz jornada máxima
+para 40 horas semanais
+Aprovada sem redução salarial, emenda fixa transição escalonada para 42
+horas em 60 dias e assegura dois dias de repouso remunerado por semana.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-congresso-promulga-ec-141-que-extingue-escala-6x
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Senado aprova elevação do teto do MEI para R$ 140 mil e perdão de
-  dívidas inscritas
-  Projeto de Lei Complementar 186/2026 segue para sanção de Lula e prevê
-  transição gradual até 2028, além de autorizar a contratação de até
-  dois empregados.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-senado-aprova-elevacao-do-teto-do-mei-para-r-140
+• Fazenda articula PEC e medida provisória para adiar vigência do
+  Imposto Seletivo e manter IPI
+  Acordo informal com setores produtivos prevê prorrogação do tributo
+  atual para evitar bitributação durante a transição da reforma
+  tributária.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-fazenda-articula-pec-e-medida-provisoria-para-ad
 
-• Justiça homologa acordo da Casas Bahia para indenizar 4,3 mil
-  trabalhadores demitidos
-  Conforme o acerto validado pelo TRT10, empregados receberão R$ 7,5 mil
-  cada e verbas rescisórias fora do concurso de credores da recuperação
-  judicial.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-justica-homologa-acordo-da-casas-bahia-para-inde
+• Congresso promulga EC 140/2026 e institui aposentadoria especial a
+  agentes comunitários de saúde
+  Texto assegura integralidade e paridade à categoria, e Fazenda recua
+  de questionar dispositivo no Supremo Tribunal Federal.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-congresso-promulga-ec-140-2026-e-institui-aposen
 
-• Governo prepara PEC para prorrogar IPI até 2027 e cobrir atraso no
-  Imposto Seletivo
-  Proposta avaliada pelo Ministério da Fazenda visa manter a incidência
-  sobre produtos como fumo e compensar o calendário do novo tributo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-governo-prepara-pec-para-prorrogar-ipi-ate-2027
+• STF invalida cobrança do Funrural sobre receita bruta para produtor
+  pessoa física até 2018
+  Decisão considerou inconstitucional a substituição da folha pela
+  receita bruta para produtores rurais pessoas físicas no período
+  anterior a 2018.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-stf-invalida-cobranca-do-funrural-sobre-receita
 
-• STF decide que cobrança de Funrural de produtor pessoa física até 2018
-  é inconstitucional
-  Supremo altera entendimento anterior por placar de 6 a 5, com voto
-  decisivo de Dias Toffoli, e afasta exigência anterior à norma de 2018.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-stf-decide-que-cobranca-de-funrural-de-produtor
+• STJ recebe primeiro recurso especial sob novos critérios da relevância
+  da questão federal
+  Processo inaugura a aplicação prática da Lei 15.484/2026 e da Emenda
+  Regimental 55/2026 na filtragem de causas civis pela corte.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-stj-recebe-primeiro-recurso-especial-sob-novos-c
 
-• Direito a pensão por morte de servidor público não prescreve, decide
-  STJ
-  Primeira Seção do Superior Tribunal de Justiça firmou entendimento de
-  que apenas as parcelas vencidas há mais de cinco anos prescrevem.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16.html#s-direito-a-pensao-por-morte-de-servidor-publico-n
+• STJ fixa marco para honorários de sucumbência em rescisórias da
+  modulação do Tema 69
+  Primeira Seção delimitou sob o rito dos recursos repetitivos as regras
+  sucumbenciais para ações rescisórias contestadas até setembro de 2024.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-stj-fixa-marco-para-honorarios-de-sucumbencia-em
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 506 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-16-todas.html
+Todas as 553 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 08:17 (BRT) · Edição gerada por IA
-(gemini-flash-latest + gemini-flash-lite-latest)
+Gerado automaticamente em 09:29 (BRT) · Edição gerada por IA
+(gemini-flash-latest)
