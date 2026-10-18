@@ -1,51 +1,50 @@
 TSA TECH
-Sábado, 17 de outubro de 2026 · 09:29 BRT
+Domingo, 18 de outubro de 2026 · 10:11 BRT
 
 MANCHETE
 --------
-Congresso promulga EC 141 que extingue escala 6x1 e reduz jornada máxima
-para 40 horas semanais
-Aprovada sem redução salarial, emenda fixa transição escalonada para 42
-horas em 60 dias e assegura dois dias de repouso remunerado por semana.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-congresso-promulga-ec-141-que-extingue-escala-6x
+STJ define alcance do ICMS na base do PIS/Cofins em combustíveis e veda
+inclusão do Difal
+Primeira Turma mantém tributo na cobrança por volume, enquanto Primeira
+Seção fixa exclusão do diferencial em repetitivo.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-stj-define-alcance-do-icms-na-base-do-pis-cofins
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Fazenda articula PEC e medida provisória para adiar vigência do
-  Imposto Seletivo e manter IPI
-  Acordo informal com setores produtivos prevê prorrogação do tributo
-  atual para evitar bitributação durante a transição da reforma
-  tributária.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-fazenda-articula-pec-e-medida-provisoria-para-ad
+• Senado aprova PEC que encerra escala 6x1 e fixa jornada em 40 horas
+  semanais
+  Aprovada por 75 votos a 1, a proposta reescreve o artigo 7º da
+  Constituição e prevê dois dias de descanso remunerado.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-senado-aprova-pec-que-encerra-escala-6x1-e-fixa
 
-• Congresso promulga EC 140/2026 e institui aposentadoria especial a
-  agentes comunitários de saúde
-  Texto assegura integralidade e paridade à categoria, e Fazenda recua
-  de questionar dispositivo no Supremo Tribunal Federal.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-congresso-promulga-ec-140-2026-e-institui-aposen
+• STJ vai definir termo inicial da prescrição em revisão de previdência
+  privada fechada
+  Segunda Seção afetou recursos sob o rito dos repetitivos no Tema 1.471
+  para uniformizar o marco temporal.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-stj-vai-definir-termo-inicial-da-prescricao-em-r
 
-• STF invalida cobrança do Funrural sobre receita bruta para produtor
-  pessoa física até 2018
-  Decisão considerou inconstitucional a substituição da folha pela
-  receita bruta para produtores rurais pessoas físicas no período
-  anterior a 2018.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-stf-invalida-cobranca-do-funrural-sobre-receita
+• STJ fixa que indenização do Incra deve considerar valor de mercado na
+  data da perícia judicial
+  Primeira Seção estabelece marco temporal para cálculo indenizatório e
+  limita a um ano o intervalo entre propositura e aferição em utilidade
+  pública.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-stj-fixa-que-indenizacao-do-incra-deve-considera
 
-• STJ recebe primeiro recurso especial sob novos critérios da relevância
-  da questão federal
-  Processo inaugura a aplicação prática da Lei 15.484/2026 e da Emenda
-  Regimental 55/2026 na filtragem de causas civis pela corte.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-stj-recebe-primeiro-recurso-especial-sob-novos-c
+• STJ autoriza créditos de PIS/Cofins sobre insumos desonerados na Zona
+  Franca
+  Empresas no polo fabril podem manter creditamento na aquisição de
+  matérias-primas isentas sempre que a saída for tributada.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-stj-autoriza-creditos-de-pis-cofins-sobre-insumo
 
-• STJ fixa marco para honorários de sucumbência em rescisórias da
-  modulação do Tema 69
-  Primeira Seção delimitou sob o rito dos recursos repetitivos as regras
-  sucumbenciais para ações rescisórias contestadas até setembro de 2024.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17.html#s-stj-fixa-marco-para-honorarios-de-sucumbencia-em
+• STJ fixa marco para honorários de sucumbência em rescisórias sobre
+  Tema 69 do STF
+  Primeira Seção julgou recurso repetitivo e definiu critérios para
+  ações contestadas até setembro de 2024.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-stj-fixa-marco-para-honorarios-de-sucumbencia-em
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 553 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-17-todas.html
+Todas as 312 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 09:29 (BRT) · Edição gerada por IA
+Gerado automaticamente em 10:11 (BRT) · Edição gerada por IA
 (gemini-flash-latest)
