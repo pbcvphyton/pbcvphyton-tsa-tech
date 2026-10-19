@@ -1,50 +1,51 @@
 TSA TECH
-Domingo, 18 de outubro de 2026 · 10:11 BRT
+Segunda-feira, 19 de outubro de 2026 · 05:55 BRT
 
 MANCHETE
 --------
-STJ define alcance do ICMS na base do PIS/Cofins em combustíveis e veda
-inclusão do Difal
-Primeira Turma mantém tributo na cobrança por volume, enquanto Primeira
-Seção fixa exclusão do diferencial em repetitivo.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-stj-define-alcance-do-icms-na-base-do-pis-cofins
+Tribunais superiores pautam e julgam disputas sobre base de cálculo do
+PIS e da Cofins
+STF inclui exclusão do ISS na pauta da semana, enquanto STJ veta
+retirada de ICMS no regime por volume e modula o Tema 1.372.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-19.html#s-tribunais-superiores-pautam-e-julgam-disputas-so
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Senado aprova PEC que encerra escala 6x1 e fixa jornada em 40 horas
-  semanais
-  Aprovada por 75 votos a 1, a proposta reescreve o artigo 7º da
-  Constituição e prevê dois dias de descanso remunerado.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-senado-aprova-pec-que-encerra-escala-6x1-e-fixa
+• Congresso promulga Emenda Constitucional nº 141/2026 que extingue
+  escala 6x1 e reduz jornada para 40 horas
+  Texto fixa dois descansos remunerados por semana sem corte de salário
+  e já acelera automação no setor de varejo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-19.html#s-congresso-promulga-emenda-constitucional-no-141
 
-• STJ vai definir termo inicial da prescrição em revisão de previdência
-  privada fechada
-  Segunda Seção afetou recursos sob o rito dos repetitivos no Tema 1.471
-  para uniformizar o marco temporal.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-stj-vai-definir-termo-inicial-da-prescricao-em-r
+• Primeira Seção do STJ fixa honorários em rescisórias sobre modulação
+  da tese do século
+  Tribunal estabeleceu tese no Tema 1.419 dos repetitivos para
+  disciplinar a sucumbência em ações que discutem a modulação de efeitos
+  do Tema 69 do STF.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-19.html#s-primeira-secao-do-stj-fixa-honorarios-em-resciso
 
-• STJ fixa que indenização do Incra deve considerar valor de mercado na
-  data da perícia judicial
-  Primeira Seção estabelece marco temporal para cálculo indenizatório e
-  limita a um ano o intervalo entre propositura e aferição em utilidade
-  pública.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-stj-fixa-que-indenizacao-do-incra-deve-considera
+• Pedidos de recuperação judicial no agronegócio caem 20,7% no segundo
+  trimestre
+  Queda no setor foi puxada pelo total geral, mas solicitações de
+  produtores rurais pessoa física avançaram 8,2% frente ao primeiro
+  trimestre.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-19.html#s-pedidos-de-recuperacao-judicial-no-agronegocio-c
 
-• STJ autoriza créditos de PIS/Cofins sobre insumos desonerados na Zona
-  Franca
-  Empresas no polo fabril podem manter creditamento na aquisição de
-  matérias-primas isentas sempre que a saída for tributada.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-stj-autoriza-creditos-de-pis-cofins-sobre-insumo
+• STJ fixa que desconsideração da personalidade jurídica exige prova
+  efetiva de abuso
+  Sob o rito dos repetitivos no Tema 1.210, a Segunda Seção estabeleceu
+  o critério para relações de direito civil e empresarial.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-19.html#s-stj-fixa-que-desconsideracao-da-personalidade-ju
 
-• STJ fixa marco para honorários de sucumbência em rescisórias sobre
-  Tema 69 do STF
-  Primeira Seção julgou recurso repetitivo e definiu critérios para
-  ações contestadas até setembro de 2024.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18.html#s-stj-fixa-marco-para-honorarios-de-sucumbencia-em
+• STF modula decisão que proíbe alíquota de IPTU calculada pela área do
+  imóvel
+  Plenário Virtual define que impedimento imposto aos municípios passa a
+  valer a partir de 12 de agosto deste ano.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-19.html#s-stf-modula-decisao-que-proibe-aliquota-de-iptu-c
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 312 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-18-todas.html
+Todas as 391 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-19-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 10:11 (BRT) · Edição gerada por IA
+Gerado automaticamente em 05:55 (BRT) · Edição gerada por IA
 (gemini-flash-latest)
