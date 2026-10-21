@@ -1,51 +1,53 @@
 TSA TECH
-Terça-feira, 20 de outubro de 2026 · 05:54 BRT
+Quarta-feira, 21 de outubro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Promulgação da EC 141 extingue escala 6x1 e impõe jornada semanal de 40
-horas
-Nova regra entra em vigor em meados de dezembro sem corte salarial,
-encarecendo a hora trabalhada e abrindo negociações no varejo.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-20.html#s-promulgacao-da-ec-141-extingue-escala-6x1-e-impo
+Justiça do Rio de Janeiro decreta encerramento da recuperação judicial
+da Americanas
+Após três anos e nove meses da revelação de fraude bilionária, varejista
+encerra processo e ações sobem 15,58% na B3.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-justica-do-rio-de-janeiro-decreta-encerramento-d
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• STJ decide que ICMS-Difal não integra a base de cálculo de PIS e
-  Cofins
-  Em julgamento sob o rito dos recursos repetitivos (Tema 1.372), a
-  Primeira Seção do STJ fixou tese e modulou os efeitos da decisão.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-20.html#s-stj-decide-que-icms-difal-nao-integra-a-base-de
+• Emenda 141 extingue escala 6x1 e impõe reequilíbrio em contratos
+  públicos
+  Promulgação da PEC reduz jornada máxima para 40 horas semanais até
+  2027 e exige aditivos para compensar custos em concessões e serviços
+  públicos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-emenda-141-extingue-escala-6x1-e-impoe-reequilib
 
-• Corte Especial do STJ define critérios para penhora de salário por
-  dívidas não alimentares
-  Sob o rito dos recursos repetitivos (Tema 1.230), o tribunal
-  estabeleceu que a medida é excepcional, mas admitida independentemente
-  do valor da remuneração.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-20.html#s-corte-especial-do-stj-define-criterios-para-penh
+• STF afasta cobrança de ITBI na integralização de capital de empresas
+  imobiliárias
+  Por 8 votos a 2, Supremo fixou tese em repercussão geral que estende a
+  imunidade tributária mesmo quando a atividade principal da pessoa
+  jurídica é imobiliária.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-stf-afasta-cobranca-de-itbi-na-integralizacao-de
 
-• STJ afeta recursos repetitivos para definir limites de retenção em
-  rescisão de contratos imobiliários
-  A Segunda Seção afetou os Recursos Especiais 2.255.394, 2.255.370,
-  2.255.054 e 2.255.393 para balizar os percentuais antes e depois da
-  Lei do Distrato.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-20.html#s-stj-afeta-recursos-repetitivos-para-definir-limi
+• Campanha de Flávio Bolsonaro propõe retorno do Perse e criação do
+  mecanismo Vira Pix
+  Propostas econômicas apresentadas na reta final preveem retomada de
+  benefício fiscal federal para eventos e cashback sobre pagamentos de
+  contas e tarifas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-campanha-de-flavio-bolsonaro-propoe-retorno-do-p
 
-• STJ define regras de honorários em caso de dispensa de Tust e Tusd no
-  ICMS
-  Primeira Seção fixou teses sob o rito dos recursos repetitivos (Tema
-  1.429) acerca da modulação de efeitos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-20.html#s-stj-define-regras-de-honorarios-em-caso-de-dispe
+• STF vai decidir se Judiciário pode revisar remuneração do SUS a
+  hospitais privados
+  Corte reconhece repercussão geral em recurso sobre equiparação aos
+  parâmetros econômicos da saúde suplementar.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-stf-vai-decidir-se-judiciario-pode-revisar-remun
 
-• Segunda Seção do STJ define que desconsideração da personalidade
-  jurídica exige prova de abuso
-  Em julgamento sob o rito dos repetitivos (Tema 1.210), o tribunal
-  fixou tese sobre o alcance da medida em relações civis e empresariais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-20.html#s-segunda-secao-do-stj-define-que-desconsideracao
+• STJ autua primeiro recurso sob o filtro da relevância da questão
+  federal
+  Corte Superior inicia aplicação prática do novo requisito
+  constitucional com base na Lei 15.484/2026 e na Emenda Regimental
+  55/2026.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-stj-autua-primeiro-recurso-sob-o-filtro-da-relev
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 598 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-20-todas.html
+Todas as 587 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-latest + gemini-flash-lite-latest)
+(gemini-flash-latest)
