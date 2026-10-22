@@ -1,53 +1,52 @@
 TSA TECH
-Quarta-feira, 21 de outubro de 2026 · 05:54 BRT
+Quinta-feira, 22 de outubro de 2026 · 11:29 BRT
 
 MANCHETE
 --------
-Justiça do Rio de Janeiro decreta encerramento da recuperação judicial
-da Americanas
-Após três anos e nove meses da revelação de fraude bilionária, varejista
-encerra processo e ações sobem 15,58% na B3.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-justica-do-rio-de-janeiro-decreta-encerramento-d
+STF exclui ISS da base de cálculo do PIS e da Cofins por 6 a 5
+Supremo decide que o imposto municipal não compõe as contribuições
+federais, com impacto estimado de R$ 35,4 bilhões para a União.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-stf-exclui-iss-da-base-de-calculo-do-pis-e-da-co
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Emenda 141 extingue escala 6x1 e impõe reequilíbrio em contratos
-  públicos
-  Promulgação da PEC reduz jornada máxima para 40 horas semanais até
-  2027 e exige aditivos para compensar custos em concessões e serviços
-  públicos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-emenda-141-extingue-escala-6x1-e-impoe-reequilib
+• Lula sanciona Lei Complementar 238 com perdão de débitos e novo teto
+  para o MEI
+  Texto perdoa dívidas ativas de microempreendedores com a União e eleva
+  o limite de faturamento anual para até R$ 140 mil a partir de 2028.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-lula-sanciona-lei-complementar-238-com-perdao-de
 
-• STF afasta cobrança de ITBI na integralização de capital de empresas
-  imobiliárias
-  Por 8 votos a 2, Supremo fixou tese em repercussão geral que estende a
-  imunidade tributária mesmo quando a atividade principal da pessoa
-  jurídica é imobiliária.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-stf-afasta-cobranca-de-itbi-na-integralizacao-de
+• Justiça de SP aceita processamento da recuperação judicial do Grupo
+  Casas Bahia
+  Decisão da 2ª Vara de Falências mantém blindagem de 180 dias contra
+  execuções e fixa prazo de 30 dias para regularização de pendências
+  documentais e do passivo fiscal.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-justica-de-sp-aceita-processamento-da-recuperaca
 
-• Campanha de Flávio Bolsonaro propõe retorno do Perse e criação do
-  mecanismo Vira Pix
-  Propostas econômicas apresentadas na reta final preveem retomada de
-  benefício fiscal federal para eventos e cashback sobre pagamentos de
-  contas e tarifas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-campanha-de-flavio-bolsonaro-propoe-retorno-do-p
+• Raízen propõe aumento de capital de pelo menos R$ 3,5 bilhões em
+  recuperação extrajudicial
+  Operação prevê emissão de ações a R$ 0,25 com direito de preferência a
+  acionistas e reorganização societária a ser votada em assembleia no
+  dia 30 de outubro.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-raizen-propoe-aumento-de-capital-de-pelo-menos-r
 
-• STF vai decidir se Judiciário pode revisar remuneração do SUS a
-  hospitais privados
-  Corte reconhece repercussão geral em recurso sobre equiparação aos
-  parâmetros econômicos da saúde suplementar.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-stf-vai-decidir-se-judiciario-pode-revisar-remun
+• CJF libera R$ 2,9 bilhões em atrasados do INSS para 192 mil
+  beneficiários
+  Recursos autorizados pelo Conselho da Justiça Federal quitarão RPVs
+  decorrentes de revisões e concessões de benefícios previdenciários e
+  assistenciais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-cjf-libera-r-2-9-bilhoes-em-atrasados-do-inss-pa
 
-• STJ autua primeiro recurso sob o filtro da relevância da questão
-  federal
-  Corte Superior inicia aplicação prática do novo requisito
-  constitucional com base na Lei 15.484/2026 e na Emenda Regimental
-  55/2026.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21.html#s-stj-autua-primeiro-recurso-sob-o-filtro-da-relev
+• STF inclui em pauta julgamento sobre compartilhamento obrigatório de
+  torres de telecomunicações
+  Ação Direta de Inconstitucionalidade 7708 discute validade da
+  revogação de norma que impunha divisão de estrutura física a
+  distâncias menores de 500 metros.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-stf-inclui-em-pauta-julgamento-sobre-compartilha
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 587 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-21-todas.html
+Todas as 671 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-latest)
+Gerado automaticamente em 11:29 (BRT) · Edição gerada por IA
+(gemini-flash-latest + gemini-flash-lite-latest)
