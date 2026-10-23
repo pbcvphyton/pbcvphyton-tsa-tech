@@ -1,52 +1,50 @@
 TSA TECH
-Quinta-feira, 22 de outubro de 2026 · 11:29 BRT
+Sexta-feira, 23 de outubro de 2026 · 11:12 BRT
 
 MANCHETE
 --------
-STF exclui ISS da base de cálculo do PIS e da Cofins por 6 a 5
-Supremo decide que o imposto municipal não compõe as contribuições
-federais, com impacto estimado de R$ 35,4 bilhões para a União.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-stf-exclui-iss-da-base-de-calculo-do-pis-e-da-co
+Governo dispensa nanoempreendedor de CNPJ e autoriza declaração do MEI
+como nota
+Decreto nº 13.140/2026 e resolução do CGSN simplificam obrigações para
+pequenos negócios no âmbito da reforma tributária sobre o consumo.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-governo-dispensa-nanoempreendedor-de-cnpj-e-auto
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Lula sanciona Lei Complementar 238 com perdão de débitos e novo teto
-  para o MEI
-  Texto perdoa dívidas ativas de microempreendedores com a União e eleva
-  o limite de faturamento anual para até R$ 140 mil a partir de 2028.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-lula-sanciona-lei-complementar-238-com-perdao-de
+• Arrecadação federal atinge recorde de R$ 239,4 bilhões em setembro com
+  petróleo e apostas
+  Receita registra alta real de 5,62% no mês impulsionada por imposto de
+  exportação sobre combustíveis e receitas de bets, mas analistas
+  apontam desaceleração.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-arrecadacao-federal-atinge-recorde-de-r-239-4-bi
 
-• Justiça de SP aceita processamento da recuperação judicial do Grupo
-  Casas Bahia
-  Decisão da 2ª Vara de Falências mantém blindagem de 180 dias contra
-  execuções e fixa prazo de 30 dias para regularização de pendências
-  documentais e do passivo fiscal.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-justica-de-sp-aceita-processamento-da-recuperaca
+• Credores pedem recuperação judicial involuntária de subsidiária da
+  Braskem nos Estados Unidos
+  Pedido de Involuntary Chapter 11 foi protocolado contra a Braskem
+  America Finance Company por fundos de investimento.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-credores-pedem-recuperacao-judicial-involuntaria
 
-• Raízen propõe aumento de capital de pelo menos R$ 3,5 bilhões em
-  recuperação extrajudicial
-  Operação prevê emissão de ações a R$ 0,25 com direito de preferência a
-  acionistas e reorganização societária a ser votada em assembleia no
-  dia 30 de outubro.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-raizen-propoe-aumento-de-capital-de-pelo-menos-r
+• STJ define em repetitivo que desconsideração da personalidade jurídica
+  exige prova de abuso
+  Segunda Seção fixou a tese sob o Tema 1.210 para as relações jurídicas
+  de direito civil e empresarial.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-stj-define-em-repetitivo-que-desconsideracao-da
 
-• CJF libera R$ 2,9 bilhões em atrasados do INSS para 192 mil
-  beneficiários
-  Recursos autorizados pelo Conselho da Justiça Federal quitarão RPVs
-  decorrentes de revisões e concessões de benefícios previdenciários e
-  assistenciais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-cjf-libera-r-2-9-bilhoes-em-atrasados-do-inss-pa
+• Petrobras aciona mediação do TCU para equacionar déficit de R$ 42
+  bilhões na Petros
+  Estatal busca destravar negociações paradas há mais de um ano para
+  solucionar rombo bilionário em planos de previdência complementar.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-petrobras-aciona-mediacao-do-tcu-para-equacionar
 
-• STF inclui em pauta julgamento sobre compartilhamento obrigatório de
-  torres de telecomunicações
-  Ação Direta de Inconstitucionalidade 7708 discute validade da
-  revogação de norma que impunha divisão de estrutura física a
-  distâncias menores de 500 metros.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22.html#s-stf-inclui-em-pauta-julgamento-sobre-compartilha
+• STF conclui julgamento da ADI 4.395 sobre sub-rogação do Funrural com
+  voto médio de Toffoli
+  Após 16 anos de tramitação, tribunal proclama decisão definitiva sobre
+  ação ajuizada pela Abrafrigo em 2010.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-stf-conclui-julgamento-da-adi-4-395-sobre-sub-ro
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 671 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-22-todas.html
+Todas as 660 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 11:29 (BRT) · Edição gerada por IA
-(gemini-flash-latest + gemini-flash-lite-latest)
+Gerado automaticamente em 11:12 (BRT) · Edição gerada por IA
+(gemini-flash-latest)
