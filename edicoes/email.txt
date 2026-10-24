@@ -1,50 +1,53 @@
 TSA TECH
-Sexta-feira, 23 de outubro de 2026 · 11:12 BRT
+Sábado, 24 de outubro de 2026 · 10:16 BRT
 
 MANCHETE
 --------
-Governo dispensa nanoempreendedor de CNPJ e autoriza declaração do MEI
-como nota
-Decreto nº 13.140/2026 e resolução do CGSN simplificam obrigações para
-pequenos negócios no âmbito da reforma tributária sobre o consumo.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-governo-dispensa-nanoempreendedor-de-cnpj-e-auto
+STF conclui julgamento sobre imunidade de ITBI na integralização de
+imóveis ao capital social
+Sob repercussão geral no Tema 1.348, o tribunal analisou a aplicação do
+benefício fiscal nas transferências de bens ao capital de empresas e
+holdings patrimoniais.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-stf-conclui-julgamento-sobre-imunidade-de-itbi-n
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Arrecadação federal atinge recorde de R$ 239,4 bilhões em setembro com
-  petróleo e apostas
-  Receita registra alta real de 5,62% no mês impulsionada por imposto de
-  exportação sobre combustíveis e receitas de bets, mas analistas
-  apontam desaceleração.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-arrecadacao-federal-atinge-recorde-de-r-239-4-bi
+• Casas Bahia contrata Camille Faria para liderar plano de recuperação
+  judicial
+  Executiva que conduziu processo da Americanas assume interlocução com
+  credores para reestruturar dívida de R$ 17,3 bilhões.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-casas-bahia-contrata-camille-faria-para-liderar
 
-• Credores pedem recuperação judicial involuntária de subsidiária da
-  Braskem nos Estados Unidos
-  Pedido de Involuntary Chapter 11 foi protocolado contra a Braskem
-  America Finance Company por fundos de investimento.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-credores-pedem-recuperacao-judicial-involuntaria
+• Emenda Constitucional 141 extingue escala 6x1 e reduz jornada de
+  trabalho para 42 horas em dezembro
+  Texto altera o artigo 7º da Constituição para instituir regime 5x2 sem
+  corte salarial, com nova queda para 40 horas em 2027; pesquisa
+  Datafolha aponta que 59% veem impacto positivo na vida pessoal.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-emenda-constitucional-141-extingue-escala-6x1-e
 
-• STJ define em repetitivo que desconsideração da personalidade jurídica
-  exige prova de abuso
-  Segunda Seção fixou a tese sob o Tema 1.210 para as relações jurídicas
-  de direito civil e empresarial.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-stj-define-em-repetitivo-que-desconsideracao-da
+• Governo planeja enviar projeto para anistiar R$ 15 bilhões em dívidas
+  ativas do Simples
+  Proposta anunciada pela campanha e por ministro prevê anistiar débitos
+  inscritos na Dívida Ativa da União de empresas do Simples Nacional
+  após promessas da oposição para o setor.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-governo-planeja-enviar-projeto-para-anistiar-r-1
 
-• Petrobras aciona mediação do TCU para equacionar déficit de R$ 42
-  bilhões na Petros
-  Estatal busca destravar negociações paradas há mais de um ano para
-  solucionar rombo bilionário em planos de previdência complementar.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-petrobras-aciona-mediacao-do-tcu-para-equacionar
+• STJ autua primeiro recurso especial sob novos critérios de relevância
+  da questão federal
+  Processo inaugura aplicação prática da Lei 15.484/2026 e da Emenda
+  Regimental 55/2026 na filtragem de recursos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-stj-autua-primeiro-recurso-especial-sob-novos-cr
 
-• STF conclui julgamento da ADI 4.395 sobre sub-rogação do Funrural com
-  voto médio de Toffoli
-  Após 16 anos de tramitação, tribunal proclama decisão definitiva sobre
-  ação ajuizada pela Abrafrigo em 2010.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23.html#s-stf-conclui-julgamento-da-adi-4-395-sobre-sub-ro
+• STF fixa prazo de 10 anos para distribuidoras devolverem tributos
+  cobrados na conta de luz
+  Em recurso na ADI 7324, corte determinou que o prazo decenal inicia
+  com a restituição do ICMS ou a homologação definitiva da compensação
+  das concessionárias.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-stf-fixa-prazo-de-10-anos-para-distribuidoras-de
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 660 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-23-todas.html
+Todas as 687 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 11:12 (BRT) · Edição gerada por IA
+Gerado automaticamente em 10:16 (BRT) · Edição gerada por IA
 (gemini-flash-latest)
