@@ -1,53 +1,47 @@
 TSA TECH
-Sábado, 24 de outubro de 2026 · 10:16 BRT
+Domingo, 25 de outubro de 2026 · 10:40 BRT
 
 MANCHETE
 --------
-STF conclui julgamento sobre imunidade de ITBI na integralização de
-imóveis ao capital social
-Sob repercussão geral no Tema 1.348, o tribunal analisou a aplicação do
-benefício fiscal nas transferências de bens ao capital de empresas e
-holdings patrimoniais.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-stf-conclui-julgamento-sobre-imunidade-de-itbi-n
+STJ decide que ICMS-Difal não integra base de cálculo do PIS e da Cofins
+Primeira Seção fixou tese vinculante sob o rito dos recursos repetitivos
+no Tema 1.372 e deliberou pela modulação dos efeitos.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-stj-decide-que-icms-difal-nao-integra-base-de-ca
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Casas Bahia contrata Camille Faria para liderar plano de recuperação
-  judicial
-  Executiva que conduziu processo da Americanas assume interlocução com
-  credores para reestruturar dívida de R$ 17,3 bilhões.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-casas-bahia-contrata-camille-faria-para-liderar
+• Braskem e credores avançam para acordo de reestruturação de dívida de
+  US$ 11 bilhões
+  Plano prevê prorrogação de prazos da recuperação extrajudicial,
+  compromisso de aporte da Petrobras e conversão de débitos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-braskem-e-credores-avancam-para-acordo-de-reestr
 
-• Emenda Constitucional 141 extingue escala 6x1 e reduz jornada de
-  trabalho para 42 horas em dezembro
-  Texto altera o artigo 7º da Constituição para instituir regime 5x2 sem
-  corte salarial, com nova queda para 40 horas em 2027; pesquisa
-  Datafolha aponta que 59% veem impacto positivo na vida pessoal.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-emenda-constitucional-141-extingue-escala-6x1-e
+• INSS não pode negar pedido sem chance de complementação de prova
+  A Primeira Seção do STJ definiu que o INSS deve permitir que o
+  segurado complemente documentos antes de indeferir benefícios.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-inss-nao-pode-negar-pedido-sem-chance-de-complem
 
-• Governo planeja enviar projeto para anistiar R$ 15 bilhões em dívidas
-  ativas do Simples
-  Proposta anunciada pela campanha e por ministro prevê anistiar débitos
-  inscritos na Dívida Ativa da União de empresas do Simples Nacional
-  após promessas da oposição para o setor.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-governo-planeja-enviar-projeto-para-anistiar-r-1
+• STJ fixa que desconsideração da personalidade jurídica exige
+  comprovação de abuso
+  Em recurso repetitivo (Tema 1.210), Segunda Seção afasta aplicação
+  automática em disputas civis e empresariais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-stj-fixa-que-desconsideracao-da-personalidade-ju
 
-• STJ autua primeiro recurso especial sob novos critérios de relevância
-  da questão federal
-  Processo inaugura aplicação prática da Lei 15.484/2026 e da Emenda
-  Regimental 55/2026 na filtragem de recursos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-stj-autua-primeiro-recurso-especial-sob-novos-cr
+• STJ condena Estado a pagar honorários em período de dispensa de ICMS
+  sobre Tust e Tusd
+  Sob o Tema 1.429 dos repetitivos, Primeira Seção regulou os ônus de
+  sucumbência decorrentes da modulação do Tema 986.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-stj-condena-estado-a-pagar-honorarios-em-periodo
 
-• STF fixa prazo de 10 anos para distribuidoras devolverem tributos
-  cobrados na conta de luz
-  Em recurso na ADI 7324, corte determinou que o prazo decenal inicia
-  com a restituição do ICMS ou a homologação definitiva da compensação
-  das concessionárias.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24.html#s-stf-fixa-prazo-de-10-anos-para-distribuidoras-de
+• Justiça do Trabalho proíbe rede de supermercados de praticar assédio
+  eleitoral
+  Decisão atende a pedido de sindicato e veda envio de comunicados com
+  teor político-eleitoral a empregados.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-justica-do-trabalho-proibe-rede-de-supermercados
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 687 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-24-todas.html
+Todas as 600 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 10:16 (BRT) · Edição gerada por IA
-(gemini-flash-latest)
+Gerado automaticamente em 10:40 (BRT) · Edição gerada por IA
+(gemini-flash-latest + gemini-flash-lite-latest)
