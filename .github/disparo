@@ -4,4 +4,4 @@
 # edição não tiver saído. O push na main dispara o workflow "Edição diária"
 # (.github/workflows/daily.yml), que só gera a edição se a de hoje ainda não saiu.
 # Existe porque o agendamento (cron) do GitHub chega a atrasar horas ou a não rodar.
-ultimo-disparo: 2026-10-21T05:54 (Brasília)
+ultimo-disparo: 2026-10-26T05:54 (Brasília)
