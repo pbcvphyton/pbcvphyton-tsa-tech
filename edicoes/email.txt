@@ -1,47 +1,49 @@
 TSA TECH
-Domingo, 25 de outubro de 2026 · 10:40 BRT
+Segunda-feira, 26 de outubro de 2026 · 05:55 BRT
 
 MANCHETE
 --------
 STJ decide que ICMS-Difal não integra base de cálculo do PIS e da Cofins
-Primeira Seção fixou tese vinculante sob o rito dos recursos repetitivos
-no Tema 1.372 e deliberou pela modulação dos efeitos.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-stj-decide-que-icms-difal-nao-integra-base-de-ca
+Primeira Seção fixou tese no Tema 1.372 dos recursos repetitivos e
+determinou a modulação dos efeitos da decisão.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-26.html#s-stj-decide-que-icms-difal-nao-integra-base-de-ca
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Braskem e credores avançam para acordo de reestruturação de dívida de
-  US$ 11 bilhões
-  Plano prevê prorrogação de prazos da recuperação extrajudicial,
-  compromisso de aporte da Petrobras e conversão de débitos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-braskem-e-credores-avancam-para-acordo-de-reestr
+• Motivação econômica não afasta condenação por atos preparatórios de
+  terrorismo
+  Sexta Turma do STJ reforma acórdão do TRF6 e reafirma aplicação da Lei
+  13.260/2016.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-26.html#s-motivacao-economica-nao-afasta-condenacao-por-at
 
-• INSS não pode negar pedido sem chance de complementação de prova
-  A Primeira Seção do STJ definiu que o INSS deve permitir que o
-  segurado complemente documentos antes de indeferir benefícios.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-inss-nao-pode-negar-pedido-sem-chance-de-complem
+• Setores de turismo e comércio adotam jornada 12x36 antes do fim da
+  escala 6x1
+  Nova legislação trabalhista passa a valer em meados de dezembro e leva
+  empresas a redesenharem operações para a temporada de verão.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-26.html#s-setores-de-turismo-e-comercio-adotam-jornada-12x
 
-• STJ fixa que desconsideração da personalidade jurídica exige
-  comprovação de abuso
-  Em recurso repetitivo (Tema 1.210), Segunda Seção afasta aplicação
-  automática em disputas civis e empresariais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-stj-fixa-que-desconsideracao-da-personalidade-ju
+• STJ fixa em repetitivo que desconsideração da personalidade jurídica
+  exige comprovação de abuso
+  Segunda Seção pacificou sob o Tema 1.210 que, no âmbito civil e
+  empresarial, o redirecionamento de obrigações demanda prova de desvio
+  de finalidade ou confusão patrimonial.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-26.html#s-stj-fixa-em-repetitivo-que-desconsideracao-da-pe
 
-• STJ condena Estado a pagar honorários em período de dispensa de ICMS
-  sobre Tust e Tusd
-  Sob o Tema 1.429 dos repetitivos, Primeira Seção regulou os ônus de
-  sucumbência decorrentes da modulação do Tema 986.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-stj-condena-estado-a-pagar-honorarios-em-periodo
+• STJ afeta repetitivo para definir limites de retenção em rescisão de
+  contratos imobiliários
+  Segunda Seção vai uniformizar os percentuais aplicáveis em distratos
+  ocorridos antes e depois da vigência da Lei do Distrato Imobiliário.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-26.html#s-stj-afeta-repetitivo-para-definir-limites-de-ret
 
-• Justiça do Trabalho proíbe rede de supermercados de praticar assédio
-  eleitoral
-  Decisão atende a pedido de sindicato e veda envio de comunicados com
-  teor político-eleitoral a empregados.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25.html#s-justica-do-trabalho-proibe-rede-de-supermercados
+• STJ condena Estado a pagar honorários por isenção de Tust e Tusd no
+  ICMS
+  Primeira Seção fixou duas teses no Tema 1.429 repetitivo ao tratar da
+  modulação sobre tarifas de energia elétrica.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-26.html#s-stj-condena-estado-a-pagar-honorarios-por-isenca
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 600 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-25-todas.html
+Todas as 680 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-26-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 10:40 (BRT) · Edição gerada por IA
+Gerado automaticamente em 05:55 (BRT) · Edição gerada por IA
 (gemini-flash-latest + gemini-flash-lite-latest)
