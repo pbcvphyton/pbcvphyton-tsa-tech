@@ -1,54 +1,53 @@
 TSA TECH
-Terça-feira, 27 de outubro de 2026 · 05:55 BRT
+Quarta-feira, 28 de outubro de 2026 · 05:55 BRT
 
 MANCHETE
 --------
-Ibovespa despenca e dólar dispara com reeleição de Lula em meio a temor
-fiscal
-Bolsa brasileira aciona o circuit breaker e desaba 13,88% após a
-confirmação da vitória de Luiz Inácio Lula da Silva sobre Flávio
-Bolsonaro nas urnas.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-27.html#s-ibovespa-despenca-e-dolar-dispara-com-reeleicao
+TCU analisa cálculo da alíquota de referência da CBS nesta quarta-feira
+Tribunal deve encaminhar proposta ao Senado até o fim de outubro para
+deliberação até 22 de dezembro; Fazenda, Roit e economistas projetam
+taxas entre 8,53% e 11%.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-tcu-analisa-calculo-da-aliquota-de-referencia-da
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• TCU vota alíquota da CBS nesta quarta-feira para envio da proposta ao
-  Senado até 30 de outubro
-  Tribunal delibera sobre cálculo do novo tributo federal que entra em
-  vigor em 2027; reeleição de Lula mantém calendário e regras da reforma
-  sobre o consumo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-27.html#s-tcu-vota-aliquota-da-cbs-nesta-quarta-feira-para
+• Governo prepara envio da MP do Imposto Seletivo e renova subvenção ao
+  diesel
+  Fazenda deve apresentar nesta semana regras para cobrança do tributo
+  criado na reforma e prorroga por um mês o auxílio de R$ 2,12 por litro
+  de combustível.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-governo-prepara-envio-da-mp-do-imposto-seletivo
 
-• Fux marca audiência pública no STF sobre MP que proíbe bets e mantém
-  validade da norma
-  Ministro ouvirá governo, clubes de futebol e entidades de apostas no
-  dia 3 de novembro para discutir viabilidade de acordo sobre a medida
-  provisória.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-27.html#s-fux-marca-audiencia-publica-no-stf-sobre-mp-que
+• STJ fixa débitos condominiais anteriores à recuperação judicial como
+  créditos extraconcursais
+  Em julgamento sob o Tema 1.391 dos recursos repetitivos, a Segunda
+  Seção pacificou que essas dívidas não se submetem ao plano de
+  reestruturação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-stj-fixa-debitos-condominiais-anteriores-a-recup
 
-• Credores da Braskem prorrogam prazo para fechar acordo de
-  reestruturação até 30 de outubro
-  Grupo de bondholders aceita estender prazo na recuperação
-  extrajudicial da petroquímica, que divulga projeções e plano de
-  negócios sem consenso firmado.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-27.html#s-credores-da-braskem-prorrogam-prazo-para-fechar
+• Denúncias de assédio eleitoral no trabalho superam 2 mil casos e TST
+  reforça fiscalização
+  Ministério Público do Trabalho registra mais de 1,1 mil queixas em
+  outubro e Justiça do Trabalho alerta que apurações continuam após o
+  segundo turno.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-denuncias-de-assedio-eleitoral-no-trabalho-super
 
-• STJ fixa critérios para data de referência da indenização em
-  desapropriações de imóveis
-  Primeira Seção define limites temporais para a avaliação judicial sob
-  o filtro da relevância infraconstitucional e modula os efeitos da
-  decisão.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-27.html#s-stj-fixa-criterios-para-data-de-referencia-da-in
+• Liquidante do Banco Master pede anulação de transferência de imóvel de
+  Daniel Vorcaro nos EUA
+  A administradora EFB tenta reaver cobertura de US$ 27,77 milhões em
+  Miami alegando que o ativo foi adquirido com recursos desviados da
+  instituição.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-liquidante-do-banco-master-pede-anulacao-de-tran
 
-• STJ proíbe INSS de rejeitar benefício apto sem abrir prazo para
-  complementação probatória
-  Primeira Seção da Corte definiu que a autarquia não pode indeferir
-  sumariamente requerimentos que tenham embasamento mínimo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-27.html#s-stj-proibe-inss-de-rejeitar-beneficio-apto-sem-a
+• STJ proíbe INSS de negar benefício de forma automática sem abrir prazo
+  de prova
+  Primeira Seção pacificou que requerimentos minimamente instruídos não
+  podem sofrer indeferimento sumário pela autarquia.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-stj-proibe-inss-de-negar-beneficio-de-forma-auto
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 804 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-27-todas.html
+Todas as 696 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:55 (BRT) · Edição gerada por IA
-(gemini-flash-latest + gemini-flash-lite-latest)
+(gemini-flash-latest)
