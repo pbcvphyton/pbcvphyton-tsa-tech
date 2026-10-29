@@ -1,53 +1,51 @@
 TSA TECH
-Quarta-feira, 28 de outubro de 2026 · 05:55 BRT
+Quinta-feira, 29 de outubro de 2026 · 05:56 BRT
 
 MANCHETE
 --------
-TCU analisa cálculo da alíquota de referência da CBS nesta quarta-feira
-Tribunal deve encaminhar proposta ao Senado até o fim de outubro para
-deliberação até 22 de dezembro; Fazenda, Roit e economistas projetam
-taxas entre 8,53% e 11%.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-tcu-analisa-calculo-da-aliquota-de-referencia-da
+TCU aprova alíquota de 11,3% para a CBS em 2027 e acende alerta no
+mercado
+Proposta de alíquota de referência para o novo tributo federal supera
+projeções e gera preocupações sobre o IVA total.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-29.html#s-tcu-aprova-aliquota-de-11-3-para-a-cbs-em-2027-e
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Governo prepara envio da MP do Imposto Seletivo e renova subvenção ao
-  diesel
-  Fazenda deve apresentar nesta semana regras para cobrança do tributo
-  criado na reforma e prorroga por um mês o auxílio de R$ 2,12 por litro
-  de combustível.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-governo-prepara-envio-da-mp-do-imposto-seletivo
+• Confaz eleva ICMS sobre gasolina, diesel e gás de cozinha para 2027
+  Novas alíquotas do imposto estadual sobre combustíveis passam a
+  vigorar a partir de 1º de fevereiro do próximo ano.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-29.html#s-confaz-eleva-icms-sobre-gasolina-diesel-e-gas-de
 
-• STJ fixa débitos condominiais anteriores à recuperação judicial como
-  créditos extraconcursais
-  Em julgamento sob o Tema 1.391 dos recursos repetitivos, a Segunda
-  Seção pacificou que essas dívidas não se submetem ao plano de
-  reestruturação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-stj-fixa-debitos-condominiais-anteriores-a-recup
+• Governo abre crédito suplementar de R$ 5,2 bilhões com foco em BPC e
+  Previdência
+  Portaria nº 485/2026 remaneja dotações orçamentárias para custear
+  benefícios assistenciais, aposentadorias da União e assistência
+  farmacêutica.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-29.html#s-governo-abre-credito-suplementar-de-r-5-2-bilhoe
 
-• Denúncias de assédio eleitoral no trabalho superam 2 mil casos e TST
-  reforça fiscalização
-  Ministério Público do Trabalho registra mais de 1,1 mil queixas em
-  outubro e Justiça do Trabalho alerta que apurações continuam após o
-  segundo turno.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-denuncias-de-assedio-eleitoral-no-trabalho-super
+• MPT registra 3.290 queixas de assédio eleitoral no trabalho após alta
+  expressiva pós-votação
+  Mais de um terço das notificações foi protocolado após o segundo
+  turno; cenário reabre alerta para demissões e vetos discriminatórios
+  em processos seletivos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-29.html#s-mpt-registra-3-290-queixas-de-assedio-eleitoral
 
-• Liquidante do Banco Master pede anulação de transferência de imóvel de
-  Daniel Vorcaro nos EUA
-  A administradora EFB tenta reaver cobertura de US$ 27,77 milhões em
-  Miami alegando que o ativo foi adquirido com recursos desviados da
-  instituição.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-liquidante-do-banco-master-pede-anulacao-de-tran
+• STJ define que débitos condominiais anteriores à recuperação judicial
+  são créditos extraconcursais
+  Segunda Seção fixou a tese no Tema 1.391 dos repetitivos; condomínios
+  podem cobrar valores e executar bens fora do plano de soerguimento.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-29.html#s-stj-define-que-debitos-condominiais-anteriores-a
 
-• STJ proíbe INSS de negar benefício de forma automática sem abrir prazo
-  de prova
-  Primeira Seção pacificou que requerimentos minimamente instruídos não
-  podem sofrer indeferimento sumário pela autarquia.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28.html#s-stj-proibe-inss-de-negar-beneficio-de-forma-auto
+• Justiça do Trabalho e MPT agem contra retaliações e assédio eleitoral
+  em empresas
+  Decisão proíbe parlamentar de incentivar demissões por convicção
+  política após segundo turno, enquanto Ministério Público do Trabalho
+  aponta ilícitos em boicotes e perseguições corporativas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-29.html#s-justica-do-trabalho-e-mpt-agem-contra-retaliacoe
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 696 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-28-todas.html
+Todas as 689 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-29-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 05:55 (BRT) · Edição gerada por IA
-(gemini-flash-latest)
+Gerado automaticamente em 05:56 (BRT) · Edição gerada por IA
+(gemini-flash-latest + gemini-flash-lite-latest)
