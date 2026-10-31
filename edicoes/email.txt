@@ -1,54 +1,53 @@
 TSA TECH
-Sexta-feira, 30 de outubro de 2026 · 05:54 BRT
+Sábado, 31 de outubro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-TCU fixa CBS de referência em 11,3% e setor produtivo alerta para alta
-da carga tributária
-Alíquota preliminar aprovada pelo tribunal para 2027 supera estimativas
-de mercado, abre risco de IVA total acima de 30% e mobiliza entidades
-como a Abrasca.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-30.html#s-tcu-fixa-cbs-de-referencia-em-11-3-e-setor-produ
+Alíquota de 11,3% da CBS calculada pelo TCU gera reação de setores
+contra aumento de carga
+Cálculo técnico para a contribuição em 2027 supera estimativas
+anteriores, acende alerta no varejo, na indústria e na saúde e projeta
+imposto sobre consumo acima de 30%.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-aliquota-de-11-3-da-cbs-calculada-pelo-tcu-gera
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• MPT aciona Meta na Justiça do Trabalho por posts de assédio eleitoral
-  e pede R$ 50 milhões
-  Ação civil pública na 77ª Vara de SP exige remoção em 24 horas de
-  conteúdos que incitem demissões e retaliações a empregados por voto ou
-  orientação política.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-30.html#s-mpt-aciona-meta-na-justica-do-trabalho-por-posts
+• Acionistas da Raízen aprovam reestruturação e eleição de conselhos com
+  maioria de credores
+  Medidas viabilizam plano de recuperação extrajudicial com
+  capitalização de até R$ 39,8 bilhões e divisão da companhia.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-acionistas-da-raizen-aprovam-reestruturacao-e-el
 
-• STF forma cinco votos contra mesmo tempo de contribuição para mulheres
-  na previdência privada
-  Julgamento sob o Tema 1.423 de repercussão geral foi suspenso com
-  placar de 5 a 3; ação da Previ envolve impacto financeiro estimado em
-  R$ 23 bilhões.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-30.html#s-stf-forma-cinco-votos-contra-mesmo-tempo-de-cont
+• Empresas do Simples Nacional encerram prazo de escolha para apuração
+  de IBS e CBS em 2027
+  Opção entre modelo híbrido ou recolhimento unificado no DAS define o
+  tratamento de créditos tributários e o cumprimento de obrigações
+  acessórias.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-empresas-do-simples-nacional-encerram-prazo-de-e
 
-• STF valida restrições à compra de terras rurais por empresas
-  brasileiras com controle estrangeiro
-  Supremo Tribunal Federal confirmou a constitucionalidade da Lei
-  5.709/1971 e do Parecer LA-01/2010 da AGU, impondo limites ao capital
-  externo no setor imobiliário rural.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-30.html#s-stf-valida-restricoes-a-compra-de-terras-rurais
+• Justiça do Trabalho determina que Meta remova publicações com assédio
+  eleitoral contra empregados
+  Decisão liminar acolhe ação civil pública do Ministério Público do
+  Trabalho e impõe prazo para exclusão de conteúdos que incentivem
+  demissões por motivação política.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-justica-do-trabalho-determina-que-meta-remova-pu
 
-• Confaz aprova reajuste do ICMS sobre combustíveis a partir de
-  fevereiro de 2027
-  Novos valores publicados pelo conselho elevam a tributação da
-  gasolina, do diesel e do gás de cozinha em até 11,11%, calculados com
-  base em médias da ANP.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-30.html#s-confaz-aprova-reajuste-do-icms-sobre-combustivei
+• São Paulo exclui mais 74 produtos da substituição tributária do ICMS a
+  partir de 2027
+  Portaria reduz lista de itens sujeitos ao ICMS-ST em 72,2% desde o fim
+  de 2025, retirando mercadorias como materiais de construção e
+  eletrodomésticos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-sao-paulo-exclui-mais-74-produtos-da-substituica
 
-• STJ fixa que dívidas de condomínio anteriores à recuperação judicial
-  são extraconcursais
-  Segunda Seção define no Tema 1.391 que débitos condominiais não se
-  submetem ao juízo da recuperação de empresas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-30.html#s-stj-fixa-que-dividas-de-condominio-anteriores-a
+• STF valida regra que eleva contribuição de servidor aposentado por
+  incapacidade decorrente de doença grave
+  Por 4 votos a 3, Supremo Tribunal Federal declarou constitucional
+  trecho da reforma da Previdência de 2019 sobre alíquotas de inativos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-stf-valida-regra-que-eleva-contribuicao-de-servi
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 647 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-30-todas.html
+Todas as 490 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-latest)
+(gemini-flash-latest + gemini-flash-lite-latest)
