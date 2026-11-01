@@ -1,53 +1,52 @@
 TSA TECH
-Sábado, 31 de outubro de 2026 · 05:54 BRT
+Domingo, 1 de novembro de 2026 · 12:57 BRT
 
 MANCHETE
 --------
-Alíquota de 11,3% da CBS calculada pelo TCU gera reação de setores
-contra aumento de carga
-Cálculo técnico para a contribuição em 2027 supera estimativas
-anteriores, acende alerta no varejo, na indústria e na saúde e projeta
-imposto sobre consumo acima de 30%.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-aliquota-de-11-3-da-cbs-calculada-pelo-tcu-gera
+CAE do Senado escala Eduardo Braga para relatar CBS e marca audiências
+sobre alíquota
+Comissão terá até 15 de dezembro para deliberar sobre percentual de
+referência e evitar vigência automática de 11,3% calculada pelo TCU.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-cae-do-senado-escala-eduardo-braga-para-relatar
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Acionistas da Raízen aprovam reestruturação e eleição de conselhos com
-  maioria de credores
-  Medidas viabilizam plano de recuperação extrajudicial com
-  capitalização de até R$ 39,8 bilhões e divisão da companhia.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-acionistas-da-raizen-aprovam-reestruturacao-e-el
+• Chilli Beans pede recuperação extrajudicial para reestruturar dívida
+  de R$ 340 milhões
+  Plano restrito a passivos com bancos prevê aporte de até R$ 50 milhões
+  e mantém fornecedores e franqueados fora do processo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-chilli-beans-pede-recuperacao-extrajudicial-para
 
-• Empresas do Simples Nacional encerram prazo de escolha para apuração
-  de IBS e CBS em 2027
-  Opção entre modelo híbrido ou recolhimento unificado no DAS define o
-  tratamento de créditos tributários e o cumprimento de obrigações
-  acessórias.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-empresas-do-simples-nacional-encerram-prazo-de-e
+• MTE registra 4,3 mil denúncias de assédio eleitoral no trabalho em
+  três dias
+  Canal do governo contabilizou queixas concentradas na Região Sudeste;
+  Ministério do Trabalho apura casos e alerta para sanções a
+  empregadores.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-mte-registra-4-3-mil-denuncias-de-assedio-eleito
 
-• Justiça do Trabalho determina que Meta remova publicações com assédio
-  eleitoral contra empregados
-  Decisão liminar acolhe ação civil pública do Ministério Público do
-  Trabalho e impõe prazo para exclusão de conteúdos que incentivem
-  demissões por motivação política.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-justica-do-trabalho-determina-que-meta-remova-pu
+• STJ veda retroatividade de sanção punitiva da ANTT e Justiça de SP
+  autoriza redução fiscal
+  Tribunais definem a extensão temporal de penalidades: recurso
+  repetitivo afasta norma administrativa mais branda, enquanto vara
+  paulista suspende certidão de dívida ativa.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-stj-veda-retroatividade-de-sancao-punitiva-da-an
 
-• São Paulo exclui mais 74 produtos da substituição tributária do ICMS a
-  partir de 2027
-  Portaria reduz lista de itens sujeitos ao ICMS-ST em 72,2% desde o fim
-  de 2025, retirando mercadorias como materiais de construção e
-  eletrodomésticos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-sao-paulo-exclui-mais-74-produtos-da-substituica
+• STJ decide que Reclame Aqui não responde de forma automática por
+  críticas de consumidores
+  Terceira Turma do tribunal conclui que prevalecem a liberdade de
+  expressão e a garantia de informação em avaliações publicadas na
+  plataforma digital.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-stj-decide-que-reclame-aqui-nao-responde-de-form
 
-• STF valida regra que eleva contribuição de servidor aposentado por
-  incapacidade decorrente de doença grave
-  Por 4 votos a 3, Supremo Tribunal Federal declarou constitucional
-  trecho da reforma da Previdência de 2019 sobre alíquotas de inativos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31.html#s-stf-valida-regra-que-eleva-contribuicao-de-servi
+• STJ veda créditos de PIS e Cofins sobre ICMS na compra de mercadorias
+  no Tema 1.364
+  Primeira Seção decidiu por unanimidade validar restrição da Lei
+  14.592/2023 no regime não cumulativo das contribuições.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-stj-veda-creditos-de-pis-e-cofins-sobre-icms-na
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 490 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-10-31-todas.html
+Todas as 321 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-latest + gemini-flash-lite-latest)
+Gerado automaticamente em 12:57 (BRT) · Edição gerada por IA
+(gemini-flash-latest)
