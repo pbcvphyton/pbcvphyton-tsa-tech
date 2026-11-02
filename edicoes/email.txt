@@ -1,52 +1,51 @@
 TSA TECH
-Domingo, 1 de novembro de 2026 · 12:57 BRT
+Segunda-feira, 2 de novembro de 2026 · 05:55 BRT
 
 MANCHETE
 --------
-CAE do Senado escala Eduardo Braga para relatar CBS e marca audiências
-sobre alíquota
-Comissão terá até 15 de dezembro para deliberar sobre percentual de
-referência e evitar vigência automática de 11,3% calculada pelo TCU.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-cae-do-senado-escala-eduardo-braga-para-relatar
+STJ veda retroatividade em multa da ANTT e Justiça de SP autoriza
+benefício fiscal
+Primeira Seção fixa Tema 1.327 sobre sanções de transporte, enquanto
+vara fazendária paulista concede liminar para aplicar redução tributária
+benéfica anterior.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-stj-veda-retroatividade-em-multa-da-antt-e-justi
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Chilli Beans pede recuperação extrajudicial para reestruturar dívida
-  de R$ 340 milhões
-  Plano restrito a passivos com bancos prevê aporte de até R$ 50 milhões
-  e mantém fornecedores e franqueados fora do processo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-chilli-beans-pede-recuperacao-extrajudicial-para
+• TCU aprova alíquota de referência da CBS em 11,3% para 2027
+  Percentual eleva a carga federal sobre o consumo e impacta prestadores
+  de serviços e empresas do lucro presumido na transição do novo
+  tributo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-tcu-aprova-aliquota-de-referencia-da-cbs-em-11-3
 
-• MTE registra 4,3 mil denúncias de assédio eleitoral no trabalho em
-  três dias
-  Canal do governo contabilizou queixas concentradas na Região Sudeste;
-  Ministério do Trabalho apura casos e alerta para sanções a
-  empregadores.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-mte-registra-4-3-mil-denuncias-de-assedio-eleito
+• Fux amplia participantes de audiência no STF sobre MP que proíbe bets
+  Ministro convoca pastas da Saúde e Justiça e entidades civis para
+  debater a MP 1.394/2026 na ADI 8027.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-fux-amplia-participantes-de-audiencia-no-stf-sob
 
-• STJ veda retroatividade de sanção punitiva da ANTT e Justiça de SP
-  autoriza redução fiscal
-  Tribunais definem a extensão temporal de penalidades: recurso
-  repetitivo afasta norma administrativa mais branda, enquanto vara
-  paulista suspende certidão de dívida ativa.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-stj-veda-retroatividade-de-sancao-punitiva-da-an
+• Chilli Beans pede recuperação extrajudicial para renegociar R$ 340
+  milhões em dívidas
+  Rede de óculos e relógios busca acordo com bancos e prevê injeção de
+  até R$ 50 milhões em novos recursos aportados pelos próprios credores.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-chilli-beans-pede-recuperacao-extrajudicial-para
 
-• STJ decide que Reclame Aqui não responde de forma automática por
-  críticas de consumidores
-  Terceira Turma do tribunal conclui que prevalecem a liberdade de
-  expressão e a garantia de informação em avaliações publicadas na
-  plataforma digital.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-stj-decide-que-reclame-aqui-nao-responde-de-form
+• Confaz aprova aumento do ICMS do diesel para R$ 1,30 por litro a
+  partir de fevereiro de 2027
+  Ajuste fixado por secretários de Fazenda gera troca de acusações entre
+  Guilherme Boulos e Tarcísio de Freitas sobre responsabilidade pelo
+  reajuste.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-confaz-aprova-aumento-do-icms-do-diesel-para-r-1
 
-• STJ veda créditos de PIS e Cofins sobre ICMS na compra de mercadorias
-  no Tema 1.364
-  Primeira Seção decidiu por unanimidade validar restrição da Lei
-  14.592/2023 no regime não cumulativo das contribuições.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01.html#s-stj-veda-creditos-de-pis-e-cofins-sobre-icms-na
+• STJ marca audiência pública sobre cessão de precatórios
+  previdenciários no Tema 1.418
+  Primeira Seção ouvirá especialistas em 25 de novembro para subsidiar
+  tese repetitiva sobre transferência de créditos decorrentes de ações
+  previdenciárias.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-stj-marca-audiencia-publica-sobre-cessao-de-prec
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 321 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-01-todas.html
+Todas as 304 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 12:57 (BRT) · Edição gerada por IA
-(gemini-flash-latest)
+Gerado automaticamente em 05:55 (BRT) · Edição gerada por IA
+(gemini-flash-latest + gemini-flash-lite-latest)
