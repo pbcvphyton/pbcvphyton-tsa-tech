@@ -1,51 +1,49 @@
 TSA TECH
-Segunda-feira, 2 de novembro de 2026 · 05:55 BRT
+Terça-feira, 3 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-STJ veda retroatividade em multa da ANTT e Justiça de SP autoriza
-benefício fiscal
-Primeira Seção fixa Tema 1.327 sobre sanções de transporte, enquanto
-vara fazendária paulista concede liminar para aplicar redução tributária
-benéfica anterior.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-stj-veda-retroatividade-em-multa-da-antt-e-justi
+TCU propõe alíquota de referência de 11,3% para a CBS e surpreende
+mercado
+Percentual aprovado em outubro de 2026 supera estimativas anteriores,
+que variavam entre 8,8% e 9,3%, e pressiona custos e contratos.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-tcu-propoe-aliquota-de-referencia-de-11-3-para-a
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• TCU aprova alíquota de referência da CBS em 11,3% para 2027
-  Percentual eleva a carga federal sobre o consumo e impacta prestadores
-  de serviços e empresas do lucro presumido na transição do novo
-  tributo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-tcu-aprova-aliquota-de-referencia-da-cbs-em-11-3
+• Corte Especial do STJ fixa critérios para penhora de salário em
+  dívidas não alimentares
+  Em julgamento sob o rito dos recursos repetitivos (Tema 1.230), o STJ
+  definiu que a constrição de verbas remuneratórias é excepcional.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-corte-especial-do-stj-fixa-criterios-para-penhor
 
-• Fux amplia participantes de audiência no STF sobre MP que proíbe bets
-  Ministro convoca pastas da Saúde e Justiça e entidades civis para
-  debater a MP 1.394/2026 na ADI 8027.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-fux-amplia-participantes-de-audiencia-no-stf-sob
+• TRF-3 afasta contribuição ao INSS sobre faltas de empregado no
+  aviso-prévio
+  Decisão do Tribunal Regional Federal da 3ª Região afasta a incidência
+  de encargos previdenciários sobre ausências não trabalhadas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-trf-3-afasta-contribuicao-ao-inss-sobre-faltas-d
 
-• Chilli Beans pede recuperação extrajudicial para renegociar R$ 340
-  milhões em dívidas
-  Rede de óculos e relógios busca acordo com bancos e prevê injeção de
-  até R$ 50 milhões em novos recursos aportados pelos próprios credores.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-chilli-beans-pede-recuperacao-extrajudicial-para
+• TST rejeita compensação financeira a advogado por cláusula de não
+  concorrência
+  Subseção do Tribunal Superior do Trabalho nega pagamento mensal
+  milionário solicitado por ex-advogado de escritório.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-tst-rejeita-compensacao-financeira-a-advogado-po
 
-• Confaz aprova aumento do ICMS do diesel para R$ 1,30 por litro a
-  partir de fevereiro de 2027
-  Ajuste fixado por secretários de Fazenda gera troca de acusações entre
-  Guilherme Boulos e Tarcísio de Freitas sobre responsabilidade pelo
-  reajuste.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-confaz-aprova-aumento-do-icms-do-diesel-para-r-1
+• Desconsideração da personalidade jurídica exige prova de abuso, define
+  STJ
+  Segunda Seção fixou tese em repetitivo (Tema 1.210) exigindo
+  comprovação efetiva de desvio de finalidade ou confusão patrimonial.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-desconsideracao-da-personalidade-juridica-exige
 
-• STJ marca audiência pública sobre cessão de precatórios
-  previdenciários no Tema 1.418
-  Primeira Seção ouvirá especialistas em 25 de novembro para subsidiar
-  tese repetitiva sobre transferência de créditos decorrentes de ações
-  previdenciárias.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02.html#s-stj-marca-audiencia-publica-sobre-cessao-de-prec
+• STJ afasta retroatividade de multa mais branda da ANTT para infrações
+  passadas
+  Primeira Seção alinhou jurisprudência ao STF sob o rito dos recursos
+  repetitivos no Tema 1.327.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-stj-afasta-retroatividade-de-multa-mais-branda-d
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 304 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-02-todas.html
+Todas as 436 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 05:55 (BRT) · Edição gerada por IA
-(gemini-flash-latest + gemini-flash-lite-latest)
+Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
+(gemini-flash-lite-latest)
