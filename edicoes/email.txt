@@ -1,49 +1,49 @@
 TSA TECH
-Terça-feira, 3 de novembro de 2026 · 05:54 BRT
+Quarta-feira, 4 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-TCU propõe alíquota de referência de 11,3% para a CBS e surpreende
-mercado
-Percentual aprovado em outubro de 2026 supera estimativas anteriores,
-que variavam entre 8,8% e 9,3%, e pressiona custos e contratos.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-tcu-propoe-aliquota-de-referencia-de-11-3-para-a
+Governo envia ao Congresso medida provisória para regulamentar o Imposto
+Seletivo
+Texto define alíquotas do tributo sobre produtos nocivos e busca manter
+carga tributária de referência do IPI a partir de 2027.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-governo-envia-ao-congresso-medida-provisoria-par
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Corte Especial do STJ fixa critérios para penhora de salário em
-  dívidas não alimentares
-  Em julgamento sob o rito dos recursos repetitivos (Tema 1.230), o STJ
-  definiu que a constrição de verbas remuneratórias é excepcional.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-corte-especial-do-stj-fixa-criterios-para-penhor
+• Projeto que limita penhora de débitos trabalhistas a 10% da receita
+  segue ao Senado
+  Aprovado em caráter conclusivo, o PL 3083/19 busca preservar a
+  continuidade da atividade empresarial com critérios definidos pelo
+  juiz.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-projeto-que-limita-penhora-de-debitos-trabalhist
+
+• Entidades de advogados pedem prorrogação do início da reforma
+  tributária para 2028
+  Carta aberta assinada por mais de 20 entidades aponta indefinições
+  operacionais e ausência de regulamentação para a CBS.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-entidades-de-advogados-pedem-prorrogacao-do-inic
 
 • TRF-3 afasta contribuição ao INSS sobre faltas de empregado no
   aviso-prévio
   Decisão do Tribunal Regional Federal da 3ª Região afasta a incidência
-  de encargos previdenciários sobre ausências não trabalhadas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-trf-3-afasta-contribuicao-ao-inss-sobre-faltas-d
+  de encargos previdenciários sobre ausências durante o aviso.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-trf-3-afasta-contribuicao-ao-inss-sobre-faltas-d
 
-• TST rejeita compensação financeira a advogado por cláusula de não
-  concorrência
-  Subseção do Tribunal Superior do Trabalho nega pagamento mensal
-  milionário solicitado por ex-advogado de escritório.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-tst-rejeita-compensacao-financeira-a-advogado-po
+• Justiça aceita recuperação judicial da rede de móveis Kitchens
+  A fabricante de móveis planejados de alto padrão declarou cerca de R$
+  300 milhões em dívidas sujeitas ao processo na Justiça de São Paulo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-justica-aceita-recuperacao-judicial-da-rede-de-m
 
-• Desconsideração da personalidade jurídica exige prova de abuso, define
-  STJ
-  Segunda Seção fixou tese em repetitivo (Tema 1.210) exigindo
-  comprovação efetiva de desvio de finalidade ou confusão patrimonial.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-desconsideracao-da-personalidade-juridica-exige
-
-• STJ afasta retroatividade de multa mais branda da ANTT para infrações
-  passadas
-  Primeira Seção alinhou jurisprudência ao STF sob o rito dos recursos
-  repetitivos no Tema 1.327.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03.html#s-stj-afasta-retroatividade-de-multa-mais-branda-d
+• Chilli Beans prevê entrada de novos sócios em recuperação
+  extrajudicial
+  A reestruturação da marca apresentada à Justiça paulista contempla
+  venda de ativos, aumento de capital e M&A.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-chilli-beans-preve-entrada-de-novos-socios-em-re
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 436 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-03-todas.html
+Todas as 573 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
 (gemini-flash-lite-latest)
