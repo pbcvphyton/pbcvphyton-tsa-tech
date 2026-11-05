@@ -1,49 +1,49 @@
 TSA TECH
-Quarta-feira, 4 de novembro de 2026 · 05:54 BRT
+Quinta-feira, 5 de novembro de 2026 · 05:55 BRT
 
 MANCHETE
 --------
-Governo envia ao Congresso medida provisória para regulamentar o Imposto
-Seletivo
-Texto define alíquotas do tributo sobre produtos nocivos e busca manter
-carga tributária de referência do IPI a partir de 2027.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-governo-envia-ao-congresso-medida-provisoria-par
+Governo prevê decreto para regulamentar fim da escala 6x1 e abre espaço
+para acordos coletivos
+Ministro do Trabalho afirma que texto será finalizado nesta quinta-feira
+(5) e publicado na próxima segunda-feira (9).
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-governo-preve-decreto-para-regulamentar-fim-da-e
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Projeto que limita penhora de débitos trabalhistas a 10% da receita
-  segue ao Senado
-  Aprovado em caráter conclusivo, o PL 3083/19 busca preservar a
-  continuidade da atividade empresarial com critérios definidos pelo
-  juiz.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-projeto-que-limita-penhora-de-debitos-trabalhist
+• CBS de 11,3% calculada pelo TCU vai a debate no Senado na próxima
+  semana
+  Alíquota de referência para 2027 surpreendeu empresas e tributaristas;
+  CNI e CNC alertam para aumento de carga e Senado pode revisar o valor.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-cbs-de-11-3-calculada-pelo-tcu-vai-a-debate-no-s
 
-• Entidades de advogados pedem prorrogação do início da reforma
-  tributária para 2028
-  Carta aberta assinada por mais de 20 entidades aponta indefinições
-  operacionais e ausência de regulamentação para a CBS.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-entidades-de-advogados-pedem-prorrogacao-do-inic
+• Copom mantém Selic em 13,75% e interrompe ciclo de cortes após
+  reeleição de Lula
+  Decisão unânime ocorreu na primeira reunião após a vitória de Lula; BC
+  cita piora nas expectativas de inflação e incertezas fiscais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-copom-mantem-selic-em-13-75-e-interrompe-ciclo-d
 
-• TRF-3 afasta contribuição ao INSS sobre faltas de empregado no
-  aviso-prévio
-  Decisão do Tribunal Regional Federal da 3ª Região afasta a incidência
-  de encargos previdenciários sobre ausências durante o aviso.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-trf-3-afasta-contribuicao-ao-inss-sobre-faltas-d
+• Aeris Energy protocola recuperação extrajudicial para reestruturar
+  dívidas
+  Fabricante de pás eólicas busca readequar R$ 1,52 bilhão em passivos
+  na Justiça de São Paulo com apoio de credores.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-aeris-energy-protocola-recuperacao-extrajudicial
 
-• Justiça aceita recuperação judicial da rede de móveis Kitchens
-  A fabricante de móveis planejados de alto padrão declarou cerca de R$
-  300 milhões em dívidas sujeitas ao processo na Justiça de São Paulo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-justica-aceita-recuperacao-judicial-da-rede-de-m
+• Governo publica MP do Imposto Seletivo com alíquotas para 2027 e
+  transição até 2028
+  Cobrança começa em 2 de fevereiro de 2027; cigarros terão alíquota de
+  até 66,7% e destilados 24%, com referência no IPI para preservar
+  carga.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-governo-publica-mp-do-imposto-seletivo-com-aliqu
 
-• Chilli Beans prevê entrada de novos sócios em recuperação
-  extrajudicial
-  A reestruturação da marca apresentada à Justiça paulista contempla
-  venda de ativos, aumento de capital e M&A.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04.html#s-chilli-beans-preve-entrada-de-novos-socios-em-re
+• CNC e CNI pedem ao STF adiamento do fim da escala 6x1
+  Confederações questionam regras de transição da EC 141/2026 e pedem
+  que redução da jornada comece apenas em outubro de 2027.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-cnc-e-cni-pedem-ao-stf-adiamento-do-fim-da-escal
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 573 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-04-todas.html
+Todas as 701 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-lite-latest)
+Gerado automaticamente em 05:55 (BRT) · Edição gerada por IA
+(gemini-flash-lite-latest + sensenova-6.8-flash-lite)
