@@ -1,49 +1,53 @@
 TSA TECH
-Quinta-feira, 5 de novembro de 2026 · 05:55 BRT
+Sexta-feira, 6 de novembro de 2026 · 05:55 BRT
 
 MANCHETE
 --------
-Governo prevê decreto para regulamentar fim da escala 6x1 e abre espaço
-para acordos coletivos
-Ministro do Trabalho afirma que texto será finalizado nesta quinta-feira
-(5) e publicado na próxima segunda-feira (9).
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-governo-preve-decreto-para-regulamentar-fim-da-e
+Governo publica MP que define alíquotas e regras do Imposto Seletivo
+para 2027
+Medida provisória estabelece taxas temporárias para o imposto do pecado
+a partir de fevereiro de 2027, com alíquotas maiores para cigarros e
+bebidas alcoólicas.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-06.html#s-governo-publica-mp-que-define-aliquotas-e-regras
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• CBS de 11,3% calculada pelo TCU vai a debate no Senado na próxima
-  semana
-  Alíquota de referência para 2027 surpreendeu empresas e tributaristas;
-  CNI e CNC alertam para aumento de carga e Senado pode revisar o valor.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-cbs-de-11-3-calculada-pelo-tcu-vai-a-debate-no-s
+• Governo descarta adiamento da reforma tributária e mantém início para
+  janeiro de 2027
+  Ministro da Fazenda afasta hipótese de postergação cobrada por
+  entidades, enquanto tramita no Congresso proposta para estender o
+  período de testes.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-06.html#s-governo-descarta-adiamento-da-reforma-tributaria
 
-• Copom mantém Selic em 13,75% e interrompe ciclo de cortes após
-  reeleição de Lula
-  Decisão unânime ocorreu na primeira reunião após a vitória de Lula; BC
-  cita piora nas expectativas de inflação e incertezas fiscais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-copom-mantem-selic-em-13-75-e-interrompe-ciclo-d
+• Oncoclínicas atinge adesão de 74,6% da dívida em plano de recuperação
+  extrajudicial
+  A companhia informou que o apoio de credores supera R$ 4,3 bilhões,
+  enquanto a base total abrangida foi recalculada para cerca de R$ 5,8
+  bilhões.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-06.html#s-oncoclinicas-atinge-adesao-de-74-6-da-divida-em
 
-• Aeris Energy protocola recuperação extrajudicial para reestruturar
-  dívidas
-  Fabricante de pás eólicas busca readequar R$ 1,52 bilhão em passivos
-  na Justiça de São Paulo com apoio de credores.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-aeris-energy-protocola-recuperacao-extrajudicial
+• FGC relata acesso não autorizado a dados pessoais e comunica à ANPD
+  O Fundo Garantidor de Créditos identificou a invasão em outubro,
+  comprometendo informações como CPFs, nomes e e-mails de investidores.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-06.html#s-fgc-relata-acesso-nao-autorizado-a-dados-pessoai
 
-• Governo publica MP do Imposto Seletivo com alíquotas para 2027 e
-  transição até 2028
-  Cobrança começa em 2 de fevereiro de 2027; cigarros terão alíquota de
-  até 66,7% e destilados 24%, com referência no IPI para preservar
-  carga.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-governo-publica-mp-do-imposto-seletivo-com-aliqu
+• CNC e CNI recorrem ao STF para tentar adiar novas jornadas com fim da
+  escala 6x1
+  Confederação Nacional do Comércio e Confederação Nacional da Indústria
+  entram com ações no Supremo para postergar a implementação das novas
+  regras.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-06.html#s-cnc-e-cni-recorrem-ao-stf-para-tentar-adiar-nova
 
-• CNC e CNI pedem ao STF adiamento do fim da escala 6x1
-  Confederações questionam regras de transição da EC 141/2026 e pedem
-  que redução da jornada comece apenas em outubro de 2027.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05.html#s-cnc-e-cni-pedem-ao-stf-adiamento-do-fim-da-escal
+• TCU fixa alíquota de referência da CBS em 11,3% e gera críticas da
+  indústria
+  Confederação aponta elevação de carga tributária, enquanto
+  especialistas apontam margem para o Senado fixar patamar inferior com
+  base na LC 214/2025.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-06.html#s-tcu-fixa-aliquota-de-referencia-da-cbs-em-11-3-e
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 701 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-05-todas.html
+Todas as 557 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-06-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:55 (BRT) · Edição gerada por IA
-(gemini-flash-lite-latest + sensenova-6.8-flash-lite)
+(gemini-flash-lite-latest)
