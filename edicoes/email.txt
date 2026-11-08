@@ -1,53 +1,52 @@
 TSA TECH
-Sábado, 7 de novembro de 2026 · 12:37 BRT
+Domingo, 8 de novembro de 2026 · 12:55 BRT
 
 MANCHETE
 --------
-Governo publica MP com regras e alíquotas do Imposto Seletivo para 2027
-Novo tributo sobre consumo substitui o IPI e estabelece alíquotas para
-veículos, cigarros e bebidas alcoólicas a partir de fevereiro de 2027.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-07.html#s-governo-publica-mp-com-regras-e-aliquotas-do-imp
+Gonet pede ao STF suspensão nacional de processos contra MP que proibiu
+as bets
+Procurador-geral da República aponta risco de insegurança jurídica e
+decisões conflitantes sobre a Medida Provisória 1.394/2026.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-gonet-pede-ao-stf-suspensao-nacional-de-processo
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Fachin homologa delação premiada de fundador da Reag no âmbito do caso
-  Banco Master
-  Acordo sigiloso firmado por João Carlos Mansur aponta caminho para
-  reaver até R$ 20 bilhões ligados a fraudes financeiras e fundos em
-  camadas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-07.html#s-fachin-homologa-delacao-premiada-de-fundador-da
+• Governo edita MP que fixa alíquotas do Imposto Seletivo para 2027 e
+  abre controvérsia no setor produtivo
+  A Medida Provisória 1.399/2026 estabelece as regras e percentuais do
+  novo tributo para 2027, gerando divergências sobre critérios técnicos
+  de produtos e prazos de vigência.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-governo-edita-mp-que-fixa-aliquotas-do-imposto-s
 
-• Raízen aprova aumento de capital de até R$ 39,8 bilhões em plano de
-  reestruturação
-  Operação prevê emissão de até 159,2 bilhões de novas ações a R$ 0,25 e
-  conversão de créditos para viabilizar recuperação extrajudicial
-  homologada pela Justiça.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-07.html#s-raizen-aprova-aumento-de-capital-de-ate-r-39-8-b
+• STJ define que débitos de condomínio anteriores à recuperação judicial
+  são extraconcursais
+  Segunda Seção estabelece no Tema 1.391 que cotas condominiais
+  atrasadas não se submetem ao plano de reestruturação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-stj-define-que-debitos-de-condominio-anteriores
 
-• CNI aciona STF contra fim da escala 6x1 e Dino marca audiência pública
-  sobre transição
-  Entidade patronal pede adiamento da jornada 5x2 e restrição à atuação
-  da Justiça do Trabalho; audiência de conciliação ocorrerá na
-  terça-feira (10).
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-07.html#s-cni-aciona-stf-contra-fim-da-escala-6x1-e-dino-m
+• Governo deve publicar decreto que regulamenta o fim da escala 6x1
+  nesta segunda
+  Texto regulamenta a Emenda Constitucional 141/2026, que reduz a
+  jornada máxima para 40 horas semanais e impõe dois dias de descanso
+  por semana sem corte de salário.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-governo-deve-publicar-decreto-que-regulamenta-o
 
-• Gonet pede ao STF suspensão nacional de ações contra MP que baniu
-  casas de apostas
-  PGR solicita ao ministro Luiz Fux paralisação de processos nas
-  instâncias inferiores sobre a MP 1.394/2026 para evitar insegurança
-  jurídica.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-07.html#s-gonet-pede-ao-stf-suspensao-nacional-de-acoes-co
+• Carf mantém cobrança de R$ 3 bilhões contra a JBS sobre lucros no
+  exterior, mas afasta multa
+  Por voto de qualidade, conselho valida exigência de IRPJ e CSLL sobre
+  subsidiárias em países com acordo de bitributação, mas livra
+  frigorífico de penalidade.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-carf-mantem-cobranca-de-r-3-bilhoes-contra-a-jbs
 
-• TRF-3 suspende liminar que liberava três plataformas de apostas no
-  país
-  Presidência da corte atendeu a recurso da União após magistrada
-  autorizar funcionamento de empresas de apostas vetadas pelo governo
-  federal.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-07.html#s-trf-3-suspende-liminar-que-liberava-tres-platafo
+• TRT-1 mantém responsabilidade objetiva de petroleiras por acidente em
+  plataforma marítima
+  Sexta Turma confirma condenação solidária de R$ 1 milhão à Petrobras e
+  BW Offshore por danos morais a oficial sobrevivente de explosão.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-trt-1-mantem-responsabilidade-objetiva-de-petrol
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 405 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-07-todas.html
+Todas as 275 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 12:37 (BRT) · Edição gerada por IA
-(gemini-flash-latest + gemini-flash-lite-latest)
+Gerado automaticamente em 12:55 (BRT) · Edição gerada por IA
+(gemini-flash-latest)
