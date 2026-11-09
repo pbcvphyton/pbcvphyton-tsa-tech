@@ -1,52 +1,51 @@
 TSA TECH
-Domingo, 8 de novembro de 2026 · 12:55 BRT
+Segunda-feira, 9 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Gonet pede ao STF suspensão nacional de processos contra MP que proibiu
-as bets
-Procurador-geral da República aponta risco de insegurança jurídica e
-decisões conflitantes sobre a Medida Provisória 1.394/2026.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-gonet-pede-ao-stf-suspensao-nacional-de-processo
+Senado debate alíquota de 11,3% da CBS calculada pelo TCU e pressiona
+por revisão
+Comissão de Assuntos Econômicos inicia audiências sobre percentual de
+referência para 2027; parlamentares têm até 15 de dezembro para fixar
+valor final.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-senado-debate-aliquota-de-11-3-da-cbs-calculada
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Governo edita MP que fixa alíquotas do Imposto Seletivo para 2027 e
-  abre controvérsia no setor produtivo
-  A Medida Provisória 1.399/2026 estabelece as regras e percentuais do
-  novo tributo para 2027, gerando divergências sobre critérios técnicos
-  de produtos e prazos de vigência.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-governo-edita-mp-que-fixa-aliquotas-do-imposto-s
+• Governo prepara decreto sobre jornada e empresas alertam para prazos
+  Regulamentação pelo Ministério do Trabalho coincide com início do
+  cronograma que reduz carga para 42 horas em dois meses.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-governo-prepara-decreto-sobre-jornada-e-empresas
 
-• STJ define que débitos de condomínio anteriores à recuperação judicial
-  são extraconcursais
-  Segunda Seção estabelece no Tema 1.391 que cotas condominiais
-  atrasadas não se submetem ao plano de reestruturação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-stj-define-que-debitos-de-condominio-anteriores
+• Fracasso em reunião com credores eleva risco de recuperação judicial
+  da Braskem
+  Impasse em Nova York sobre proposta de aporte da Petrobras trava
+  renegociação de US$ 11 bilhões a dias do fim da blindagem
+  extrajudicial.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-fracasso-em-reuniao-com-credores-eleva-risco-de
 
-• Governo deve publicar decreto que regulamenta o fim da escala 6x1
-  nesta segunda
-  Texto regulamenta a Emenda Constitucional 141/2026, que reduz a
-  jornada máxima para 40 horas semanais e impõe dois dias de descanso
-  por semana sem corte de salário.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-governo-deve-publicar-decreto-que-regulamenta-o
+• Governo publica medida provisória com regras e isenções do Imposto
+  Seletivo
+  Texto detalha hipóteses de incidência do novo tributo sobre o consumo
+  e isenta veículos zero-quilômetro para taxistas e pessoas com
+  deficiência.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-governo-publica-medida-provisoria-com-regras-e-i
 
-• Carf mantém cobrança de R$ 3 bilhões contra a JBS sobre lucros no
-  exterior, mas afasta multa
-  Por voto de qualidade, conselho valida exigência de IRPJ e CSLL sobre
-  subsidiárias em países com acordo de bitributação, mas livra
-  frigorífico de penalidade.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-carf-mantem-cobranca-de-r-3-bilhoes-contra-a-jbs
+• STF valida acordo coletivo sobre folga de mulheres aos domingos a cada
+  três semanas
+  Decisão do ministro Gilmar Mendes na Rcl 95060 apoia-se no Tema 1.046
+  e afasta regra de descanso quinzenal da CLT no setor hoteleiro.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-stf-valida-acordo-coletivo-sobre-folga-de-mulher
 
-• TRT-1 mantém responsabilidade objetiva de petroleiras por acidente em
-  plataforma marítima
-  Sexta Turma confirma condenação solidária de R$ 1 milhão à Petrobras e
-  BW Offshore por danos morais a oficial sobrevivente de explosão.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08.html#s-trt-1-mantem-responsabilidade-objetiva-de-petrol
+• Vacância de galpões logísticos de alto padrão recua para 4,9% e bate
+  mínima histórica
+  Índice apurado pela consultoria Binswanger Brazil é o menor desde
+  2013, com aperto da oferta concentrado em São Paulo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-vacancia-de-galpoes-logisticos-de-alto-padrao-re
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 275 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-08-todas.html
+Todas as 248 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 12:55 (BRT) · Edição gerada por IA
-(gemini-flash-latest)
+Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
+(gemini-flash-latest + gemini-flash-lite-latest)
