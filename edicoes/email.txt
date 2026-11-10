@@ -1,51 +1,47 @@
 TSA TECH
-Segunda-feira, 9 de novembro de 2026 · 05:54 BRT
+Terça-feira, 10 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Senado debate alíquota de 11,3% da CBS calculada pelo TCU e pressiona
-por revisão
-Comissão de Assuntos Econômicos inicia audiências sobre percentual de
-referência para 2027; parlamentares têm até 15 de dezembro para fixar
-valor final.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-senado-debate-aliquota-de-11-3-da-cbs-calculada
+TJSP suspende decisões que excluíam CBS e IBS da base do ICMS
+Presidente do tribunal atendeu pedido da Fazenda paulista e suspendeu
+dez liminares e sentenças para evitar rombo arrecadatório.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-tjsp-suspende-decisoes-que-excluiam-cbs-e-ibs-da
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Governo prepara decreto sobre jornada e empresas alertam para prazos
-  Regulamentação pelo Ministério do Trabalho coincide com início do
-  cronograma que reduz carga para 42 horas em dois meses.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-governo-prepara-decreto-sobre-jornada-e-empresas
+• Credores da Braskem preparam nova proposta para reestruturar dívida
+  Grupo de credores deve apresentar até quarta-feira nova proposta para
+  reestruturar cerca de US$ 11 bilhões em dívidas financeiras da
+  petroquímica.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-credores-da-braskem-preparam-nova-proposta-para
 
-• Fracasso em reunião com credores eleva risco de recuperação judicial
-  da Braskem
-  Impasse em Nova York sobre proposta de aporte da Petrobras trava
-  renegociação de US$ 11 bilhões a dias do fim da blindagem
-  extrajudicial.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-fracasso-em-reuniao-com-credores-eleva-risco-de
+• Justiça suspende regras do Decreto do PAT sobre taxas e migração
+  Liminar atende pedido da ABBT e suspende tetos de desconto e migração
+  obrigatória para empresas associadas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-justica-suspende-regras-do-decreto-do-pat-sobre
 
-• Governo publica medida provisória com regras e isenções do Imposto
-  Seletivo
-  Texto detalha hipóteses de incidência do novo tributo sobre o consumo
-  e isenta veículos zero-quilômetro para taxistas e pessoas com
-  deficiência.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-governo-publica-medida-provisoria-com-regras-e-i
+• STJ exige prova de abuso para desconsideração da personalidade
+  jurídica
+  Segunda Seção fixou tese sob o rito dos repetitivos (Tema 1.210) sobre
+  relações civis e empresariais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-stj-exige-prova-de-abuso-para-desconsideracao-da
 
-• STF valida acordo coletivo sobre folga de mulheres aos domingos a cada
-  três semanas
-  Decisão do ministro Gilmar Mendes na Rcl 95060 apoia-se no Tema 1.046
-  e afasta regra de descanso quinzenal da CLT no setor hoteleiro.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-stf-valida-acordo-coletivo-sobre-folga-de-mulher
+• STJ suspende processos sobre revogação antecipada do benefício do
+  Perse
+  Primeira Seção reconhece relevância da matéria e determina paralisação
+  nacional de discussões judiciais sobre o programa.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-stj-suspende-processos-sobre-revogacao-antecipad
 
-• Vacância de galpões logísticos de alto padrão recua para 4,9% e bate
-  mínima histórica
-  Índice apurado pela consultoria Binswanger Brazil é o menor desde
-  2013, com aperto da oferta concentrado em São Paulo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09.html#s-vacancia-de-galpoes-logisticos-de-alto-padrao-re
+• STJ define que débitos condominiais anteriores à recuperação são
+  extraconcursais
+  Segunda Seção fixou a tese sob o rito dos recursos repetitivos (Tema
+  1.391) sobre débitos condominiais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-stj-define-que-debitos-condominiais-anteriores-a
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 248 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-09-todas.html
+Todas as 550 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-latest + gemini-flash-lite-latest)
+(gemini-flash-lite-latest)
