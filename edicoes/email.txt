@@ -1,47 +1,53 @@
 TSA TECH
-Terça-feira, 10 de novembro de 2026 · 05:54 BRT
+Quarta-feira, 11 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-TJSP suspende decisões que excluíam CBS e IBS da base do ICMS
-Presidente do tribunal atendeu pedido da Fazenda paulista e suspendeu
-dez liminares e sentenças para evitar rombo arrecadatório.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-tjsp-suspende-decisoes-que-excluiam-cbs-e-ibs-da
+Congresso articula corte na alíquota da CBS e setores pressionam por
+adiamento da reforma
+Proposta de 11,3% feita pelo TCU enfrenta resistência de parlamentares e
+entidades empresariais, enquanto Senado tem até 15 de dezembro para
+deliberar.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-congresso-articula-corte-na-aliquota-da-cbs-e-se
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Credores da Braskem preparam nova proposta para reestruturar dívida
-  Grupo de credores deve apresentar até quarta-feira nova proposta para
-  reestruturar cerca de US$ 11 bilhões em dívidas financeiras da
-  petroquímica.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-credores-da-braskem-preparam-nova-proposta-para
+• Dino anuncia decisão até sexta-feira com balizas para aplicação do fim
+  da escala 6x1
+  Ministro do STF afirma após audiência pública que não haverá
+  flexibilização da emenda, mas medidas para eliminar amarras e
+  facilitar a negociação coletiva.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-dino-anuncia-decisao-ate-sexta-feira-com-balizas
 
-• Justiça suspende regras do Decreto do PAT sobre taxas e migração
-  Liminar atende pedido da ABBT e suspende tetos de desconto e migração
-  obrigatória para empresas associadas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-justica-suspende-regras-do-decreto-do-pat-sobre
+• CNJ aprova regras para cessão de precatórios e redução de processos
+  contra o INSS
+  Conselho estabelece exigência de escritura pública em cartório para
+  venda de créditos judiciais e prevê regime de transição.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-cnj-aprova-regras-para-cessao-de-precatorios-e-r
 
-• STJ exige prova de abuso para desconsideração da personalidade
-  jurídica
-  Segunda Seção fixou tese sob o rito dos repetitivos (Tema 1.210) sobre
-  relações civis e empresariais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-stj-exige-prova-de-abuso-para-desconsideracao-da
+• Deputados admitem corte de benefícios fiscais se alíquota do IVA
+  superar trava de 26,5%
+  Em reunião no Ministério da Fazenda, parlamentares afirmam que
+  exceções setoriais serão revistas caso projeções para o imposto
+  conjunto ultrapassem o limite legal.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-deputados-admitem-corte-de-beneficios-fiscais-se
 
-• STJ suspende processos sobre revogação antecipada do benefício do
+• STJ decide que débitos condominiais anteriores à recuperação judicial
+  têm natureza extraconcursal
+  Segunda Seção firma tese repetitiva no Tema 1.391 e afasta taxas de
+  condomínio dos efeitos da novação concursal.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-stj-decide-que-debitos-condominiais-anteriores-a
+
+• STJ suspende em todo o país processos sobre extinção antecipada do
   Perse
-  Primeira Seção reconhece relevância da matéria e determina paralisação
-  nacional de discussões judiciais sobre o programa.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-stj-suspende-processos-sobre-revogacao-antecipad
-
-• STJ define que débitos condominiais anteriores à recuperação são
-  extraconcursais
-  Segunda Seção fixou a tese sob o rito dos recursos repetitivos (Tema
-  1.391) sobre débitos condominiais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10.html#s-stj-define-que-debitos-condominiais-anteriores-a
+  Primeira Seção reconhece relevância de questão federal que discute o
+  corte prematuro do incentivo tributário ao setor de eventos e paralisa
+  tramitações judiciais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-stj-suspende-em-todo-o-pais-processos-sobre-exti
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 550 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-10-todas.html
+Todas as 619 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-lite-latest)
+(gemini-flash-latest)
