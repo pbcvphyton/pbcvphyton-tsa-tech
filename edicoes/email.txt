@@ -1,53 +1,50 @@
 TSA TECH
-Quarta-feira, 11 de novembro de 2026 · 05:54 BRT
+Quinta-feira, 12 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Congresso articula corte na alíquota da CBS e setores pressionam por
-adiamento da reforma
-Proposta de 11,3% feita pelo TCU enfrenta resistência de parlamentares e
-entidades empresariais, enquanto Senado tem até 15 de dezembro para
-deliberar.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-congresso-articula-corte-na-aliquota-da-cbs-e-se
+Receita vai propor projeto para ampliar prazo de recolhimento da CBS em
+30 dias
+Governo enviará ao Congresso projeto de lei complementar para permitir
+cálculo por estimativa e primeiro pagamento em fevereiro de 2027.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-receita-vai-propor-projeto-para-ampliar-prazo-de
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Dino anuncia decisão até sexta-feira com balizas para aplicação do fim
-  da escala 6x1
-  Ministro do STF afirma após audiência pública que não haverá
-  flexibilização da emenda, mas medidas para eliminar amarras e
-  facilitar a negociação coletiva.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-dino-anuncia-decisao-ate-sexta-feira-com-balizas
+• STJ fixa tese de que débitos condominiais anteriores à recuperação são
+  extraconcursais
+  A Segunda Seção do Superior Tribunal de Justiça definiu, pelo rito dos
+  recursos repetitivos, que dívidas de condomínio não se submetem ao
+  juízo da recuperação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-stj-fixa-tese-de-que-debitos-condominiais-anteri
 
-• CNJ aprova regras para cessão de precatórios e redução de processos
-  contra o INSS
-  Conselho estabelece exigência de escritura pública em cartório para
-  venda de créditos judiciais e prevê regime de transição.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-cnj-aprova-regras-para-cessao-de-precatorios-e-r
+• Comércio de SP e Porto Alegre fecha acordos para adotar escala 5x2 a
+  partir de dezembro
+  Sindicatos e setor empresarial firmam termos para viabilizar o fim da
+  escala 6x1, mesmo com ação pendente no STF.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-comercio-de-sp-e-porto-alegre-fecha-acordos-para
 
-• Deputados admitem corte de benefícios fiscais se alíquota do IVA
-  superar trava de 26,5%
-  Em reunião no Ministério da Fazenda, parlamentares afirmam que
-  exceções setoriais serão revistas caso projeções para o imposto
-  conjunto ultrapassem o limite legal.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-deputados-admitem-corte-de-beneficios-fiscais-se
+• Governo envia ao Congresso pacote de ajuste fiscal com medidas de
+  corte e gatilho de despesas
+  Proposta encaminhada prevê pacote de até R$ 60 bilhões e inclui
+  gatilho para reduzir o crescimento real das despesas de 2,5% para 2%.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-governo-envia-ao-congresso-pacote-de-ajuste-fisc
 
-• STJ decide que débitos condominiais anteriores à recuperação judicial
-  têm natureza extraconcursal
-  Segunda Seção firma tese repetitiva no Tema 1.391 e afasta taxas de
-  condomínio dos efeitos da novação concursal.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-stj-decide-que-debitos-condominiais-anteriores-a
+• Receita Federal adia para março novas exigências de notas fiscais para
+  o Simples
+  Mudança atinge o Simples Nacional não prestador de serviços,
+  plataformas digitais e empresas de alienação de imóveis.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-receita-federal-adia-para-marco-novas-exigencias
 
-• STJ suspende em todo o país processos sobre extinção antecipada do
-  Perse
-  Primeira Seção reconhece relevância de questão federal que discute o
-  corte prematuro do incentivo tributário ao setor de eventos e paralisa
-  tramitações judiciais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11.html#s-stj-suspende-em-todo-o-pais-processos-sobre-exti
+• Stj decide que descontos e bonificações ficam fora da base de cálculo
+  de PIS e Cofins
+  Primeira Seção da Corte definiu a tese sob o rito de recursos
+  repetitivos em favor dos contribuintes.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-stj-decide-que-descontos-e-bonificacoes-ficam-fo
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 619 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-11-todas.html
+Todas as 614 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-latest)
+(gemini-flash-lite-latest)
