@@ -1,50 +1,51 @@
 TSA TECH
-Quinta-feira, 12 de novembro de 2026 · 05:54 BRT
+Sexta-feira, 13 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Receita vai propor projeto para ampliar prazo de recolhimento da CBS em
-30 dias
-Governo enviará ao Congresso projeto de lei complementar para permitir
-cálculo por estimativa e primeiro pagamento em fevereiro de 2027.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-receita-vai-propor-projeto-para-ampliar-prazo-de
+Senado aprova texto-base do pacote fiscal com impacto previsto de até R$
+56 bi
+Proposta altera o arcabouço fiscal e traz medidas de limitação de
+despesas e elevação de receitas para 2027.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-senado-aprova-texto-base-do-pacote-fiscal-com-im
 
 PRINCIPAIS NOTÍCIAS
 -------------------
+• STF mantém transição do fim da escala 6x1 para dezembro e flexibiliza
+  folgas
+  Ministro Flávio Dino rejeita adiar cronograma da EC 141, mas autoriza
+  distribuição da jornada de 42 horas em cinco dias e folgas por acordo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-stf-mantem-transicao-do-fim-da-escala-6x1-para-d
+
+• Entidades empresariais criticam pacote fiscal e limites à compensação
+  de tributos
+  Proposta de ajuste fiscal apresentada pelo governo no Congresso gera
+  forte reação do setor produtivo devido a restrições no uso de créditos
+  e foco na arrecadação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-entidades-empresariais-criticam-pacote-fiscal-e
+
+• STF declara inconstitucional isenção de pena em crimes patrimoniais
+  contra familiares
+  Plenário derruba imunidade penal prevista no Código Penal em casos de
+  violência doméstica e familiar.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-stf-declara-inconstitucional-isencao-de-pena-em
+
 • STJ fixa tese de que débitos condominiais anteriores à recuperação são
   extraconcursais
-  A Segunda Seção do Superior Tribunal de Justiça definiu, pelo rito dos
-  recursos repetitivos, que dívidas de condomínio não se submetem ao
-  juízo da recuperação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-stj-fixa-tese-de-que-debitos-condominiais-anteri
+  Segunda Seção do STJ estabelece sob o rito dos recursos repetitivos
+  (Tema 1.391) que dívidas de condomínio não se submetem ao juízo da
+  recuperação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-stj-fixa-tese-de-que-debitos-condominiais-anteri
 
-• Comércio de SP e Porto Alegre fecha acordos para adotar escala 5x2 a
-  partir de dezembro
-  Sindicatos e setor empresarial firmam termos para viabilizar o fim da
-  escala 6x1, mesmo com ação pendente no STF.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-comercio-de-sp-e-porto-alegre-fecha-acordos-para
-
-• Governo envia ao Congresso pacote de ajuste fiscal com medidas de
-  corte e gatilho de despesas
-  Proposta encaminhada prevê pacote de até R$ 60 bilhões e inclui
-  gatilho para reduzir o crescimento real das despesas de 2,5% para 2%.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-governo-envia-ao-congresso-pacote-de-ajuste-fisc
-
-• Receita Federal adia para março novas exigências de notas fiscais para
-  o Simples
-  Mudança atinge o Simples Nacional não prestador de serviços,
-  plataformas digitais e empresas de alienação de imóveis.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-receita-federal-adia-para-marco-novas-exigencias
-
-• Stj decide que descontos e bonificações ficam fora da base de cálculo
-  de PIS e Cofins
-  Primeira Seção da Corte definiu a tese sob o rito de recursos
-  repetitivos em favor dos contribuintes.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12.html#s-stj-decide-que-descontos-e-bonificacoes-ficam-fo
+• STJ exclui bonificações e descontos da base de cálculo do PIS e da
+  Cofins
+  Primeira Seção do Superior Tribunal de Justiça consolida entendimento
+  favorável aos contribuintes, com ressalvas, em julgamento unânime.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-stj-exclui-bonificacoes-e-descontos-da-base-de-c
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 614 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-12-todas.html
+Todas as 575 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
 (gemini-flash-lite-latest)
