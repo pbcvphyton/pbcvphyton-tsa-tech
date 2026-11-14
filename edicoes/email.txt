@@ -1,51 +1,52 @@
 TSA TECH
-Sexta-feira, 13 de novembro de 2026 · 05:54 BRT
+Sábado, 14 de novembro de 2026 · 07:24 BRT
 
 MANCHETE
 --------
-Senado aprova texto-base do pacote fiscal com impacto previsto de até R$
-56 bi
-Proposta altera o arcabouço fiscal e traz medidas de limitação de
-despesas e elevação de receitas para 2027.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-senado-aprova-texto-base-do-pacote-fiscal-com-im
+STF avança no julgamento sobre a escala 6x1 enquanto Congresso contesta
+regras de Dino
+Plenário virtual tem maioria favorável ao início da nova escala em 16 de
+dezembro, mas cúpula do Legislativo pede rejeição de flexibilizações nas
+folgas.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-stf-avanca-no-julgamento-sobre-a-escala-6x1-enqu
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• STF mantém transição do fim da escala 6x1 para dezembro e flexibiliza
-  folgas
-  Ministro Flávio Dino rejeita adiar cronograma da EC 141, mas autoriza
-  distribuição da jornada de 42 horas em cinco dias e folgas por acordo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-stf-mantem-transicao-do-fim-da-escala-6x1-para-d
+• Setor produtivo tenta barrar no Senado travas a compensações
+  tributárias previstas no PLP 299/2026
+  Dispositivo que autoriza a Receita a restringir créditos pode ser
+  derrubado por destaque; Fazenda estima impacto de R$ 18 bilhões.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-setor-produtivo-tenta-barrar-no-senado-travas-a
 
-• Entidades empresariais criticam pacote fiscal e limites à compensação
-  de tributos
-  Proposta de ajuste fiscal apresentada pelo governo no Congresso gera
-  forte reação do setor produtivo devido a restrições no uso de créditos
-  e foco na arrecadação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-entidades-empresariais-criticam-pacote-fiscal-e
+• CNJ e STF suspendem prazos processuais em todo o país após pane em
+  sistemas da Microsoft
+  Interrupção técnica que atingiu Outlook e Teams prejudicou
+  peticionamentos eletrônicos; contagem volta a correr normalmente na
+  segunda-feira.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-cnj-e-stf-suspendem-prazos-processuais-em-todo-o
 
-• STF declara inconstitucional isenção de pena em crimes patrimoniais
-  contra familiares
-  Plenário derruba imunidade penal prevista no Código Penal em casos de
-  violência doméstica e familiar.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-stf-declara-inconstitucional-isencao-de-pena-em
+• STJ responsabiliza condomínio por furto em apartamento após falha de
+  controle na portaria
+  Terceira Turma decide por unanimidade que liberação indevida de
+  criminosos por porteiro gera dever de indenizar moradores.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-stj-responsabiliza-condominio-por-furto-em-apart
 
-• STJ fixa tese de que débitos condominiais anteriores à recuperação são
-  extraconcursais
-  Segunda Seção do STJ estabelece sob o rito dos recursos repetitivos
-  (Tema 1.391) que dívidas de condomínio não se submetem ao juízo da
-  recuperação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-stj-fixa-tese-de-que-debitos-condominiais-anteri
+• STF e Congresso avançam na implementação do fim da escala 6x1 sob
+  críticas de empresas
+  Emenda Constitucional 141 reduz jornada máxima de trabalho, enquanto
+  ministro Flávio Dino ajusta pontos no STF sem alterar o cronograma de
+  2026.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-stf-e-congresso-avancam-na-implementacao-do-fim
 
-• STJ exclui bonificações e descontos da base de cálculo do PIS e da
-  Cofins
-  Primeira Seção do Superior Tribunal de Justiça consolida entendimento
-  favorável aos contribuintes, com ressalvas, em julgamento unânime.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13.html#s-stj-exclui-bonificacoes-e-descontos-da-base-de-c
+• Braskem atrasa debêntures de R$ 1,2 bilhão e avalia medidas para
+  preservar operações
+  Após reportar prejuízo de R$ 1,07 bilhão, petroquímica negocia com
+  credores e sinaliza possibilidade de recorrer à recuperação judicial.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-braskem-atrasa-debentures-de-r-1-2-bilhao-e-aval
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 575 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-13-todas.html
+Todas as 510 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-lite-latest)
+Gerado automaticamente em 07:24 (BRT) · Edição gerada por IA
+(gemini-flash-latest)
