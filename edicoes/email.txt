@@ -1,52 +1,51 @@
 TSA TECH
-Sábado, 14 de novembro de 2026 · 07:24 BRT
+Domingo, 15 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-STF avança no julgamento sobre a escala 6x1 enquanto Congresso contesta
-regras de Dino
-Plenário virtual tem maioria favorável ao início da nova escala em 16 de
-dezembro, mas cúpula do Legislativo pede rejeição de flexibilizações nas
-folgas.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-stf-avanca-no-julgamento-sobre-a-escala-6x1-enqu
+STJ define que CPRB integra base de cálculo do PIS/Pasep e da Cofins
+Primeira Seção julgou o Tema 1.276 sob o rito dos recursos repetitivos e
+fixou entendimento obrigatório para todo o país.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-stj-define-que-cprb-integra-base-de-calculo-do-p
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Setor produtivo tenta barrar no Senado travas a compensações
-  tributárias previstas no PLP 299/2026
-  Dispositivo que autoriza a Receita a restringir créditos pode ser
-  derrubado por destaque; Fazenda estima impacto de R$ 18 bilhões.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-setor-produtivo-tenta-barrar-no-senado-travas-a
+• Fux pede destaque e leva ao plenário presencial do STF o julgamento
+  sobre a escala 6x1
+  Pedido zera o placar que já somava quatro votos pela manutenção do
+  cronograma da Emenda Constitucional 141.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-fux-pede-destaque-e-leva-ao-plenario-presencial
 
-• CNJ e STF suspendem prazos processuais em todo o país após pane em
-  sistemas da Microsoft
-  Interrupção técnica que atingiu Outlook e Teams prejudicou
-  peticionamentos eletrônicos; contagem volta a correr normalmente na
-  segunda-feira.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-cnj-e-stf-suspendem-prazos-processuais-em-todo-o
+• STJ afasta honorários sucumbenciais em plano compulsório por
+  superendividamento
+  Terceira Turma decide que repactuação forçada determinada pelo juiz
+  busca reorganizar finanças do devedor e não configura derrota de
+  mérito para os credores.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-stj-afasta-honorarios-sucumbenciais-em-plano-com
 
-• STJ responsabiliza condomínio por furto em apartamento após falha de
-  controle na portaria
-  Terceira Turma decide por unanimidade que liberação indevida de
-  criminosos por porteiro gera dever de indenizar moradores.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-stj-responsabiliza-condominio-por-furto-em-apart
+• STJ veda indeferimento automático de benefício pelo INSS sem prazo
+  para juntada de provas
+  Primeira Seção define que a autarquia não pode rejeitar requerimento
+  fundamentado sem oportunizar saneamento de documentos ao segurado.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-stj-veda-indeferimento-automatico-de-beneficio-p
 
-• STF e Congresso avançam na implementação do fim da escala 6x1 sob
-  críticas de empresas
-  Emenda Constitucional 141 reduz jornada máxima de trabalho, enquanto
-  ministro Flávio Dino ajusta pontos no STF sem alterar o cronograma de
-  2026.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-stf-e-congresso-avancam-na-implementacao-do-fim
+• STF pauta julgamentos sobre valor da causa trabalhista e honorários em
+  dívidas fiscais
+  Ministros devem avaliar a validade da exigência de pedidos liquidados
+  na petição inicial e a incidência de verba honorária em acordos com o
+  Fisco.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-stf-pauta-julgamentos-sobre-valor-da-causa-traba
 
-• Braskem atrasa debêntures de R$ 1,2 bilhão e avalia medidas para
-  preservar operações
-  Após reportar prejuízo de R$ 1,07 bilhão, petroquímica negocia com
-  credores e sinaliza possibilidade de recorrer à recuperação judicial.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14.html#s-braskem-atrasa-debentures-de-r-1-2-bilhao-e-aval
+• Empresas calculam impacto de proposta que extingue a escala 6x1 em
+  setores intensivos
+  Levantamento aponta reflexos no comércio e na construção civil
+  enquanto o setor produtivo aguarda formato final da nova jornada de
+  trabalho.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-empresas-calculam-impacto-de-proposta-que-exting
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 510 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-14-todas.html
+Todas as 303 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 07:24 (BRT) · Edição gerada por IA
+Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
 (gemini-flash-latest)
