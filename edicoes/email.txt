@@ -1,51 +1,50 @@
 TSA TECH
-Domingo, 15 de novembro de 2026 · 05:54 BRT
+Segunda-feira, 16 de novembro de 2026 · 08:55 BRT
 
 MANCHETE
 --------
-STJ define que CPRB integra base de cálculo do PIS/Pasep e da Cofins
-Primeira Seção julgou o Tema 1.276 sob o rito dos recursos repetitivos e
-fixou entendimento obrigatório para todo o país.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-stj-define-que-cprb-integra-base-de-calculo-do-p
+Governo prepara decreto sobre jornada 5x2 enquanto STF trava regras de
+transição
+Planalto deve editar regulamentação alinhada a voto de Flávio Dino, mas
+pedido de destaque de Luiz Fux interrompe conclusão do caso na corte.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-governo-prepara-decreto-sobre-jornada-5x2-enquan
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Fux pede destaque e leva ao plenário presencial do STF o julgamento
-  sobre a escala 6x1
-  Pedido zera o placar que já somava quatro votos pela manutenção do
-  cronograma da Emenda Constitucional 141.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-fux-pede-destaque-e-leva-ao-plenario-presencial
+• Pacote fiscal do governo prevê restrições a créditos tributários e
+  teto previdenciário de R$ 3 bi
+  Projeto de Lei Complementar 299/2026 reúne corte de gastos e limites a
+  compensações; Senado conclui votação nesta semana.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-pacote-fiscal-do-governo-preve-restricoes-a-cred
 
-• STJ afasta honorários sucumbenciais em plano compulsório por
-  superendividamento
-  Terceira Turma decide que repactuação forçada determinada pelo juiz
-  busca reorganizar finanças do devedor e não configura derrota de
-  mérito para os credores.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-stj-afasta-honorarios-sucumbenciais-em-plano-com
+• STF decide julgar em repercussão geral tese do 'milagre da
+  contribuição única' do INSS
+  Corte definirá a validade de cálculo que permitia descartar
+  recolhimentos menores entre 2019 e 2022 para elevar valor da
+  aposentadoria.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-stf-decide-julgar-em-repercussao-geral-tese-do-m
 
-• STJ veda indeferimento automático de benefício pelo INSS sem prazo
-  para juntada de provas
-  Primeira Seção define que a autarquia não pode rejeitar requerimento
-  fundamentado sem oportunizar saneamento de documentos ao segurado.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-stj-veda-indeferimento-automatico-de-beneficio-p
+• STJ fixa que débitos de condomínio anteriores à recuperação judicial
+  são extraconcursais
+  Sob o rito dos recursos repetitivos (Tema 1.391), Segunda Seção decide
+  que taxas condominiais não se sujeitam ao plano de recuperação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-stj-fixa-que-debitos-de-condominio-anteriores-a
 
-• STF pauta julgamentos sobre valor da causa trabalhista e honorários em
-  dívidas fiscais
-  Ministros devem avaliar a validade da exigência de pedidos liquidados
-  na petição inicial e a incidência de verba honorária em acordos com o
-  Fisco.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-stf-pauta-julgamentos-sobre-valor-da-causa-traba
+• Fux pede destaque e STF levará ao plenário presencial liminar sobre
+  cronograma do fim da escala 6x1
+  Pedido interrompe análise virtual de liminar que havia negado
+  adiamento solicitado pelo comércio e indústria.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-fux-pede-destaque-e-stf-levara-ao-plenario-prese
 
-• Empresas calculam impacto de proposta que extingue a escala 6x1 em
-  setores intensivos
-  Levantamento aponta reflexos no comércio e na construção civil
-  enquanto o setor produtivo aguarda formato final da nova jornada de
-  trabalho.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15.html#s-empresas-calculam-impacto-de-proposta-que-exting
+• Carf anula cobrança bilionária de IRPJ e CSLL na incorporação da
+  Bertin pela JBS
+  Por 5 votos a 3, a 1ª Turma da Câmara Superior afastou autuação fiscal
+  que mirava a FB Participações.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-carf-anula-cobranca-bilionaria-de-irpj-e-csll-na
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 303 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-15-todas.html
+Todas as 336 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
+Gerado automaticamente em 08:55 (BRT) · Edição gerada por IA
 (gemini-flash-latest)
