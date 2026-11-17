@@ -1,50 +1,50 @@
 TSA TECH
-Segunda-feira, 16 de novembro de 2026 · 08:55 BRT
+Terça-feira, 17 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Governo prepara decreto sobre jornada 5x2 enquanto STF trava regras de
-transição
-Planalto deve editar regulamentação alinhada a voto de Flávio Dino, mas
-pedido de destaque de Luiz Fux interrompe conclusão do caso na corte.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-governo-prepara-decreto-sobre-jornada-5x2-enquan
+Senado conclui votação do pacote fiscal sob pressão contra trava em
+compensações
+Projeto de lei complementar reúne medidas de ajuste para 2027 e enfrenta
+críticas do setor produtivo sobre restrições fiscais e alterações no
+lucro presumido.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-senado-conclui-votacao-do-pacote-fiscal-sob-pres
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Pacote fiscal do governo prevê restrições a créditos tributários e
-  teto previdenciário de R$ 3 bi
-  Projeto de Lei Complementar 299/2026 reúne corte de gastos e limites a
-  compensações; Senado conclui votação nesta semana.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-pacote-fiscal-do-governo-preve-restricoes-a-cred
+• STF envia ao plenário presencial julgamento sobre regras de transição
+  do fim da escala 6x1
+  Pedido de destaque de Luiz Fux suspende votação virtual que tinha
+  quatro votos a favor do calendário de Dino.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-stf-envia-ao-plenario-presencial-julgamento-sobr
 
-• STF decide julgar em repercussão geral tese do 'milagre da
-  contribuição única' do INSS
-  Corte definirá a validade de cálculo que permitia descartar
-  recolhimentos menores entre 2019 e 2022 para elevar valor da
-  aposentadoria.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-stf-decide-julgar-em-repercussao-geral-tese-do-m
+• INSS atualiza regras de transição da aposentadoria a partir de 1º de
+  janeiro de 2027
+  Mudanças anuais elevam idade mínima e pontuação exigida, além de
+  alterar a base de cálculo para novos benefícios.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-inss-atualiza-regras-de-transicao-da-aposentador
 
-• STJ fixa que débitos de condomínio anteriores à recuperação judicial
-  são extraconcursais
-  Sob o rito dos recursos repetitivos (Tema 1.391), Segunda Seção decide
-  que taxas condominiais não se sujeitam ao plano de recuperação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-stj-fixa-que-debitos-de-condominio-anteriores-a
+• STJ define que dívida condominial anterior à recuperação é crédito
+  extraconcursal
+  Segunda Seção fixou a tese no Tema 1.391 sob rito repetitivo,
+  afastando cobranças de condomínio do juízo recuperacional.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-stj-define-que-divida-condominial-anterior-a-rec
 
-• Fux pede destaque e STF levará ao plenário presencial liminar sobre
-  cronograma do fim da escala 6x1
-  Pedido interrompe análise virtual de liminar que havia negado
-  adiamento solicitado pelo comércio e indústria.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-fux-pede-destaque-e-stf-levara-ao-plenario-prese
+• PGE-SP abre nova fase do Acordo Paulista para regularizar R$ 15
+  bilhões em ICMS
+  Editais preveem descontos de até 100% em juros e multas para débitos
+  de difícil recuperação e empresas em recuperação judicial.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-pge-sp-abre-nova-fase-do-acordo-paulista-para-re
 
-• Carf anula cobrança bilionária de IRPJ e CSLL na incorporação da
-  Bertin pela JBS
-  Por 5 votos a 3, a 1ª Turma da Câmara Superior afastou autuação fiscal
-  que mirava a FB Participações.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16.html#s-carf-anula-cobranca-bilionaria-de-irpj-e-csll-na
+• STJ fixa critérios para honorários em habilitação e impugnação de
+  crédito
+  Sob rito dos repetitivos, Segunda Seção estabelece diretrizes para
+  arbitramento de sucumbência na recuperação e falência.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-stj-fixa-criterios-para-honorarios-em-habilitaca
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 336 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-16-todas.html
+Todas as 504 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 08:55 (BRT) · Edição gerada por IA
-(gemini-flash-latest)
+Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
+(gemini-flash-latest + gemini-flash-lite-latest)
