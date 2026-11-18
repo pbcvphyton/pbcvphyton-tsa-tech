@@ -1,50 +1,52 @@
 TSA TECH
-Terça-feira, 17 de novembro de 2026 · 05:54 BRT
+Quarta-feira, 18 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Senado conclui votação do pacote fiscal sob pressão contra trava em
-compensações
-Projeto de lei complementar reúne medidas de ajuste para 2027 e enfrenta
-críticas do setor produtivo sobre restrições fiscais e alterações no
-lucro presumido.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-senado-conclui-votacao-do-pacote-fiscal-sob-pres
+Fazenda e TCU defendem reforma tributária em 2027 e discutem alíquota e
+impactos
+Em audiência no Senado, Dario Durigan e Robinson Barreirinhas rechaçaram
+adiamento da reforma, apontando impactos em cashback e inflação.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-fazenda-e-tcu-defendem-reforma-tributaria-em-202
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• STF envia ao plenário presencial julgamento sobre regras de transição
-  do fim da escala 6x1
-  Pedido de destaque de Luiz Fux suspende votação virtual que tinha
-  quatro votos a favor do calendário de Dino.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-stf-envia-ao-plenario-presencial-julgamento-sobr
+• Senado adia conclusão da votação do pacote fiscal após impasse em
+  destaques
+  Falta de acordo sobre compensação tributária e Lei Kandir empurra
+  desfecho para quarta-feira; Câmara aguarda texto.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-senado-adia-conclusao-da-votacao-do-pacote-fisca
 
-• INSS atualiza regras de transição da aposentadoria a partir de 1º de
-  janeiro de 2027
-  Mudanças anuais elevam idade mínima e pontuação exigida, além de
-  alterar a base de cálculo para novos benefícios.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-inss-atualiza-regras-de-transicao-da-aposentador
+• Congresso aprova Plano Brasil Soberano com até R$ 13,5 bi para
+  empresas
+  O Senado aprovou a medida provisória que libera recursos federais para
+  socorrer empresas afetadas pelo tarifaço dos Estados Unidos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-congresso-aprova-plano-brasil-soberano-com-ate-r
 
-• STJ define que dívida condominial anterior à recuperação é crédito
-  extraconcursal
-  Segunda Seção fixou a tese no Tema 1.391 sob rito repetitivo,
-  afastando cobranças de condomínio do juízo recuperacional.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-stj-define-que-divida-condominial-anterior-a-rec
+• Sistema financeiro aciona o STF contra entendimento do TST sobre
+  prescrição de previdência complementar
+  Consif ajuizou arguição de descumprimento para contestar tese do
+  Tribunal Superior do Trabalho sobre indenizações por falta de
+  recolhimento.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-sistema-financeiro-aciona-o-stf-contra-entendime
 
-• PGE-SP abre nova fase do Acordo Paulista para regularizar R$ 15
-  bilhões em ICMS
-  Editais preveem descontos de até 100% em juros e multas para débitos
-  de difícil recuperação e empresas em recuperação judicial.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-pge-sp-abre-nova-fase-do-acordo-paulista-para-re
+• Débitos condominiais anteriores à recuperação judicial são créditos
+  extraconcursais
+  A Segunda Seção do STJ fixou a tese, sob o rito dos recursos
+  repetitivos (Tema 1.391), de que dívidas de condomínio não se submetem
+  ao juízo da recuperação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-debitos-condominiais-anteriores-a-recuperacao-ju
 
-• STJ fixa critérios para honorários em habilitação e impugnação de
-  crédito
-  Sob rito dos repetitivos, Segunda Seção estabelece diretrizes para
-  arbitramento de sucumbência na recuperação e falência.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17.html#s-stj-fixa-criterios-para-honorarios-em-habilitaca
+• Deputados apresentam projeto para tributar lucros e dividendos em até
+  25%
+  Proposta de parlamentares da base governista estabelece a cobrança de
+  Imposto de Renda sobre dividendos distribuídos a pessoas físicas acima
+  de R$ 150 mil.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-deputados-apresentam-projeto-para-tributar-lucro
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 504 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-17-todas.html
+Todas as 626 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-latest + gemini-flash-lite-latest)
+(gemini-flash-lite-latest)
