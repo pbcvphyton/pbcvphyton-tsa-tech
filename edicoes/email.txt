@@ -1,52 +1,51 @@
 TSA TECH
-Quarta-feira, 18 de novembro de 2026 · 05:54 BRT
+Quinta-feira, 19 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Fazenda e TCU defendem reforma tributária em 2027 e discutem alíquota e
-impactos
-Em audiência no Senado, Dario Durigan e Robinson Barreirinhas rechaçaram
-adiamento da reforma, apontando impactos em cashback e inflação.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-fazenda-e-tcu-defendem-reforma-tributaria-em-202
+Alíquota de 11,3% da CBS gera cobrança do Senado ao TCU e reação da
+Receita
+Comissão de Assuntos Econômicos pede cálculos ao tribunal, enquanto
+secretário da Fazenda condiciona redução da alíquota ao corte de
+benefícios tributários.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-aliquota-de-11-3-da-cbs-gera-cobranca-do-senado
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Senado adia conclusão da votação do pacote fiscal após impasse em
-  destaques
-  Falta de acordo sobre compensação tributária e Lei Kandir empurra
-  desfecho para quarta-feira; Câmara aguarda texto.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-senado-adia-conclusao-da-votacao-do-pacote-fisca
+• Senado aprova trava a compensações tributárias no pacote fiscal sob
+  críticas de empresas
+  Medida prevê receita de até R$ 18,3 bilhões em 2027 caso haja
+  contingenciamento; Fisco afirma que regra não atinge a reforma do
+  consumo.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-senado-aprova-trava-a-compensacoes-tributarias-n
 
-• Congresso aprova Plano Brasil Soberano com até R$ 13,5 bi para
-  empresas
-  O Senado aprovou a medida provisória que libera recursos federais para
-  socorrer empresas afetadas pelo tarifaço dos Estados Unidos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-congresso-aprova-plano-brasil-soberano-com-ate-r
+• STJ vai definir se exposição à eletricidade garante aposentadoria
+  especial
+  Primeira Seção avaliará se a periculosidade por alta tensão justifica
+  o benefício após a supressão normativa da previsão expressa.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-stj-vai-definir-se-exposicao-a-eletricidade-gara
 
-• Sistema financeiro aciona o STF contra entendimento do TST sobre
-  prescrição de previdência complementar
-  Consif ajuizou arguição de descumprimento para contestar tese do
-  Tribunal Superior do Trabalho sobre indenizações por falta de
-  recolhimento.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-sistema-financeiro-aciona-o-stf-contra-entendime
+• Grupo Fazendão obtém tutela cautelar na Justiça para suspender dívidas
+  de R$ 2 bilhões
+  Empresa do agronegócio do Tocantins requer suspensão de execuções por
+  30 dias para reestruturação financeira que atinge grandes bancos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-grupo-fazendao-obtem-tutela-cautelar-na-justica
 
-• Débitos condominiais anteriores à recuperação judicial são créditos
-  extraconcursais
-  A Segunda Seção do STJ fixou a tese, sob o rito dos recursos
-  repetitivos (Tema 1.391), de que dívidas de condomínio não se submetem
-  ao juízo da recuperação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-debitos-condominiais-anteriores-a-recuperacao-ju
+• STJ define em repetitivo que conta de poupança com movimentação mantém
+  impenhorabilidade
+  Corte Especial estabelece no Tema 1.285 a proteção para valores de até
+  40 salários mínimos também em conta-corrente ou espécie.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-stj-define-em-repetitivo-que-conta-de-poupanca-c
 
-• Deputados apresentam projeto para tributar lucros e dividendos em até
-  25%
-  Proposta de parlamentares da base governista estabelece a cobrança de
-  Imposto de Renda sobre dividendos distribuídos a pessoas físicas acima
-  de R$ 150 mil.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18.html#s-deputados-apresentam-projeto-para-tributar-lucro
+• STJ fixa que CPRB compõe base de cálculo de PIS e Cofins em recurso
+  repetitivo
+  Primeira Seção aprova tese vinculante no Tema 1.276, consolidando a
+  inclusão da contribuição substitutiva nas apurações federais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-stj-fixa-que-cprb-compoe-base-de-calculo-de-pis
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 626 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-18-todas.html
+Todas as 596 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-lite-latest)
+(gemini-flash-latest)
