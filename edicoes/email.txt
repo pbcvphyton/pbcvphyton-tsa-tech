@@ -1,51 +1,54 @@
 TSA TECH
-Quinta-feira, 19 de novembro de 2026 · 05:54 BRT
+Sexta-feira, 20 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Alíquota de 11,3% da CBS gera cobrança do Senado ao TCU e reação da
-Receita
-Comissão de Assuntos Econômicos pede cálculos ao tribunal, enquanto
-secretário da Fazenda condiciona redução da alíquota ao corte de
-benefícios tributários.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-aliquota-de-11-3-da-cbs-gera-cobranca-do-senado
+iFood registra invasão em sistema de dados de usuários e entregadores
+O iFood identificou um novo acesso não autorizado a parte de seus
+sistemas, ocorrido em 14 de novembro e contido no mesmo dia.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-20.html#s-ifood-registra-invasao-em-sistema-de-dados-de-us
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Senado aprova trava a compensações tributárias no pacote fiscal sob
-  críticas de empresas
-  Medida prevê receita de até R$ 18,3 bilhões em 2027 caso haja
-  contingenciamento; Fisco afirma que regra não atinge a reforma do
-  consumo.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-senado-aprova-trava-a-compensacoes-tributarias-n
+• Imposto Seletivo será tema de debate sobre proteção à saúde pública na
+  USP
+  Juristas e especialistas vão analisar como o Imposto Seletivo (IS) –
+  instituído pela reforma tributária sobre cigarros, bebidas alcoólicas
+  e bebidas açucaradas – pode beneficiar a saúde pública, em um evento
+  na…
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-20.html#s-imposto-seletivo-sera-tema-de-debate-sobre-prote
 
-• STJ vai definir se exposição à eletricidade garante aposentadoria
-  especial
-  Primeira Seção avaliará se a periculosidade por alta tensão justifica
-  o benefício após a supressão normativa da previsão expressa.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-stj-vai-definir-se-exposicao-a-eletricidade-gara
+• Precedentes do STF sobre ITBI: tributação do ‘excesso’
+  Foi recentemente julgado pelo Supremo Tribunal Federal (STF) o Tema
+  1.348 (RE 1495108), que trata da imunidade do ITBI prevista no artigo
+  156, II, parágrafo 2º, I, da Constituição, segundo a qual o tributo
+  não incide…
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-20.html#s-precedentes-do-stf-sobre-itbi-tributacao-do-exce
 
-• Grupo Fazendão obtém tutela cautelar na Justiça para suspender dívidas
-  de R$ 2 bilhões
-  Empresa do agronegócio do Tocantins requer suspensão de execuções por
-  30 dias para reestruturação financeira que atinge grandes bancos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-grupo-fazendao-obtem-tutela-cautelar-na-justica
+• Rádio Decidendi: precedente sobre tributação de benefícios fiscais de
+  ICMS é tema do podcast
+  ​Está disponível o novo episódio do podcast Rádio Decidendi, que
+  analisa o Tema 1.182 dos recursos repetitivos, julgado pela Primeira
+  Seção do Superior Tribunal de Justiça (STJ).
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-20.html#s-radio-decidendi-precedente-sobre-tributacao-de-b
 
-• STJ define em repetitivo que conta de poupança com movimentação mantém
-  impenhorabilidade
-  Corte Especial estabelece no Tema 1.285 a proteção para valores de até
-  40 salários mínimos também em conta-corrente ou espécie.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-stj-define-em-repetitivo-que-conta-de-poupanca-c
+• Pacaembu tem operação de R$ 515 mi frustrada e dona de concessionária
+  pede Recuperação Extrajudicial
+  A Progen, dona de metade Concessionária Allegra Pacaembu, protocolou
+  na Justiça de São Paulo um pedido de homologação do plano de
+  Recuperação Extrajudicial.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-20.html#s-pacaembu-tem-operacao-de-r-515-mi-frustrada-e-do
 
-• STJ fixa que CPRB compõe base de cálculo de PIS e Cofins em recurso
-  repetitivo
-  Primeira Seção aprova tese vinculante no Tema 1.276, consolidando a
-  inclusão da contribuição substitutiva nas apurações federais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19.html#s-stj-fixa-que-cprb-compoe-base-de-calculo-de-pis
+• Aprofundamento de relação com CVM está na ordem do dia, diz diretor do
+  BC
+  O diretor de Fiscalização do Banco Central (BC), Ailton de Aquino,
+  afirmou que o aprofundamento da relação entre a autoridade monetária e
+  a Comissão de Valores Mobiliários (CVM) está na ordem do dia e
+  mencionou a…
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-20.html#s-aprofundamento-de-relacao-com-cvm-esta-na-ordem
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 596 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-19-todas.html
+Todas as 571 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-20-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
-Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-latest)
+Gerado automaticamente em 05:54 (BRT) · Edição automática (sem IA)
