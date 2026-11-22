@@ -1,0 +1,4539 @@
+{
+ "date": "2026-11-22",
+ "date_label": "Domingo, 22 de novembro de 2026",
+ "generated_at": "2026-11-22T08:54:22+00:00",
+ "mode": "ai",
+ "model": "gemini-flash-lite-latest",
+ "editorial": "O noticiário corporativo e legal deste domingo destaca importantes atualizações tributárias, como a ampliação do teto do MEI e novas obrigações na locação de imóveis. No âmbito judicial, o STJ fixou teses cruciais sobre impenhorabilidade de poupança e isenção de salário-educação para cartórios, trazendo segurança jurídica. Enquanto isso, entidades empresariais cobram clareza do governo sobre novas regras trabalhistas e o custeio de baterias em leilões do setor elétrico.",
+ "briefing": [
+  "A Lei Complementar nº 238 amplia o teto de faturamento do MEI para R$ 110 mil em 2027 e R$ 140 mil em 2028, gerando alívio fiscal e perdão de dívidas.",
+  "A Primeira Seção do STJ fixou tese em recursos repetitivos isentando titulares de cartórios da contribuição de salário-educação de 2,5%.",
+  "A Corte Especial do STJ definiu no Tema 1.285 que o uso da poupança como conta-corrente não afasta a impenhorabilidade de até 40 salários mínimos.",
+  "Associações empresariais apontam omissões e contradições em decreto recente do governo federal sobre a regulação da escala de trabalho.",
+  "A Abeeólica acionou o STF contra a obrigatoriedade de geradoras arcarem sozinhas com o custeio de sistemas de armazenamento em leilões."
+ ],
+ "lead": "novo-teto-do-mei-eleva-limite-de-faturamento-e-t",
+ "secondary": [
+  "titulares-de-cartorios-ficam-isentos-da-contribu",
+  "poupanca-usada-como-conta-corrente-nao-afasta-im",
+  "empresas-apontam-omissoes-em-decreto-do-governo"
+ ],
+ "highlights": [
+  "reforma-tributaria-detalha-regras-para-notas-fis",
+  "stj-fixa-tese-sobre-honorarios-em-habilitacao-e",
+  "stj-discute-se-exposicao-a-eletricidade-garante",
+  "reidi-e-mantido-na-reforma-tributaria-e-exige-re",
+  "stj-afasta-interrupcao-de-prescricao-por-impugna",
+  "ex-conjuge-que-reside-com-filhos-em-imovel-exclu",
+  "abeeolica-aciona-stf-contra-regra-de-custeio-de",
+  "tj-rj-declara-inconstitucionalidade-de-decreto-q"
+ ],
+ "sections": [
+  {
+   "id": "tributario",
+   "title": "Tributário",
+   "color": "#232A30",
+   "story_ids": [
+    "novo-teto-do-mei-eleva-limite-de-faturamento-e-t",
+    "reforma-tributaria-detalha-regras-para-notas-fis",
+    "stj-afasta-interrupcao-de-prescricao-por-impugna",
+    "reidi-e-mantido-na-reforma-tributaria-e-exige-re",
+    "abeeolica-aciona-stf-contra-regra-de-custeio-de"
+   ]
+  },
+  {
+   "id": "previdenciario",
+   "title": "Previdenciário",
+   "color": "#2F6DB5",
+   "story_ids": [
+    "titulares-de-cartorios-ficam-isentos-da-contribu",
+    "stj-discute-se-exposicao-a-eletricidade-garante"
+   ]
+  },
+  {
+   "id": "trabalhista",
+   "title": "Trabalhista",
+   "color": "#3E5C76",
+   "story_ids": [
+    "empresas-apontam-omissoes-em-decreto-do-governo"
+   ]
+  },
+  {
+   "id": "recuperacao",
+   "title": "Recuperação de Empresas",
+   "color": "#A8622B",
+   "story_ids": [
+    "stj-fixa-tese-sobre-honorarios-em-habilitacao-e"
+   ]
+  },
+  {
+   "id": "civel",
+   "title": "Cível",
+   "color": "#0F7C8C",
+   "story_ids": [
+    "poupanca-usada-como-conta-corrente-nao-afasta-im"
+   ]
+  },
+  {
+   "id": "imobiliario",
+   "title": "Imobiliário",
+   "color": "#7A5C1F",
+   "story_ids": [
+    "ex-conjuge-que-reside-com-filhos-em-imovel-exclu"
+   ]
+  },
+  {
+   "id": "politica",
+   "title": "Política",
+   "color": "#6B3FA0",
+   "story_ids": [
+    "tj-rj-declara-inconstitucionalidade-de-decreto-q"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "novo-teto-do-mei-eleva-limite-de-faturamento-e-t",
+   "section": "tributario",
+   "headline": "Novo teto do MEI eleva limite de faturamento e traz economia tributária",
+   "dek": "A Lei Complementar nº 238 amplia o teto para R$ 110 mil em 2027 e R$ 140 mil em 2028, gerando alívio fiscal e perdão de dívidas previdenciárias.",
+   "body": [
+    "O aumento do teto de faturamento do Microempreendedor Individual (MEI) poderá representar uma economia tributária de até R$ 9,5 mil por ano para determinados prestadores de serviços, conforme estudo da Contabilizei citado pelo **InfoMoney**. O perdão de dívidas previdenciárias também promete aliviar as contas de milhões de pequenos negócios a partir das novas regras.",
+    "Sancionada em 21 de outubro, a Lei Complementar nº 238 estabelece a elevação do limite anual de faturamento dos atuais R$ 81 mil para R$ 110 mil em 2027 e para R$ 140 mil a partir de 2028. A legislação também permite a contratação de até dois empregados, em vez de apenas um, e institui o perdão de débitos previdenciários vencidos até 13 de outubro de 2026."
+   ],
+   "sources": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/minhas-financas/novo-teto-do-mei-pode-gerar-economia-de-r-95-mil-por-ano-entenda-mudancas/"
+    }
+   ],
+   "article_ids": [
+    "eb31c6dea00b"
+   ],
+   "importance": 5,
+   "why_it_matters": "A ampliação do limite reduz os custos operacionais e afasta a necessidade de migração imediata para regimes tributários mais onerosos para os pequenos empresários.",
+   "image": "https://www.infomoney.com.br/wp-content/uploads/2019/12/numbers-money-calculating-calculation-3305.jpg?fit=4928%2C3264&quality=70&strip=all",
+   "published": "2026-11-22T08:00:00+00:00",
+   "lang": "pt",
+   "coverage": null,
+   "block": "Tributário"
+  },
+  {
+   "id": "titulares-de-cartorios-ficam-isentos-da-contribu",
+   "section": "previdenciario",
+   "headline": "Titulares de cartórios ficam isentos da contribuição de salário-educação",
+   "dek": "Primeira Seção do STJ fixa tese, sob o rito dos recursos repetitivos, definindo que a exação de 2,5% não pode ser exigida de pessoas físicas titulares de cartórios.",
+   "body": [
+    "A Primeira Seção do Superior Tribunal de Justiça (STJ) definiu, em julgamento sob o rito dos recursos repetitivos, que as pessoas físicas titulares de cartórios não são obrigadas a recolher a contribuição social do salário-educação, que corresponde a 2,5% sobre o valor da remuneração.",
+    "A tese firmada uniformiza o entendimento sobre a matéria no âmbito do Judiciário, afastando a exigibilidade da exação para essa categoria de prestadores de serviços notariais e registrais."
+   ],
+   "sources": [
+    {
+     "name": "STJ",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18112026-Primeira-Secao-fixa-tese-e-define-que-salario-educacao-nao-pode-ser-exigido-de-titulares-de-cartorio.aspx"
+    }
+   ],
+   "article_ids": [
+    "912ecd675de8"
+   ],
+   "importance": 5,
+   "why_it_matters": "A decisão reduz a carga tributária e previdenciária de titulares de cartórios, eliminando o passivo e o risco de cobranças futuras da contribuição de 2,5%.",
+   "image": "https://www.stj.jus.br/sites/portalp/SiteAssets/imagens/destaques/Portal-CAPA%201811.jpg",
+   "published": null,
+   "lang": "pt",
+   "coverage": null,
+   "block": "Previdenciário & Trabalhista"
+  },
+  {
+   "id": "poupanca-usada-como-conta-corrente-nao-afasta-im",
+   "section": "civel",
+   "headline": "Poupança usada como conta-corrente não afasta impenhorabilidade, define STJ",
+   "dek": "Corte Especial do STJ fixou condições em repetitivo (Tema 1.285) para proteger valores de até 40 salários mínimos em contas diversas.",
+   "body": [
+    "A Corte Especial do Superior Tribunal de Justiça (STJ), sob o rito dos recursos repetitivos do **Tema 1.285**, estabeleceu as condições necessárias para assegurar a impenhorabilidade de valores de até 40 salários mínimos mantidos não apenas em caderneta de poupança, mas também em conta-corrente, dinheiro em espécie ou outras aplicações financeiras.",
+    "O colegiado definiu que a utilização da conta poupança como conta-corrente, com a realização de movimentações frequentes para o pagamento do custo de vida ordinário, não afasta automaticamente a proteção legal contra constrições judiciais sobre a referida quantia limite."
+   ],
+   "sources": [
+    {
+     "name": "STJ",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/17112026-Poupanca-usada-como-conta-corrente-nao-afasta-impenhorabilidade--define-Corte-Especial-em-repetitivo.aspx"
+    }
+   ],
+   "article_ids": [
+    "a47df1a53b30"
+   ],
+   "importance": 5,
+   "why_it_matters": "Garante maior segurança jurídica a correntistas e devedores, preservando o patamar mínimo de subsistência financeira protegido por lei contra bloqueios judiciais.",
+   "image": "https://www.stj.jus.br/sites/portalp/SiteAssets/imagens/destaques/CAPA_PORTAL_AdobeStock_2192953461.jpg",
+   "published": null,
+   "lang": "pt",
+   "coverage": null,
+   "block": "Recuperação, Cível & Imobiliário"
+  },
+  {
+   "id": "reforma-tributaria-detalha-regras-para-notas-fis",
+   "section": "tributario",
+   "headline": "Reforma tributária detalha regras para notas fiscais e tributação de locações",
+   "dek": "Condomínios e locadores de imóveis devem emitir notas fiscais em 2027, com enquadramento de pessoas físicas condicionado a critérios específicos.",
+   "body": [
+    "Com a implementação da reforma tributária em 2027, condomínios, companhias aéreas e locadores de veículos e imóveis passam a emitir notas fiscais obrigatórias, conforme apontam a **Folha de S.Paulo** e o **Conjur**. A exigência abrange operações com bens imateriais e locações de curta e longa duração.",
+    "Segundo o **Conjur**, a Lei Complementar nº 214/2025 (ajustada pela LC nº 227/2026) e os regulamentos da CBS (Decreto nº 12.955/2026) e do IBS (Resolução CGIBS nº 6/2026) estendem a tributação ao consumo na locação de imóveis por pessoas físicas. Contudo, o enquadramento como contribuinte do IBS e da CBS não é generalizado, dependendo da conjugação entre o número de imóveis e o volume de receita."
+   ],
+   "sources": [
+    {
+     "name": "Conjur",
+     "url": "https://conjur.com.br/2026-nov-21/a-tributacao-da-locacao-de-imoveis-por-pessoas-fisicas-na-reforma-tributaria-e-o-impacto-no-mercado-imobiliario/"
+    },
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://c-level.folha.uol.com.br/negocios/2026/11/reforma-tributaria-exige-notas-fiscais-de-locacao-voos-e-imoveis-em-2027.shtml"
+    }
+   ],
+   "article_ids": [
+    "2a2d1a30519b",
+    "4f0bea7d3103"
+   ],
+   "importance": 4,
+   "why_it_matters": "Define novas obrigações acessórias e critérios de incidência do IBS e da CBS para locadores de imóveis e prestadores de serviços a partir de 2027.",
+   "image": "https://conjur.com.br/wp-content/uploads/2026/05/opiniao-2.jpg",
+   "published": "2026-11-21T18:18:31+00:00",
+   "lang": "pt",
+   "coverage": {
+    "topic": "Reforma tributária detalha regras para notas fiscais e tributação de locações",
+    "conclusion": "Os veículos convergiram na abordagem das novas exigências e impactos da regulamentação da reforma tributária sobre o mercado imobiliário.",
+    "outlets": [
+     {
+      "name": "Conjur",
+      "stance": "neutro",
+      "framing": "Foca nos aspectos jurídicos da LC nº 214/2025 e regulamentos correlatos, detalhando os requisitos para que pessoas físicas locadoras se tornem contribuintes do IBS e da CBS.",
+      "url": "https://conjur.com.br/2026-nov-21/a-tributacao-da-locacao-de-imoveis-por-pessoas-fisicas-na-reforma-tributaria-e-o-impacto-no-mercado-imobiliario/"
+     },
+     {
+      "name": "Folha de S.Paulo",
+      "stance": "neutro",
+      "framing": "Destaca a obrigatoriedade operacional de emissão de notas fiscais a partir de 2027 para setores como condomínios, companhias aéreas e locação de imóveis.",
+      "url": "https://c-level.folha.uol.com.br/negocios/2026/11/reforma-tributaria-exige-notas-fiscais-de-locacao-voos-e-imoveis-em-2027.shtml"
+     }
+    ],
+    "side_a": "",
+    "side_b": "",
+    "section": "tributario",
+    "published": null,
+    "url": null,
+    "article_ids": [
+     "2a2d1a30519b",
+     "4f0bea7d3103"
+    ]
+   },
+   "block": "Tributário"
+  },
+  {
+   "id": "empresas-apontam-omissoes-em-decreto-do-governo",
+   "section": "trabalhista",
+   "headline": "Empresas apontam omissões em decreto do governo sobre escala de trabalho",
+   "dek": "Associações empresariais criticam norma do Executivo federal por contrariar diretrizes de liminar do STF sobre a jornada 6x1.",
+   "body": [
+    "Associações que representam setores econômicos afirmam que o decreto do governo federal que regulamentou parte das regras para o fim da escala de trabalho 6x1 foi importante, mas apresenta omissões e contraria diretrizes fixadas pelo Supremo Tribunal Federal (STF) por meio de liminar.",
+    "A regulamentação assinada pelo presidente Luiz Inácio Lula da Silva ocorreu em meio às discussões da Corte Suprema sobre as condições de transição para a nova jornada, gerando insegurança jurídica para empregadores."
+   ],
+   "sources": [
+    {
+     "name": "Valor Econômico",
+     "url": "https://valor.globo.com/legislacao/noticia/2026/11/21/decreto-do-fim-da-escala-6-x-1-e-omisso-e-contraria-stf-dizem-associacoes.ghtml"
+    }
+   ],
+   "article_ids": [
+    "b5d083e9627f",
+    "e078eff652a8"
+   ],
+   "importance": 4,
+   "why_it_matters": "Modifica as diretrizes de gestão de pessoal e cumprimento de jornadas nas empresas, elevando riscos de contencioso trabalhista.",
+   "image": "https://s2-valor.glbimg.com/QI_3Z2QUORIyYYNOd6B7trVEj00=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/B/Y/0hlxViRuuhWdVX1z7GXg/foto28pol-101-dino-a16.jpg",
+   "published": "2026-11-21T11:30:00+00:00",
+   "lang": "pt",
+   "coverage": {
+    "topic": "Empresas apontam omissões em decreto do governo sobre escala de trabalho",
+    "conclusion": "A cobertura convergiu ao apontar o desalinhamento entre o decreto do governo e as discussões do STF.",
+    "outlets": [
+     {
+      "name": "Valor Econômico",
+      "stance": "neutro",
+      "framing": "Enfatiza as reclamações das entidades setoriais sobre as falhas e conflitos legais do decreto governamental frente ao STF.",
+      "url": "https://valor.globo.com/legislacao/noticia/2026/11/21/decreto-do-fim-da-escala-6-x-1-e-omisso-e-contraria-stf-dizem-associacoes.ghtml"
+     },
+     {
+      "name": "CNN Brasil",
+      "stance": "neutro",
+      "framing": "Destaca a simultaneidade entre a regulamentação pelo Executivo e as discussões ainda em curso no STF.",
+      "url": "https://www.cnnbrasil.com.br/politica/governo-regulamenta-jornada-5x2-enquanto-stf-ainda-discute-flexibilizacao/"
+     }
+    ],
+    "side_a": "",
+    "side_b": "",
+    "section": "trabalhista",
+    "published": null,
+    "url": null,
+    "article_ids": [
+     "b5d083e9627f",
+     "e078eff652a8"
+    ]
+   },
+   "block": "Política & Geopolítica (parte 2 de 5)"
+  },
+  {
+   "id": "stj-fixa-tese-sobre-honorarios-em-habilitacao-e",
+   "section": "recuperacao",
+   "headline": "STJ fixa tese sobre honorários em habilitação e regras trabalhistas na falência",
+   "dek": "Segunda Seção e Terceira Turma julgam controvérsias sobre sucumbência em créditos e preferência de pagamentos.",
+   "body": [
+    "A Segunda Seção do Superior Tribunal de Justiça (STJ), sob o rito dos recursos repetitivos, estabeleceu os critérios para a condenação ao pagamento de **honorários advocatícios de sucumbência** nos incidentes de habilitação e de impugnação de crédito em processos de recuperação judicial ou falência.",
+    "Em paralelo, a Terceira Turma definiu que o crédito decorrente de trabalho prestado durante a recuperação judicial da empresa, e que não tenha vencido nos três meses anteriores à quebra, possui preferência garantida pela lei trabalhista, mas sem classificação extraconcursal."
+   ],
+   "sources": [
+    {
+     "name": "STJ",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/04112026-STJ-fixa-criterios-para-honorarios-por-habilitacao-e-impugnacao-de-credito-em-recuperacao-ou-falencia.aspx"
+    }
+   ],
+   "article_ids": [
+    "b4107d97d119",
+    "f625a5168601"
+   ],
+   "importance": 4,
+   "why_it_matters": "Altera o custo de litígio em disputas de crédito na recuperação e define o tratamento de obrigações trabalhistas contraídas durante a reestruturação.",
+   "image": "https://res.stj.jus.br/sites/portalp/SiteAssets/imagens/internas_noticias/Ministra%20Isabel%20Gallotti%20interna.jpg",
+   "published": null,
+   "lang": "pt",
+   "coverage": null,
+   "block": "Recuperação, Cível & Imobiliário"
+  },
+  {
+   "id": "reidi-e-mantido-na-reforma-tributaria-e-exige-re",
+   "section": "tributario",
+   "headline": "REIDI é mantido na reforma tributária e exige revisão contratual",
+   "dek": "Regime suspende IBS e CBS sobre obras, mas o encargo sobre serviços e itens não incorporados demanda atenção aos contratos e matriz de risco.",
+   "body": [
+    "A execução de obras com o Regime Especial de Incentivos para o Desenvolvimento da Infraestrutura (REIDI) continuará a contar com a suspensão de tributos sob a nova sistemática da reforma tributária, conforme análise publicada pelo **JOTA**. A Lei Complementar nº 214/2025 manteve o benefício, aplicando a suspensão do IBS e da CBS sobre bens, materiais, serviços e locação de equipamentos para a obra.",
+    "De acordo com o veículo, a suspensão transforma-se em alíquota zero quando o item é incorporado à obra, mantendo-se o benefício atual por cinco anos para quem já é habilitado. Contudo, o que não for incorporado volta a ser tributado com multa e juros, e a entrada do IBS pode alterar os custos, exigindo atenção dos executivos à matriz de risco e aos reequilíbrios contratuais previstos na lei de licitações."
+   ],
+   "sources": [
+    {
+     "name": "JOTA",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/o-reidi-sobreviveu-a-reforma-tributaria-e-a-matriz-de-risco-define-quem-captura-o-ganho"
+    }
+   ],
+   "article_ids": [
+    "eba60a79424c"
+   ],
+   "importance": 3,
+   "why_it_matters": "A manutenção do REIDI e a transição para o IBS e a CBS exigem reavaliação imediata dos contratos de infraestrutura e da matriz de risco das empresas do setor.",
+   "image": "https://images.jota.info/wp-content/uploads/2026/11/calculadora-magnific-7.jpg",
+   "published": "2026-11-22T04:57:41+00:00",
+   "lang": "pt",
+   "coverage": null,
+   "block": "Tributário"
+  },
+  {
+   "id": "stj-afasta-interrupcao-de-prescricao-por-impugna",
+   "section": "tributario",
+   "headline": "STJ afasta interrupção de prescrição por impugnação administrativa",
+   "dek": "Em decisão da Segunda Turma no REsp 2.176.108/RS, tribunal reafirma que pedido administrativo não suspende prazo para repetição de indébito.",
+   "body": [
+    "Uma decisão recente da Segunda Turma do Superior Tribunal de Justiça (STJ), no julgamento do Recurso Especial nº 2.176.108/RS, estabeleceu um alerta importante para contribuintes que optam pela via administrativa antes de recorrer ao Judiciário, segundo o **JOTA**. O Tribunal reafirmou que o pedido ou a impugnação administrativa não interrompe o prazo prescricional para o ajuizamento da ação de repetição de indébito.",
+    "Segundo o acórdão, a posterior anulação do lançamento ou da Certidão de Dívida Ativa (CDA) também não reinicia o prazo para o contribuinte pleitear a devolução de valores pagos indevidamente. O caso concreto envolveu discussão sobre Imposto de Renda da Pessoa Física em que a contribuinte obteve a nulidade da CDA na esfera judicial, mas perdeu o direito à restituição dos valores devido à consumação da prescrição durante a tramitação administrativa."
+   ],
+   "sources": [
+    {
+     "name": "JOTA",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/impugnacao-administrativa-nao-interrompe-prescricao-para-repeticao-de-indebito"
+    }
+   ],
+   "article_ids": [
+    "cbb8beb3ab7a"
+   ],
+   "importance": 3,
+   "why_it_matters": "A decisão impõe risco financeiro aos contribuintes que aguardam o desfecho de processos administrativos fiscais, tornando imperativo o ajuizamento tempestivo de ações judiciais para evitar a perda do indébito.",
+   "image": "https://images.jota.info/wp-content/uploads/2025/05/transacao-de-debitos-judicializados-pgfn.jpg",
+   "published": "2026-11-22T08:11:45+00:00",
+   "lang": "pt",
+   "coverage": null,
+   "block": "Tributário"
+  },
+  {
+   "id": "stj-discute-se-exposicao-a-eletricidade-garante",
+   "section": "previdenciario",
+   "headline": "STJ discute se exposição à eletricidade garante aposentadoria especial",
+   "dek": "Primeira Seção do tribunal avalia se a periculosidade por eletricidade autoriza o benefício previdenciário dos artigos 57 e 58 da Lei 8.213/1991.",
+   "body": [
+    "A Primeira Seção do Superior Tribunal de Justiça (STJ) iniciou a discussão para definir se a periculosidade decorrente da exposição à eletricidade ainda constitui fundamento válido para a concessão de aposentadoria especial.",
+    "O debate ocorre à luz do regime previsto nos artigos 57 e 58 da Lei 8.213/1991, considerando especificamente a supressão de previsões legais anteriores sobre o tema."
+   ],
+   "sources": [
+    {
+     "name": "STJ",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Primeira-Secao-discute-se-exposicao-a-eletricidade-ainda-garante-direito-a-aposentadoria-especial.aspx"
+    }
+   ],
+   "article_ids": [
+    "456338082b7c"
+   ],
+   "importance": 4,
+   "why_it_matters": "O desfecho do julgamento definirá os critérios de concessão da aposentadoria especial para trabalhadores expostos ao risco elétrico, impactando o passivo de empresas e o planejamento previdenciário.",
+   "image": "https://res.stj.jus.br/sites/portalp/SiteAssets/imagens/internas_noticias/Sergio%20Kukina%20interna.jpg",
+   "published": null,
+   "lang": "pt",
+   "coverage": null,
+   "block": "Previdenciário & Trabalhista"
+  },
+  {
+   "id": "ex-conjuge-que-reside-com-filhos-em-imovel-exclu",
+   "section": "imobiliario",
+   "headline": "Ex-cônjuge que reside com filhos em imóvel exclusivo do outro não deve pagar aluguel",
+   "dek": "Terceira Turma do STJ firmou entendimento sobre a moradia de filhos após a separação de casais em comunhão parcial.",
+   "body": [
+    "A Terceira Turma do Superior Tribunal de Justiça (STJ) estabeleceu que **não cabe cobrança de aluguel** pelo uso de imóvel quando a residência pertence exclusivamente a apenas um dos ex-cônjuges — por ter sido adquirida antes do casamento sob o regime de comunhão parcial de bens —, mas é habitada pelo outro cônjuge junto com os filhos do casal.",
+    "Segundo os ministros, a permanência da mãe ou do pai no bem com os filhos após a separação cumpre função voltada à proteção da moradia da prole, afastando o direito imediato de indenização por uso exclusivo pleiteado pelo proprietário."
+   ],
+   "sources": [
+    {
+     "name": "STJ",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/04112026-Ex-conjuge-que-mora-com-os-filhos-no-imovel-do-outro-nao-precisa-pagar-aluguel.aspx"
+    }
+   ],
+   "article_ids": [
+    "a8a274c7259e",
+    "3539dcdf7a84"
+   ],
+   "importance": 3,
+   "why_it_matters": "Impacta diretamente o contencioso de família e imobiliário ao pacificar disputas possessórias e financeiras pós-divórcio envolvendo imóveis particulares.",
+   "image": "https://www.stj.jus.br/sites/portalp/SiteAssets/imagens/destaques/CAPA_PORTAL_AdobeStock_1971527411.jpg",
+   "published": null,
+   "lang": "pt",
+   "coverage": null,
+   "block": "Recuperação, Cível & Imobiliário"
+  },
+  {
+   "id": "abeeolica-aciona-stf-contra-regra-de-custeio-de",
+   "section": "tributario",
+   "headline": "Abeeólica aciona STF contra regra de custeio de baterias em leilões",
+   "dek": "Associação questiona obrigatoriedade de geradoras arcarem sozinhas com sistemas de armazenamento contratados pelo governo.",
+   "body": [
+    "A Associação Brasileira de Energia Eólica (Abeeólica) ajuizou ação no Supremo Tribunal Federal (STF) para tentar derrubar a regra que obriga exclusivamente as empresas geradoras de energia a arcar com os custos dos sistemas de armazenamento em baterias contratados pelo governo em leilões.",
+    "A entidade aponta desequilíbrio econômico-financeiro nos contratos do setor com a imposição unilateral dessa obrigação regulatória."
+   ],
+   "sources": [
+    {
+     "name": "Estadão",
+     "url": "https://www.estadao.com.br/economia/abeeolica-vai-ao-stf-contra-regra-de-custeio-de-baterias-a-serem-contratadas-em-leilao/"
+    }
+   ],
+   "article_ids": [
+    "57301e86ab01"
+   ],
+   "importance": 3,
+   "why_it_matters": "Altera o perfil de custos e os riscos regulatórios e financeiros para empresas do setor de energia renovável.",
+   "image": "https://www.estadao.com.br/resizer/v2/IZZ7RO4VRFD7BMFFRXJVKKYEDI.jpg?auth=75ff6332812d2995c2cbd5d688140255f22ec4f5fec79891d0a14684e9d664ce&smart=true&width=1000",
+   "published": "2026-11-21T15:14:56+00:00",
+   "lang": "pt",
+   "coverage": null,
+   "block": "Política & Geopolítica (parte 2 de 5)"
+  },
+  {
+   "id": "tj-rj-declara-inconstitucionalidade-de-decreto-q",
+   "section": "politica",
+   "headline": "TJ-RJ declara inconstitucionalidade de decreto que estendia escolta a familiares de ex-governador",
+   "dek": "Órgão Especial entendeu que decreto regulamentar não pode inovar na ordem jurídica criando despesas e estendendo segurança sem respaldo legal.",
+   "body": [
+    "O Órgão Especial do Tribunal de Justiça do Rio de Janeiro declarou a inconstitucionalidade parcial do **Decreto estadual 50.144/2026**, assinado pelo então governador Cláudio Castro, que regulamentava a segurança institucional de ex-governadores. A decisão invalidou trechos que estendiam a escolta para cônjuge e filhos e que permitiam a continuidade indefinida da proteção após o término do mandato.",
+    "Segundo o tribunal, o poder regulamentar do chefe do Executivo limita-se à fiel execução da lei (neste caso, a Lei estadual 10.802/2025). A corte atendeu a uma ação direta de inconstitucionalidade ajuizada pela deputada estadual Renata Souza (PSOL), que sustentou que o governador extrapolou a competência regulamentar ao criar despesas sem autorização legislativa, ferindo princípios como o da impessoalidade."
+   ],
+   "sources": [
+    {
+     "name": "Conjur",
+     "url": "https://conjur.com.br/2026-nov-21/tj-rj-barra-ampliacao-de-prazo-de-seguranca-a-ex-governadores/"
+    }
+   ],
+   "article_ids": [
+    "e1f7ff9b2e82"
+   ],
+   "importance": 4,
+   "why_it_matters": "A decisão impede o uso de atos infralegais para ampliar benefícios a agentes públicos e familiares, reforçando o controle sobre gastos públicos no âmbito estadual.",
+   "image": "https://conjur.com.br/wp-content/uploads/2025/11/d6a1248_0-scaled-1.jpg",
+   "published": "2026-11-21T19:34:22+00:00",
+   "lang": "pt",
+   "coverage": null,
+   "block": "Política & Geopolítica (parte 1 de 5)"
+  }
+ ],
+ "quotes": [
+  {
+   "id": "usd",
+   "label": "Dólar",
+   "value": 5.9074,
+   "display": "R$ 5,91",
+   "change_pct": 0.0373,
+   "kind": "fx",
+   "as_of": "2026-11-21T10:58:14+00:00",
+   "source": "Yahoo Finance"
+  },
+  {
+   "id": "eur",
+   "label": "Euro",
+   "value": 6.5199,
+   "display": "R$ 6,52",
+   "change_pct": 0.5428,
+   "kind": "fx",
+   "as_of": "2026-11-20T21:41:46+00:00",
+   "source": "Yahoo Finance"
+  },
+  {
+   "id": "cny",
+   "label": "Yuan",
+   "value": 0.8907,
+   "display": "R$ 0,89",
+   "change_pct": -0.0101,
+   "kind": "fx",
+   "as_of": "2026-11-20T23:01:47+00:00",
+   "source": "Yahoo Finance"
+  },
+  {
+   "id": "ibov",
+   "label": "Ibovespa",
+   "value": 166376.44,
+   "display": "166.376 pts",
+   "change_pct": -0.693,
+   "kind": "index",
+   "as_of": "2026-11-19T21:20:00+00:00",
+   "source": "Yahoo Finance"
+  },
+  {
+   "id": "ifix",
+   "label": "IFIX",
+   "value": 3485.06,
+   "display": "3.485 pts",
+   "change_pct": -0.798,
+   "kind": "index",
+   "as_of": "2026-11-19T21:20:00+00:00",
+   "source": "Yahoo Finance"
+  },
+  {
+   "id": "spx",
+   "label": "S&P 500",
+   "value": 6910.39,
+   "display": "6.910 pts",
+   "change_pct": -3.699,
+   "kind": "index",
+   "as_of": "2026-11-20T21:35:54+00:00",
+   "source": "Yahoo Finance"
+  },
+  {
+   "id": "brent",
+   "label": "Brent",
+   "value": 89.95,
+   "display": "US$ 89,95",
+   "change_pct": 0.57,
+   "kind": "commodity",
+   "as_of": "2026-11-20T21:59:18+00:00",
+   "source": "Yahoo Finance"
+  },
+  {
+   "id": "gold",
+   "label": "Ouro",
+   "value": 3515.4,
+   "display": "US$ 3.515",
+   "change_pct": -4.615,
+   "kind": "commodity",
+   "as_of": "2026-11-20T21:59:57+00:00",
+   "source": "Yahoo Finance"
+  },
+  {
+   "id": "btc",
+   "label": "Bitcoin",
+   "value": 59663.96,
+   "display": "US$ 59.664",
+   "change_pct": 3.417,
+   "kind": "crypto",
+   "as_of": "2026-11-22T08:54:18+00:00",
+   "source": "Yahoo Finance"
+  },
+  {
+   "id": "selic",
+   "label": "Selic",
+   "value": 13.75,
+   "display": "13,75%",
+   "change_pct": null,
+   "kind": "rate",
+   "as_of": "2026-11-22",
+   "source": "Banco Central (SGS)"
+  },
+  {
+   "id": "ipca12m",
+   "label": "IPCA 12m",
+   "value": 4.63,
+   "display": "4,63%",
+   "change_pct": null,
+   "kind": "inflation",
+   "as_of": "2026-10",
+   "source": "Banco Central (SGS)"
+  },
+  {
+   "id": "igpm12m",
+   "label": "IGP-M 12m",
+   "value": 5.2464866840352675,
+   "display": "5,25%",
+   "change_pct": null,
+   "kind": "inflation",
+   "as_of": "2026-10",
+   "source": "Banco Central (SGS)"
+  },
+  {
+   "id": "incc12m",
+   "label": "INCC 12m",
+   "value": 6.735330534733097,
+   "display": "6,74%",
+   "change_pct": null,
+   "kind": "inflation",
+   "as_of": "2026-10",
+   "source": "Banco Central (SGS)"
+  }
+ ],
+ "weather": [],
+ "stats": {
+  "sources_total": 63,
+  "sources_ok": 62,
+  "sources_failed": [
+   {
+    "source_id": "receitafederal",
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/RSS",
+    "error": "erro de rede: URLError: [Errno 104] Connection reset by peer"
+   }
+  ],
+  "articles_collected": 263,
+  "articles_considered": 263,
+  "llm_input_tokens": 66752,
+  "llm_output_tokens": 10383
+ },
+ "wire": [
+  {
+   "title": "Seguro cibernético: Saiba quando PMEs precisam e as exigências das apólices",
+   "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/empreendedorismo-e-trabalho/seguro-cibernetico-saiba-quando-pmes-precisam-e-as-exigencias-das-apolices/",
+   "source": "CNN Brasil",
+   "published": "2026-11-22T08:35:55+00:00",
+   "section": "civel"
+  },
+  {
+   "title": "Estamos usando as métricas corretas de atendimento ao cliente?",
+   "url": "https://www.infomoney.com.br/business/global/estamos-usando-as-metricas-corretas-de-atendimento-ao-cliente/",
+   "source": "InfoMoney",
+   "published": "2026-11-22T08:00:00+00:00",
+   "section": "previdenciario"
+  },
+  {
+   "title": "Fintech ‘copia’ modelo do Minha Casa, Minha vida para crédito imobiliário",
+   "url": "https://www.estadao.com.br/economia/coluna-da-broad/fintech-copia-modelo-do-minha-casa-minha-vida-para-credito-imobiliario/",
+   "source": "Estadão",
+   "published": "2026-11-22T08:00:00+00:00",
+   "section": "imobiliario"
+  },
+  {
+   "title": "Observância do art. 166 do CTN na repetição do indébito da CBS/IBS",
+   "url": "https://www.jota.info/opiniao-e-analise/colunas/pauta-fiscal/observancia-do-art-166-do-ctn-na-repeticao-do-indebito-da-cbs-ibs",
+   "source": "JOTA",
+   "published": "2026-11-22T06:39:09+00:00",
+   "section": "tributario"
+  },
+  {
+   "title": "Há 3.000 anos, trabalhadores do Egito fizeram uma greve por salários atrasados; conheça a história",
+   "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/22/ha-3000-anos-trabalhadores-do-egito-fizeram-uma-greve-por-salarios-atrasados-conheca-a-historia.ghtml",
+   "source": "g1",
+   "published": "2026-11-22T06:00:00+00:00",
+   "section": "trabalhista"
+  },
+  {
+   "title": "13º salário na conta: como decidir entre pagar dívidas, investir ou aproveitar as compras",
+   "url": "https://g1.globo.com/g1-explica/noticia/2026/11/22/13o-salario-na-conta-como-decidir-entre-pagar-dividas-investir-ou-aproveitar-as-compras.ghtml",
+   "source": "g1",
+   "published": "2026-11-22T05:00:00+00:00",
+   "section": "tributario"
+  },
+  {
+   "title": "Prorrogação do IPI será prioridade da equipe econômica após avanço do plano Moretti",
+   "url": "https://www1.folha.uol.com.br/colunas/painel/2026/11/prorrogacao-do-ipi-sera-prioridade-da-equipe-economica-apos-avanco-do-plano-moretti.shtml",
+   "source": "Folha de S.Paulo",
+   "published": "2026-11-22T02:00:00+00:00",
+   "section": "tributario"
+  },
+  {
+   "title": "Bélgica enfrenta paralisação do tráfego aéreo devido a greve nacional na segunda-feira",
+   "url": "https://c-level.folha.uol.com.br/negocios/2026/11/belgica-enfrenta-paralisacao-do-trafego-aereo-devido-a-greve-nacional-na-segunda-feira.shtml",
+   "source": "Folha de S.Paulo",
+   "published": "2026-11-21T23:24:00+00:00",
+   "section": "trabalhista"
+  },
+  {
+   "title": "Ganhou, mas não levou: o Pacote Fiscal e a trava nas compensações tributárias",
+   "url": "https://www.jota.info/opiniao-e-analise/artigos/ganhou-mas-nao-levou-o-pacote-fiscal-e-a-trava-nas-compensacoes-tributarias",
+   "source": "JOTA",
+   "published": "2026-11-21T23:09:01+00:00",
+   "section": "tributario"
+  },
+  {
+   "title": "Paraná registra dois tornados em um dia e chega a 15 ocorrências em 2026",
+   "url": "https://www.infomoney.com.br/brasil/parana-registra-dois-tornados-em-um-dia-e-chega-a-15-ocorrencias-em-2026/",
+   "source": "InfoMoney",
+   "published": "2026-11-21T22:35:00+00:00",
+   "section": "imobiliario"
+  },
+  {
+   "title": "A dívida não cai por decreto",
+   "url": "https://www.jota.info/opiniao-e-analise/artigos/a-divida-nao-cai-por-decreto",
+   "source": "JOTA",
+   "published": "2026-11-21T22:11:42+00:00",
+   "section": "tributario"
+  },
+  {
+   "title": "Consif questiona entendimento do TST sobre prazo para ações sobre previdência privada",
+   "url": "https://conjur.com.br/2026-nov-21/consif-questiona-entendimento-do-tst-sobre-prazo-para-acoes-sobre-previdencia-privada/",
+   "source": "Conjur",
+   "published": "2026-11-21T18:51:10+00:00",
+   "section": "trabalhista"
+  },
+  {
+   "title": "Recuperação judicial do cooperado: se a lei exclui, por que a cooperativa é incluída na lista de credores?",
+   "url": "https://conjur.com.br/2026-nov-21/recuperacao-judicial-do-cooperado-se-a-lei-exclui-por-que-a-cooperativa-e-incluida-na-lista-de-credores/",
+   "source": "Conjur",
+   "published": "2026-11-21T16:16:38+00:00",
+   "section": "recuperacao"
+  },
+  {
+   "title": "Empresas não ocupam vagas para pessoas com deficiência, mesmo sobrando candidatos",
+   "url": "https://c-level.folha.uol.com.br/negocios/2026/11/empresas-nao-ocupam-vagas-para-pessoas-com-deficiencia-mesmo-sobrando-candidatos.shtml",
+   "source": "Folha de S.Paulo",
+   "published": "2026-11-21T16:05:00+00:00",
+   "section": "previdenciario"
+  },
+  {
+   "title": "UE propõe taxar serviços digitais e cortar em 10% orçamento do bloco",
+   "url": "https://c-level.folha.uol.com.br/negocios/2026/11/ue-propoe-taxar-servicos-digitais-e-cortar-em-10-orcamento-do-bloco.shtml",
+   "source": "Folha de S.Paulo",
+   "published": "2026-11-21T14:33:00+00:00",
+   "section": "tributario"
+  }
+ ],
+ "compared": [
+  {
+   "topic": "Repercussão internacional e movimentações jurídico-políticas globais",
+   "conclusion": "A cobertura converge no tratamento estritamente factual das notícias internacionais sem apresentar divisões de enfoques.",
+   "outlets": [
+    {
+     "name": "Valor Econômico",
+     "stance": "neutro",
+     "framing": "Noticia com foco factual a operação de captura do narcotraficante mexicano e o impacto de segurança na região.",
+     "url": "https://valor.globo.com/mundo/noticia/2026/11/21/mxico-captura-narcotraficante-el-chapo-isidro-um-dos-dez-fugitivos-mais-procurados-pelo-fbi.ghtml"
+    },
+    {
+     "name": "Folha de S.Paulo",
+     "stance": "neutro",
+     "framing": "Aborda a morte da ex-vice-presidente e a homologação de acordo judicial internacional nos EUA envolvendo empresa alemã.",
+     "url": "https://c-level.folha.uol.com.br/agro/2026/11/justica-dos-eua-aprova-acordo-de-us-725-bi-da-bayer-sobre-cancer-ligado-ao-roundup.shtml"
+    },
+    {
+     "name": "Estadão",
+     "stance": "neutro",
+     "framing": "Destaca os desdobramentos de investigações e relatórios em órgãos internacionais sobre o cenário político e judicial.",
+     "url": "https://www.estadao.com.br/internacional/quem-e-chapo-isidro-narcotraficante-mexicano-preso-pelo-fbi/"
+    },
+    {
+     "name": "g1",
+     "stance": "neutro",
+     "framing": "",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/como-el-chapo-ascendeu-de-pequeno-traficante-a-magnata-do-narcotrafico-no-mexico.ghtml"
+    },
+    {
+     "name": "Money Times",
+     "stance": "neutro",
+     "framing": "",
+     "url": "https://www.moneytimes.com.br/juiz-dos-eua-aprova-acordo-de-us-725-bi-da-bayer-sobre-herbicida-suspeito-de-causar-cancer/"
+    },
+    {
+     "name": "Exame",
+     "stance": "neutro",
+     "framing": "",
+     "url": "https://exame.com/mundo/prisao-de-el-chapo-isidro-mata-quatro-militares-e-leva-panico-a-cinco-cidades-do-mexico/"
+    },
+    {
+     "name": "The New York Times",
+     "stance": "neutro",
+     "framing": "",
+     "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-captures-drug-kingpin.html"
+    },
+    {
+     "name": "The Guardian",
+     "stance": "neutro",
+     "framing": "",
+     "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing"
+    },
+    {
+     "name": "BBC News",
+     "stance": "neutro",
+     "framing": "",
+     "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno"
+    }
+   ],
+   "side_a": "",
+   "side_b": "",
+   "section": "mundo",
+   "published": "2026-11-22T01:56:16+00:00",
+   "url": "https://valor.globo.com/mundo/noticia/2026/11/21/mxico-captura-narcotraficante-el-chapo-isidro-um-dos-dez-fugitivos-mais-procurados-pelo-fbi.ghtml",
+   "article_ids": [
+    "0425fe915d99",
+    "6fbdf3c88c5a",
+    "afd2541cf70f",
+    "6f42452f9132",
+    "5cedd771545f",
+    "8fd206747afb",
+    "b07832883f6b",
+    "235dd2740397",
+    "d1a7b2bd5003",
+    "4f28173eb8d5",
+    "f49a8e764424",
+    "60fdc60896c6",
+    "de8a061fa3d6",
+    "f26ddf009057",
+    "22dd625d41f2",
+    "80154fe65d34",
+    "06b98fb6c92a"
+   ]
+  },
+  {
+   "topic": "Internação de Jair Bolsonaro no hospital DF Star e decisões de Alexandre de Moraes",
+   "conclusion": "A cobertura convergiu integralmente ao relatar o quadro clínico estável de Bolsonaro, as restrições impostas por Moraes e a chegada de familiares.",
+   "outlets": [
+    {
+     "name": "Valor Econômico",
+     "stance": "neutro",
+     "framing": "Noticia o boletim médico de abdômen agudo obstrutivo, a chegada de Michelle Bolsonaro e a decisão de Moraes sobre visitas de filhos sem uso de celulares.",
+     "url": "https://valor.globo.com/politica/noticia/2026/11/21/michelle-chega-a-braslia-para-visitar-bolsonaro-no-hospital.ghtml"
+    },
+    {
+     "name": "Estadão",
+     "stance": "neutro",
+     "framing": "Acompanha o estado estável de Bolsonaro na UTI e detalha a autorização de visitas com vedação de aparelhos eletrônicos.",
+     "url": "https://www.estadao.com.br/politica/blog-do-fausto-macedo/moraes-autoriza-visitas-dos-filhos-a-bolsonaro-durante-internacao-mas-proibe-celulares-e-cameras/"
+    },
+    {
+     "name": "Folha de S.Paulo",
+     "stance": "neutro",
+     "framing": "",
+     "url": "https://www1.folha.uol.com.br/poder/2026/11/defesa-de-bolsonaro-pede-para-moraes-autorizar-visitas-diarias-de-filhos-no-hospital.shtml"
+    },
+    {
+     "name": "g1",
+     "stance": "neutro",
+     "framing": "Foca no diagnóstico de obstrução intestinal e na autorização de visitas diárias de três filhos e da enteada.",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/21/moraes-atende-a-pedido-e-autoriza-visitas-diarias-de-filhos-a-bolsonaro-durante-a-internacao.ghtml"
+    },
+    {
+     "name": "Poder360",
+     "stance": "neutro",
+     "framing": "Destaca a chegada de Michelle ao hospital e a retirada temporária da tornozeleira eletrônica por ordem de Alexandre de Moraes.",
+     "url": "https://www.poder360.com.br/poder-gente/apos-viagem-michelle-vai-a-hospital-em-que-bolsonaro-esta-internado/"
+    },
+    {
+     "name": "Agência Brasil",
+     "stance": "neutro",
+     "framing": "Registra de forma sucinta a internação do ex-presidente em UTI no Distrito Federal.",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/ex-presidente-jair-bolsonaro-esta-internado-em-uti-no-distrito-federal"
+    },
+    {
+     "name": "Exame",
+     "stance": "neutro",
+     "framing": "Informa a falta de previsão de alta e a liberação de visitas diárias aos familiares.",
+     "url": "https://exame.com/brasil/bolsonaro-vai-para-uti-apos-diagnostico-de-abdomen-agudo-obstrutivo/"
+    },
+    {
+     "name": "CNN Brasil",
+     "stance": "neutro",
+     "framing": "Atualiza o terceiro dia de internação e a chegada de Michelle Bolsonaro ao hospital.",
+     "url": "https://www.cnnbrasil.com.br/politica/bolsonaro-segue-internado-pelo-terceiro-dia-em-uti-e-sem-previsao-de-alta/"
+    }
+   ],
+   "side_a": "",
+   "side_b": "",
+   "section": "politica",
+   "published": "2026-11-22T06:24:47+00:00",
+   "url": "https://valor.globo.com/politica/noticia/2026/11/21/michelle-chega-a-braslia-para-visitar-bolsonaro-no-hospital.ghtml",
+   "article_ids": [
+    "d74c1eba88dc",
+    "476bb99c79ac",
+    "be90d030c170",
+    "1f376302bcd8",
+    "1cd475d82f9f",
+    "5d511224ccfc",
+    "46729dbb8b8b",
+    "e085e2fdd076",
+    "da5c94a72e63",
+    "4714bdab51d2",
+    "3300b18ccb24",
+    "71fd0ab370ad",
+    "ffa936b00a08",
+    "7500155ec820",
+    "5d3bb3248c81",
+    "a80cc562524b"
+   ]
+  },
+  {
+   "topic": "Declarações de Lula em defesa do ajuste fiscal e votação na Câmara",
+   "conclusion": "A cobertura seguiu unânime em relatar a reação de Lula às críticas econômicas, detalhando os pontos centrais do pacote fiscal e a articulação no Congresso.",
+   "outlets": [
+    {
+     "name": "Estadão",
+     "stance": "neutro",
+     "framing": "Destaca as críticas de Lula ao mercado e à Faria Lima durante live, além de apontar as visões divergentes sobre o pacote.",
+     "url": "https://www.estadao.com.br/economia/lula-faz-live-com-janones-no-feriado-de-consciencia-negra-npr/"
+    },
+    {
+     "name": "g1",
+     "stance": "neutro",
+     "framing": "Detalha que Lula definiu a medida como ajuste orçamentário, elogiou o ministro Bruno Moretti e informou a votação na Câmara.",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/22/camara-deve-votar-projeto-de-ajuste-fiscal-nesta-segunda.ghtml"
+    },
+    {
+     "name": "Agência Brasil",
+     "stance": "neutro",
+     "framing": "Enfatiza a defesa do projeto de ajuste fiscal e as críticas do presidente à postura do mercado financeiro.",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula"
+    },
+    {
+     "name": "Seu Dinheiro",
+     "stance": "neutro",
+     "framing": "Aborda as críticas recebidas pelo pacote fiscal de diversos lados e a resistência de Lula às pressões da Faria Lima.",
+     "url": "https://www.seudinheiro.com/2026/economia/apos-criticas-de-todos-os-lados-lula-defende-pacote-fiscal-e-diz-que-nao-deixara-a-faria-lima-ensinar-como-dirigir-o-brasil-giov/"
+    },
+    {
+     "name": "Money Times",
+     "stance": "neutro",
+     "framing": "Foca na defesa do ministro Moretti e nas críticas de Lula à esquerda e aos agentes financeiros.",
+     "url": "https://www.moneytimes.com.br/ajuste-fiscal-lula-defende-moretti-e-critica-gritaria-de-parte-da-esquerda-e-de-yuppies-da-faria-lima/"
+    }
+   ],
+   "side_a": "",
+   "side_b": "",
+   "section": "politica",
+   "published": "2026-11-22T03:00:00+00:00",
+   "url": "https://www.estadao.com.br/economia/lula-faz-live-com-janones-no-feriado-de-consciencia-negra-npr/",
+   "article_ids": [
+    "fe1a79ffc6a9",
+    "93640836281e",
+    "e166a60f4730",
+    "630c7c3fa4b3",
+    "77b634cf3dde",
+    "b8a9756b47b0"
+   ]
+  },
+  {
+   "topic": "Impasse e atrasos na COP-31 sobre combustíveis fósseis",
+   "conclusion": "A cobertura convergiu ao relatar o prolongamento da COP-31 e a persistência de impasses em torno dos combustíveis fósseis.",
+   "outlets": [
+    {
+     "name": "Estadão",
+     "stance": "neutro",
+     "framing": "Destaca a falta de consenso sobre o abandono de combustíveis fósseis e a apresentação do terceiro rascunho sem menções explícitas.",
+     "url": "https://www.estadao.com.br/internacional/cop-31-na-turquia-encerra-mais-um-dia-sem-acordo-em-meio-a-impasse-sobre-combustiveis-fosseis/"
+    },
+    {
+     "name": "Exame",
+     "stance": "neutro",
+     "framing": "Enfatiza a prorrogação da conferência para o domingo com cadeiras vazias e oposição saudita.",
+     "url": "https://exame.com/esg/desfecho-da-cop31-fica-para-domingo-com-cadeiras-vazias-e-sauditas-contra-130-paises/"
+    },
+    {
+     "name": "CNN Brasil",
+     "stance": "neutro",
+     "framing": "Reporta a convocação da última plenária sem acordo e as revisões jurídicas no documento final.",
+     "url": "https://www.cnnbrasil.com.br/internacional/cop-31-convoca-ultima-plenaria-ainda-sem-acordo-em-pontos-polemicos/"
+    }
+   ],
+   "side_a": "",
+   "side_b": "",
+   "section": "mundo",
+   "published": "2026-11-22T07:04:13+00:00",
+   "url": "https://www.estadao.com.br/internacional/cop-31-na-turquia-encerra-mais-um-dia-sem-acordo-em-meio-a-impasse-sobre-combustiveis-fosseis/",
+   "article_ids": [
+    "9efa7f293c46",
+    "2481af2ce3dc",
+    "161a1622d9c7"
+   ]
+  },
+  {
+   "topic": "Repercussões da guerra na Ucrânia e declarações de Zelensky",
+   "conclusion": "Os veículos relataram de forma convergente as falas de Volodymyr Zelensky e as tensões contínuas na Europa Oriental.",
+   "outlets": [
+    {
+     "name": "InfoMoney",
+     "stance": "neutro",
+     "framing": "Foca na declaração de Zelensky sobre Trump cobrar líderes europeus pelos gastos com a Ucrânia.",
+     "url": "https://www.infomoney.com.br/mundo/trump-disse-a-lideres-europeus-que-estavam-gastando-muito-com-ucrania-diz-zelensky/"
+    },
+    {
+     "name": "g1",
+     "stance": "neutro",
+     "framing": "Aborda a preocupação europeita com novos ataques e as avaliações de Zelensky sobre Putin.",
+     "url": "https://g1.globo.com/jornal-nacional/noticia/2026/11/21/novos-ataques-aumentam-a-preocupacao-de-paises-europeus-com-a-guerra-na-ucrania.ghtml"
+    },
+    {
+     "name": "BBC News",
+     "stance": "neutro",
+     "framing": "Registra a defesa de Zelensky sobre os ataques à ponte da Crimeia.",
+     "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo"
+    }
+   ],
+   "side_a": "",
+   "side_b": "",
+   "section": "mundo",
+   "published": "2026-11-22T01:45:11+00:00",
+   "url": "https://www.infomoney.com.br/mundo/trump-disse-a-lideres-europeus-que-estavam-gastando-muito-com-ucrania-diz-zelensky/",
+   "article_ids": [
+    "8a76b08e4da3",
+    "7c491dac2d77",
+    "1e61a51e310c",
+    "1c20aabfa0ef",
+    "a5ae86279d65"
+   ]
+  },
+  {
+   "topic": "Debates e articulações em torno da proposta de ajuste fiscal no Congresso",
+   "conclusion": "A cobertura dividiu-se entre a análise crítica do teor das medidas fiscais e o relato prático das negociações políticas no Congresso.",
+   "outlets": [
+    {
+     "name": "Valor Econômico",
+     "stance": "b",
+     "framing": "Registra a defesa do presidente Lula, a recusa a cortes na saúde e educação e o diálogo político.",
+     "url": "https://valor.globo.com/politica/noticia/2026/11/21/lula-rebate-crticas-ao-ajuste-fiscal-diz-que-no-far-cortes-em-educao-e-sade-e-elogia-moretti.ghtml"
+    },
+    {
+     "name": "Estadão",
+     "stance": "a",
+     "framing": "Critica a substância da proposta fiscal e pontua semelhanças com crises históricas da esquerda.",
+     "url": "https://www.estadao.com.br/economia/alexandre-schwartsman/pacote-fiscal-nao-e-ajuste-nem-bom-nem-primeiro-passo/"
+    }
+   ],
+   "side_a": "Destaca críticas e divisões na base aliada",
+   "side_b": "Aponta facilidade na tramitação por acordos",
+   "section": "politica",
+   "published": "2026-11-22T08:30:00+00:00",
+   "url": "https://valor.globo.com/politica/noticia/2026/11/21/lula-rebate-crticas-ao-ajuste-fiscal-diz-que-no-far-cortes-em-educao-e-sade-e-elogia-moretti.ghtml",
+   "article_ids": [
+    "7f7ecf6e46f3",
+    "26c5571671f4",
+    "3fd986509556",
+    "faec3ce7a874"
+   ]
+  },
+  {
+   "topic": "Reconhecimento de calamidade pública em Tupanciretã (RS) após temporal",
+   "conclusion": "A cobertura convergiu ao relatar o desastre climático no município gaúcho e a resposta oficial do governo federal.",
+   "outlets": [
+    {
+     "name": "Agência Brasil",
+     "stance": "neutro",
+     "framing": "Focou na manifestação de solidariedade do presidente Luiz Inácio Lula da Silva às vítimas e na promessa de apoio federal.",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-presta-solidariedade-cidade-gaucha-devastada-por-tempestade"
+    },
+    {
+     "name": "CNN Brasil",
+     "stance": "neutro",
+     "framing": "Destacou o anúncio do ministro da Integração e do Desenvolvimento Regional, Waldez Góes, sobre a publicação do decreto de calamidade.",
+     "url": "https://www.cnnbrasil.com.br/nacional/sul/rs/governo-reconhece-calamidade-publica-em-tupancireta-rs-apos-temporal/"
+    }
+   ],
+   "side_a": "",
+   "side_b": "",
+   "section": "politica",
+   "published": "2026-11-21T23:13:08+00:00",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-presta-solidariedade-cidade-gaucha-devastada-por-tempestade",
+   "article_ids": [
+    "6bba826ac8f9",
+    "48e2c04fb2fc"
+   ]
+  }
+ ],
+ "rationale": {
+  "method": "blocos",
+  "provider": "gemini_lite",
+  "articles": 263,
+  "outlets": 19,
+  "groups": 210,
+  "topics": 191,
+  "calls": 42,
+  "blocks": [
+   {
+    "name": "Tributário",
+    "sections": [
+     "tributario"
+    ],
+    "articles": 21,
+    "groups": 19,
+    "stories": 4,
+    "compared": 0,
+    "ok": true
+   },
+   {
+    "name": "Previdenciário & Trabalhista",
+    "sections": [
+     "previdenciario",
+     "trabalhista"
+    ],
+    "articles": 14,
+    "groups": 13,
+    "stories": 2,
+    "compared": 0,
+    "ok": true
+   },
+   {
+    "name": "Recuperação, Cível & Imobiliário",
+    "sections": [
+     "recuperacao",
+     "civel",
+     "imobiliario"
+    ],
+    "articles": 26,
+    "groups": 24,
+    "stories": 3,
+    "compared": 0,
+    "ok": true
+   },
+   {
+    "name": "Política & Geopolítica (parte 1 de 5)",
+    "sections": [
+     "politica",
+     "mundo"
+    ],
+    "articles": 35,
+    "groups": 16,
+    "stories": 1,
+    "compared": 2,
+    "ok": true
+   },
+   {
+    "name": "Política & Geopolítica (parte 2 de 5)",
+    "sections": [
+     "politica",
+     "mundo"
+    ],
+    "articles": 38,
+    "groups": 30,
+    "stories": 3,
+    "compared": 1,
+    "ok": true
+   },
+   {
+    "name": "Política & Geopolítica (parte 3 de 5)",
+    "sections": [
+     "politica",
+     "mundo"
+    ],
+    "articles": 37,
+    "groups": 37,
+    "stories": 1,
+    "compared": 1,
+    "ok": true
+   },
+   {
+    "name": "Política & Geopolítica (parte 4 de 5)",
+    "sections": [
+     "politica",
+     "mundo"
+    ],
+    "articles": 34,
+    "groups": 13,
+    "stories": 0,
+    "compared": 1,
+    "ok": true
+   },
+   {
+    "name": "Política & Geopolítica (parte 5 de 5)",
+    "sections": [
+     "politica",
+     "mundo"
+    ],
+    "articles": 58,
+    "groups": 58,
+    "stories": 0,
+    "compared": 2,
+    "ok": true
+   }
+  ]
+ },
+ "index": [
+  {
+   "section": "tributario",
+   "title": "Novo teto do MEI eleva limite de faturamento e traz economia tributária",
+   "items": [
+    {
+     "source": "InfoMoney",
+     "title": "Novo teto do MEI pode gerar economia de R$ 9,5 mil por ano; entenda mudanças",
+     "url": "https://www.infomoney.com.br/minhas-financas/novo-teto-do-mei-pode-gerar-economia-de-r-95-mil-por-ano-entenda-mudancas/",
+     "published": "2026-11-22T08:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": "novo-teto-do-mei-eleva-limite-de-faturamento-e-t",
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Reforma tributária detalha regras para notas fiscais e tributação de locações",
+   "items": [
+    {
+     "source": "Conjur",
+     "title": "A tributação da locação de imóveis por pessoas físicas na reforma tributária e o impacto no mercado imobiliário",
+     "url": "https://conjur.com.br/2026-nov-21/a-tributacao-da-locacao-de-imoveis-por-pessoas-fisicas-na-reforma-tributaria-e-o-impacto-no-mercado-imobiliario/",
+     "published": "2026-11-21T18:18:31+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Reforma tributária exige notas fiscais de locação, voos e imóveis em 2027",
+     "url": "https://c-level.folha.uol.com.br/negocios/2026/11/reforma-tributaria-exige-notas-fiscais-de-locacao-voos-e-imoveis-em-2027.shtml",
+     "published": "2026-11-21T12:27:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": "reforma-tributaria-detalha-regras-para-notas-fis",
+   "compared": true
+  },
+  {
+   "section": "tributario",
+   "title": "REIDI é mantido na reforma tributária e exige revisão contratual",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "O REIDI sobreviveu à reforma tributária, e a matriz de risco define quem captura o ganho",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/o-reidi-sobreviveu-a-reforma-tributaria-e-a-matriz-de-risco-define-quem-captura-o-ganho",
+     "published": "2026-11-22T04:57:41+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": "reidi-e-mantido-na-reforma-tributaria-e-exige-re",
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "STJ afasta interrupção de prescrição por impugnação administrativa",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "Impugnação administrativa não interrompe prescrição para repetição de indébito",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/impugnacao-administrativa-nao-interrompe-prescricao-para-repeticao-de-indebito",
+     "published": "2026-11-22T08:11:45+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": "stj-afasta-interrupcao-de-prescricao-por-impugna",
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Abeeólica aciona STF contra regra de custeio de baterias em leilões",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Abeeólica vai ao STF contra regra que define quem paga por baterias em leilões",
+     "url": "https://www.estadao.com.br/economia/abeeolica-vai-ao-stf-contra-regra-de-custeio-de-baterias-a-serem-contratadas-em-leilao/",
+     "published": "2026-11-21T15:14:56+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": "abeeolica-aciona-stf-contra-regra-de-custeio-de",
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Observância do art. 166 do CTN na repetição do indébito da CBS/IBS",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "Observância do art. 166 do CTN na repetição do indébito da CBS/IBS",
+     "url": "https://www.jota.info/opiniao-e-analise/colunas/pauta-fiscal/observancia-do-art-166-do-ctn-na-repeticao-do-indebito-da-cbs-ibs",
+     "published": "2026-11-22T06:39:09+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Ganhou, mas não levou: o Pacote Fiscal e a trava nas compensações tributárias",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "Ganhou, mas não levou: o Pacote Fiscal e a trava nas compensações tributárias",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/ganhou-mas-nao-levou-o-pacote-fiscal-e-a-trava-nas-compensacoes-tributarias",
+     "published": "2026-11-21T23:09:01+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "A dívida não cai por decreto",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "A dívida não cai por decreto",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/a-divida-nao-cai-por-decreto",
+     "published": "2026-11-21T22:11:42+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "13º salário na conta: como decidir entre pagar dívidas, investir ou aproveitar as compras",
+   "items": [
+    {
+     "source": "g1",
+     "title": "13º salário na conta: como decidir entre pagar dívidas, investir ou aproveitar as compras",
+     "url": "https://g1.globo.com/g1-explica/noticia/2026/11/22/13o-salario-na-conta-como-decidir-entre-pagar-dividas-investir-ou-aproveitar-as-compras.ghtml",
+     "published": "2026-11-22T05:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Prorrogação do IPI será prioridade da equipe econômica após avanço do plano Moretti",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Prorrogação do IPI será prioridade da equipe econômica após avanço do plano Moretti",
+     "url": "https://www1.folha.uol.com.br/colunas/painel/2026/11/prorrogacao-do-ipi-sera-prioridade-da-equipe-economica-apos-avanco-do-plano-moretti.shtml",
+     "published": "2026-11-22T02:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Rádio Decidendi: precedente sobre tributação de benefícios fiscais de ICMS é tema do podcast",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Rádio Decidendi: precedente sobre tributação de benefícios fiscais de ICMS é tema do podcast",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/19112026-Radio-Decidendi-precedente-sobre-tributacao-de-beneficios-fiscais-de-ICMS-e-tema-do-podcast.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "Rádio Decidendi debate precedente sobre revisão de benefícios por incapacidade concedidos pela Justiça",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Radio-Decidendi-debate-precedente-sobre-revisao-de-beneficios-por-incapacidade-concedidos-pela-Justica.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "PGFN pede suspensão nacional de processos sobre PIS/Cofins de seguradoras",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "PGFN pede suspensão nacional de processos sobre PIS/Cofins de seguradoras",
+     "url": "https://www.jota.info/tributos/pgfn-pede-suspensao-nacional-de-processos-sobre-pis-cofins-de-seguradoras",
+     "published": "2026-11-21T10:50:58+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Em repetitivo, STJ afasta restituição de PIS e Cofins a varejistas de cigarros e cigarrilhas",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Em repetitivo, STJ afasta restituição de PIS e Cofins a varejistas de cigarros e cigarrilhas",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/16112026-Em-repetitivo--STJ-afasta-restituicao-de-PIS-e-Cofins-a-varejistas-de-cigarros-e-cigarrilhas.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Primeira Seção reconhece relevância e suspende processos sobre revogação antecipada do benefício fiscal do Perse",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Primeira Seção reconhece relevância e suspende processos sobre revogação antecipada do benefício fiscal do Perse",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/09112026-Primeira-Secao-reconhece-relevancia-e-suspende-processos-sobre-revogacao-antecipada-do-beneficio-fiscal-do-Perse-.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "STJ participa de fórum da Ajufe sobre Reforma Tributária e a Justiça Federal",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "STJ participa de fórum da Ajufe sobre Reforma Tributária e a Justiça Federal",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/13112026-STJ-participa-de-forum-da-Ajufe-sobre-Reforma-Tributaria-e-a-Justica-Federal.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Relevância: STJ discute se empresa com atividade secundária de transporte de carga pode creditar ICMS sobre combustível",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Relevância: STJ discute se empresa com atividade secundária de transporte de carga pode creditar ICMS sobre combustível",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/10112026-Relevancia-STJ-discute-se-empresa-com-atividade-secundaria-de-transporte-de-carga-pode-creditar-ICMS-sobre.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "CPRB compõe a base de cálculo do PIS/Pasep e da Cofins, define STJ em tese vinculante",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "CPRB compõe a base de cálculo do PIS/Pasep e da Cofins, define STJ em tese vinculante",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/13112026-CPRB-compoe-a-base-de-calculo-do-PISPasep-e-da-Cofins--define-STJ-em-tese-vinculante.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "UE propõe taxar serviços digitais e cortar em 10% orçamento do bloco",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "UE propõe taxar serviços digitais e cortar em 10% orçamento do bloco",
+     "url": "https://c-level.folha.uol.com.br/negocios/2026/11/ue-propoe-taxar-servicos-digitais-e-cortar-em-10-orcamento-do-bloco.shtml",
+     "published": "2026-11-21T14:33:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Transação tributária e devedor contumaz",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "Transação tributária e devedor contumaz",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/transacao-tributaria-e-devedor-contumaz",
+     "published": "2026-11-21T06:55:46+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "tributario",
+   "title": "Por que o México arrecada tão poucos impostos (e como financia seus crescentes benefícios sociais)",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Por que o México arrecada tão poucos impostos (e como financia seus crescentes benefícios sociais)",
+     "url": "https://g1.globo.com/economia/noticia/2026/11/21/por-que-o-mexico-arrecada-tao-poucos-impostos-e-como-financia-seus-crescentes-beneficios-sociais.ghtml",
+     "published": "2026-11-21T07:04:03+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "previdenciario",
+   "title": "Titulares de cartórios ficam isentos da contribuição de salário-educação",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Primeira Seção fixa tese e define que salário-educação não pode ser exigido de titulares de cartório",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18112026-Primeira-Secao-fixa-tese-e-define-que-salario-educacao-nao-pode-ser-exigido-de-titulares-de-cartorio.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": "titulares-de-cartorios-ficam-isentos-da-contribu",
+   "compared": false
+  },
+  {
+   "section": "previdenciario",
+   "title": "STJ discute se exposição à eletricidade garante aposentadoria especial",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Primeira Seção discute se exposição à eletricidade ainda garante direito à aposentadoria especial",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Primeira-Secao-discute-se-exposicao-a-eletricidade-ainda-garante-direito-a-aposentadoria-especial.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": "stj-discute-se-exposicao-a-eletricidade-garante",
+   "compared": false
+  },
+  {
+   "section": "previdenciario",
+   "title": "Estamos usando as métricas corretas de atendimento ao cliente?",
+   "items": [
+    {
+     "source": "InfoMoney",
+     "title": "Estamos usando as métricas corretas de atendimento ao cliente?",
+     "url": "https://www.infomoney.com.br/business/global/estamos-usando-as-metricas-corretas-de-atendimento-ao-cliente/",
+     "published": "2026-11-22T08:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "previdenciario",
+   "title": "Operação Faroeste: STJ condena mais uma desembargadora do TJBA e cassa aposentadoria",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Operação Faroeste: STJ condena mais uma desembargadora do TJBA e cassa aposentadoria",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/04112026-Operacao-Faroeste-STJ-condena-mais-uma-desembargadora-do-TJBA-e-cassa-aposentadoria.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "Operação Faroeste: relator manda prender desembargadora do TJBA que viajou para Portugal e comunica Interpol",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/09112026-Operacao-Faroeste-relator-manda-prender-desembargadora-do-TJBA-que-viajou-para-Portugal-e-comunica-Interpol.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "previdenciario",
+   "title": "Empresas não ocupam vagas para pessoas com deficiência, mesmo sobrando candidatos",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Empresas não ocupam vagas para pessoas com deficiência, mesmo sobrando candidatos",
+     "url": "https://c-level.folha.uol.com.br/negocios/2026/11/empresas-nao-ocupam-vagas-para-pessoas-com-deficiencia-mesmo-sobrando-candidatos.shtml",
+     "published": "2026-11-21T16:05:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "previdenciario",
+   "title": "Décimo terceiro cai nos próximos dias. Veja o impacto esperado na economia",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Décimo terceiro cai nos próximos dias. Veja o impacto esperado na economia",
+     "url": "https://valor.globo.com/brasil/noticia/2026/11/21/decimo-terceiro-cai-nos-proximos-dias-veja-o-impacto-esperado-na-economia.ghtml",
+     "published": "2026-11-21T09:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "trabalhista",
+   "title": "Empresas apontam omissões em decreto do governo sobre escala de trabalho",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Decreto do fim da escala 6 x 1 é omisso e contraria STF, dizem entidades empresariais",
+     "url": "https://valor.globo.com/legislacao/noticia/2026/11/21/decreto-do-fim-da-escala-6-x-1-e-omisso-e-contraria-stf-dizem-associacoes.ghtml",
+     "published": "2026-11-21T11:30:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "CNN Brasil",
+     "title": "Governo regulamenta jornada 5×2 enquanto STF ainda discute flexibilização",
+     "url": "https://www.cnnbrasil.com.br/politica/governo-regulamenta-jornada-5x2-enquanto-stf-ainda-discute-flexibilizacao/",
+     "published": "2026-11-22T07:00:45+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": "empresas-apontam-omissoes-em-decreto-do-governo",
+   "compared": true
+  },
+  {
+   "section": "trabalhista",
+   "title": "Há 3.000 anos, trabalhadores do Egito fizeram uma greve por salários atrasados; conheça a história",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Há 3.000 anos, trabalhadores do Egito fizeram uma greve por salários atrasados; conheça a história",
+     "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/22/ha-3000-anos-trabalhadores-do-egito-fizeram-uma-greve-por-salarios-atrasados-conheca-a-historia.ghtml",
+     "published": "2026-11-22T06:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "trabalhista",
+   "title": "Consif questiona entendimento do TST sobre prazo para ações sobre previdência privada",
+   "items": [
+    {
+     "source": "Conjur",
+     "title": "Consif questiona entendimento do TST sobre prazo para ações sobre previdência privada",
+     "url": "https://conjur.com.br/2026-nov-21/consif-questiona-entendimento-do-tst-sobre-prazo-para-acoes-sobre-previdencia-privada/",
+     "published": "2026-11-21T18:51:10+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "trabalhista",
+   "title": "Bélgica enfrenta paralisação do tráfego aéreo devido a greve nacional na segunda-feira",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Bélgica enfrenta paralisação do tráfego aéreo devido a greve nacional na segunda-feira",
+     "url": "https://c-level.folha.uol.com.br/negocios/2026/11/belgica-enfrenta-paralisacao-do-trafego-aereo-devido-a-greve-nacional-na-segunda-feira.shtml",
+     "published": "2026-11-21T23:24:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "trabalhista",
+   "title": "Consignado CLT é um mercado ‘altamente competitivo’, diz vice-presidente da ABCD",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "Consignado CLT é um mercado ‘altamente competitivo’, diz vice-presidente da ABCD",
+     "url": "https://www.jota.info/tributos-e-empresas/mercado/consignado-clt-e-um-mercado-altamente-competitivo-diz-vice-presidente-da-abcd",
+     "published": "2026-11-21T13:11:06+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "trabalhista",
+   "title": "Orelhão está de volta, mas agora oferece micro-ondas e água",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Orelhão está de volta, mas agora oferece micro-ondas e água",
+     "url": "https://valor.globo.com/empresas/marketing/noticia/2026/11/21/orelhao-esta-de-volta-mas-agora-oferece-micro-ondas-e-agua.ghtml",
+     "published": "2026-11-21T11:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "trabalhista",
+   "title": "Relator suspende decisões judiciais sobre programa para motoristas da Uber até definição de competência",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Relator suspende decisões judiciais sobre programa para motoristas da Uber até definição de competência",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18112026-Relator-suspende-decisoes-judiciais-sobre-programa-para-motoristas-da-Uber-ate-definicao-de-competencia.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "trabalhista",
+   "title": "OPINIÃO. Adeus, Getúlio. A CLT vai perdendo seu encanto",
+   "items": [
+    {
+     "source": "Brazil Journal",
+     "title": "OPINIÃO. Adeus, Getúlio. A CLT vai perdendo seu encanto",
+     "url": "https://braziljournal.com/opiniao-adeus-getulio-a-clt-vai-perdendo-seu-encanto",
+     "published": "2026-11-22T03:10:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "recuperacao",
+   "title": "STJ fixa tese sobre honorários em habilitação e regras trabalhistas na falência",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "STJ fixa critérios para honorários por habilitação e impugnação de crédito em recuperação ou falência",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/04112026-STJ-fixa-criterios-para-honorarios-por-habilitacao-e-impugnacao-de-credito-em-recuperacao-ou-falencia.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "Terceira Turma define forma de pagamento de créditos na falência por trabalho prestado na recuperação judicial",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06112026-Terceira-Turma-define-forma-de-pagamento-de-creditos-na-falencia-por-trabalho-prestado-na-recuperacao-judicial.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": "stj-fixa-tese-sobre-honorarios-em-habilitacao-e",
+   "compared": false
+  },
+  {
+   "section": "recuperacao",
+   "title": "Recuperação judicial do cooperado: se a lei exclui, por que a cooperativa é incluída na lista de credores?",
+   "items": [
+    {
+     "source": "Conjur",
+     "title": "Recuperação judicial do cooperado: se a lei exclui, por que a cooperativa é incluída na lista de credores?",
+     "url": "https://conjur.com.br/2026-nov-21/recuperacao-judicial-do-cooperado-se-a-lei-exclui-por-que-a-cooperativa-e-incluida-na-lista-de-credores/",
+     "published": "2026-11-21T16:16:38+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "recuperacao",
+   "title": "Terceira Turma afasta fixação de honorários sucumbenciais em plano compulsório por superendividamento",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Terceira Turma afasta fixação de honorários sucumbenciais em plano compulsório por superendividamento",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Terceira-Turma-afasta-fixacao-de-honorarios-sucumbenciais-em-plano-compulsorio-por-superendividamento.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "Poupança usada como conta-corrente não afasta impenhorabilidade, define STJ",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Poupança usada como conta-corrente não afasta impenhorabilidade, define Corte Especial em repetitivo",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/17112026-Poupanca-usada-como-conta-corrente-nao-afasta-impenhorabilidade--define-Corte-Especial-em-repetitivo.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": "poupanca-usada-como-conta-corrente-nao-afasta-im",
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "STJ lança, nesta quarta-feira (11), obra sobre transformação digital",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "STJ lança, nesta quarta-feira (11), obra sobre transformação digital",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/1111STJ-lanca--nesta-quarta-feira--11---obra-sobre-transformacao-digital-.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "STJ lança livro sobre transformação digital e proteção das criações intelectuais",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06112026-STJ-lanca-livro-sobre-transformacao-digital-e-protecao-das-criacoes-intelectuais.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "Seguro cibernético: Saiba quando PMEs precisam e as exigências das apólices",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Seguro cibernético: Saiba quando PMEs precisam e as exigências das apólices",
+     "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/empreendedorismo-e-trabalho/seguro-cibernetico-saiba-quando-pmes-precisam-e-as-exigencias-das-apolices/",
+     "published": "2026-11-22T08:35:55+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "Prazo para cobrar prejuízos causados por ex-presidente de associação é de dez anos",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Prazo para cobrar prejuízos causados por ex-presidente de associação é de dez anos",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/03112026-Prazo-para-cobrar-prejuizos-causados-por-ex-presidente-de-associacao-e-de-dez-anos.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "Primeira Turma reconhece dano moral coletivo presumido por degradação de patrimônio tombado até tutela de urgência",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Primeira Turma reconhece dano moral coletivo presumido por degradação de patrimônio tombado até tutela de urgência",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/16112026-Primeira-Turma-reconhece-dano-moral-coletivo-presumido-por-degradacao-de-patrimonio-tombado-ate-tutela-de-urgencia.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "Dia da Consciência Negra: tribunal não terá expediente na próxima sexta-feira (20)",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Dia da Consciência Negra: tribunal não terá expediente na próxima sexta-feira (20)",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18112026-Dia-da-Consciencia-Negra-tribunal-nao-tera-expediente-na-proxima-sexta-feira--20-.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "STJ e CNJ assinam acordo de cooperação para compartilhamento de dados",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "STJ e CNJ assinam acordo de cooperação para compartilhamento de dados",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/05112026-STJ-e-CNJ-assinam-acordo-de-cooperacao-para-compartilhamento-de-dados-.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "Coritiba e ex-dirigente devem indenizar Athletico Paranaense por ofensas contra adesão do rival à campanha por paz no futebol",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Coritiba e ex-dirigente devem indenizar Athletico Paranaense por ofensas contra adesão do rival à campanha por paz no futebol",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/10112026-Coritiba-e-ex-dirigente-devem-indenizar-Athletico-Paranaense-por-ofensas-contra-adesao-do-rival-a-campanha-por-paz.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "Informativo de Jurisprudência destaca uso de prompt injection em petições e cobertura de sensor de glicose",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Informativo de Jurisprudência destaca uso de prompt injection em petições e cobertura de sensor de glicose",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/17112026-Informativo-de-Jurisprudencia-destaca-uso-de-prompt-injection-em-peticoes-e-cobertura-de-sensor-de-glicose-.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "Entender Direito aborda evolução da jurisprudência do STJ sobre agravo de instrumento",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Entender Direito aborda evolução da jurisprudência do STJ sobre agravo de instrumento",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18112026-Entender-Direito-aborda-evolucao-da-jurisprudencia-do-STJ-sobre-agravo-de-instrumento.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "civel",
+   "title": "Podcast STJ No Seu Dia debate direitos difusos e indenização por venda irregular de agrotóxicos",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Podcast STJ No Seu Dia debate direitos difusos e indenização por venda irregular de agrotóxicos",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/11112026-Podcast-STJ-No-Seu-Dia-debate-direitos-difusos-e-indenizacao-por-venda-irregular-de-agrotoxicos.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "imobiliario",
+   "title": "Ex-cônjuge que reside com filhos em imóvel exclusivo do outro não deve pagar aluguel",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Ex-cônjuge que mora com os filhos no imóvel do outro não precisa pagar aluguel",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/04112026-Ex-conjuge-que-mora-com-os-filhos-no-imovel-do-outro-nao-precisa-pagar-aluguel.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "STJ Notícias destaca decisão sobre moradia dos filhos após a separação dos pais",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/10112026-STJ-Noticias-destaca-decisao-sobre-moradia-dos-filhos-apos-a-separacao-dos-pais.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": "ex-conjuge-que-reside-com-filhos-em-imovel-exclu",
+   "compared": false
+  },
+  {
+   "section": "imobiliario",
+   "title": "Fintech ‘copia’ modelo do Minha Casa, Minha vida para crédito imobiliário",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Fintech ‘copia’ modelo do Minha Casa, Minha vida para crédito imobiliário",
+     "url": "https://www.estadao.com.br/economia/coluna-da-broad/fintech-copia-modelo-do-minha-casa-minha-vida-para-credito-imobiliario/",
+     "published": "2026-11-22T08:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "imobiliario",
+   "title": "Paraná registra dois tornados em um dia e chega a 15 ocorrências em 2026",
+   "items": [
+    {
+     "source": "InfoMoney",
+     "title": "Paraná registra dois tornados em um dia e chega a 15 ocorrências em 2026",
+     "url": "https://www.infomoney.com.br/brasil/parana-registra-dois-tornados-em-um-dia-e-chega-a-15-ocorrencias-em-2026/",
+     "published": "2026-11-21T22:35:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "imobiliario",
+   "title": "Condomínio deve indenizar moradores por furto em apartamento após falha da portaria no controle de acesso",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Condomínio deve indenizar moradores por furto em apartamento após falha da portaria no controle de acesso",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06112026-Condominio-deve-indenizar-moradores-por-furto-em-apartamento-apos-falha-da-portaria-no-controle-de-acesso.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "imobiliario",
+   "title": "Terceira Turma mantém separação obrigatória em união estável de maior de 70 anos extinta antes de tese do STF",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Terceira Turma mantém separação obrigatória em união estável de maior de 70 anos extinta antes de tese do STF",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/19112026-Terceira-Turma-mantem-separacao-obrigatoria-em-uniao-estavel-de-maior-de-70-anos-extinta-antes-de-.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "imobiliario",
+   "title": "Justiça condena Vitacon por entregar imóveis inacabados com habite-se",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Justiça condena Vitacon por entregar imóveis inacabados com habite-se",
+     "url": "https://www.estadao.com.br/economia/negocios/justica-condena-vitacon-por-entregar-imoveis-inacabados-com-habite-se/",
+     "published": "2026-11-21T08:30:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "imobiliario",
+   "title": "Restrição de transferência sobre imóvel de terceiro não denunciado",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "Restrição de transferência sobre imóvel de terceiro não denunciado",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/restricao-de-transferencia-sobre-imovel-de-terceiro-nao-denunciado",
+     "published": "2026-11-21T04:10:53+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "imobiliario",
+   "title": "Desconto em contratos do Banco do Brasil (BBAS3), temor nível Dilma e a liderança da Smart Fit (SMFT3): veja as mais lidas da semana",
+   "items": [
+    {
+     "source": "Seu Dinheiro",
+     "title": "Desconto em contratos do Banco do Brasil (BBAS3), temor nível Dilma e a liderança da Smart Fit (SMFT3): veja as mais lidas da semana",
+     "url": "https://www.seudinheiro.com/2026/economia/contrato-com-desconto-entre-banco-do-brasil-bbas3-e-fii-temor-nivel-dilma-e-a-lideranca-da-smart-fit-smft3-veja-as-mais-lidas-da-semana-giov/",
+     "published": "2026-11-21T13:22:06+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "imobiliario",
+   "title": "Comprar ou alugar? Veja o que considerar antes de decidir onde (e como) morar",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Comprar ou alugar? Veja o que considerar antes de decidir onde (e como) morar",
+     "url": "https://g1.globo.com/g1-explica/noticia/2026/11/21/comprar-ou-alugar-veja-o-que-considerar-antes-de-decidir-onde-e-como-morar.ghtml",
+     "published": "2026-11-21T05:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "TJ-RJ declara inconstitucionalidade de decreto que estendia escolta a familiares de ex-governador",
+   "items": [
+    {
+     "source": "Conjur",
+     "title": "Decreto não pode estender escolta de ex-governador a familiares, decide TJ-RJ",
+     "url": "https://conjur.com.br/2026-nov-21/tj-rj-barra-ampliacao-de-prazo-de-seguranca-a-ex-governadores/",
+     "published": "2026-11-21T19:34:22+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": "tj-rj-declara-inconstitucionalidade-de-decreto-q",
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Internação de Jair Bolsonaro no hospital DF Star e decisões de Alexandre de Moraes",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Michelle chega a Brasília para visitar Bolsonaro no hospital",
+     "url": "https://valor.globo.com/politica/noticia/2026/11/21/michelle-chega-a-braslia-para-visitar-bolsonaro-no-hospital.ghtml",
+     "published": "2026-11-22T01:39:12+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Valor Econômico",
+     "title": "Bolsonaro segue na UTI em Brasília sem previsão de alta e tem tornozeleira retirada",
+     "url": "https://valor.globo.com/politica/noticia/2026/11/21/diagnosticado-com-obstruo-intestinal-bolsonaro-permanece-na-uti-sem-previso-de-alta.ghtml",
+     "published": "2026-11-21T17:19:49+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Valor Econômico",
+     "title": "Moraes autoriza visitas de filhos de Bolsonaro ao hospital, mas veda celular",
+     "url": "https://valor.globo.com/politica/noticia/2026/11/21/moraes-autoriza-visitas-de-filhos-de-bolsonaro-ao-hospital-mas-veda-celular.ghtml",
+     "published": "2026-11-21T16:44:16+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Estadão",
+     "title": "Moraes autoriza visitas dos filhos a Bolsonaro durante internação, mas proíbe celulares e câmeras",
+     "url": "https://www.estadao.com.br/politica/blog-do-fausto-macedo/moraes-autoriza-visitas-dos-filhos-a-bolsonaro-durante-internacao-mas-proibe-celulares-e-cameras/",
+     "published": "2026-11-21T16:33:48+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Estadão",
+     "title": "Bolsonaro segue em UTI em estado estável, mas sem previsão de alta, informa hospital",
+     "url": "https://www.estadao.com.br/politica/jair-bolsonaro-faz-limpeza-com-sonda-diz-carlos-npr/",
+     "published": "2026-11-21T10:28:18+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Moraes autoriza visita de filhos de Bolsonaro no hospital; ex-presidente está na UTI",
+     "url": "https://www1.folha.uol.com.br/poder/2026/11/defesa-de-bolsonaro-pede-para-moraes-autorizar-visitas-diarias-de-filhos-no-hospital.shtml",
+     "published": "2026-11-21T13:59:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Moraes atende a pedido e autoriza visitas diárias de filhos a Bolsonaro durante a internação",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/21/moraes-atende-a-pedido-e-autoriza-visitas-diarias-de-filhos-a-bolsonaro-durante-a-internacao.ghtml",
+     "published": "2026-11-21T15:48:34+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Defesa de Bolsonaro pede a Moraes autorização para visitas diárias de filhos durante internação",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/21/defesa-de-bolsonaro-pede-a-moraes-autorizacao-para-visitas-diarias-de-filhos-durante-internacao.ghtml",
+     "published": "2026-11-21T12:14:12+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Poder360",
+     "title": "Após viagem, Michelle vai a hospital em que Bolsonaro está internado",
+     "url": "https://www.poder360.com.br/poder-gente/apos-viagem-michelle-vai-a-hospital-em-que-bolsonaro-esta-internado/",
+     "published": "2026-11-22T01:13:12+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Poder360",
+     "title": "Bolsonaro tem tornozeleira retirada durante internação na UTI",
+     "url": "https://www.poder360.com.br/poder-justica/bolsonaro-tem-tornozeleira-retirada-durante-internacao-na-uti/",
+     "published": "2026-11-21T23:42:13+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Bolsonaro tem obstrução intestinal, está na UTI, estável e sem previsão de alta, diz hospital",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/21/bolsonaro-tem-obstrucao-intestinal-quadro-estavel-e-segue-sem-previsao-de-alta-diz-boletim-medico.ghtml",
+     "published": "2026-11-21T17:16:23+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Agência Brasil",
+     "title": "Ex-presidente Jair Bolsonaro está internado em UTI no Distrito Federal",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/ex-presidente-jair-bolsonaro-esta-internado-em-uti-no-distrito-federal",
+     "published": "2026-11-21T17:55:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Exame",
+     "title": "Bolsonaro está internado na UTI e não tem previsão de alta, diz hospital",
+     "url": "https://exame.com/brasil/bolsonaro-vai-para-uti-apos-diagnostico-de-abdomen-agudo-obstrutivo/",
+     "published": "2026-11-21T14:17:16+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Exame",
+     "title": "Moraes libera visitas diárias dos filhos a Bolsonaro durante internação em Brasília",
+     "url": "https://exame.com/brasil/moraes-libera-visitas-diarias-dos-filhos-a-bolsonaro-durante-internacao-em-brasilia/",
+     "published": "2026-11-21T13:15:04+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "CNN Brasil",
+     "title": "Bolsonaro segue internado pelo terceiro dia em UTI e sem previsão de alta",
+     "url": "https://www.cnnbrasil.com.br/politica/bolsonaro-segue-internado-pelo-terceiro-dia-em-uti-e-sem-previsao-de-alta/",
+     "published": "2026-11-22T06:24:47+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "CNN Brasil",
+     "title": "Michelle chega a Brasília e vai ao hospital encontrar Bolsonaro",
+     "url": "https://www.cnnbrasil.com.br/politica/michelle-chega-a-brasilia-e-vai-ao-hospital-encontrar-bolsonaro/",
+     "published": "2026-11-22T00:37:31+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": true
+  },
+  {
+   "section": "politica",
+   "title": "Declarações de Lula em defesa do ajuste fiscal e votação na Câmara",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Lula defende pacote fiscal do governo: ‘Não é o sistema financeiro que me ensinará a dirigir o País’",
+     "url": "https://www.estadao.com.br/economia/lula-faz-live-com-janones-no-feriado-de-consciencia-negra-npr/",
+     "published": "2026-11-21T14:39:11+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Câmara deve votar projeto de ajuste fiscal nesta segunda",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/22/camara-deve-votar-projeto-de-ajuste-fiscal-nesta-segunda.ghtml",
+     "published": "2026-11-22T03:00:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Lula diz que projeto aprovado no Senado não é 'reforma fiscal', mas ajuste para Orçamento de 2027, e critica Faria Lima",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/21/lula-diz-que-projeto-aprovado-no-senado-nao-e-reforma-fiscal-mas-ajuste-para-orcamento-de-2027-e-critica-faria-lima.ghtml",
+     "published": "2026-11-21T14:27:51+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Agência Brasil",
+     "title": "\"O sistema financeiro não vai me ensinar a dirigir o Brasil\", diz Lula",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula",
+     "published": "2026-11-21T17:12:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Seu Dinheiro",
+     "title": "Após críticas de todos os lados, Lula defende pacote fiscal e diz que não deixará a Faria Lima ensinar como dirigir o Brasil",
+     "url": "https://www.seudinheiro.com/2026/economia/apos-criticas-de-todos-os-lados-lula-defende-pacote-fiscal-e-diz-que-nao-deixara-a-faria-lima-ensinar-como-dirigir-o-brasil-giov/",
+     "published": "2026-11-21T17:01:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Money Times",
+     "title": "Ajuste fiscal: Lula defende Moretti e critica ‘gritaria’ de parte da esquerda e de ‘yuppies da Faria Lima’",
+     "url": "https://www.moneytimes.com.br/ajuste-fiscal-lula-defende-moretti-e-critica-gritaria-de-parte-da-esquerda-e-de-yuppies-da-faria-lima/",
+     "published": "2026-11-21T15:11:04+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": true
+  },
+  {
+   "section": "politica",
+   "title": "Debates e articulações em torno da proposta de ajuste fiscal no Congresso",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Lula rebate críticas ao ajuste fiscal, diz que não fará cortes em educação e saúde e elogia Moretti",
+     "url": "https://valor.globo.com/politica/noticia/2026/11/21/lula-rebate-crticas-ao-ajuste-fiscal-diz-que-no-far-cortes-em-educao-e-sade-e-elogia-moretti.ghtml",
+     "published": "2026-11-21T15:07:58+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Estadão",
+     "title": "Pacote fiscal não é ajuste; nem bom nem primeiro passo",
+     "url": "https://www.estadao.com.br/economia/alexandre-schwartsman/pacote-fiscal-nao-e-ajuste-nem-bom-nem-primeiro-passo/",
+     "published": "2026-11-21T20:00:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Estadão",
+     "title": "Embate na esquerda sobre ajuste fiscal lembra disputa que deu origem ao PSOL em 2003",
+     "url": "https://www.estadao.com.br/politica/voce-sabia-curiosidades-politica/embate-na-esquerda-sobre-ajuste-fiscal-lembra-disputa-que-deu-origem-ao-psol-em-2003/",
+     "published": "2026-11-21T15:00:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Estadão",
+     "title": "Centrão entra no jogo de Lula para garantir cargos e facilita aprovação do ajuste fiscal na Câmara",
+     "url": "https://www.estadao.com.br/politica/coluna-do-estadao/centrao-entra-no-jogo-de-lula-para-garantir-cargos-e-facilita-aprovacao-do-ajuste-fiscal-na-camara/",
+     "published": "2026-11-22T08:30:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": true
+  },
+  {
+   "section": "politica",
+   "title": "Reconhecimento de calamidade pública em Tupanciretã (RS) após temporal",
+   "items": [
+    {
+     "source": "Agência Brasil",
+     "title": "Lula presta solidariedade à cidade gaúcha devastada por tempestade",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-presta-solidariedade-cidade-gaucha-devastada-por-tempestade",
+     "published": "2026-11-21T15:20:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "CNN Brasil",
+     "title": "Governo reconhece calamidade pública em Tupanciretã (RS) após temporal",
+     "url": "https://www.cnnbrasil.com.br/nacional/sul/rs/governo-reconhece-calamidade-publica-em-tupancireta-rs-apos-temporal/",
+     "published": "2026-11-21T23:13:08+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": true
+  },
+  {
+   "section": "politica",
+   "title": "As urnas falaram. E agora?",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "As urnas falaram. E agora?",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/as-urnas-falaram-e-agora",
+     "published": "2026-11-22T08:18:55+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Troca de cadeiras no Banco do Brasil (BBAS3)? Equipe econômica de Lula avalia nomes para substituir CEO, diz jornal",
+   "items": [
+    {
+     "source": "Seu Dinheiro",
+     "title": "Troca de cadeiras no Banco do Brasil (BBAS3)? Equipe econômica de Lula avalia nomes para substituir CEO, diz jornal",
+     "url": "https://www.seudinheiro.com/2026/empresas/troca-de-cadeiras-no-banco-do-brasil-bbas3-equipe-economica-discute-com-lula-nomes-para-substituir-ceo-diz-jornal-giov/",
+     "published": "2026-11-21T20:03:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Money Times",
+     "title": "Banco do Brasil (BBAS3): Equipe econômica discute com Lula nomes para substituir Tarciana, diz jornal",
+     "url": "https://www.moneytimes.com.br/banco-do-brasil-bbas3-equipe-economica-discute-com-lula-nomes-para-substituir-tarciana-diz-jornal/",
+     "published": "2026-11-21T13:11:48+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Fim da escala 6x1: veja o que muda nas folgas, horas extras e jornadas após decreto de Lula",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Fim da escala 6x1: veja o que muda nas folgas, horas extras e jornadas após decreto de Lula",
+     "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/21/fim-da-escala-6x1-veja-o-que-muda-nas-folgas-horas-extras-e-jornadas-apos-decreto-de-lula.ghtml",
+     "published": "2026-11-21T06:00:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Senadores ainda defendem PEC que regulamenta fim da 6x1, apesar de decreto e portarias do governo",
+     "url": "https://www1.folha.uol.com.br/colunas/painel/2026/11/senadores-ainda-defendem-pec-que-regulamenta-fim-da-6x1-apesar-de-decreto-e-portarias-do-governo.shtml",
+     "published": "2026-11-21T09:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "STF usa petições em investigações criminais e levanta debate sobre atalhos e poder dos ministros",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "STF usa petições em investigações criminais e levanta debate sobre atalhos e poder dos ministros",
+     "url": "https://www.estadao.com.br/politica/stf-usa-peticoes-em-investigacoes-criminais-e-levanta-debate-sobre-atalhos-e-poder-dos-ministros/",
+     "published": "2026-11-22T08:30:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "O destino incerto de Marina Silva no governo Lula 4",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "O destino incerto de Marina Silva no governo Lula 4",
+     "url": "https://www.estadao.com.br/politica/coluna-do-estadao/o-destino-incerto-de-marina-silva-no-governo-lula-4/",
+     "published": "2026-11-22T08:30:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Senado aprova ajuste de fachada nos supersalários e preserva blindagem orçamentária",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "Senado aprova ajuste de fachada nos supersalários e preserva blindagem orçamentária",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/senado-aprova-ajuste-de-fachada-nos-supersalarios-e-preserva-blindagem-orcamentaria",
+     "published": "2026-11-21T17:37:39+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Zanin suspende Congresso do Cidadania, que incorporaria partido ao PP",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Zanin suspende Congresso do Cidadania, que incorporaria partido ao PP",
+     "url": "https://www.estadao.com.br/politica/zanin-suspende-congresso-do-cidadania-que-incorporaria-partido-ao-pp/",
+     "published": "2026-11-21T23:56:52+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Lula diz que avalia ampliar o papel do Ministério dos Povos Indígenas no próximo mandato",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Lula diz que avalia ampliar o papel do Ministério dos Povos Indígenas no próximo mandato",
+     "url": "https://valor.globo.com/politica/noticia/2026/11/21/lula-diz-que-avalia-ampliar-o-papel-do-ministrio-dos-povos-indgenas-no-prximo-mandato.ghtml",
+     "published": "2026-11-21T16:03:55+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Lula diz que pretende repetir formato de 2023 e receber a faixa presidencial de representantes da sociedade",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Lula diz que pretende repetir formato de 2023 e receber a faixa presidencial de representantes da sociedade",
+     "url": "https://valor.globo.com/politica/noticia/2026/11/21/lula-diz-que-pretende-repetir-formato-de-2023-e-receber-a-faixa-presidencial-de-representantes-da-sociedade.ghtml",
+     "published": "2026-11-21T15:43:46+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "PEC da Segurança: como uma guarda civil municipal pode virar polícia e o que muda para a população",
+   "items": [
+    {
+     "source": "g1",
+     "title": "PEC da Segurança: como uma guarda civil municipal pode virar polícia e o que muda para a população",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/22/pec-da-seguranca-como-uma-guarda-civil-municipal-pode-virar-policia.ghtml",
+     "published": "2026-11-22T03:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Maioria das cidades terá dificuldade para criar polícia municipal, diz deputado",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Maioria das cidades terá dificuldade para criar polícia municipal, diz deputado",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/22/exigencias-policia-municipal-prefeituras.ghtml",
+     "published": "2026-11-22T03:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Ao confundir alhos com bugalhos, PF deu a Mendonça o papel de vítima",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Ao confundir alhos com bugalhos, PF deu a Mendonça o papel de vítima",
+     "url": "https://www.estadao.com.br/politica/eliane-cantanhede/ao-confundir-alhos-com-bugalhos-pf-deu-a-mendonca-o-papel-de-vitima/",
+     "published": "2026-11-21T23:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Dino determina ajustes em plano de médio prazo da União para reestruturação da CVM",
+   "items": [
+    {
+     "source": "Conjur",
+     "title": "Dino determina ajustes em plano de médio prazo da União para reestruturação da CVM",
+     "url": "https://conjur.com.br/2026-nov-21/dino-determina-ajustes-em-plano-de-medio-prazo-da-uniao-para-reestruturacao-da-cvm/",
+     "published": "2026-11-21T16:52:38+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Documentos da PF acirram disputa no STF sobre relatoria do caso Master",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Documentos da PF acirram disputa no STF sobre relatoria do caso Master",
+     "url": "https://www1.folha.uol.com.br/poder/2026/11/documentos-da-pf-acirram-disputa-no-stf-sobre-relatoria-do-caso-master.shtml",
+     "published": "2026-11-22T07:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "O que Lula 4 deve fazer para intensificar proteção e mobilidade social",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "O que Lula 4 deve fazer para intensificar proteção e mobilidade social",
+     "url": "https://www1.folha.uol.com.br/ilustrissima/2026/11/o-que-lula-4-deve-fazer-para-intensificar-protecao-e-mobilidade-social.shtml",
+     "published": "2026-11-22T02:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Governo Lula avalia enviar projeto próprio para limitar supersalários na administração pública",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Governo Lula avalia enviar projeto próprio para limitar supersalários na administração pública",
+     "url": "https://www1.folha.uol.com.br/poder/2026/11/governo-lula-avalia-enviar-projeto-proprio-para-limitar-supersalarios-na-administracao-publica.shtml",
+     "published": "2026-11-22T02:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Og Fernandes é homenageado em suas últimas sessões na Sexta Turma e na Terceira Seção",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Og Fernandes é homenageado em suas últimas sessões na Sexta Turma e na Terceira Seção",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Og-Fernandes-e-homenageado-em-suas-ultimas-sessoes-na-Sexta-Turma-e-na-Terceira-Secao.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "Ministro Og Fernandes participa de sua última sessão na Corte Especial",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/04112026-Ministro-Og-Fernandes-participa-de-sua-ultima-sessao-na-Corte-Especial.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "II Jornada pela Equidade Racial está com inscrições abertas",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "II Jornada pela Equidade Racial está com inscrições abertas",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/16112026-II-Jornada-pela-Equidade-Racial-esta-com-inscricoes-abertas-.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "Encontro de juízes negros propõe política nacional de equidade racial no Judiciário até 2036",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/13112026-Encontro-de-juizes-negros-propoe-politica-nacional-de-equidade-racial-no-Judiciario-ate-2036.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Ministro Og Fernandes lança livro sobre a história do STF em 10 de novembro",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Ministro Og Fernandes lança livro sobre a história do STF em 10 de novembro",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/04112026-Ministro-Og-Fernandes-lanca-livro-sobre-a-historia-do-STF-em-10-de-novembro.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "STJ sedia lançamento do livro do ministro Og Fernandes sobre a história do STF nesta terça (10)",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/09112026-STJ-sedia-lancamento-do-livro-do-ministro-Og-Fernandes-sobre-a-historia-do-STF-nesta-terca--10-.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "Nesta quarta-feira (18), STJ sedia lançamento de livro em homenagem ao ministro Benedito Gonçalves",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18112026-Nesta-quarta-feira--18---STJ-sedia-lancamento-de-livro-em-homenagem-ao-ministro-Benedito-Goncalves-.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "Livro Liber Amicorum homenageia 18 anos do ministro Benedito Gonçalves no STJ",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Livro-Liber-Amicorum-homenageia-18-anos-do-ministro-Benedito-Goncalves-no-STJ.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Missões da Justiça e Cidadania reúne mais de 40 instituições para ampliar acesso a serviços públicos no RS",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Missões da Justiça e Cidadania reúne mais de 40 instituições para ampliar acesso a serviços públicos no RS",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/19112026-Missoes-da-Justica-e-Cidadania-reune-mais-de-40-instituicoes-para-ampliar-acesso-a-servicos-publicos-no-RS.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "Missões da Justiça e Cidadania chega ao interior do RS nesta terça-feira (17)",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/17112026-Missoes-da-Justica-e-Cidadania-chega-ao-interior-do-RS-nesta-terca-feira--17-.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "Primeiro dia do Missões da Justiça e Cidadania leva serviços à população do interior gaúcho",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/17112026-Primeiro-dia-do-Missoes-da-Justica-e-Cidadania-leva-servicos-a-populacao-do-interior-gaucho.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Audiência pública recebe sugestões de entidades e especialistas sobre prescrição e decadência em ações envolvendo pessoas com deficiência",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Audiência pública recebe sugestões de entidades e especialistas sobre prescrição e decadência em ações envolvendo pessoas com deficiência",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/19112026-Audiencia-publica-recebe-sugestoes-de-entidades-e-especialistas-sobre-prescricao-e-decadencia-em-acoes-envolvendo-.aspx",
+     "published": null,
+     "lang": "pt"
+    },
+    {
+     "source": "STJ",
+     "title": "STJ promove, nesta quinta-feira (19), audiência pública sobre prescrição em ações envolvendo pessoas com deficiência",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18112026-STJ-promove--nesta-quinta-feira--19---audiencia-publica-sobre-prescricao-em-acoes-envolvendo-pessoas-com.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Pastores oram por melhora de Bolsonaro em frente a hospital",
+   "items": [
+    {
+     "source": "Poder360",
+     "title": "Pastores oram por melhora de Bolsonaro em frente a hospital",
+     "url": "https://www.poder360.com.br/poder-brasil/pastores-oram-por-melhora-de-bolsonaro-em-frente-a-hospital/",
+     "published": "2026-11-21T23:39:34+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Entorno branco e masculino de Lula dificulta uma ministra negra no STF, diz ex-ministra do TSE",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Entorno branco e masculino de Lula dificulta uma ministra negra no STF, diz ex-ministra do TSE",
+     "url": "https://www1.folha.uol.com.br/poder/2026/11/entorno-branco-e-masculino-de-lula-dificulta-uma-ministra-negra-no-stf-diz-ex-ministra-do-tse.shtml",
+     "published": "2026-11-22T02:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "OAB-SP alerta STF que pejotização pode gerar perdas de R$ 200 bi por ano",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "OAB-SP alerta STF que pejotização pode gerar perdas de R$ 200 bi por ano",
+     "url": "https://www1.folha.uol.com.br/colunas/painel/2026/11/oab-sp-alerta-stf-que-pejotizacao-pode-gerar-perdas-de-r-200-bi-por-ano.shtml",
+     "published": "2026-11-21T23:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Risco Brasil acelera envio de dinheiro ao exterior após eleição",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Risco Brasil acelera envio de dinheiro ao exterior após eleição",
+     "url": "https://valor.globo.com/financas/intraday/post/2026/11/risco-brasil-acelera-envio-de-dinheiro-ao-exterior-apos-eleicao.ghtml",
+     "published": "2026-11-21T11:03:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Decisão sobre segundo turno no Rio segue aberta e pode gerar desgaste institucional, avaliam especialistas",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Decisão sobre segundo turno no Rio segue aberta e pode gerar desgaste institucional, avaliam especialistas",
+     "url": "https://valor.globo.com/politica/noticia/2026/11/21/decisao-sobre-segundo-turno-no-rio-segue-aberta-e-pode-gerar-desgaste-institucional-avaliam-especialistas.ghtml",
+     "published": "2026-11-21T10:14:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Há um ano, Bolsonaro era preso preventivamente após violar tornozeleira",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Há um ano, Bolsonaro era preso preventivamente após violar tornozeleira",
+     "url": "https://www.cnnbrasil.com.br/politica/ha-um-ano-bolsonaro-era-preso-preventivamente-apos-violar-tornozeleira/",
+     "published": "2026-11-22T07:15:49+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Caso Master pode definir relação de Lula com Congresso, diz professor",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Caso Master pode definir relação de Lula com Congresso, diz professor",
+     "url": "https://www.cnnbrasil.com.br/politica/caso-master-pode-definir-relacao-de-lula-com-congresso-diz-professor/",
+     "published": "2026-11-22T07:00:20+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Unesp 2027: primeira fase do vestibular acontece hoje; saiba o que levar",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Unesp 2027: primeira fase do vestibular acontece hoje; saiba o que levar",
+     "url": "https://www.cnnbrasil.com.br/educacao/unesp-2027-primeira-fase-do-vestibular-acontece-hoje-saiba-o-que-levar/",
+     "published": "2026-11-22T07:30:06+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Padre Kelmon quer aval de Moraes para dar “extrema-unção” a Bolsonaro",
+   "items": [
+    {
+     "source": "Poder360",
+     "title": "Padre Kelmon quer aval de Moraes para dar “extrema-unção” a Bolsonaro",
+     "url": "https://www.poder360.com.br/poder-gente/padre-kelmon-quer-aval-de-moraes-para-dar-extrema-uncao-a-bolsonaro/",
+     "published": "2026-11-21T22:55:24+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Seria possível um Judiciário sem o Supremo Tribunal Federal?",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "Seria possível um Judiciário sem o Supremo Tribunal Federal?",
+     "url": "https://www.jota.info/opiniao-e-analise/colunas/observatorio-constitucional/seria-possivel-um-judiciario-sem-o-supremo-tribunal-federal",
+     "published": "2026-11-21T09:22:42+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Michelle diz que Jair Bolsonaro está sem febre e com “cara boa”",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Michelle diz que Jair Bolsonaro está sem febre e com “cara boa”",
+     "url": "https://www.cnnbrasil.com.br/politica/michelle-diz-que-jair-bolsonaro-esta-sem-febre-e-com-cara-boa/",
+     "published": "2026-11-22T01:39:16+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Governo do DF quer aproveitar estrutura de festival da posse de Lula para festa de Réveillon",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Governo do DF quer aproveitar estrutura de festival da posse de Lula para festa de Réveillon",
+     "url": "https://www1.folha.uol.com.br/colunas/painel/2026/11/governo-do-df-quer-aproveitar-estrutura-de-festival-da-posse-de-lula-para-festa-de-reveillon.shtml",
+     "published": "2026-11-21T18:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Seria um dado irreparável, diz integrante do Cidadania sobre fim do partido",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Seria um dado irreparável, diz integrante do Cidadania sobre fim do partido",
+     "url": "https://www.cnnbrasil.com.br/politica/seria-um-dado-irreparavel-diz-integrante-do-cidadania-sobre-fim-do-partido/",
+     "published": "2026-11-22T00:46:07+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Miss Universo 2026: veja todos os looks do desfile de traje típico",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Miss Universo 2026: veja todos os looks do desfile de traje típico",
+     "url": "https://www.cnnbrasil.com.br/pop/celebridades/miss-universo-2026-veja-todos-os-look-do-desfile-de-traje-tipico/",
+     "published": "2026-11-22T00:32:39+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Lula ataca 'yuppies da Faria Lima' e diz que mercado financeiro não vai ensiná-lo a governar",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Lula ataca 'yuppies da Faria Lima' e diz que mercado financeiro não vai ensiná-lo a governar",
+     "url": "https://www1.folha.uol.com.br/mercado/2026/11/lula-ataca-yuppies-da-faria-lima-e-diz-que-mercado-financeiro-nao-vai-ensina-lo-a-governar.shtml",
+     "published": "2026-11-21T15:14:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Ministro Marco Aurélio Bellizze passa a compor a Corte Especial",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Ministro Marco Aurélio Bellizze passa a compor a Corte Especial",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18112026-Ministro-Marco-Aurelio-Bellizze-passa-a-compor-a-Corte-Especial.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Ministro Salomão destaca transparência e controle humano como pressupostos para confiança nos sistemas de IA",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Ministro Salomão destaca transparência e controle humano como pressupostos para confiança nos sistemas de IA",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/11112026-Ministro-Salomao-destaca-transparencia-e-controle-humano-como-pressupostos-para-confianca-nos-sistemas-de-IA.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Ministro Mauro Campbell recebe a medalha Ordem do Mérito Grão-Colar",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Ministro Mauro Campbell recebe a medalha Ordem do Mérito Grão-Colar",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/19112026-Ministro-Mauro-Campbell-recebe-a-medalha-Ordem-do-Merito-Grao-Colar.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Corte Especial zera pauta acumulada e acelera julgamento de repetitivos",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Corte Especial zera pauta acumulada e acelera julgamento de repetitivos",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/13112026-Corte-Especial-zera-pauta-acumulada-e-acelera-julgamento-de-repetitivos.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Ministros representam Enfam e STJ em conferência sobre formação de juízes na França",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Ministros representam Enfam e STJ em conferência sobre formação de juízes na França",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/10112026-Ministros-representam-Enfam-e-STJ-em-conferencia-sobre-formacao-de-juizes-na-Franca-.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "STJ reúne tribunais para debater aplicação da relevância nos recursos especiais",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "STJ reúne tribunais para debater aplicação da relevância nos recursos especiais",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/05112026-STJ-reune-tribunais-para-debater-aplicacao-da-relevancia-nos-recursos-especiais.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Ministro Teodoro Silva Santos recebe Ordem do Mérito Aeronáutico no grau de Grande-Oficial",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Ministro Teodoro Silva Santos recebe Ordem do Mérito Aeronáutico no grau de Grande-Oficial",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/11112026-Ministro-Teodoro-Silva-Santos-recebe-Ordem-do-Merito-Aeronautico-no-grau-de-Grande-Oficial.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Terceira Seção define cinco teses repetitivas sobre a natureza e a quantidade de drogas no cálculo da pena por tráfico",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Terceira Seção define cinco teses repetitivas sobre a natureza e a quantidade de drogas no cálculo da pena por tráfico",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/03112026-Terceira-Secao-define-cinco-teses-repetitivas-sobre-a-natureza-e-a-quantidade-de-drogas-no-calculo-da-pena-por.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "STJ recebe participantes do Caminhos para a Liderança de Mulheres na Justiça",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "STJ recebe participantes do Caminhos para a Liderança de Mulheres na Justiça",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06112026-STJ-recebe-participantes-do-Caminhos-para-a-Lideranca-de-Mulheres-na-Justica.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Desembargadora convocada Fátima Maranhão inicia trabalhos na Sexta Turma",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Desembargadora convocada Fátima Maranhão inicia trabalhos na Sexta Turma",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/17112026-Desembargadora-convocada-Fatima-Maranhao-inicia-trabalhos-na-Sexta-Turma.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "STJ recebe reconhecimento do CNJ pelo incentivo ao uso da linguagem simples",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "STJ recebe reconhecimento do CNJ pelo incentivo ao uso da linguagem simples",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18112026-STJ-recebe-reconhecimento-do-CNJ-pelo-incentivo-ao-uso-da-linguagem-simples.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Sexta Turma aumenta pena dos sócios pela tragédia da Boate Kiss",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Sexta Turma aumenta pena dos sócios pela tragédia da Boate Kiss",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/10112026-Sexta-Turma-aumenta-pena-dos-socios-pela-tragedia-da-Boate-Kiss.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Crime da 113 Sul: Sexta Turma mantém anulação do júri que condenou Adriana Villela",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Crime da 113 Sul: Sexta Turma mantém anulação do júri que condenou Adriana Villela",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18112026-Crime-da-113-Sul-Sexta-Turma-mantem-anulacao-do-juri-que-condenou-Adriana-Villela.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Og Fernandes: o juiz-jornalista encerra trajetória de quase cinco décadas dedicadas à Justiça",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Og Fernandes: o juiz-jornalista encerra trajetória de quase cinco décadas dedicadas à Justiça",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/08112026-Og-Fernandes-o-juiz-jornalista-encerra-trajetoria-de-quase-cinco-decadas-dedicadas-a-Justica.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Tribunal promove simpósio nacional sobre a relevância da questão federal no dia 14 de dezembro",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Tribunal promove simpósio nacional sobre a relevância da questão federal no dia 14 de dezembro",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/17112026-Tribunal-promove-simposio-nacional-sobre-a-relevancia-da-questao-federal-no-dia-14-de-dezembro.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Terceira Seção reconhece relevância sobre exigência de laudo técnico para avaliar personalidade do agente na dosimetria da pena",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Terceira Seção reconhece relevância sobre exigência de laudo técnico para avaliar personalidade do agente na dosimetria da pena",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/05112026-Terceira-Secao-reconhece-relevancia-sobre-exigencia-de-laudo-tecnico-para-avaliar-personalidade-do-agente-na.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "STJ e CJF assinam contratos com Banco do Brasil e Caixa para cessão da folha de pagamento",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "STJ e CJF assinam contratos com Banco do Brasil e Caixa para cessão da folha de pagamento",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/09112026-STJ-e-CJF-assinam-contratos-com-Banco-do-Brasil-e-Caixa-para-cessao-da-folha-de-pagamento.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Abdômen agudo obstrutivo: entenda quadro que atinge Jair Bolsonaro",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Abdômen agudo obstrutivo: entenda quadro que atinge Jair Bolsonaro",
+     "url": "https://www.cnnbrasil.com.br/saude/abdomen-agudo-obstrutivo-entenda-quadro-que-atinge-jair-bolsonaro/",
+     "published": "2026-11-21T23:39:06+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Premiê da Espanha pede que eleitores sigam exemplo da vitória de Lula",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Premiê da Espanha pede que eleitores sigam exemplo da vitória de Lula",
+     "url": "https://www.cnnbrasil.com.br/internacional/premie-da-espanha-pede-que-eleitores-sigam-exemplo-da-vitoria-de-lula/",
+     "published": "2026-11-21T22:32:46+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Gonet analisa relatórios sobre ministros do STF pressionado por sua relação com Vorcaro",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Gonet analisa relatórios sobre ministros do STF pressionado por sua relação com Vorcaro",
+     "url": "https://www1.folha.uol.com.br/poder/2026/11/gonet-analisa-relatorios-sobre-ministros-do-stf-pressionado-por-sua-relacao-com-vorcaro.shtml",
+     "published": "2026-11-21T15:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "CJF abre prazo para envio de enunciados à V Jornada de Direito Processual Civil",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "CJF abre prazo para envio de enunciados à V Jornada de Direito Processual Civil",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/03112026-CJF-abre-prazo-para-envio-de-enunciados-a-V-Jornada-de-Direito-Processual-Civil.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Da redação ao STJ: reportagem especial relembra trajetória do ministro Og Fernandes",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Da redação ao STJ: reportagem especial relembra trajetória do ministro Og Fernandes",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/13112026-Da-redacao-ao-STJ-reportagem-especial-relembra-trajetoria-do-ministro-Og-Fernandes.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Informativo destaca cláusulas abusivas em operações de proteção patrimonial mutualista",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Informativo destaca cláusulas abusivas em operações de proteção patrimonial mutualista",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/04112026-Informativo-destaca-clausulas-abusivas-em-operacoes-de-protecao-patrimonial-mutualista-.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Informativo destaca legitimidade do MP em ação civil pública e exigência de farmacêutico em drogarias",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Informativo destaca legitimidade do MP em ação civil pública e exigência de farmacêutico em drogarias",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/16112026-Informativo-destaca-legitimidade-do-MP-em-acao-civil-publica-e-exigencia-de-farmaceutico-em-drogarias.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Mello Araújo, Erika Hilton, Tabata, Salles e Kim: direita e esquerda se dividem para 2028 em SP",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Mello Araújo, Erika Hilton, Tabata, Salles e Kim: direita e esquerda se dividem para 2028 em SP",
+     "url": "https://www.estadao.com.br/politica/mello-araujo-erika-hilton-tabata-salles-e-kim-direita-e-esquerda-se-dividem-para-2028-em-sp/",
+     "published": "2026-11-21T08:30:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Bancos veem instabilidade com indefinição de Lula sobre sanção da renegociação de dívidas rurais",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Bancos veem instabilidade com indefinição de Lula sobre sanção da renegociação de dívidas rurais",
+     "url": "https://www.estadao.com.br/politica/coluna-do-estadao/bancos-veem-instabilidade-com-indefinicao-de-lula-sobre-sancao-da-renegociacao-de-dividas-rurais/",
+     "published": "2026-11-21T08:30:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Lula anuncia Janja na coordenação da posse e diz que vai ‘cair na farra’ após cerimônia",
+   "items": [
+    {
+     "source": "Exame",
+     "title": "Lula anuncia Janja na coordenação da posse e diz que vai ‘cair na farra’ após cerimônia",
+     "url": "https://exame.com/brasil/lula-anuncia-janja-na-coordenacao-da-posse-e-diz-que-vai-cair-na-farra-apos-cerimonia/",
+     "published": "2026-11-21T15:33:18+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Tarcísio, mudança no Ibovespa e BB rebaixado: o que bombou na semana no Money Times",
+   "items": [
+    {
+     "source": "Money Times",
+     "title": "Tarcísio, mudança no Ibovespa e BB rebaixado: o que bombou na semana no Money Times",
+     "url": "https://www.moneytimes.com.br/tarcisio-mudanca-no-ibovespa-e-bb-rebaixado-o-que-bombou-na-semana-no-money-times/",
+     "published": "2026-11-21T14:20:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Risco de recessão? Ajuste fiscal proposto pelo governo é ‘insuficiente’, segundo analista; veja principais pontos e os impactos nos seus investimentos",
+   "items": [
+    {
+     "source": "Seu Dinheiro",
+     "title": "Risco de recessão? Ajuste fiscal proposto pelo governo é ‘insuficiente’, segundo analista; veja principais pontos e os impactos nos seus investimentos",
+     "url": "https://www.seudinheiro.com/2026/economia/ajuste-fiscal-proposto-pelo-governo-e-insuficiente-segundo-analista-veja-principais-pontos-e-os-impactos-nos-seus-investimentos-lbrdaz283/",
+     "published": "2026-11-21T11:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Banco Master: Presidente do Supremo mantém prisão de Daniel Vorcaro",
+   "items": [
+    {
+     "source": "Money Times",
+     "title": "Banco Master: Presidente do Supremo mantém prisão de Daniel Vorcaro",
+     "url": "https://www.moneytimes.com.br/banco-master-presidente-do-supremo-mantem-prisao-de-daniel-vorcaro/",
+     "published": "2026-11-21T11:28:25+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Comissão do PT que organiza posse de Lula avalia transferir gastos de festival para governo e criar feriado",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Comissão do PT que organiza posse de Lula avalia transferir gastos de festival para governo e criar feriado",
+     "url": "https://www1.folha.uol.com.br/poder/2026/11/comissao-do-pt-que-organiza-posse-de-lula-avalia-transferir-gastos-de-festival-para-governo-e-criar-feriado.shtml",
+     "published": "2026-11-21T07:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "Câmara envia ao Senado projeto que revoga Lei de Alienação Parental",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Câmara envia ao Senado projeto que revoga Lei de Alienação Parental",
+     "url": "https://www1.folha.uol.com.br/poder/2026/11/camara-envia-ao-senado-projeto-que-revoga-lei-de-alienacao-parental.shtml",
+     "published": "2026-11-21T07:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "politica",
+   "title": "A um mês do recesso, Fachin tenta avançar com agenda de reformas no STF, mas enfrenta resistências",
+   "items": [
+    {
+     "source": "g1",
+     "title": "A um mês do recesso, Fachin tenta avançar com agenda de reformas no STF, mas enfrenta resistências",
+     "url": "https://g1.globo.com/politica/noticia/2026/11/21/a-um-mes-do-recesso-fachin-tenta-avancar-com-agenda-de-reformas-no-stf-mas-enfrenta-resistencias.ghtml",
+     "published": "2026-11-21T03:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Repercussão internacional e movimentações jurídico-políticas globais",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "México captura narcotraficante 'El Chapo Isidro', um dos dez fugitivos mais procurados pelo FBI",
+     "url": "https://valor.globo.com/mundo/noticia/2026/11/21/mxico-captura-narcotraficante-el-chapo-isidro-um-dos-dez-fugitivos-mais-procurados-pelo-fbi.ghtml",
+     "published": "2026-11-21T15:30:32+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Justiça dos EUA aprova acordo de US$ 7,25 bi da Bayer sobre câncer ligado ao Roundup",
+     "url": "https://c-level.folha.uol.com.br/agro/2026/11/justica-dos-eua-aprova-acordo-de-us-725-bi-da-bayer-sobre-cancer-ligado-ao-roundup.shtml",
+     "published": "2026-11-21T13:02:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Exército do México captura um dos principais traficantes do país",
+     "url": "https://www1.folha.uol.com.br/mundo/2026/11/exercito-do-mexico-captura-um-dos-principais-traficantes-do-pais-diz-governo.shtml",
+     "published": "2026-11-21T11:59:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Morre Phumzile Mlambo-Ngcuka ex-vice-presidente da África do Sul e ex-chefe da ONU Mulheres",
+     "url": "https://www1.folha.uol.com.br/mundo/2026/11/morre-ex-vice-presidente-sul-africana-e-ex-chefe-da-onu-mulheres.shtml",
+     "published": "2026-11-21T09:24:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Ex-procurador-geral do Paraguai denuncia perseguição política à ONU",
+     "url": "https://www1.folha.uol.com.br/mundo/2026/11/ex-procurador-geral-do-paraguai-denuncia-perseguicao-politica-a-onu.shtml",
+     "published": "2026-11-21T04:20:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Estadão",
+     "title": "Quem é Chapo Isidro, narcotraficante mexicano preso pelo FBI",
+     "url": "https://www.estadao.com.br/internacional/quem-e-chapo-isidro-narcotraficante-mexicano-preso-pelo-fbi/",
+     "published": "2026-11-21T14:12:44+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Estadão",
+     "title": "‘El Chapo Isidro’, um dos 10 fugitivos mais procurados pelo FBI, é capturado",
+     "url": "https://www.estadao.com.br/internacional/el-chapo-isidro-um-dos-10-mais-procurados-pelo-fbi-e-capturado-npr/",
+     "published": "2026-11-21T12:26:52+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Estadão",
+     "title": "Em denúncia à ONU, ex-procurador-geral do Paraguai diz ser vítima de perseguição política",
+     "url": "https://www.estadao.com.br/internacional/em-denuncia-a-onu-ex-procurador-geral-do-paraguai-diz-ser-vitima-de-perseguicao-politica-npr/",
+     "published": "2026-11-21T06:10:57+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Como El Chapo Isidro ascendeu de pequeno traficante a magnata do narcotráfico no México",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/como-el-chapo-ascendeu-de-pequeno-traficante-a-magnata-do-narcotrafico-no-mexico.ghtml",
+     "published": "2026-11-21T20:38:22+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "México captura narcotraficante que está entre os dez mais procurados pelo FBI",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/mexico-captura-narcotraficante-que-esta-entre-os-dez-mais-procurados-pelo-fbi.ghtml",
+     "published": "2026-11-21T13:41:26+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Morre Phumzile Mlambo-Ngcuka, 1ª mulher vice da África do Sul e ex-chefe da ONU Mulheres",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/morre-phumzile-mlambo-ngcuka-1a-mulher-vice-da-africa-do-sul-e-ex-chefe-da-onu-mulheres.ghtml",
+     "published": "2026-11-21T08:14:21+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Ex-procurador-geral do Paraguai denuncia perseguição política à ONU após escândalo bancário",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/ex-procurador-geral-do-paraguai-denuncia-perseguicao-politica-a-onu-apos-escandalo-bancario.ghtml",
+     "published": "2026-11-21T03:06:51+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Money Times",
+     "title": "Juiz dos EUA aprova acordo de US$ 7,25 bi da Bayer sobre herbicida suspeito de causar câncer",
+     "url": "https://www.moneytimes.com.br/juiz-dos-eua-aprova-acordo-de-us-725-bi-da-bayer-sobre-herbicida-suspeito-de-causar-cancer/",
+     "published": "2026-11-21T13:02:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Exame",
+     "title": "Prisão de 'El Chapo Isidro' mata quatro militares e leva pânico a cinco cidades do México",
+     "url": "https://exame.com/mundo/prisao-de-el-chapo-isidro-mata-quatro-militares-e-leva-panico-a-cinco-cidades-do-mexico/",
+     "published": "2026-11-21T18:31:53+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "The New York Times",
+     "title": "Drones, Texts and Diversions: How Mexico Captured a Most Wanted Man",
+     "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-captures-drug-kingpin.html",
+     "published": "2026-11-22T01:56:16+00:00",
+     "lang": "en"
+    },
+    {
+     "source": "The Guardian",
+     "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+     "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+     "published": "2026-11-21T14:03:50+00:00",
+     "lang": "en"
+    },
+    {
+     "source": "BBC News",
+     "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+     "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno",
+     "published": "2026-11-21T10:26:36+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": true
+  },
+  {
+   "section": "mundo",
+   "title": "Impasse e atrasos na COP-31 sobre combustíveis fósseis",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "COP-31 na Turquia encerra mais um dia sem acordo em meio a impasse sobre combustíveis fósseis",
+     "url": "https://www.estadao.com.br/internacional/cop-31-na-turquia-encerra-mais-um-dia-sem-acordo-em-meio-a-impasse-sobre-combustiveis-fosseis/",
+     "published": "2026-11-22T00:11:38+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Exame",
+     "title": "Desfecho da COP31 fica para domingo, com cadeiras vazias e sauditas contra 130 países",
+     "url": "https://exame.com/esg/desfecho-da-cop31-fica-para-domingo-com-cadeiras-vazias-e-sauditas-contra-130-paises/",
+     "published": "2026-11-21T19:47:37+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "CNN Brasil",
+     "title": "COP 31 convoca última plenária ainda sem acordo em pontos polêmicos",
+     "url": "https://www.cnnbrasil.com.br/internacional/cop-31-convoca-ultima-plenaria-ainda-sem-acordo-em-pontos-polemicos/",
+     "published": "2026-11-22T07:04:13+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": true
+  },
+  {
+   "section": "mundo",
+   "title": "Repercussões da guerra na Ucrânia e declarações de Zelensky",
+   "items": [
+    {
+     "source": "InfoMoney",
+     "title": "Trump disse a líderes europeus que estavam gastando muito com Ucrânia, diz Zelensky",
+     "url": "https://www.infomoney.com.br/mundo/trump-disse-a-lideres-europeus-que-estavam-gastando-muito-com-ucrania-diz-zelensky/",
+     "published": "2026-11-21T22:52:00+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Novos ataques aumentam a preocupação de países europeus com a guerra na Ucrânia",
+     "url": "https://g1.globo.com/jornal-nacional/noticia/2026/11/21/novos-ataques-aumentam-a-preocupacao-de-paises-europeus-com-a-guerra-na-ucrania.ghtml",
+     "published": "2026-11-22T01:45:11+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Cúpula na China foi 'muito malsucedida' para a Rússia, diz Zelensky",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/cupula-na-china-foi-muito-malsucedida-para-a-russia-diz-zelensky.ghtml",
+     "published": "2026-11-21T13:14:18+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "BBC News",
+     "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+     "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo",
+     "published": "2026-11-21T13:17:38+00:00",
+     "lang": "en"
+    },
+    {
+     "source": "BBC News",
+     "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+     "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo",
+     "published": "2026-11-21T08:10:25+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": true
+  },
+  {
+   "section": "mundo",
+   "title": "Morre Joe Wallach, executivo que ajudou a estruturar a TV Globo e criou a Telemundo, aos 103 anos",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Morre Joe Wallach, executivo que ajudou a estruturar a TV Globo e criou a Telemundo, aos 103 anos",
+     "url": "https://valor.globo.com/brasil/noticia/2026/11/21/morre-joe-wallach-executivo-que-ajudou-a-estruturar-a-tv-globo-e-criou-a-telemundo-aos-103-anos.ghtml",
+     "published": "2026-11-22T00:38:55+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Joe Wallach, um dos executivos que participaram da inauguração da Globo, morre aos 103 anos",
+     "url": "https://g1.globo.com/economia/midia-e-marketing/noticia/2026/11/21/joe-wallach-morre-aos-103-anos.ghtml",
+     "published": "2026-11-21T16:56:54+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Poder360",
+     "title": "Morre Joe Wallach, um dos fundadores da “TV Globo”, aos 103 anos",
+     "url": "https://www.poder360.com.br/poder-brasil/morre-joe-wallach-um-dos-fundadores-da-tv-globo-aos-103-anos/",
+     "published": "2026-11-22T00:13:10+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Cargueiro russo pega fogo após ataque de drones no Báltico e Finlândia aumenta segurança",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Cargueiro russo pega fogo após ataque de drones no Báltico e Finlândia aumenta segurança",
+     "url": "https://valor.globo.com/mundo/noticia/2026/11/21/cargueiro-russo-pega-fogo-aps-ataque-de-drones-no-bltico-e-finlndia-aumenta-segurana.ghtml",
+     "published": "2026-11-21T17:30:29+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Poder360",
+     "title": "Ataque de drones incendeia navio cargueiro russo no mar Báltico",
+     "url": "https://www.poder360.com.br/poder-internacional/ataque-de-drones-incendeia-navio-cargueiro-russo-no-mar-baltico/",
+     "published": "2026-11-21T22:32:13+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "Drones ucranianos atingem cargueiro russo no Golfo da Finlândia; país reforça segurança e suspeita de material militar em navio",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/drones-atingem-navio-de-carga-russo-no-golfo-da-finlandia-pais-reforca-seguranca.ghtml",
+     "published": "2026-11-21T13:49:44+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "FBI investiga possível ataque hacker a banco de dados de informações criminais dos EUA",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "FBI investiga possível ataque hacker a banco de dados de informações criminais dos EUA",
+     "url": "https://www.estadao.com.br/internacional/fbi-investiga-possivel-ataque-hacker-a-banco-de-dados-de-informacoes-criminais-dos-eua/",
+     "published": "2026-11-21T17:53:37+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Estadão",
+     "title": "Hackers atacaram FBI e Departamento de Agricultura dos EUA, dizem TVs americanas",
+     "url": "https://www.estadao.com.br/internacional/fbi-investiga-suspeita-de-ataque-hacker-nos-eua-npr/",
+     "published": "2026-11-21T16:28:20+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "FBI investiga invasão a banco de dados nacional de informações criminais, diz TV",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/fbi-investiga-invasao-a-banco-de-dados-nacional-de-informacoes-criminais-diz-tv.ghtml",
+     "published": "2026-11-21T10:44:06+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "'Ainda não há compromisso' na COP31 do clima para um acordo, afirma União Europeia",
+   "items": [
+    {
+     "source": "g1",
+     "title": "'Ainda não há compromisso' na COP31 do clima para um acordo, afirma União Europeia",
+     "url": "https://g1.globo.com/meio-ambiente/noticia/2026/11/21/ainda-nao-ha-compromisso-na-cop31-do-clima-para-um-acordo-afirma-uniao-europeia.ghtml",
+     "published": "2026-11-21T15:31:31+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "CNN Brasil",
+     "title": "Presidente da COP31 diz que não perdeu esperanças em acordo final",
+     "url": "https://www.cnnbrasil.com.br/internacional/presidente-da-cop31-diz-que-nao-perdeu-esperancas-em-acordo-final/",
+     "published": "2026-11-21T23:57:48+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "UE propõe imposto de 3% sobre faturamento das big techs para financiar orçamento até 2034",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "UE propõe imposto de 3% sobre faturamento das big techs para financiar orçamento até 2034",
+     "url": "https://www.estadao.com.br/economia/ue-propoe-imposto-de-3-sobre-faturamento-das-big-techs/",
+     "published": "2026-11-21T13:48:28+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "g1",
+     "title": "União Europeia propõe taxar big techs para financiar orçamento até 2034",
+     "url": "https://g1.globo.com/tecnologia/noticia/2026/11/21/uniao-europeia-propoe-taxar-big-techs-para-financiar-orcamento-ate-2034.ghtml",
+     "published": "2026-11-21T11:26:05+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Relações entre União Europeia e Brasil: duas perspectivas sobre uma parceria em transformação",
+   "items": [
+    {
+     "source": "JOTA",
+     "title": "Relações entre União Europeia e Brasil: duas perspectivas sobre uma parceria em transformação",
+     "url": "https://www.jota.info/opiniao-e-analise/artigos/relacoes-entre-uniao-europeia-e-brasil-duas-perspectivas-sobre-uma-parceria-em-transformacao",
+     "published": "2026-11-22T05:26:28+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Países deixam para 2028 definição de regras sobre ‘drones assassinos’ usados em guerras",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Países deixam para 2028 definição de regras sobre ‘drones assassinos’ usados em guerras",
+     "url": "https://www.estadao.com.br/internacional/paises-deixam-para-2028-definicao-de-regras-sobre-drones-assassinos-usados-em-guerras-npr/",
+     "published": "2026-11-21T11:32:57+00:00",
+     "lang": "pt"
+    },
+    {
+     "source": "Agência Brasil",
+     "title": "Países vão negociar regulamentação de “robôs assassinos” até 2028",
+     "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/paises-vao-negociar-regulamentacao-de-robos-assassinos-ate-2028",
+     "published": "2026-11-21T16:03:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Trump diz que trabalhará com Democratas para limitar juros do cartão de crédito",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Trump diz que trabalhará com Democratas para limitar juros do cartão de crédito",
+     "url": "https://valor.globo.com/mundo/noticia/2026/11/21/trump-diz-que-trabalhara-com-democratas-para-limitar-juros-do-cartao-de-credito.ghtml",
+     "published": "2026-11-21T18:28:13+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "A falha crítica descoberta na linguagem de programação usada por 90% das grandes empresas do mundo",
+   "items": [
+    {
+     "source": "g1",
+     "title": "A falha crítica descoberta na linguagem de programação usada por 90% das grandes empresas do mundo",
+     "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/22/a-falha-critica-descoberta-na-linguagem-de-programacao-usada-por-90-das-grandes-empresas-do-mundo.ghtml",
+     "published": "2026-11-22T06:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Ovelhas entre painéis solares? Entenda a tendência que une geração de energia e criação de animais",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Ovelhas entre painéis solares? Entenda a tendência que une geração de energia e criação de animais",
+     "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/22/ovelhas-entre-paineis-solares-entenda-a-tendencia-que-une-geracao-de-energia-e-criacao-de-animais.ghtml",
+     "published": "2026-11-22T07:00:01+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Incêndio em fábrica de doces na Indonésia deixa três mortos e 36 desaparecidos",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Incêndio em fábrica de doces na Indonésia deixa três mortos e 36 desaparecidos",
+     "url": "https://www.estadao.com.br/internacional/incendio-em-fabrica-de-doces-na-indonesia-deixa-tres-mortos-e-36-desaparecidos-npr/",
+     "published": "2026-11-22T07:45:44+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Enquanto Brasil perde preferência dos bancões, México ganha espaço entre emergentes",
+   "items": [
+    {
+     "source": "InfoMoney",
+     "title": "Enquanto Brasil perde preferência dos bancões, México ganha espaço entre emergentes",
+     "url": "https://www.infomoney.com.br/mercados/mexico-ganha-espaco-entre-emergentes-enquanto-brasil-perde-preferencia-dos-bancoes/",
+     "published": "2026-11-22T08:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "EUA dominam infraestrutura de IA, mas isso tem ajudado os modelos chineses",
+   "items": [
+    {
+     "source": "InfoMoney",
+     "title": "EUA dominam infraestrutura de IA, mas isso tem ajudado os modelos chineses",
+     "url": "https://www.infomoney.com.br/business/global/eua-dominam-infraestrutura-de-ia-mas-isso-tem-ajudado-os-modelos-chineses/",
+     "published": "2026-11-22T08:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Brasil recebe 7,5 milhões de turistas estrangeiros e supera meta do ano com dois meses de antecedência",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Brasil recebe 7,5 milhões de turistas estrangeiros e supera meta do ano com dois meses de antecedência",
+     "url": "https://g1.globo.com/jornal-nacional/noticia/2026/11/21/brasil-recebe-75-milhoes-de-turistas-estrangeiros-e-supera-meta-do-ano-com-dois-meses-de-antecedencia.ghtml",
+     "published": "2026-11-22T01:29:23+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "China’s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal",
+   "items": [
+    {
+     "source": "The New York Times",
+     "title": "China’s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal",
+     "url": "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html",
+     "published": "2026-11-22T04:28:43+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Taiwanese Comedian Targeted for Mocking Xi Jinping Is Drawing Sellout Crowds",
+   "items": [
+    {
+     "source": "The New York Times",
+     "title": "Taiwanese Comedian Targeted for Mocking Xi Jinping Is Drawing Sellout Crowds",
+     "url": "https://www.nytimes.com/2026/11/22/world/asia/china-taiwan-comedian-xi-jinping.html",
+     "published": "2026-11-22T06:58:17+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Argentina’s borrowing costs jump as Milei’s falling popularity rattles investors",
+   "items": [
+    {
+     "source": "Financial Times",
+     "title": "Argentina’s borrowing costs jump as Milei’s falling popularity rattles investors",
+     "url": "https://www.ft.com/content/f3ecede4-74a3-431a-89c5-a06fcd30812a",
+     "published": "2026-11-22T05:00:14+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Eisenkot convida partido de Netanyahu para negociar coalizão em Israel",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Eisenkot convida partido de Netanyahu para negociar coalizão em Israel",
+     "url": "https://www1.folha.uol.com.br/mundo/2026/11/eisenkot-convida-partido-de-netanyahu-para-negociar-coalizao-em-israel.shtml",
+     "published": "2026-11-22T02:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Brasil amplia negócios no Sudeste Asiático, mas enfrenta barreiras regulatórias e protecionismo",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Brasil amplia negócios no Sudeste Asiático, mas enfrenta barreiras regulatórias e protecionismo",
+     "url": "https://www1.folha.uol.com.br/mercado/2026/11/brasil-amplia-negocios-no-sudeste-asiatico-mas-enfrenta-barreiras-regulatorias-e-protecionismo.shtml",
+     "published": "2026-11-22T02:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Irã recebe delegação do Catar em busca de saída diplomática para conflito, enquanto EUA negam ataque a caça F-16",
+   "items": [
+    {
+     "source": "Valor Econômico",
+     "title": "Irã recebe delegação do Catar em busca de saída diplomática para conflito, enquanto EUA negam ataque a caça F-16",
+     "url": "https://valor.globo.com/mundo/noticia/2026/11/21/ir-recebe-delegao-do-catar-em-busca-de-sada-diplomtica-para-conflito-enquanto-eua-negam-ataque-a-caa-f-16.ghtml",
+     "published": "2026-11-21T16:24:13+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Por que há mais pessoas vivendo em autocracias que democracias? A psicologia pode ter a resposta",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Por que há mais pessoas vivendo em autocracias que democracias? A psicologia pode ter a resposta",
+     "url": "https://www.estadao.com.br/internacional/por-que-ha-mais-pessoas-vivendo-em-autocracias-que-democracias-a-psicologia-pode-ter-a-resposta/",
+     "published": "2026-11-22T08:30:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Cidade nos EUA se prepara para marés gigantescas; prefeito pede que moradores estoquem comida e reconsiderem viagens",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Cidade nos EUA se prepara para marés gigantescas; prefeito pede que moradores estoquem comida e reconsiderem viagens",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/cidade-nos-eua-se-prepara-para-mares-gigantescas-prefeito-pede-que-moradores-estoquem-comida-e-reconsiderem-viagens.ghtml",
+     "published": "2026-11-22T01:24:02+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Dos Três Grandes de 1945 sobrou um",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Dos Três Grandes de 1945 sobrou um",
+     "url": "https://www1.folha.uol.com.br/colunas/eliogaspari/2026/11/dos-tres-grandes-de-1945-sobrou-um.shtml",
+     "published": "2026-11-22T02:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Governo Trump divulga documentos sobre supostos rastros do Pé-Grande",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Governo Trump divulga documentos sobre supostos rastros do Pé-Grande",
+     "url": "https://www1.folha.uol.com.br/mundo/2026/11/governo-trump-divulga-documentos-sobre-supostos-rastros-do-pe-grande.shtml",
+     "published": "2026-11-21T22:18:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Captura de líder de cartel no México desencadeia onda de violência no estado de Sinaloa",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Captura de líder de cartel no México desencadeia onda de violência no estado de Sinaloa",
+     "url": "https://www.estadao.com.br/internacional/captura-de-lider-de-cartel-no-mexico-desencadeia-onda-de-violencia-no-estado-de-sinaloa/",
+     "published": "2026-11-21T20:33:44+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Como uma especialista em aves foi presa na Rússia por causa de US$ 30",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Como uma especialista em aves foi presa na Rússia por causa de US$ 30",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/como-uma-especialista-em-aves-foi-presa-na-russia-por-causa-de-us-30.ghtml",
+     "published": "2026-11-21T22:59:33+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "India’s $126bn insurance sector slams proposed commission cap",
+   "items": [
+    {
+     "source": "Financial Times",
+     "title": "India’s $126bn insurance sector slams proposed commission cap",
+     "url": "https://www.ft.com/content/2e67313b-d6c5-4e62-bd50-14639fe5ef95",
+     "published": "2026-11-22T01:30:02+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Protestos levam milhares de pessoas às ruas em diferentes países da Europa neste sábado; VÍDEO",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Protestos levam milhares de pessoas às ruas em diferentes países da Europa neste sábado; VÍDEO",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/protestos-levam-milhares-de-pessoas-as-ruas-em-diferentes-paises-da-europa-neste-sabado-video.ghtml",
+     "published": "2026-11-21T19:30:17+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Sacos para cadáveres e guerra contra o wokismo: os primeiros 100 dias do novo presidente da Colômbia",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Sacos para cadáveres e guerra contra o wokismo: os primeiros 100 dias do novo presidente da Colômbia",
+     "url": "https://www1.folha.uol.com.br/mundo/2026/11/sacos-para-cadaveres-e-guerra-contra-o-wokismo-os-primeiros-100-dias-do-novo-presidente-da-colombia.shtml",
+     "published": "2026-11-21T17:36:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Protecionismo de Trump ao tentar impedir a construção de data centers fora dos EUA incentiva a China",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Protecionismo de Trump ao tentar impedir a construção de data centers fora dos EUA incentiva a China",
+     "url": "https://www.estadao.com.br/internacional/lourival-santanna/protecionismo-de-trump-ao-tentar-impedir-a-construcao-de-data-centers-fora-dos-eua-incentiva-a-china/",
+     "published": "2026-11-21T20:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Por que EUA não querem que empresas construam data centers em outros países",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Por que EUA não querem que empresas construam data centers em outros países",
+     "url": "https://www.cnnbrasil.com.br/economia/money/tecnologia/por-que-eua-nao-querem-que-empresas-construam-data-centers-em-outros-paises/",
+     "published": "2026-11-22T04:54:48+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Britânico atravessa Estreito de Ormuz a nado para alertar sobre o impacto ambiental da guerra",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Britânico atravessa Estreito de Ormuz a nado para alertar sobre o impacto ambiental da guerra",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/britanico-atravessa-estreito-de-ormuz-a-nado-para-alertar-sobre-o-impacto-ambiental-da-guerra.ghtml",
+     "published": "2026-11-21T18:34:48+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Dream of gas-powered vehicles falters in China’s hydrogen capital",
+   "items": [
+    {
+     "source": "Financial Times",
+     "title": "Dream of gas-powered vehicles falters in China’s hydrogen capital",
+     "url": "https://www.ft.com/content/91d25e77-efa2-4ced-a9e1-92f53fa18e4d",
+     "published": "2026-11-21T21:00:02+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Três petroleiros são atingidos perto do Estreito de Ormuz",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Três petroleiros são atingidos perto do Estreito de Ormuz",
+     "url": "https://www.estadao.com.br/internacional/tres-petroleiros-sao-atingidos-perto-do-estreito-de-ormuz/",
+     "published": "2026-11-21T15:36:16+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Trump orders contractors to check with White House over any congressional inquiries",
+   "items": [
+    {
+     "source": "The Guardian",
+     "title": "Trump orders contractors to check with White House over any congressional inquiries",
+     "url": "https://www.theguardian.com/us-news/2026/nov/21/trump-contractors-congress-executive-order",
+     "published": "2026-11-21T18:08:30+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Russia-bound ship attacked in Gulf of Finland",
+   "items": [
+    {
+     "source": "BBC News",
+     "title": "Russia-bound ship attacked in Gulf of Finland",
+     "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko",
+     "published": "2026-11-21T19:20:22+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Nacionalistas cristãos dos EUA buscam substituir MAGA por agenda teocrática",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Nacionalistas cristãos dos EUA buscam substituir MAGA por agenda teocrática",
+     "url": "https://www.estadao.com.br/internacional/nacionalistas-cristaos-dos-eua-buscam-substituir-maga-por-agenda-teocratica/",
+     "published": "2026-11-21T14:46:50+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Vance stops short of endorsing Trump’s claim that Iran was close to nuclear weapon",
+   "items": [
+    {
+     "source": "The Guardian",
+     "title": "Vance stops short of endorsing Trump’s claim that Iran was close to nuclear weapon",
+     "url": "https://www.theguardian.com/us-news/2026/nov/21/vance-trump-iran-nuclear-weapon",
+     "published": "2026-11-21T17:24:51+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Fania Davis defende transformação do Judiciário e enfrentamento das desigualdades raciais no Enajun",
+   "items": [
+    {
+     "source": "STJ",
+     "title": "Fania Davis defende transformação do Judiciário e enfrentamento das desigualdades raciais no Enajun",
+     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Fania-Davis-defende-transformacao-do-Judiciario-e-enfrentamento-das-desigualdades-raciais-no-Enajun.aspx",
+     "published": null,
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "União Europeia e Indonésia assinam acordo comercial após 10 anos de negociações",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "União Europeia e Indonésia assinam acordo comercial após 10 anos de negociações",
+     "url": "https://www1.folha.uol.com.br/mercado/2026/11/uniao-europeia-e-indonesia-assinam-acordo-comercial-apos-10-anos-de-negociacoes.shtml",
+     "published": "2026-11-21T16:17:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "International UN talks on controlling use of autonomous weapons collapse",
+   "items": [
+    {
+     "source": "The Guardian",
+     "title": "International UN talks on controlling use of autonomous weapons collapse",
+     "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+     "published": "2026-11-21T16:36:11+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Milhares protestam em Lisboa por crise habitacional apesar de forte chuva",
+   "items": [
+    {
+     "source": "CNN Brasil",
+     "title": "Milhares protestam em Lisboa por crise habitacional apesar de forte chuva",
+     "url": "https://www.cnnbrasil.com.br/internacional/milhares-protestam-em-lisboa-por-crise-habitacional-apesar-de-forte-chuva/",
+     "published": "2026-11-21T23:30:49+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "'Precisamos de um Bukele de esquerda, talvez um ditador democrático', diz Slavoj Zizek",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "'Precisamos de um Bukele de esquerda, talvez um ditador democrático', diz Slavoj Zizek",
+     "url": "https://www1.folha.uol.com.br/mundo/2026/11/precisamos-de-um-bukele-de-esquerda-talvez-um-ditador-democratico-diz-slavoj-zizek.shtml",
+     "published": "2026-11-21T13:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Mais de 500 camelos atravessam deserto na China em migração anual na Mongólia Interior",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Mais de 500 camelos atravessam deserto na China em migração anual na Mongólia Interior",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/mais-de-500-camelos-atravessam-deserto-na-china-em-migracao-anual-na-mongolia.ghtml",
+     "published": "2026-11-21T14:10:19+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Manifestantes marcham em Lisboa contra aumento no custo de vida",
+   "items": [
+    {
+     "source": "Agência Brasil",
+     "title": "Manifestantes marcham em Lisboa contra aumento no custo de vida",
+     "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/manifestantes-marcham-em-lisboa-contra-aumento-no-custo-de-vida",
+     "published": "2026-11-21T19:30:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Ataques cibernéticos, IA ou atualizações pendentes: o que há por trás da onda de apagões dos últimos dias",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Ataques cibernéticos, IA ou atualizações pendentes: o que há por trás da onda de apagões dos últimos dias",
+     "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/21/ataques-ciberneticos-ia-ou-atualizacoes-pendentes-o-que-ha-por-tras-da-onda-de-apagoes-dos-ultimos-dias.ghtml",
+     "published": "2026-11-21T10:27:04+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Ações de tecnologia dos EUA desabam na pior semana desde a crise da Covid-19",
+   "items": [
+    {
+     "source": "Folha de S.Paulo",
+     "title": "Ações de tecnologia dos EUA desabam na pior semana desde a crise da Covid-19",
+     "url": "https://c-level.folha.uol.com.br/ia/2026/11/acoes-de-tecnologia-dos-eua-desabam-na-pior-semana-desde-a-crise-da-covid-19.shtml",
+     "published": "2026-11-21T11:00:00+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Grã-Bretanha e Bruxelas iniciaram uma reversão do Brexit: até onde ela irá?",
+   "items": [
+    {
+     "source": "Estadão",
+     "title": "Grã-Bretanha e Bruxelas iniciaram uma reversão do Brexit: até onde ela irá?",
+     "url": "https://www.estadao.com.br/internacional/gra-bretanha-e-bruxelas-iniciaram-uma-reversao-do-brexit-ate-onde-ela-ira/",
+     "published": "2026-11-21T12:51:59+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Elon Musk on His Politics, a Potential Merger and Ukraine",
+   "items": [
+    {
+     "source": "The New York Times",
+     "title": "Elon Musk on His Politics, a Potential Merger and Ukraine",
+     "url": "https://www.nytimes.com/2026/11/21/business/dealbook/elon-musk-dealbook-summit.html",
+     "published": "2026-11-21T13:00:06+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Bitcoin perde mais da metade do valor e volta ao menor nível em dois anos; entenda",
+   "items": [
+    {
+     "source": "Exame",
+     "title": "Bitcoin perde mais da metade do valor e volta ao menor nível em dois anos; entenda",
+     "url": "https://exame.com/future-of-money/bitcoin-perde-mais-da-metade-do-valor-e-volta-ao-menor-nivel-em-dois-anos-entenda/",
+     "published": "2026-11-21T16:40:19+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "China commits to low-carbon electrification and help for others to improve",
+   "items": [
+    {
+     "source": "The Guardian",
+     "title": "China commits to low-carbon electrification and help for others to improve",
+     "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
+     "published": "2026-11-21T09:47:57+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Vitória democrata eleva pressão regulatória sobre mercados de previsão nos EUA",
+   "items": [
+    {
+     "source": "Exame",
+     "title": "Vitória democrata eleva pressão regulatória sobre mercados de previsão nos EUA",
+     "url": "https://exame.com/mundo/vitoria-democrata-eleva-pressao-regulatoria-sobre-mercados-de-previsao-nos-eua/",
+     "published": "2026-11-21T14:41:23+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia",
+   "items": [
+    {
+     "source": "The New York Times",
+     "title": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia",
+     "url": "https://www.nytimes.com/2026/11/20/world/middleeast/iraq-militia-iran-kataib-hezbollah.html",
+     "published": "2026-11-21T07:11:24+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Acerola na carne? Veja como a fruta virou conservante natural de alimentos nos EUA e na Europa",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Acerola na carne? Veja como a fruta virou conservante natural de alimentos nos EUA e na Europa",
+     "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/21/acerola-na-carne-veja-como-a-fruta-virou-conservante-natural-de-alimentos-nos-eua-e-na-europa.ghtml",
+     "published": "2026-11-21T05:06:59+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Até onde estratégia de Trump contra o Irã depende de China e Rússia",
+   "items": [
+    {
+     "source": "g1",
+     "title": "Até onde estratégia de Trump contra o Irã depende de China e Rússia",
+     "url": "https://g1.globo.com/mundo/noticia/2026/11/21/ate-onde-estrategia-de-trump-contra-o-ira-depende-de-china-e-russia.ghtml",
+     "published": "2026-11-21T06:01:08+00:00",
+     "lang": "pt"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
+   "items": [
+    {
+     "source": "The New York Times",
+     "title": "Alice Huang, Accused of Spying on Nvidia’s CEO, Is Linked to Firms With Ties to China’s Military",
+     "url": "https://www.nytimes.com/2026/11/20/us/politics/nvidia-alice-huang-chips-china.html",
+     "published": "2026-11-21T05:13:03+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  },
+  {
+   "section": "mundo",
+   "title": "Oil shipped through Hormuz falls as Iranian strikes increase",
+   "items": [
+    {
+     "source": "Financial Times",
+     "title": "Oil shipped through Hormuz falls as Iranian strikes increase",
+     "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5",
+     "published": "2026-11-21T05:00:35+00:00",
+     "lang": "en"
+    }
+   ],
+   "story_id": null,
+   "compared": false
+  }
+ ]
+}
