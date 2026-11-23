@@ -1,50 +1,49 @@
 TSA TECH
-Domingo, 22 de novembro de 2026 · 05:54 BRT
+Segunda-feira, 23 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Novo teto do MEI eleva limite de faturamento e traz economia tributária
-A Lei Complementar nº 238 amplia o teto para R$ 110 mil em 2027 e R$ 140
-mil em 2028, gerando alívio fiscal e perdão de dívidas previdenciárias.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-22.html#s-novo-teto-do-mei-eleva-limite-de-faturamento-e-t
+Ministério da Fazenda estuda transação tributária sobre estoque de teses
+de PIS/Cofins
+Com a extinção de PIS e Cofins em 2027, governo avalia abrir modalidade
+de transação para cerca de 200 temas e subteses judiciais.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-ministerio-da-fazenda-estuda-transacao-tributari
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Titulares de cartórios ficam isentos da contribuição de
-  salário-educação
-  Primeira Seção do STJ fixa tese, sob o rito dos recursos repetitivos,
-  definindo que a exação de 2,5% não pode ser exigida de pessoas físicas
-  titulares de cartórios.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-22.html#s-titulares-de-cartorios-ficam-isentos-da-contribu
+• Governo regulamenta transição para escala 5x2 e abre margem para
+  contestações jurídicas
+  Decreto presidencial detalha normas para a Emenda Constitucional nº
+  141/2026, mas especialistas apontam lacunas que podem gerar litígios.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-governo-regulamenta-transicao-para-escala-5x2-e
 
 • Poupança usada como conta-corrente não afasta impenhorabilidade,
   define STJ
-  Corte Especial do STJ fixou condições em repetitivo (Tema 1.285) para
-  proteger valores de até 40 salários mínimos em contas diversas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-22.html#s-poupanca-usada-como-conta-corrente-nao-afasta-im
+  Corte Especial do STJ fixou condições, sob o rito dos recursos
+  repetitivos (Tema 1.285), para proteger até 40 salários mínimos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-poupanca-usada-como-conta-corrente-nao-afasta-im
 
-• Reforma tributária detalha regras para notas fiscais e tributação de
-  locações
-  Condomínios e locadores de imóveis devem emitir notas fiscais em 2027,
-  com enquadramento de pessoas físicas condicionado a critérios
-  específicos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-22.html#s-reforma-tributaria-detalha-regras-para-notas-fis
+• STJ fixa critérios para honorários em habilitação e impugnação de
+  crédito
+  Segunda Seção do STJ estabeleceu regras para a condenação ao pagamento
+  de honorários de sucumbência em recuperações e falências.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-stj-fixa-criterios-para-honorarios-em-habilitaca
 
-• Empresas apontam omissões em decreto do governo sobre escala de
-  trabalho
-  Associações empresariais criticam norma do Executivo federal por
-  contrariar diretrizes de liminar do STF sobre a jornada 6x1.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-22.html#s-empresas-apontam-omissoes-em-decreto-do-governo
+• STJ fixa tese sobre inclusão da CPRB na base de cálculo de PIS/Pasep e
+  Cofins
+  Primeira Seção do Superior Tribunal de Justiça julgou o Tema 1.276 sob
+  o rito dos recursos repetitivos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-stj-fixa-tese-sobre-inclusao-da-cprb-na-base-de
 
-• STJ fixa tese sobre honorários em habilitação e regras trabalhistas na
-  falência
-  Segunda Seção e Terceira Turma julgam controvérsias sobre sucumbência
-  em créditos e preferência de pagamentos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-22.html#s-stj-fixa-tese-sobre-honorarios-em-habilitacao-e
+• STJ reconhece relevância e suspende processos sobre revogação
+  antecipada do Perse
+  Primeira Seção determina paralisação nacional de ações judiciais que
+  discutem o fim antecipado do benefício fiscal do setor de eventos.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-stj-reconhece-relevancia-e-suspende-processos-so
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 263 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-22-todas.html
+Todas as 312 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
 (gemini-flash-lite-latest)
