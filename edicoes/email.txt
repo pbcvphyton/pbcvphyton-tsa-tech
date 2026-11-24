@@ -1,49 +1,50 @@
 TSA TECH
-Segunda-feira, 23 de novembro de 2026 · 05:54 BRT
+Terça-feira, 24 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Ministério da Fazenda estuda transação tributária sobre estoque de teses
-de PIS/Cofins
-Com a extinção de PIS e Cofins em 2027, governo avalia abrir modalidade
-de transação para cerca de 200 temas e subteses judiciais.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-ministerio-da-fazenda-estuda-transacao-tributari
+Receita Federal amplia acesso ao ambiente piloto da CBS para todas as
+empresas
+Portaria publicada nesta segunda-feira (23) retira exigências de
+indicação prévia por entidades, permitindo que qualquer CNPJ teste
+sistemas e a DeRE.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-receita-federal-amplia-acesso-ao-ambiente-piloto
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Governo regulamenta transição para escala 5x2 e abre margem para
-  contestações jurídicas
-  Decreto presidencial detalha normas para a Emenda Constitucional nº
-  141/2026, mas especialistas apontam lacunas que podem gerar litígios.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-governo-regulamenta-transicao-para-escala-5x2-e
+• Câmara aprova plano Moretti de ajuste fiscal com restrições a créditos
+  e Lei Kandir
+  Proposta do governo avança na Câmara com apoio do centrão após
+  negociações que preservaram o núcleo das medidas de arrecadação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-camara-aprova-plano-moretti-de-ajuste-fiscal-com
 
-• Poupança usada como conta-corrente não afasta impenhorabilidade,
-  define STJ
-  Corte Especial do STJ fixou condições, sob o rito dos recursos
-  repetitivos (Tema 1.285), para proteger até 40 salários mínimos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-poupanca-usada-como-conta-corrente-nao-afasta-im
+• Governo publica portaria complementar com regras e fiscalização para a
+  jornada 5x2
+  Norma detalha limites de jornada, descanso semanal e cálculo de horas
+  extras. Empresas terão fiscalização com dupla visita nos primeiros 90
+  dias a partir de 16 de dezembro.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-governo-publica-portaria-complementar-com-regras
 
-• STJ fixa critérios para honorários em habilitação e impugnação de
-  crédito
-  Segunda Seção do STJ estabeleceu regras para a condenação ao pagamento
-  de honorários de sucumbência em recuperações e falências.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-stj-fixa-criterios-para-honorarios-em-habilitaca
+• Braskem avança em acordo de recuperação extrajudicial com
+  capitalização de US$ 4,9 bilhões
+  Entendimento com credores evita pedido de recuperação judicial e prevê
+  aporte imediato de US$ 1,3 bilhão da Petrobras e conversão de dívidas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-braskem-avanca-em-acordo-de-recuperacao-extrajud
 
-• STJ fixa tese sobre inclusão da CPRB na base de cálculo de PIS/Pasep e
-  Cofins
-  Primeira Seção do Superior Tribunal de Justiça julgou o Tema 1.276 sob
-  o rito dos recursos repetitivos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-stj-fixa-tese-sobre-inclusao-da-cprb-na-base-de
+• AGU pede ao STF fim de liminar de Dino após novas regras da escala 6x1
+  Advocacia-Geral da União sustenta que decreto do governo federal sobre
+  a transição da jornada elimina a necessidade da decisão provisória.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-agu-pede-ao-stf-fim-de-liminar-de-dino-apos-nova
 
-• STJ reconhece relevância e suspende processos sobre revogação
-  antecipada do Perse
-  Primeira Seção determina paralisação nacional de ações judiciais que
-  discutem o fim antecipado do benefício fiscal do setor de eventos.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23.html#s-stj-reconhece-relevancia-e-suspende-processos-so
+• Fachin mantém prisão de Daniel Vorcaro e intima liquidante do Master
+  sobre recursos
+  Presidente do STF nega revogação de preventiva do banqueiro e pede
+  avaliação sobre liberação de ativos retidos do BRB.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-fachin-mantem-prisao-de-daniel-vorcaro-e-intima
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 312 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-23-todas.html
+Todas as 553 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
 (gemini-flash-lite-latest)
