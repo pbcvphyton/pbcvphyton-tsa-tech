@@ -1,50 +1,48 @@
 TSA TECH
-Terça-feira, 24 de novembro de 2026 · 05:54 BRT
+Quarta-feira, 25 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Receita Federal amplia acesso ao ambiente piloto da CBS para todas as
-empresas
-Portaria publicada nesta segunda-feira (23) retira exigências de
-indicação prévia por entidades, permitindo que qualquer CNPJ teste
-sistemas e a DeRE.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-receita-federal-amplia-acesso-ao-ambiente-piloto
+Lula sanciona pacote fiscal com economia de até R$ 56 bi em 2027
+Lei complementar prevê ajuste de R$ 45,1 a R$ 56,1 bilhões; CNI critica
+e diz que governo transfere conta ao setor produtivo
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-lula-sanciona-pacote-fiscal-com-economia-de-ate
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Câmara aprova plano Moretti de ajuste fiscal com restrições a créditos
-  e Lei Kandir
-  Proposta do governo avança na Câmara com apoio do centrão após
-  negociações que preservaram o núcleo das medidas de arrecadação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-camara-aprova-plano-moretti-de-ajuste-fiscal-com
+• Braskem avança em recuperação extrajudicial após acordo de US$ 11
+  bilhões com credores
+  Plano prevê capitalização de US$ 4,9 bilhões, aporte da Petrobras e
+  conversão de dívidas, com pedido de 20 dias de prazo na Justiça.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-braskem-avanca-em-recuperacao-extrajudicial-apos
 
-• Governo publica portaria complementar com regras e fiscalização para a
-  jornada 5x2
-  Norma detalha limites de jornada, descanso semanal e cálculo de horas
-  extras. Empresas terão fiscalização com dupla visita nos primeiros 90
-  dias a partir de 16 de dezembro.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-governo-publica-portaria-complementar-com-regras
+• Arrecadação federal tem alta real de 7,28% em outubro e soma R$ 294 bi
+  Receita Federal divulga maior arrecadação para o mês desde 1995;
+  petróleo e IR sobre capital puxam resultado
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-arrecadacao-federal-tem-alta-real-de-7-28-em-out
 
-• Braskem avança em acordo de recuperação extrajudicial com
-  capitalização de US$ 4,9 bilhões
-  Entendimento com credores evita pedido de recuperação judicial e prevê
-  aporte imediato de US$ 1,3 bilhão da Petrobras e conversão de dívidas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-braskem-avanca-em-acordo-de-recuperacao-extrajud
+• Portaria do MTE regulamenta reflexos da jornada e ministro recomenda
+  acordos
+  Ministério do Trabalho publica normas sobre repousos e jornada de 42
+  horas semanais que passam a valer em dezembro.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-portaria-do-mte-regulamenta-reflexos-da-jornada
 
-• AGU pede ao STF fim de liminar de Dino após novas regras da escala 6x1
-  Advocacia-Geral da União sustenta que decreto do governo federal sobre
-  a transição da jornada elimina a necessidade da decisão provisória.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-agu-pede-ao-stf-fim-de-liminar-de-dino-apos-nova
+• Itaú Unibanco entra no Minha Casa, Minha Vida e desafia domínio da
+  Caixa
+  Banco privado oferecerá financiamento voltado à Faixa 3 do programa e
+  à linha Pró-Cotista do FGTS de forma gradual.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-itau-unibanco-entra-no-minha-casa-minha-vida-e-d
 
-• Fachin mantém prisão de Daniel Vorcaro e intima liquidante do Master
-  sobre recursos
-  Presidente do STF nega revogação de preventiva do banqueiro e pede
-  avaliação sobre liberação de ativos retidos do BRB.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24.html#s-fachin-mantem-prisao-de-daniel-vorcaro-e-intima
+• Estudos contestam alíquota de 11,3% da CBS e defendem taxa próxima de
+  10%
+  Notas técnicas entregues a frentes parlamentares apontam que cálculo
+  do TCU pode ser ajustado; Senado faz simulações para reduzir
+  percentual
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-estudos-contestam-aliquota-de-11-3-da-cbs-e-defe
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 553 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-24-todas.html
+Todas as 617 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-lite-latest)
+(gemini-flash-lite-latest + sensenova-6.8-flash-lite)
