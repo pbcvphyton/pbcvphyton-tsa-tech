@@ -1,48 +1,50 @@
 TSA TECH
-Quarta-feira, 25 de novembro de 2026 · 05:54 BRT
+Quinta-feira, 26 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Lula sanciona pacote fiscal com economia de até R$ 56 bi em 2027
-Lei complementar prevê ajuste de R$ 45,1 a R$ 56,1 bilhões; CNI critica
-e diz que governo transfere conta ao setor produtivo
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-lula-sanciona-pacote-fiscal-com-economia-de-ate
+Alíquota de 11,3% da CBS para 2027 gera incerteza e debate sobre
+superestimação
+Especialistas e entidades apontam grau de incerteza e riscos de o
+tributo federal estar acima do necessário para neutralidade da reforma.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-aliquota-de-11-3-da-cbs-para-2027-gera-incerteza
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Braskem avança em recuperação extrajudicial após acordo de US$ 11
-  bilhões com credores
-  Plano prevê capitalização de US$ 4,9 bilhões, aporte da Petrobras e
-  conversão de dívidas, com pedido de 20 dias de prazo na Justiça.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-braskem-avanca-em-recuperacao-extrajudicial-apos
+• Governo brasileiro repudia proposta dos EUA de tarifas sobre aeronaves
+  e açúcar
+  O USTR propôs alíquota de 10% sobre aeronaves e novas taxas sobre
+  açúcar; Brasília afirma que não cederá a ameaças externas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-governo-brasileiro-repudia-proposta-dos-eua-de-t
 
-• Arrecadação federal tem alta real de 7,28% em outubro e soma R$ 294 bi
-  Receita Federal divulga maior arrecadação para o mês desde 1995;
-  petróleo e IR sobre capital puxam resultado
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-arrecadacao-federal-tem-alta-real-de-7-28-em-out
+• STF mantém exigência de valor exato da causa em petição inicial de
+  ações trabalhistas
+  Por maioria de votos, o Plenário do Supremo formou entendimento
+  contrário ao do TST ao validar regra da reforma trabalhista de 2017.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-stf-mantem-exigencia-de-valor-exato-da-causa-em
 
-• Portaria do MTE regulamenta reflexos da jornada e ministro recomenda
-  acordos
-  Ministério do Trabalho publica normas sobre repousos e jornada de 42
-  horas semanais que passam a valer em dezembro.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-portaria-do-mte-regulamenta-reflexos-da-jornada
+• Braskem mantém suspensão de execuções por 120 dias em recuperação
+  extrajudicial
+  Juízo mantém eficácia da suspensão enquanto companhia testa prazo de
+  recuperação extrajudicial e avança em negociações.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-braskem-mantem-suspensao-de-execucoes-por-120-di
 
-• Itaú Unibanco entra no Minha Casa, Minha Vida e desafia domínio da
-  Caixa
-  Banco privado oferecerá financiamento voltado à Faixa 3 do programa e
-  à linha Pró-Cotista do FGTS de forma gradual.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-itau-unibanco-entra-no-minha-casa-minha-vida-e-d
+• Nova lei altera regras de compensação tributária e Receita esclarece
+  uso de créditos
+  Legislação publicada em edição extra modifica procedimentos para uso
+  de créditos, enquanto o Fisco detalha normas para incorporadoras e
+  SCPs.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-nova-lei-altera-regras-de-compensacao-tributaria
 
-• Estudos contestam alíquota de 11,3% da CBS e defendem taxa próxima de
-  10%
-  Notas técnicas entregues a frentes parlamentares apontam que cálculo
-  do TCU pode ser ajustado; Senado faz simulações para reduzir
-  percentual
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25.html#s-estudos-contestam-aliquota-de-11-3-da-cbs-e-defe
+• Confederações empresariais pedem ao STF adiamento da reforma
+  tributária
+  CNA, CNC e CNT protocolam ação conjunta no Supremo Tribunal Federal
+  para postergar a implementação das novas regras.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-confederacoes-empresariais-pedem-ao-stf-adiament
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 617 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-25-todas.html
+Todas as 550 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-lite-latest + sensenova-6.8-flash-lite)
+(gemini-flash-lite-latest)
