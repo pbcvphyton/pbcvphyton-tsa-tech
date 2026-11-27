@@ -1,50 +1,51 @@
 TSA TECH
-Quinta-feira, 26 de novembro de 2026 · 05:54 BRT
+Sexta-feira, 27 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-Alíquota de 11,3% da CBS para 2027 gera incerteza e debate sobre
-superestimação
-Especialistas e entidades apontam grau de incerteza e riscos de o
-tributo federal estar acima do necessário para neutralidade da reforma.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-aliquota-de-11-3-da-cbs-para-2027-gera-incerteza
+IFI calcula que alíquota de referência da CBS seria de 7% sem exceções
+da reforma
+Segundo estudo da Instituição Fiscal Independente, os benefícios
+tributários adicionam 4,3 pontos percentuais ao imposto federal.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-ifi-calcula-que-aliquota-de-referencia-da-cbs-se
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Governo brasileiro repudia proposta dos EUA de tarifas sobre aeronaves
-  e açúcar
-  O USTR propôs alíquota de 10% sobre aeronaves e novas taxas sobre
-  açúcar; Brasília afirma que não cederá a ameaças externas.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-governo-brasileiro-repudia-proposta-dos-eua-de-t
+• Entidades do agro, comércio e transporte acionam o STF para adiar
+  início da CBS
+  Confederações pedem liminar para suspender a cobrança do novo tributo
+  por falta de regulamentação, mas governo rejeita prorrogação.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-entidades-do-agro-comercio-e-transporte-acionam
 
-• STF mantém exigência de valor exato da causa em petição inicial de
-  ações trabalhistas
-  Por maioria de votos, o Plenário do Supremo formou entendimento
-  contrário ao do TST ao validar regra da reforma trabalhista de 2017.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-stf-mantem-exigencia-de-valor-exato-da-causa-em
+• Polícia e MP de São Paulo deflagram operação contra o Grupo Fictor por
+  fraude bilionária
+  Conglomerado alvo da Operação Dinheiro Fictício é investigado por
+  captação irregular de R$ 4 bilhões e tentativa frustrada de compra do
+  Banco Master.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-policia-e-mp-de-sao-paulo-deflagram-operacao-con
 
-• Braskem mantém suspensão de execuções por 120 dias em recuperação
-  extrajudicial
-  Juízo mantém eficácia da suspensão enquanto companhia testa prazo de
-  recuperação extrajudicial e avança em negociações.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-braskem-mantem-suspensao-de-execucoes-por-120-di
+• STF fixa aplicação do piso nacional dos professores sobre o vencimento
+  inicial por estados e municípios
+  Por maioria de votos no Tema 1.218 de Repercussão Geral, Corte decide
+  que valor atualizado deve incidir sobre o salário-base e abre prazo de
+  24 meses para reflexos na carreira.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-stf-fixa-aplicacao-do-piso-nacional-dos-professo
 
-• Nova lei altera regras de compensação tributária e Receita esclarece
-  uso de créditos
-  Legislação publicada em edição extra modifica procedimentos para uso
-  de créditos, enquanto o Fisco detalha normas para incorporadoras e
-  SCPs.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-nova-lei-altera-regras-de-compensacao-tributaria
+• TST fixa tese sobre validade de contribuições de empresas a sindicatos
+  O Tribunal Superior do Trabalho estabeleceu em tese vinculante as
+  condições exigidas para a cobrança compulsória de contribuições
+  patronais.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-tst-fixa-tese-sobre-validade-de-contribuicoes-de
 
-• Confederações empresariais pedem ao STF adiamento da reforma
-  tributária
-  CNA, CNC e CNT protocolam ação conjunta no Supremo Tribunal Federal
-  para postergar a implementação das novas regras.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26.html#s-confederacoes-empresariais-pedem-ao-stf-adiament
+• CCJ do Senado aprova projeto que permite penhora de imóvel de
+  inquilino para ressarcir fiador
+  Proposta em tramitação na Comissão de Constituição e Justiça busca dar
+  garantia a fiadores que quitaram dívidas de aluguel de inadimplentes.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-ccj-do-senado-aprova-projeto-que-permite-penhora
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 550 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-26-todas.html
+Todas as 526 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
-(gemini-flash-lite-latest)
+(gemini-flash-latest + gemini-flash-lite-latest)
