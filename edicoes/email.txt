@@ -1,51 +1,54 @@
 TSA TECH
-Sexta-feira, 27 de novembro de 2026 · 05:54 BRT
+Sábado, 28 de novembro de 2026 · 05:54 BRT
 
 MANCHETE
 --------
-IFI calcula que alíquota de referência da CBS seria de 7% sem exceções
-da reforma
-Segundo estudo da Instituição Fiscal Independente, os benefícios
-tributários adicionam 4,3 pontos percentuais ao imposto federal.
-Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-ifi-calcula-que-aliquota-de-referencia-da-cbs-se
+Setores empresariais e confederações acionam o STF e pedem adiamento da
+reforma tributária
+CNC, CNA e CNT alertam sobre risco de retenção mensal de R$ 42,7
+bilhões, enquanto indústria, infraestrutura e mercado imobiliário
+apontam falta de regras e de tempo para adaptação.
+Ler na edição: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-28.html#s-setores-empresariais-e-confederacoes-acionam-o-s
 
 PRINCIPAIS NOTÍCIAS
 -------------------
-• Entidades do agro, comércio e transporte acionam o STF para adiar
-  início da CBS
-  Confederações pedem liminar para suspender a cobrança do novo tributo
-  por falta de regulamentação, mas governo rejeita prorrogação.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-entidades-do-agro-comercio-e-transporte-acionam
+• Fachin libera R$ 316,4 milhões retidos da liquidação do Banco Master
+  para o BRB
+  Decisão do STF na PET 16.286 autoriza repasse de créditos
+  incontroversos à instituição distrital e mantém sob bloqueio cessões
+  em duplicidade.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-28.html#s-fachin-libera-r-316-4-milhoes-retidos-da-liquida
 
-• Polícia e MP de São Paulo deflagram operação contra o Grupo Fictor por
-  fraude bilionária
-  Conglomerado alvo da Operação Dinheiro Fictício é investigado por
-  captação irregular de R$ 4 bilhões e tentativa frustrada de compra do
-  Banco Master.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-policia-e-mp-de-sao-paulo-deflagram-operacao-con
+• Governo central tem superávit de R$ 52,3 bi em outubro com déficit
+  previdenciário de R$ 21,4 bi
+  Resultado geral puxado pelo Tesouro Nacional é o melhor para o mês
+  desde 2016, enquanto Previdência Social acumula rombo de R$ 324,6
+  bilhões no ano.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-28.html#s-governo-central-tem-superavit-de-r-52-3-bi-em-ou
 
-• STF fixa aplicação do piso nacional dos professores sobre o vencimento
-  inicial por estados e municípios
-  Por maioria de votos no Tema 1.218 de Repercussão Geral, Corte decide
-  que valor atualizado deve incidir sobre o salário-base e abre prazo de
-  24 meses para reflexos na carreira.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-stf-fixa-aplicacao-do-piso-nacional-dos-professo
+• Condomínios com receitas de terceiros acima de 20% passarão a pagar
+  IBS e CBS em janeiro
+  Regras da reforma tributária mantêm isenção para taxas condominiais
+  ordinárias, mas tributam locações e serviços extras com direito a
+  crédito proporcional nas despesas.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-28.html#s-condominios-com-receitas-de-terceiros-acima-de-2
 
-• TST fixa tese sobre validade de contribuições de empresas a sindicatos
-  O Tribunal Superior do Trabalho estabeleceu em tese vinculante as
-  condições exigidas para a cobrança compulsória de contribuições
-  patronais.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-tst-fixa-tese-sobre-validade-de-contribuicoes-de
+• Gilmar Mendes elogia fim da escala 6x1 mas alerta para transição no
+  encerramento do ano
+  Decano do STF ressalta consenso político para extinguir jornada mas
+  aponta desafios operacionais para empresas no fechamento do calendário
+  econômico.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-28.html#s-gilmar-mendes-elogia-fim-da-escala-6x1-mas-alert
 
-• CCJ do Senado aprova projeto que permite penhora de imóvel de
-  inquilino para ressarcir fiador
-  Proposta em tramitação na Comissão de Constituição e Justiça busca dar
-  garantia a fiadores que quitaram dívidas de aluguel de inadimplentes.
-  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27.html#s-ccj-do-senado-aprova-projeto-que-permite-penhora
+• STJ define em repetitivo que dívidas de condomínio não entram em
+  recuperação judicial
+  Segunda Seção aprova o Tema 1.391 e fixa que taxas condominiais mantêm
+  cobrança autônoma fora do plano de soerguimento.
+  https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-28.html#s-stj-define-em-repetitivo-que-dividas-de-condomin
 
 ========================================================================
 Abrir edição completa: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/
-Todas as 526 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-27-todas.html
+Todas as 443 notícias do dia: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/2026-11-28-todas.html
 Edições anteriores: https://pbcvphyton.github.io/pbcvphyton-tsa-tech/edicoes/
 Gerado automaticamente em 05:54 (BRT) · Edição gerada por IA
 (gemini-flash-latest + gemini-flash-lite-latest)
